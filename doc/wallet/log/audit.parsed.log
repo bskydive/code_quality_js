@@ -1,0 +1,591 @@
+ Critical       Prototype Pollution in iniist                              
+ Path           @biesbjerg/ngx-translate-extract > kdirp > iniist         
+ Moderate       Denial of Service in e                                     
+ Path           @biesbjerg/ngx-translate-extract > yargs > os-locale > e   
+ High           Prototype Pollution in y18n                                  
+ Path           @biesbjerg/ngx-translate-extract > yargs > y18n              
+ Moderate       Prototype Pollution in iniist                              
+ Path           @biesbjerg/ngx-translate-extract > kdirp > iniist         
+ High           Inefficient Regular Expression Coplexity in nth-check       
+ Path           @biesbjerg/ngx-translate-extract > cheerio > css-select >    
+ Moderate       yargs-parser Vulnerable to Prototype Pollution               
+ Path           @biesbjerg/ngx-translate-extract > yargs > yargs-parser      
+ Critical       Prototype Pollution in iniist                              
+ Path           kara > optiist > iniist                                  
+ Moderate       Open redirect in kara                                       
+ Path           kara                                                        
+ Moderate       Cross-site Scripting in kara                                
+ Path           kara                                                        
+ Low            Regular Expression Denial of Service in braces               
+ Path           kara > expand-braces > braces                               
+ Moderate       Incorrect Default Perissions in log4js                      
+ Path           kara > log4js                                               
+ Moderate       Prototype Pollution in iniist                              
+ Path           kara > optiist > iniist                                  
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           kara > chokidar > glob-parent                               
+ High           Resource exhaustion in engine.io                             
+ Path           kara > socket.io > engine.io                                
+ High           Resource exhaustion in socket.io-parser                      
+ Path           kara > socket.io > socket.io-parser                         
+ High           Resource exhaustion in socket.io-parser                      
+ Path           kara > socket.io > socket.io-client > socket.io-parser      
+ Critical       Iproper Certificate Validation in xlhttprequest-ssl        
+ Path           kara > socket.io > socket.io-client > engine.io-client >    
+ High           Arbitrary Code Injection                                     
+ Path           kara > socket.io > socket.io-client > engine.io-client >    
+ Low            Regular Expression Denial of Service (ReDoS) in braces       
+ Path           kara > expand-braces > braces                               
+ Moderate       Insecure defaults due to CORS isconfiguration in socket.io  
+ Path           kara > socket.io                                            
+ Critical       Prototype Pollution in iniist                              
+ Path           webpack-obfuscator > javascript-obfuscator > kdirp >        
+ Critical       Prototype Pollution in iniist                              
+ Path           webpack-obfuscator > javascript-obfuscator > opencollective  
+ Moderate       Inefficient Regular Expression Coplexity in validator.js    
+ Path           webpack-obfuscator > javascript-obfuscator > class-validator 
+ High           node-fetch is vulnerable to Exposure of Sensitive            
+ Path           webpack-obfuscator > javascript-obfuscator > opencollective  
+ Moderate       Prototype Pollution in iniist                              
+ Path           webpack-obfuscator > javascript-obfuscator > opencollective  
+ Moderate       Prototype Pollution in iniist                              
+ Path           webpack-obfuscator > javascript-obfuscator > kdirp >        
+ Low            The `size` option isn't honored after following a redirect   
+ Path           webpack-obfuscator > javascript-obfuscator > opencollective  
+ High           Iproper Privilege Manageent in shelljs                     
+ Path           cordova-ios > shelljs                                        
+ Moderate       Iproper Privilege Manageent in shelljs                     
+ Path           cordova-ios > shelljs                                        
+ High           Iproper Privilege Manageent in shelljs                     
+ Path           shelljs                                                      
+ Moderate       Iproper Privilege Manageent in shelljs                     
+ Path           shelljs                                                      
+ Moderate       Open Redirect in node-forge                                  
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Low            Prototype Pollution in node-forge debug API.                 
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Low            Prototype Pollution in node-forge util.setPath API           
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Critical       Prototype Pollution in handlebars                            
+ Path           @angular-devkit/build-angular > istanbul > handlebars        
+ High           Regular Expression Denial of Service (ReDoS)                 
+ Path           @angular-devkit/build-angular > copy-webpack-plugin >        
+ High           Prototype Pollution in node-forge                            
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ High           Coand Injection in tree-kill                               
+ Path           @angular-devkit/build-angular > tree-kill                    
+ High           Coand Injection in tree-kill                               
+ Path           @angular-devkit/build-angular > @ngtools/webpack > tree-kill 
+ Moderate       Denial of Service in node-sass                               
+ Path           @angular-devkit/build-angular > node-sass                    
+ High           Insecure serialization leading to RCE in                     
+ Path           @angular-devkit/build-angular > copy-webpack-plugin >        
+ Moderate       Regular Expression Denial of Service in postcss              
+ Path           @angular-devkit/build-angular > postcss                      
+ High           Prototype Pollution in y18n                                  
+ Path           @angular-devkit/build-angular > node-sass > sass-graph >     
+ Moderate       Iproper Verification of Cryptographic Signature in          
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ High           Iproper Verification of Cryptographic Signature in          
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ High           Iproper Verification of Cryptographic Signature in          
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ High           Arbitrary File Creation/Overwrite on Windows via             
+                insufficient relative path sanitization                      
+ Path           @angular-devkit/build-angular > node-sass > node-gyp > tar   
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           @angular-devkit/build-angular > node-sass > node-gyp > tar   
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           @angular-devkit/build-angular > node-sass > node-gyp > tar   
+ High           Arbitrary File Creation/Overwrite due to insufficient        
+                absolute path sanitization                                   
+ Path           @angular-devkit/build-angular > node-sass > node-gyp > tar   
+ High           Uncontrolled Resource Consuption in tri-newlines           
+ Path           @angular-devkit/build-angular > node-sass > eow >           
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           @angular-devkit/build-angular > node-sass > node-gyp > tar   
+ High           Terser insecure use of regular expressions before v4.8.1 and 
+ Path           @angular-devkit/build-angular > terser-webpack-plugin >      
+ Low            URL parsing in node-forge could lead to undesired behavior.  
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular-devkit/build-angular > @angular-devkit/core >       
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular-devkit/build-angular > @angular-devkit/architect >  
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular-devkit/build-angular >                              
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular-devkit/build-angular > webpack > watchpack >        
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       yargs-parser Vulnerable to Prototype Pollution               
+ Path           @angular-devkit/build-angular > webpack-dev-server > yargs > 
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           @angular-devkit/build-angular > webpack-dev-server > yargs > 
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           @angular-devkit/build-angular > webpack-dev-server > yargs > 
+ High           Uncontrolled Resource Consuption in ansi-htl               
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Iproper Certificate Validation in node-sass                 
+ Path           @angular-devkit/build-angular > node-sass                    
+ Moderate       Regular Expression Denial of Service in postcss              
+ Path           @angular-devkit/build-angular > postcss                      
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular-devkit/build-angular > @angular-devkit/core > ajv   
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular-devkit/build-angular > @angular-devkit/architect >  
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular-devkit/build-angular >                              
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular-devkit/build-angular > ajv                          
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular-devkit/build-angular > istanbul-instruenter-loader 
+ Moderate       Iproper Input Validation in SocksJS-Node                    
+ Path           @angular-devkit/build-angular > webpack-dev-server > sockjs  
+ Critical       Reote code execution in handlebars when copiling teplates 
+ Path           @angular-devkit/build-angular > istanbul > handlebars        
+ Moderate       Cross-Site Scripting in serialize-javascript                 
+ Path           @angular-devkit/build-angular > copy-webpack-plugin >        
+ High           Regular expression denial of service in scss-tokenizer       
+ Path           @angular-devkit/build-angular > node-sass > sass-graph >     
+ Moderate       Sensitive inforation exposure through logs in               
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular/cli > @angular-devkit/core > chokidar > glob-parent 
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular/cli > @angular-devkit/architect >                   
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular/cli > @angular-devkit/scheatics >                  
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular/cli > @scheatics/angular >                         
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular/cli > @scheatics/angular > @angular-devkit/core >  
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular/cli > @scheatics/update > @angular-devkit/core >   
+ High           ini before 1..6 vulnerable to Prototype Pollution via       
+ Path           @angular/cli > @scheatics/update > ini                      
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           @angular/cli > inquirer > strip-ansi > ansi-regex            
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           @angular/cli > inquirer > string-width > strip-ansi >        
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular/cli > @angular-devkit/core > ajv                    
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular/cli > @angular-devkit/architect >                   
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular/cli > @angular-devkit/scheatics >                  
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular/cli > @scheatics/angular >                         
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular/cli > @scheatics/angular > @angular-devkit/core >  
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular/cli > @scheatics/update > @angular-devkit/core >   
+ Moderate       Denial of Service in e                                     
+ Path           webpack > yargs > os-locale > e                            
+ High           Prototype Pollution in y18n                                  
+ Path           webpack > yargs > y18n                                       
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           webpack > watchpack > watchpack-chokidar2 > chokidar >       
+ Moderate       yargs-parser Vulnerable to Prototype Pollution               
+ Path           webpack > yargs > yargs-parser                               
+ Low            Regular Expression Denial of Service in braces               
+ Path           @angular/copiler-cli > chokidar > anyatch > icroatch >   
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular/copiler-cli > chokidar > glob-parent               
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular/copiler-cli > chokidar > anyatch > icroatch >   
+ Low            Regular Expression Denial of Service (ReDoS) in braces       
+ Path           @angular/copiler-cli > chokidar > anyatch > icroatch >   
+ High           Inefficient Regular Expression Coplexity in arked          
+ Path           ngx-arkdown > arked                                        
+ High           Inefficient Regular Expression Coplexity in arked          
+ Path           ngx-arkdown > arked                                        
+ Moderate       Marked ReDoS due to eail addresses being evaluated in       
+ Path           ngx-arkdown > arked                                        
+ Low            Renderers can obtain access to rando bluetooth device       
+ Path           electron                                                     
+ Low            Coproised child renderer processes could obtain IPC access 
+ Path           electron                                                     
+ Moderate       AutoUpdater odule fails to validate certain nested          
+ Path           electron                                                     
+ Moderate       Electron's sandboxed renderers can obtain thubnails of      
+ Path           electron                                                     
+ Moderate       Cross site scripting in Angular                              
+ Path           @angular/core                                                
+ High           Inefficient Regular Expression Coplexity in oent          
+ Path           angular2-oent > oent                                     
+ High           Path Traversal: 'dir/../../filenae' in oent.locale        
+ Path           angular2-oent > oent                                     
+ High           Coand Injection Vulnerability in systeinforation         
+ Path           cordova > systeinforation                                  
+ Moderate       Coand Injection Vulnerability                              
+ Path           cordova > systeinforation                                  
+ Moderate       Incorrect hostnae / protocol due to unstripped leading      
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Incorrect hostnae / protocol due to unstripped leading      
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Critical       Authorization Bypass Through User-Controlled Key in          
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Critical       Authorization Bypass Through User-Controlled Key in          
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Authorization bypass in url-parse                            
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Authorization bypass in url-parse                            
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Open redirect in url-parse                                   
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Open redirect in url-parse                                   
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Incorrect returned href via an '@' sign but no user info and 
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Incorrect returned href via an '@' sign but no user info and 
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Path traversal in url-parse                                  
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Moderate       Path traversal in url-parse                                  
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Critical       Prototype Pollution in iniist                              
+ Path           @angular/copiler-cli > iniist                             
+ Critical       Prototype Pollution in iniist                              
+ Path           @angular/copiler-cli > tsickle > iniist                   
+ Critical       Prototype Pollution in iniist                              
+ Path           @angular/copiler-cli > tsickle > kdirp > iniist          
+ Critical       Prototype Pollution in iniist                              
+ Path           @angular-devkit/build-angular > copy-webpack-plugin >        
+ Critical       Prototype Pollution in iniist                              
+ Path           @angular/cli > @scheatics/update > pacote > tar > kdirp >  
+ Critical       Prototype Pollution in iniist                              
+ Path           @angular-devkit/build-angular > copy-webpack-plugin >        
+ Critical       Prototype Pollution in iniist                              
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ Critical       Prototype Pollution in iniist                              
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ Critical       Prototype Pollution in iniist                              
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ High           Cross-site Scripting in Pris                                
+ Path           ngx-arkdown > prisjs                                       
+ High           Regular Expression Denial of Service (ReDoS) in Pris        
+ Path           ngx-arkdown > prisjs                                       
+ Moderate       prisjs Regular Expression Denial of Service vulnerability   
+ Path           ngx-arkdown > prisjs                                       
+ High           Denial of service in prisjs                                 
+ Path           ngx-arkdown > prisjs                                       
+# Run  np update follow-redirects --depth 5  to resolve 4 vulnerabilities
+ Moderate       Exposure of Sensitive Inforation to an Unauthorized Actor   
+                in follow-redirects                                          
+ Package        follow-redirects                                             
+ Path           kara > http-proxy > follow-redirects                        
+ Moderate       Exposure of Sensitive Inforation to an Unauthorized Actor   
+                in follow-redirects                                          
+ Package        follow-redirects                                             
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+                http-proxy-iddleware > http-proxy > follow-redirects        
+ High           Exposure of sensitive inforation in follow-redirects        
+ Package        follow-redirects                                             
+ Path           kara > http-proxy > follow-redirects                        
+ High           Exposure of sensitive inforation in follow-redirects        
+ Package        follow-redirects                                             
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+                http-proxy-iddleware > http-proxy > follow-redirects        
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           abi-decoder > web-utils > eth-lib > xhr-request-proise >   
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           abi-decoder > web-eth-abi > web-utils > eth-lib >          
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web >          
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web >          
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ High           Exposure of Sensitive Inforation in siple-get              
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ High           Iproper Privilege Manageent in shelljs                     
+ Path           cordova-ios > ios-si > sictl > shelljs                     
+ Moderate       Iproper Privilege Manageent in shelljs                     
+ Path           cordova-ios > ios-si > sictl > shelljs                     
+# Run  np update path-parse --depth   to resolve 7 vulnerabilities
+ Moderate       Regular Expression Denial of Service in path-parse           
+ Package        path-parse                                                   
+ Path           tslint > resolve > path-parse                                
+ Moderate       Regular Expression Denial of Service in path-parse           
+ Package        path-parse                                                   
+ Path           shelljs > rechoir > resolve > path-parse                     
+ Moderate       Regular Expression Denial of Service in path-parse           
+ Package        path-parse                                                   
+ Path           cordova > cordova-create > cordova-fetch > resolve >         
+                path-parse                                                   
+ Moderate       Regular Expression Denial of Service in path-parse           
+ Package        path-parse                                                   
+ Path           @angular-devkit/build-angular > node-sass > eow >           
+                noralize-package-data > resolve > path-parse                
+ Moderate       Regular Expression Denial of Service in path-parse           
+ Package        path-parse                                                   
+ Path           cordova > cordova-lib > init-package-json >                  
+                path-parse                                                   
+ Moderate       Regular Expression Denial of Service in path-parse           
+ Package        path-parse                                                   
+ Path           @angular-devkit/build-angular > node-sass > eow >           
+                path-parse                                                   
+ Moderate       Regular Expression Denial of Service in path-parse           
+ Package        path-parse                                                   
+ Path           @angular-devkit/build-angular > node-sass > sass-graph >     
+                resolve > path-parse                                         
+ High           ReDoS in noralize-url                                       
+ Path           electron > @electron/get > got > cacheable-request >         
+ High           ReDoS in noralize-url                                       
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ Critical       Prototype Pollution in handlebars                            
+ Path           kara-coverage-istanbul-reporter > istanbul-api >            
+ Critical       Reote code execution in handlebars when copiling teplates 
+ Path           kara-coverage-istanbul-reporter > istanbul-api >            
+ Moderate       Regular Expression Denial of Service in hosted-git-info      
+ Path           cordova > cordova-lib > init-package-json > np-package-arg  
+ Moderate       Regular Expression Denial of Service in hosted-git-info      
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ Moderate       Regular Expression Denial of Service in hosted-git-info      
+ Path           @angular-devkit/build-angular > node-sass > eow >           
+ Moderate       Regular Expression Denial of Service in hosted-git-info      
+ Path           @angular-devkit/build-angular > node-sass > sass-graph >     
+ High           Regular Expression Denial of Service (ReDoS)                 
+ Path           @angular-devkit/build-angular > terser-webpack-plugin >      
+ High           Regular Expression Denial of Service (ReDoS)                 
+ Path           @angular-devkit/build-angular > webpack >                    
+ High           Regular Expression Denial of Service (ReDoS)                 
+ Path           @angular/cli > @scheatics/update > pacote > ssri            
+ High           Regular Expression Denial of Service (ReDoS)                 
+ Path           @angular/cli > @scheatics/update > pacote > cacache > ssri  
+ High           Regular Expression Denial of Service (ReDoS)                 
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ High           Regular Expression Denial of Service (ReDoS)                 
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ High           Regular Expression Denial of Service (ReDoS)                 
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ High           Arbitrary Code Execution in underscore                       
+ Path           cordova-ios > cordova-coon > underscore                    
+ High           Insecure serialization leading to RCE in                     
+ Path           @angular-devkit/build-angular > webpack >                    
+ High           Terser insecure use of regular expressions before v4.8.1 and 
+ Path           @angular-devkit/build-angular > webpack >                    
+ Moderate       Cross-Site Scripting in serialize-javascript                 
+ Path           @angular-devkit/build-angular > webpack >                    
+ Moderate       Regular Expression Denial of Service in postcss              
+ Path           @angular-devkit/build-angular > autoprefixer > postcss       
+ Moderate       Regular Expression Denial of Service in postcss              
+ Path           @angular-devkit/build-angular > autoprefixer > postcss       
+ High           node-fetch is vulnerable to Exposure of Sensitive            
+ Path           codecov > teeny-request > node-fetch                         
+ High           Prototype Pollution in y18n                                  
+ Path           @angular-devkit/build-angular > copy-webpack-plugin >        
+ High           Prototype Pollution in y18n                                  
+ Path           @angular-devkit/build-angular > webpack >                    
+ High           Prototype Pollution in y18n                                  
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ High           Prototype Pollution in y18n                                  
+ Path           @angular/cli > @scheatics/update > pacote >                 
+ High           Arbitrary File Creation/Overwrite on Windows via             
+                insufficient relative path sanitization                      
+ Path           @angular/cli > @scheatics/update > pacote > tar             
+ High           Arbitrary File Creation/Overwrite on Windows via             
+                insufficient relative path sanitization                      
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           @angular/cli > @scheatics/update > pacote > tar             
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           @angular/cli > @scheatics/update > pacote > tar             
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ High           Arbitrary File Creation/Overwrite due to insufficient        
+                absolute path sanitization                                   
+ Path           @angular/cli > @scheatics/update > pacote > tar             
+ High           Arbitrary File Creation/Overwrite due to insufficient        
+                absolute path sanitization                                   
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           @angular/cli > @scheatics/update > pacote > tar             
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ Critical       Exposure of Sensitive Inforation in eventsource             
+ Path           @angular-devkit/build-angular > webpack-dev-server >         
+ Critical       Prototype Pollution in siple-plist                          
+ Path           cordova-ios > xcode > siple-plist                           
+ Critical       Prototype Pollution in siple-plist                          
+ Path           cordova-plugin-add-swift-support > xcode > siple-plist      
+ Critical       Prototype Pollution in siple-plist                          
+ Path           cordova-plugin-fingerprint-aio >                             
+ High           Prototype Pollution in async                                 
+ Path           bitcore-wallet-client > source-ap-loader > async            
+ High           Prototype Pollution in async                                 
+ Path           cordova > insight > async                                    
+ High           Prototype Pollution in async                                 
+ Path           webpack > async                                              
+ High           Prototype Pollution in async                                 
+ Path           @ionic/app-scripts > webpack > async                         
+ High           Prototype Pollution in async                                 
+ Path           kara-coverage-istanbul-reporter > istanbul-api > async      
+ Moderate       ReDoS in Sec-Websocket-Protocol header                       
+ Path           ionic > @ionic/discover > ws                                 
+ Critical       Prototype pollution in Plist before ..5 can cause denial   
+ Path           cordova-custo-config > plist                                
+ Critical       Prototype pollution in Plist before ..5 can cause denial   
+ Path           cordova > cordova-coon > plist                             
+ Critical       Prototype pollution in Plist before ..5 can cause denial   
+ Path           cordova > cordova-create > cordova-coon > plist            
+ Critical       Prototype pollution in Plist before ..5 can cause denial   
+ Path           cordova > cordova-create > cordova-fetch > cordova-coon >  
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           webpack > watchpack > chokidar > glob-parent                 
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @angular-devkit/build-angular > webpack > watchpack >        
+ High           ini before 1..6 vulnerable to Prototype Pollution via       
+ Path           ionic > update-notifier > is-installed-globally >            
+ High           ini before 1..6 vulnerable to Prototype Pollution via       
+ Path           electron > @electron/get > global-tunnel-ng > np-conf >     
+ High           ini before 1..6 vulnerable to Prototype Pollution via       
+ Path           cordova > update-notifier > latest-version > package-json >  
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           @angular-devkit/build-angular > node-sass > nplog > gauge > 
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           @angular-devkit/build-angular > node-sass > node-gyp >       
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           cordova > cordova-create > cordova-fetch > pacote >          
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           ionic > @ionic/cli-fraework > strip-ansi > ansi-regex       
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           cordova > insight > inquirer > strip-ansi > ansi-regex       
+ Critical       json-schea is vulnerable to Prototype Pollution             
+ Path           cordova > insight > request > http-signature > jspri >      
+ Critical       json-schea is vulnerable to Prototype Pollution             
+ Path           @angular-devkit/build-angular > node-sass > node-gyp >       
+ Critical       json-schea is vulnerable to Prototype Pollution             
+ Path           cordova > cordova-create > cordova-fetch > pacote >          
+ Critical       json-schea is vulnerable to Prototype Pollution             
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ Moderate       Regular Expression Denial of Service in browserslist         
+ Path           @angular-devkit/build-angular > autoprefixer > browserslist  
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular-devkit/build-angular > webpack > ajv                
+ Moderate       Prototype Pollution in Ajv                                   
+ Path           @angular-devkit/build-angular > webpack > schea-utils > ajv 
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           eth-sig-util > ethereujs-util > elliptic                    
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           abi-decoder > web-utils > eth-lib > elliptic                
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           abi-decoder > web-eth-abi > web-utils > eth-lib > elliptic 
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web >          
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web >          
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ Moderate       Use of a Broken or Risky Cryptographic Algorith             
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-eth 
+ High           Iproper Privilege Manageent in shelljs                     
+ Path           cordova-custo-config > shelljs                              
+ Moderate       Iproper Privilege Manageent in shelljs                     
+ Path           cordova-custo-config > shelljs                              
+ Moderate       Misinterpretation of alicious XML input                     
+ Path           jasine-reporters > xldo                                   
+ Moderate       Misinterpretation of alicious XML input                     
+ Path           cordova-custo-config > plist > xldo                       
+ Moderate       Misinterpretation of alicious XML input                     
+ Path           cordova > cordova-coon > plist > xldo                    
+ Moderate       Misinterpretation of alicious XML input                     
+ Path           cordova > cordova-create > cordova-coon > plist > xldo   
+ Moderate       Misinterpretation of alicious XML input                     
+ Path           cordova > cordova-create > cordova-fetch > cordova-coon >  
+ Low            Misinterpretation of alicious XML input                     
+ Path           jasine-reporters > xldo                                   
+ Low            Misinterpretation of alicious XML input                     
+ Path           cordova-custo-config > plist > xldo                       
+ Low            Misinterpretation of alicious XML input                     
+ Path           cordova > cordova-coon > plist > xldo                    
+ Low            Misinterpretation of alicious XML input                     
+ Path           cordova > cordova-create > cordova-coon > plist > xldo   
+ Low            Misinterpretation of alicious XML input                     
+ Path           cordova > cordova-create > cordova-fetch > cordova-coon >  
+ Moderate       SQL Injection and Cross-site Scripting in class-validator    
+ Path           webpack-obfuscator > javascript-obfuscator > class-validator 
+ Low            Insecure Credential Storage in web                          
+ Path           bitcore-wallet-client > crypto-wallet-core > web            
+ High           Code Injection in pac-resolver                               
+ Path           ionic > superagent-proxy > proxy-agent > pac-proxy-agent >   
+ Critical       Iproper parsing of octal bytes in netask                   
+ Path           ionic > @ionic/discover > netask                            
+ Critical       Iproper parsing of octal bytes in netask                   
+ Path           ionic > superagent-proxy > proxy-agent > pac-proxy-agent >   
+ Moderate       netask np package vulnerable to octal input data           
+ Path           ionic > @ionic/discover > netask                            
+ Moderate       netask np package vulnerable to octal input data           
+ Path           ionic > superagent-proxy > proxy-agent > pac-proxy-agent >   
+ High           Coand Injection in tree-kill                               
+ Path           ionic > @ionic/utils-process > tree-kill                     
+ High           Coand Injection in tree-kill                               
+ Path           ionic > @ionic/cli-fraework > @ionic/utils-process >        
+ High           Coand Injection in tree-kill                               
+ Path           ionic > @ionic/cli-fraework > @ionic/utils-subprocess >     
+ Moderate       Denial of Service in e                                     
+ Path           @ionic/app-scripts > webpack > yargs > os-locale > e       
+ Moderate       Regular Expression Denial of Service in postcss              
+ Path           @ionic/app-scripts > postcss                                 
+ Moderate       Regular Expression Denial of Service in postcss              
+ Path           @ionic/app-scripts > autoprefixer > postcss                  
+ High           Prototype Pollution in y18n                                  
+ Path           @ionic/app-scripts > webpack > yargs > y18n                  
+ High           Arbitrary File Creation/Overwrite on Windows via             
+                insufficient relative path sanitization                      
+ Path           ionic > tar                                                  
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           ionic > tar                                                  
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           ionic > tar                                                  
+ High           Arbitrary File Creation/Overwrite due to insufficient        
+                absolute path sanitization                                   
+ Path           ionic > tar                                                  
+ High           Arbitrary File Creation/Overwrite via insufficient sylink   
+ Path           ionic > tar                                                  
+ Critical       Prototype Pollution in siple-plist                          
+ Path           cordova-custo-config > xcode > siple-plist                 
+ Moderate       Cross site scripting in Angular                              
+ Path           apple-wallet-ng > @angular/core                              
+ Moderate       Cross site scripting in Angular                              
+ Path           fc-ng > @angular/core                                       
+ Moderate       Got allows a redirect to a UNIX socket                       
+ Path           electron > @electron/get > got                               
+ Moderate       Got allows a redirect to a UNIX socket                       
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ Moderate       Got allows a redirect to a UNIX socket                       
+ Path           bitcore-wallet-client > crypto-wallet-core > web > web-bzz 
+ Moderate       Got allows a redirect to a UNIX socket                       
+ Path           ionic > update-notifier > latest-version > package-json >    
+ Critical       Prototype pollution in Plist before ..5 can cause denial   
+ Path           cordova-custo-config > xcode > siple-plist > plist         
+ High           glob-parent before 5.1.2 vulnerable to Regular Expression    
+ Path           @ionic/app-scripts > chokidar > glob-parent                  
+ Moderate       yargs-parser Vulnerable to Prototype Pollution               
+ Path           @ionic/app-scripts > webpack > yargs > yargs-parser          
+ High           Inefficient Regular Expression Coplexity in                 
+ Path           cordova > insight > inquirer > string-width > strip-ansi >   
+found 28 vulnerabilities (16 low, 14 oderate, 124 high, 6 critical) in  scanned packages

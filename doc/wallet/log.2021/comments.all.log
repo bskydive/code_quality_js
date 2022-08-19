@@ -1,0 +1,1828 @@
+src/directives/copy-to-clipboard/copy-to-clipboard.ts:6:// providers
+src/directives/copy-to-clipboard/copy-to-clipboard.ts:13:  selector: '[copy-to-clipboard]', // Attribute selector
+src/directives/navbar-bg/navbar-bg.ts:3:/* 
+src/directives/no-low-fee/no-low-fee.ts:5:// Provider
+src/directives/no-low-fee/no-low-fee.ts:10:  selector: '[no-low-fee]', // Attribute selector
+src/directives/reveal-at-scroll-pos/reveal-at-scroll-pos.ts:73:    /*
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:1:// import { Component, ElementRef } from '@angular/core';
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:2:// import { async, ComponentFixture } from '@angular/core/testing';
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:3:// import { TestUtils } from '../../test';
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:4:// import { FixedScrollBgColor } from './fixed-scroll-bg-color';
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:6:// let fixture: ComponentFixture<TestHostComponent>;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:7:// let instance;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:8:// let scrollContent;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:9:// let fixedContent;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:10:// let wrapperContent;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:12:// @Component({
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:13://   template: `
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:14://     <ion-content [fixed-scroll-bg-color]="color"></ion-content>
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:15://   `
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:16:// })
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:17:// class TestHostComponent {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:18://   color: string = 'blue';
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:19://   constructor(public element: ElementRef) {}
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:20:// }
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:22:// describe('FixedScrollBgColor', () => {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:23://   beforeEach(async(() =>
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:24://     TestUtils.beforeEachCompiler([TestHostComponent, FixedScrollBgColor]).then(
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:25://       compiled => {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:26://         fixture = compiled.fixture;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:27://         instance = compiled.instance;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:28://         fixture.detectChanges();
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:29://         scrollContent = instance.element.nativeElement.getElementsByClassName(
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:30://           'scroll-content'
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:31://         )[0];
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:32://         fixedContent = instance.element.nativeElement.getElementsByClassName(
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:33://           'fixed-content'
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:34://         )[0];
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:35://         wrapperContent = instance.element.nativeElement.getElementsByClassName(
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:36://           'wrapper'
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:37://         )[0];
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:38://       }
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:39://     )));
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:40://   afterEach(() => {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:41://     fixture.destroy();
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:42://   });
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:43://   it('should set fixed-content and scroll-content background-image to a linear gradient with specified color', () => {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:44://     const backgroundImage =
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:45://       'linear-gradient(blue, blue 50%, rgb(248, 248, 249) 50%, rgb(248, 248, 249) 50%, rgb(248, 248, 249) 50%)';
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:46://     expect(fixedContent.style.backgroundImage).toBe(backgroundImage);
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:47://     expect(scrollContent.style.backgroundImage).toBe(backgroundImage);
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:48://     expect(wrapperContent).toBe(undefined);
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:49://   });
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:50://   it('should remove background-image if none specified', () => {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:51://     instance.color = null;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:52://     fixture.detectChanges();
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:53://     expect(fixedContent.style.backgroundImage).toBe('');
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:54://     expect(scrollContent.style.backgroundImage).toBe('');
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:55://     expect(wrapperContent).toBe(undefined);
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:56://   });
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:57:// });
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:4:/* 
+src/directives/animate/animate.scss:1:/* Shake */
+src/directives/animate/animate.scss:33:/* Pulse */
+src/app/app.module.ts:16:/* Modules */
+src/app/app.module.ts:29:/* Copay App */
+src/app/app.module.ts:35:/* Pipes */
+src/app/app.module.ts:44:/* Directives */
+src/app/app.module.ts:58:/* Components */
+src/app/app.module.ts:61:/* Providers */
+src/app/app.module.ts:65:/* Modal Transitions */
+src/app/app.module.ts:89:    /* Directives */
+src/app/app.module.ts:102:    /* Pipes */
+src/app/app.scss:1:// http://ionicframework.com/docs/theming/
+src/app/app.scss:2:// App Global Sass
+src/app/app.scss:3:// --------------------------------------------------
+src/app/app.scss:4:// Put style rules here that you want to apply globally. These
+src/app/app.scss:5:// styles are for the entire app and not just one component.
+src/app/app.scss:6:// Additionally, this file can be also used as an entry point
+src/app/app.scss:7:// to import other Sass files to be included in the output CSS.
+src/app/app.scss:8://
+src/app/app.scss:9:// Shared Sass variables, which can be used to adjust Ionic's
+src/app/app.scss:10:// default Sass variables, belong in "theme/variables.scss".
+src/app/app.scss:11://
+src/app/app.scss:12:// To declare rules for a specific mode, create a child rule
+src/app/app.scss:13:// for the .md, .ios, or .wp mode classes. The mode class is
+src/app/app.scss:14:// automatically applied to the <body> element in the app.
+src/app/app.scss:23:// all content without menu
+src/app/app.scss:33:// expandable views
+src/app/app.scss:51:// Alert position
+src/app/app.scss:52:// --------------------------------------------------
+src/app/app.scss:73:// Text wrap
+src/app/app.scss:74:// --------------------------------------------------
+src/app/app.scss:88:// Header
+src/app/app.scss:89:// --------------------------------------------------
+src/app/app.scss:146:// Buttons
+src/app/app.scss:147:// --------------------------------------------------
+src/app/app.scss:169:// Themes
+src/app/app.scss:170:// --------------------------------------------------
+src/app/app.scss:171:// This is just to make a smooth transition between themes
+src/app/app.scss:202:  // Lists
+src/app/app.scss:213:/* Refresh component */
+src/app/app.scss:241:// Fixes IOS 10.3.1 icons
+src/app/app.scss:276:// Remove border of icons when screen resolution is big
+src/app/app.scss:281:// Remove the MD drop-shadow on app header
+src/app/app.scss:439:// Compatibility Ionic 1
+src/app/app.scss:537:// Set backgrounds transparent so the QR Scanner can be seen behind the app.
+src/app/app.scss:609:// https://github.com/ionic-team/ionic/pull/14241
+src/app/app.scss:685:// Add padding bottom when item has label
+src/app/app.scss:697:// avoid issue with box-shadow and floating labels
+src/app/app.scss:728:    // For easier tappability
+src/app/app.scss:832:    // Workaround to prevent tabs from disappearing when activated
+src/app/main.ts:2:// tslint:disable-next-line:no-submodule-imports
+src/app/main.ts:7:// Note: loader import location set using "esmLoaderPath" within the output target confg
+src/app/main.ts:8:// tslint:disable-next-line:no-submodule-imports
+src/app/app.component.ts:17:// Providers
+src/app/app.component.ts:53:// Components
+src/app/app.component.ts:56:// Pages
+src/app/app.component.ts:81:// As the handleOpenURL handler kicks in before the App is started,
+src/app/app.component.ts:82:// declare the handler function at the top of app.component.ts (outside the class definition)
+src/app/app.component.ts:83:// to track the passed Url
+src/app/app.component.ts:209:          // Share logs
+src/app/app.component.ts:260:      // Set User-Agent
+src/app/app.component.ts:275:      // Set to portrait
+src/app/app.component.ts:279:      // Only for iOS
+src/app/app.component.ts:283:        // Check for AppTrackingTransparency
+src/app/app.component.ts:294:      // Subscribe Resume
+src/app/app.component.ts:297:        // Check PIN or Fingerprint on Resume
+src/app/app.component.ts:300:        // Set Theme (light or dark mode)
+src/app/app.component.ts:304:        // Clear all notifications
+src/app/app.component.ts:307:        // Firebase Dynamic link
+src/app/app.component.ts:311:      // Check PIN or Fingerprint
+src/app/app.component.ts:315:      // Clear all notifications
+src/app/app.component.ts:318:      // Firebase Dynamic link
+src/app/app.component.ts:322:    // Set Theme (light or dark mode)
+src/app/app.component.ts:341:        // Check Profile
+src/app/app.component.ts:366:                // Share logs
+src/app/app.component.ts:381:            // Share logs
+src/app/app.component.ts:405:      // preloading the view
+src/app/app.component.ts:408:        // if (cards && this.platform.is('ios')) {
+src/app/app.component.ts:409:        //   try {
+src/app/app.component.ts:410:        //     cards = await this.iabCardProvider.checkAppleWallet(cards);
+src/app/app.component.ts:411:        //   } catch (err) {
+src/app/app.component.ts:412:        //     this.logger.error('apple wallet checkPairedDevices error', err);
+src/app/app.component.ts:413:        //   }
+src/app/app.component.ts:414:        // }
+src/app/app.component.ts:422:            `https://${host}/wallet-card?context=bpa`,
+src/app/app.component.ts:465:    this.emailNotificationsProvider.init(); // Update email subscription if necessary
+src/app/app.component.ts:492:      // workaround for android devices that execute pause for system actions
+src/app/app.component.ts:563:    // Gift Cards
+src/app/app.component.ts:567:    // Buy Crypto
+src/app/app.component.ts:575:    // Exchange Crypto
+src/app/app.component.ts:583:    // Coinbase
+src/app/app.component.ts:589:    // Wallet Connect
+src/app/app.component.ts:600:    // BitPay Card
+src/app/app.component.ts:641:          // No params -> return
+src/app/app.component.ts:643:          // From deepLink
+src/app/app.component.ts:655:        // wait for wallets status
+src/app/app.component.ts:688:      // check if modal is already open
+src/app/app.component.ts:737:    // Check if app was resume by custom url scheme
+src/app/app.component.ts:743:    // Check if app was opened by custom url scheme
+src/app/app.component.ts:747:      // Important delay to have all views loaded before process URL
+src/app/app.component.ts:791:    } else if (pathData.indexOf(this.appProvider.info.name + '://') != -1) {
+src/app/app.component.ts:794:        pathData.substring(pathData.indexOf(this.appProvider.info.name + '://'))
+src/models/in-app-browser/in-app-browser-ref.model.ts:1:/// <reference types="cordova-plugin-inappbrowser" />
+src/providers/clipboard/clipboard.spec.ts:6:// Providers
+src/providers/clipboard/clipboard.spec.ts:131:        ); // BitcoinAddress
+src/providers/clipboard/clipboard.spec.ts:147:        ); // BitcoinAddress
+src/providers/clipboard/clipboard.spec.ts:256:        ); // BitcoinAddress
+src/providers/clipboard/clipboard.ts:6:// providers
+src/providers/clipboard/clipboard.ts:84:          this.clear(); // clear clipboard data if exist
+src/providers/clipboard/clipboard.ts:100:          // Check crypto/paypro uri
+src/providers/feedback/feedback.spec.ts:18:      this.servicesInfo = { feedbackSheetURL: 'https://...' };
+src/providers/feedback/feedback.ts:4:// providers
+src/providers/feedback/feedback.ts:17:    // Get more info: https://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
+src/providers/bwc/bwc.ts:65:    // note opts use `bwsurl` all lowercase;
+src/providers/bwc/bwc.ts:67:      baseUrl: opts.bwsurl || 'https://bws.bitpay.com/bws/api', // 'http://localhost:3232/bws/api', uncmment for local testing
+src/providers/card-phases/card-phases.ts:145:    const url = 'https://bitpay.com/visa-api/session';
+src/providers/card-phases/card-phases.ts:150:    const url = 'https://bitpay.com/api/v2';
+src/providers/card-phases/card-phases.ts:180:    const url = 'https://bitpay.com/countries';
+src/providers/external-link/external-link.spec.ts:6:  let url = 'https://github.com/bitpay/copay/releases/latest';
+src/providers/external-link/external-link.ts:4:// providers
+src/providers/external-link/external-link.ts:58:    // Ignore external URLs: avoid opening action sheet
+src/providers/external-link/external-link.ts:67:        // workaround for an existing cordova inappbrowser plugin issue - redirecting events back to the iab ref
+src/providers/touchid/touchid.ts:4:// Providers
+src/providers/app/app.ts:8:// providers
+src/providers/app/app.ts:17:/* TODO: implement interface properly
+src/providers/app-identity/app-identity.ts:4:// providers
+src/providers/app-identity/app-identity.spec.ts:4:// Providers
+src/providers/on-going-process/on-going-process.ts:19:    // TODO GET - CLEAR - CHECK DecimalPipe for FILTER WITH TRANSLATE
+src/providers/on-going-process/on-going-process.ts:95:      // No problem
+src/providers/merchant/merchant.ts:197:// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+src/providers/incoming-data/incoming-data.spec.ts:83:        'xprv9s21ZrQH143K24Mfq5zL5MhWK9hUhhGbd45hLXo2Pq2oqzMMo63o StZzF93Y5wvzdUayhgkkFoicQZcP3y52uPPxFnfoLZB21Teqt1VvEHx', // BIP 32 mainnet xprivkey
+src/providers/incoming-data/incoming-data.spec.ts:84:        'cNJFgo1driFnPcBdBX8BrJrpxchBW XwXCvNH5SoSkdcF6JXXwHMm', // WIF Testnet Privkey (compressed pubkey)
+src/providers/incoming-data/incoming-data.spec.ts:85:        'tprv8ZgxMBicQKsPcsbCVeqqF1KVdH7gwDJbxbzpCxDUsoXHdb6SnTPY xdwSAKDC6KKJzv7khnNWRAJQsRA8BBQyiSfYnRt6zuu4vZQGKjeW4YF', // BIP 32 testnet xprivkey
+src/providers/incoming-data/incoming-data.spec.ts:159:        'bitcoin:?r=https://bitpay.com/i/CtcM753gnZ4Wpr5pmXU6i9',
+src/providers/incoming-data/incoming-data.spec.ts:160:        'bitcoincash:?r=https://bitpay.com/i/Rtz1RwWA7kdRRU3Wyo4YDY',
+src/providers/incoming-data/incoming-data.spec.ts:161:        'ethereum:?r=https://test.bitpay.com/i/VPDDwaG7eaGvFtbyDBq8NR'
+src/providers/incoming-data/incoming-data.spec.ts:178:          payProUrl: 'https://test.bitpay.com/i/FQLHDgV8YWoy4vT8n4pKQe',
+src/providers/incoming-data/incoming-data.spec.ts:311:          payProUrl: 'https://test.bitpay.com/i/FQLHDgV8YWoy4vT8n4pKQe',
+src/providers/incoming-data/incoming-data.spec.ts:479:        // keep address in original format
+src/providers/incoming-data/incoming-data.spec.ts:632:        // keep address in original format
+src/providers/incoming-data/incoming-data.spec.ts:662:        'bitcoin:1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa', // Genesis Bitcoin Address
+src/providers/incoming-data/incoming-data.spec.ts:663:        'bitcoin:1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa?message=test%20message', // Bitcoin Address with message and not amount
+src/providers/incoming-data/incoming-data.spec.ts:664:        'bitcoin:1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa?amount=1.0000', // Bitcoin Address with amount
+src/providers/incoming-data/incoming-data.spec.ts:665:        'bitcoin:1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa?amount=1.0000&label=Genesis%20Bitcoin%20Address&message=test%20message' // Basic Payment Protocol
+src/providers/incoming-data/incoming-data.spec.ts:740:      // bch testnet legacy, prefixed address are handled as normal addresses
+src/providers/incoming-data/incoming-data.spec.ts:840:        '1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa', // Genesis Bitcoin Address
+src/providers/incoming-data/incoming-data.spec.ts:841:        'mpXwg4jMtRhuSpVq4xS3HFHmCmWp9NyGKt' // Genesis Testnet3 Bitcoin Address
+src/providers/incoming-data/incoming-data.spec.ts:861:        '6PnSQd4UamkL5LDZrAsmymQrAgj1jywES6frfp5DeFGWni7VouwjxeJ68z', // BIP 38 Encrypt Private Key
+src/providers/incoming-data/incoming-data.spec.ts:862:        '5Hwgr3u458GLafKBgxtssHSPqJnYoGrSzgQsPwLFhLNYskDPyyA', // WIF Mainnet Privkey (uncompressed pubkey)
+src/providers/incoming-data/incoming-data.spec.ts:863:        'L1aW4aubDFB7yfras2S1mN3bqg9nwySY8nkoLmJebSLD5BWv3ENZ' // WIF Mainnet Privkey (compressed pubkey)
+src/providers/incoming-data/incoming-data.spec.ts:880:      let data = ['bitpay://coinbase', 'copay://coinbase'];
+src/providers/incoming-data/incoming-data.spec.ts:897:      let data = 'bitpay://bitpay.com?secret=xxxxx&email=xxx@xx.com';
+src/providers/incoming-data/incoming-data.spec.ts:912:      let data = ['bitpay://landing/card'];
+src/providers/incoming-data/incoming-data.spec.ts:918:        const redir = link.replace('bitpay://landing/', '');
+src/providers/incoming-data/incoming-data.spec.ts:994:          data: 'https://bitpay.com/i/5GREtmntcTvB9aejVDhVdm',
+src/providers/incoming-data/incoming-data.spec.ts:998:          data: 'https://test.bitpay.com/i/VPDDwaG7eaGvFtbyDBq8NR',
+src/providers/incoming-data/incoming-data.spec.ts:1002:          data: 'bitcoin:?r=https://bitpay.com/i/CtcM753gnZ4Wpr5pmXU6i9',
+src/providers/incoming-data/incoming-data.spec.ts:1006:          data: 'bitcoincash:?r=https://bitpay.com/i/Rtz1RwWA7kdRRU3Wyo4YDY',
+src/providers/incoming-data/incoming-data.spec.ts:1010:          data: 'ethereum:?r=https://test.bitpay.com/i/VPDDwaG7eaGvFtbyDBq8NR',
+src/providers/incoming-data/incoming-data.spec.ts:1101:          data: 'http://bitpay.com/',
+src/providers/incoming-data/incoming-data.spec.ts:1105:          data: 'https://bitpay.com',
+src/providers/incoming-data/incoming-data.spec.ts:1129:          data: 'bitpay://coinbase',
+src/providers/incoming-data/incoming-data.spec.ts:1133:          data: 'bitpay://bitpay.com?secret=xxxxx&email=xxx@xx.com',
+src/providers/incoming-data/incoming-data.spec.ts:1143:            'RTpopkn5KBnkxuT7x4ummDKx3Lu1LvbntddBC4ssDgaqP7DkojT8ccxaFQEXY4f3huFyMewhHZLbtc', // Legacy code
+src/providers/incoming-data/incoming-data.spec.ts:1147:          data: '6PnSQd4UamkL5LDZrAsmymQrAgj1jywES6frfp5DeFGWni7VouwjxeJ68z', // BIP 38 Encrypt Private Key
+src/providers/incoming-data/incoming-data.spec.ts:1151:          data: '5Hwgr3u458GLafKBgxtssHSPqJnYoGrSzgQsPwLFhLNYskDPyyA', // WIF Mainnet Privkey (uncompressed pubkey)
+src/providers/incoming-data/incoming-data.spec.ts:1155:          data: 'L1aW4aubDFB7yfras2S1mN3bqg9nwySY8nkoLmJebSLD5BWv3ENZ', // WIF Mainnet Privkey (compressed pubkey)
+src/providers/incoming-data/incoming-data.ts:6:// providers
+src/providers/incoming-data/incoming-data.ts:152:    return !!/^https?:\/\//.test(data);
+src/providers/incoming-data/incoming-data.ts:205:      data && data.indexOf(this.appProvider.info.name + '://coinbase') === 0
+src/providers/incoming-data/incoming-data.ts:212:      data && data.indexOf(this.appProvider.info.name + '://simplex') === 0
+src/providers/incoming-data/incoming-data.ts:220:      (data.indexOf(this.appProvider.info.name + '://wyre') === 0 ||
+src/providers/incoming-data/incoming-data.ts:221:        data.indexOf(this.appProvider.info.name + '://wyreError') === 0)
+src/providers/incoming-data/incoming-data.ts:228:      data && data.indexOf(this.appProvider.info.name + '://invoice') === 0
+src/providers/incoming-data/incoming-data.ts:234:    return !!(data && data.indexOf('bitpay://bitpay') === 0);
+src/providers/incoming-data/incoming-data.ts:239:    return !!(data && data.indexOf('bitpay://landing') === 0);
+src/providers/incoming-data/incoming-data.ts:244:    return !!(data && data.indexOf('com.bitpay.wallet://google/link') === 0);
+src/providers/incoming-data/incoming-data.ts:302:        // Confirm Page - selectedTransactionCurrency set to selected
+src/providers/incoming-data/incoming-data.ts:311:        // Select Invoice Currency - No selectedTransactionCurrency set
+src/providers/incoming-data/incoming-data.ts:328:          // Only one available wallet with balance
+src/providers/incoming-data/incoming-data.ts:407:    // keep address in original format
+src/providers/incoming-data/incoming-data.ts:513:    // Disable Wallet Connect
+src/providers/incoming-data/incoming-data.ts:550:    // Translate address
+src/providers/incoming-data/incoming-data.ts:558:  // Deprecated
+src/providers/incoming-data/incoming-data.ts:561:    // No process Plain URL anymore
+src/providers/incoming-data/incoming-data.ts:562:    // data = this.sanitizeUri(data);
+src/providers/incoming-data/incoming-data.ts:563:    // this.showMenu({
+src/providers/incoming-data/incoming-data.ts:564:    //  data,
+src/providers/incoming-data/incoming-data.ts:565:    //  type: 'url'
+src/providers/incoming-data/incoming-data.ts:566:    // });
+src/providers/incoming-data/incoming-data.ts:726:  // private goToBitPayCard(data: string): void {
+src/providers/incoming-data/incoming-data.ts:727:  //   this.logger.debug('Incoming-data (redirect): BitPay Card URL');
+src/providers/incoming-data/incoming-data.ts:728:  //
+src/providers/incoming-data/incoming-data.ts:729:  //   // Disable BitPay Card
+src/providers/incoming-data/incoming-data.ts:730:  //   if (!this.appProvider.info._enabledExtensions.debitcard) {
+src/providers/incoming-data/incoming-data.ts:731:  //     this.logger.warn('BitPay Card has been disabled for this build');
+src/providers/incoming-data/incoming-data.ts:732:  //     return;
+src/providers/incoming-data/incoming-data.ts:733:  //   }
+src/providers/incoming-data/incoming-data.ts:734:  //
+src/providers/incoming-data/incoming-data.ts:735:  //   let secret = this.getParameterByName('secret', data);
+src/providers/incoming-data/incoming-data.ts:736:  //   let email = this.getParameterByName('email', data);
+src/providers/incoming-data/incoming-data.ts:737:  //   let otp = this.getParameterByName('otp', data);
+src/providers/incoming-data/incoming-data.ts:738:  //   let reason = this.getParameterByName('r', data);
+src/providers/incoming-data/incoming-data.ts:739:  //   switch (reason) {
+src/providers/incoming-data/incoming-data.ts:740:  //     default:
+src/providers/incoming-data/incoming-data.ts:741:  //     case '0':
+src/providers/incoming-data/incoming-data.ts:742:  //       /* For BitPay card binding */
+src/providers/incoming-data/incoming-data.ts:743:  //       let stateParams = { secret, email, otp };
+src/providers/incoming-data/incoming-data.ts:744:  //       let nextView = {
+src/providers/incoming-data/incoming-data.ts:745:  //         name: 'BitPayCardIntroPage',
+src/providers/incoming-data/incoming-data.ts:746:  //         params: stateParams
+src/providers/incoming-data/incoming-data.ts:747:  //       };
+src/providers/incoming-data/incoming-data.ts:748:  //       this.incomingDataRedir(nextView);
+src/providers/incoming-data/incoming-data.ts:749:  //       break;
+src/providers/incoming-data/incoming-data.ts:750:  //   }
+src/providers/incoming-data/incoming-data.ts:751:  // }
+src/providers/incoming-data/incoming-data.ts:755:    const redir = data.replace('bitpay://landing/', '');
+src/providers/incoming-data/incoming-data.ts:759:        // Disable BitPay Card
+src/providers/incoming-data/incoming-data.ts:804:    if (data.indexOf(this.appProvider.info.name + '://wyreError') >= 0) {
+src/providers/incoming-data/incoming-data.ts:810:            'https://wyre-support.zendesk.com/hc/en-us/requests/new'
+src/providers/incoming-data/incoming-data.ts:817:    if (data === this.appProvider.info.name + '://wyre') return;
+src/providers/incoming-data/incoming-data.ts:892:    //  Handling of a bitpay invoice url
+src/providers/incoming-data/incoming-data.ts:900:      // Payment Protocol
+src/providers/incoming-data/incoming-data.ts:905:      // Bitcoin  URI
+src/providers/incoming-data/incoming-data.ts:910:      // Bitcoin Cash URI
+src/providers/incoming-data/incoming-data.ts:915:      // Ethereum URI
+src/providers/incoming-data/incoming-data.ts:920:      // Ripple URI
+src/providers/incoming-data/incoming-data.ts:925:      // Dogecoin URI
+src/providers/incoming-data/incoming-data.ts:930:      // Litecoin URI
+src/providers/incoming-data/incoming-data.ts:935:      // Wallet Connect URI
+src/providers/incoming-data/incoming-data.ts:940:      // Bitcoin Cash URI using Bitcoin Core legacy address
+src/providers/incoming-data/incoming-data.ts:945:      // Plain URL
+src/providers/incoming-data/incoming-data.ts:950:      // Plain Address (Bitcoin)
+src/providers/incoming-data/incoming-data.ts:955:      // Plain Address (Bitcoin Cash)
+src/providers/incoming-data/incoming-data.ts:960:      // Address (Ethereum)
+src/providers/incoming-data/incoming-data.ts:965:      // Address (Ripple)
+src/providers/incoming-data/incoming-data.ts:970:      // Plain Address (Doge)
+src/providers/incoming-data/incoming-data.ts:975:      // Plain Address (Litecoin)
+src/providers/incoming-data/incoming-data.ts:980:      // Coinbase
+src/providers/incoming-data/incoming-data.ts:985:      // Simplex
+src/providers/incoming-data/incoming-data.ts:990:      // Wyre
+src/providers/incoming-data/incoming-data.ts:995:      // Invoice Intent
+src/providers/incoming-data/incoming-data.ts:1000:      // BitPay Redir Link
+src/providers/incoming-data/incoming-data.ts:1005:      // BitPayCard Authentication
+src/providers/incoming-data/incoming-data.ts:1007:      // this.goToBitPayCard(data);
+src/providers/incoming-data/incoming-data.ts:1010:      // BitPay URI
+src/providers/incoming-data/incoming-data.ts:1015:      // Join
+src/providers/incoming-data/incoming-data.ts:1020:      // Check Private Key
+src/providers/incoming-data/incoming-data.ts:1025:      // Import Private Key
+src/providers/incoming-data/incoming-data.ts:1033:      /*
+src/providers/incoming-data/incoming-data.ts:1057:          // this param is set if pairing for the first time after an order
+src/providers/incoming-data/incoming-data.ts:1099:      // Anything else
+src/providers/incoming-data/incoming-data.ts:1134:      // Bitcoin URI
+src/providers/incoming-data/incoming-data.ts:1142:      // Bitcoin Cash URI
+src/providers/incoming-data/incoming-data.ts:1150:      // Ethereum URI
+src/providers/incoming-data/incoming-data.ts:1158:      // Ripple URI
+src/providers/incoming-data/incoming-data.ts:1165:      // Dogecoin URI
+src/providers/incoming-data/incoming-data.ts:1172:      // Litecoin URI
+src/providers/incoming-data/incoming-data.ts:1179:      // Wallet Connect URI
+src/providers/incoming-data/incoming-data.ts:1187:      // Bitcoin Cash URI using Bitcoin Core legacy address
+src/providers/incoming-data/incoming-data.ts:1195:      // Plain URL
+src/providers/incoming-data/incoming-data.ts:1203:      // Plain Address (Bitcoin)
+src/providers/incoming-data/incoming-data.ts:1211:      // Plain Address (Bitcoin Cash)
+src/providers/incoming-data/incoming-data.ts:1219:      // Plain Address (Ethereum)
+src/providers/incoming-data/incoming-data.ts:1227:      // Plain Address (Ripple)
+src/providers/incoming-data/incoming-data.ts:1235:      // Plain Address (Dogecoin)
+src/providers/incoming-data/incoming-data.ts:1243:      // Plain Address (Litecoin)
+src/providers/incoming-data/incoming-data.ts:1251:      // Coinbase
+src/providers/incoming-data/incoming-data.ts:1259:      // BitPayCard Authentication
+src/providers/incoming-data/incoming-data.ts:1267:      // BitPay  URI
+src/providers/incoming-data/incoming-data.ts:1275:      // Join
+src/providers/incoming-data/incoming-data.ts:1283:      // Check Private Key
+src/providers/incoming-data/incoming-data.ts:1291:      // Import Private Key
+src/providers/incoming-data/incoming-data.ts:1299:      // Anything else
+src/providers/incoming-data/incoming-data.ts:1312:    // Fixes when a region uses comma to separate decimals
+src/providers/incoming-data/incoming-data.ts:1321:    // mobile devices, uris like copay://xxx
+src/providers/incoming-data/incoming-data.ts:1322:    newUri.replace('://', ':');
+src/providers/incoming-data/incoming-data.ts:1347:    // Check if it is a Transaction id to prevent errors
+src/providers/incoming-data/incoming-data.ts:1451:        ? parseInt((payProDetails.requiredFeeRate * 1.1).toFixed(0), 10) // Workaround to avoid gas price supplied is lower than requested error
+src/providers/incoming-data/incoming-data.ts:1480:        minerFee // needed for payments with Coinbase accounts
+src/providers/incoming-data/incoming-data.ts:1513:        // call IAB and attempt pairing
+src/providers/incoming-data/incoming-data.ts:1533:        // needs verification - send to bitpay id verify
+src/providers/incoming-data/incoming-data.ts:1545:              `https://${host}/id/verify?context=unlockv&id=${invoiceId}`
+src/providers/exchange-crypto/exchange-crypto.ts:5:// providers
+src/providers/tx-confirm-notification/tx-confirm-notification.ts:4:// providers
+src/providers/config/config.ts:157:      // wallet limits
+src/providers/config/config.ts:163:      // wallet default config
+src/providers/config/config.ts:181:      // Bitcore wallet service URL
+src/providers/config/config.ts:183:        url: 'https://bws.bitpay.com/bws/api' // Uncomment and replace w/ http://localhost:3232/bws/api for testing
+src/providers/config/config.ts:192:          url: 'https://bitpay.com/wallet'
+src/providers/config/config.ts:195:          url: 'https://copay.io/#download'
+src/providers/config/config.ts:202:            'https://itunes.apple.com/app/bitpay-secure-bitcoin-wallet/id1149581638',
+src/providers/config/config.ts:204:            'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
+src/providers/config/config.ts:208:          ios: 'https://itunes.apple.com/app/copay-bitcoin-wallet/id951330296',
+src/providers/config/config.ts:210:            'https://play.google.com/store/apps/details?id=com.bitpay.copay',
+src/providers/config/config.ts:221:      // External services
+src/providers/config/config.ts:317:          this.reset(); // remove local config
+src/providers/config/config.ts:335:  /**
+src/providers/config/config.ts:375:    // these ifs are to avoid migration problems
+src/providers/config/config.ts:421:      // Convert to BTC. Bits will be disabled
+src/providers/address/address.ts:3:// Providers
+src/providers/address/address.ts:97:    // Check if the input is a valid uri or address
+src/providers/address/address.ts:109:    // Bip21 uri
+src/providers/address/address.ts:117:    // Regular Address: try Bitcoin and Bitcoin Cash
+src/providers/address/address.spec.ts:14:      // Bech32
+src/providers/address/address.spec.ts:21:      // BTCLivenetAddresses
+src/providers/address/address.spec.ts:29:      // BTCTestnetAddresses
+src/providers/address/address.spec.ts:37:      // BCHLivenetAddresses
+src/providers/address/address.spec.ts:38:      ['CHUwf57Maceqk5jhMX6NJkuLEbHEfqqgwx', 'bch', 'livenet'], // BCH Livenet Bitpay Style
+src/providers/address/address.spec.ts:56:      // BCHTestnetAddresses
+src/providers/address/address.spec.ts:57:      // ['mg6PLV5yyUS6Gy55fJ7f994dQ7RpfJNYC9', 'bch', 'testnet'], // TODO: BCH Testnet Bitpay Style
+src/providers/address/address.spec.ts:70:      // ETH Address & URI
+src/providers/address/address.spec.ts:73:      /// XRP Address & URI
+src/providers/address/address.spec.ts:79:      // ETH
+src/providers/address/address.spec.ts:82:      // XRP
+src/providers/address/address.spec.ts:106:      let address = '1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet
+src/providers/address/address.spec.ts:110:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet with prefix
+src/providers/address/address.spec.ts:114:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69?amount=0.00090000'; // BTC livenet uri
+src/providers/address/address.spec.ts:119:        'bitcoin:bc1qua4502zjcsunhm4a25qfm9d30ml5k384vhy62r?amount=0.00010000'; // Native segwit
+src/providers/address/address.spec.ts:125:      let address = 'qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH livenet
+src/providers/address/address.spec.ts:129:      address = 'BITCOINCASH:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH livenet with prefix
+src/providers/address/address.spec.ts:134:        'BITCOINCASH:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3?amount=0.00090000'; // BCH livenet uri
+src/providers/address/address.spec.ts:138:      address = 'BCHTEST:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH testnet with prefix
+src/providers/address/address.spec.ts:143:        'BCHTEST:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3?amount=0.00090000'; // BCH testnet uri
+src/providers/address/address.spec.ts:149:      let address = '0x32ed5be73f5c395621287f5cbe1da96caf3c5dec'; // ETH livenet
+src/providers/address/address.spec.ts:153:      address = 'ethereum:0x32ed5be73f5c395621287f5cbe1da96caf3c5dec'; // ETH livenet with prefix
+src/providers/address/address.spec.ts:158:        'ethereum:0x32ed5be73f5c395621287f5cbe1da96caf3c5dec?value=1234567890'; // ETH livenet uri
+src/providers/address/address.spec.ts:164:      let address = 'rEqj9WKSH7wEkPvWf6b4gCi26Y3F7HbKUF'; // XRP livenet
+src/providers/address/address.spec.ts:168:      address = 'ripple:rEqj9WKSH7wEkPvWf6b4gCi26Y3F7HbKUF'; // XRP livenet with prefix
+src/providers/address/address.spec.ts:172:      address = 'ripple:rEqj9WKSH7wEkPvWf6b4gCi26Y3F7HbKUF?amount=12'; // XRP livenet uri
+src/providers/address/address.spec.ts:180:      let address = 'bc1qua4502zjcsunhm4a25qfm9d30ml5k384vhy62r'; // BTC livenet
+src/providers/address/address.spec.ts:184:      address = 'bitcoin:bc1qua4502zjcsunhm4a25qfm9d30ml5k384vhy62r'; // BTC livenet with prefix
+src/providers/address/address.spec.ts:189:        'bitcoin:bc1qua4502zjcsunhm4a25qfm9d30ml5k384vhy62r?amount=0.00090000'; // BTC livenet uri
+src/providers/address/address.spec.ts:195:      let address = '1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet
+src/providers/address/address.spec.ts:199:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet with prefix
+src/providers/address/address.spec.ts:203:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69?amount=0.00090000'; // BTC livenet uri
+src/providers/address/address.spec.ts:209:      let address = '0x32ed5be73f5c395621287f5cbe1da96caf3c5dec'; // ETH livenet
+src/providers/address/address.spec.ts:213:      address = 'ethereum:0x32ed5be73f5c395621287f5cbe1da96caf3c5dec'; // ETH livenet with prefix
+src/providers/address/address.spec.ts:218:        'ethereum:0x32ed5be73f5c395621287f5cbe1da96caf3c5dec?value=1234567890'; // ETH livenet uri
+src/providers/address/address.spec.ts:224:      let address = 'rEqj9WKSH7wEkPvWf6b4gCi26Y3F7HbKUF'; // XRP livenet
+src/providers/address/address.spec.ts:228:      address = 'ripple:rEqj9WKSH7wEkPvWf6b4gCi26Y3F7HbKUF'; // XRP livenet with prefix
+src/providers/address/address.spec.ts:232:      address = 'ripple:rEqj9WKSH7wEkPvWf6b4gCi26Y3F7HbKUF?amount=12'; // XRP livenet uri
+src/providers/address/address.spec.ts:238:      let address = '1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet
+src/providers/address/address.spec.ts:242:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet with prefix
+src/providers/address/address.spec.ts:246:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69?amount=0.00090000'; // BTC livenet uri
+src/providers/address/address.spec.ts:252:      let address = 'qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH livenet
+src/providers/address/address.spec.ts:256:      address = 'BITCOINCASH:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH livenet with prefix
+src/providers/address/address.spec.ts:261:        'BITCOINCASH:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3?amount=0.00090000'; // BCH livenet uri
+src/providers/address/address.spec.ts:266:    // TODO: we have to update BWS with bitcore-lib-cash version 0.18.1 to get correct values for BCHTEST prefix
+src/providers/address/address.spec.ts:267:    /* it('should return true for addresses of BCH testnet', () => {
+src/providers/address/address.spec.ts:268:      address = 'BCHTEST:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH testnet with prefix
+src/providers/address/address.spec.ts:273:        'BCHTEST:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3?amount=0.00090000'; // BCH testnet uri
+src/providers/logger/logger.ts:1:/* tslint:disable:no-console */
+src/providers/logger/logger.ts:20:    // Create an array of level weights for performant filtering.
+src/providers/logger/logger.ts:94:  /**
+src/providers/logger/logger.spec.ts:161:    // cyclical reference; yeah, baby! to break JSON.stringify
+src/providers/time/time.spec.ts:11:      const date1 = new Date('Jan 1, 2020'); // month 0, year 2020, sum 2020
+src/providers/time/time.spec.ts:12:      const date2 = new Date('Feb 1, 2019'); // month 1, year 2019, sum 2020
+src/providers/scan/scan.spec.ts:7:// Providers
+src/providers/scan/scan.spec.ts:96:        expect(debugSpy).toHaveBeenCalledTimes(5); // logCapabilities()
+src/providers/scan/scan.spec.ts:278:        expect(debugSpy).toHaveBeenCalledTimes(5); // logCapabilities()
+src/providers/scan/scan.ts:6:// Providers
+src/providers/scan/scan.ts:55:    // Permission can be assumed on the desktop builds
+src/providers/scan/scan.ts:95:  /**
+src/providers/scan/scan.ts:110:  /**
+src/providers/scan/scan.ts:177:          // does not return `status` if there is an error
+src/providers/scan/scan.ts:199:  /**
+src/providers/scan/scan.ts:215:  /**
+src/providers/scan/scan.ts:223:        scanSub.unsubscribe(); // stop scanning
+src/providers/scan/scan.ts:237:  /**
+src/providers/scan/scan.ts:256:  // Natively hide the QRScanner's preview
+src/providers/scan/scan.ts:257:  // On mobile platforms, this can reduce GPU/power usage
+src/providers/scan/scan.ts:258:  // On desktop, this fully turns off the camera (and any associated privacy lights)
+src/providers/scan/scan.ts:263:  // Reduce QRScanner power/processing consumption by the maximum amount
+src/providers/scan/scan.ts:268:  /**
+src/providers/scan/scan.ts:303:  /**
+src/providers/coinbase/coinbase.ts:5:// providers
+src/providers/coinbase/coinbase.ts:27:  // URLs
+src/providers/coinbase/coinbase.ts:28:  public supportUrl: string = 'https://support.coinbase.com';
+src/providers/coinbase/coinbase.ts:29:  public signupUrl: string = 'https://www.coinbase.com/signup';
+src/providers/coinbase/coinbase.ts:32:  // Access Token
+src/providers/coinbase/coinbase.ts:52:    /*
+src/providers/coinbase/coinbase.ts:93:        ? 'https://bitpay.com/oauth/coinbase/redirect'
+src/providers/coinbase/coinbase.ts:96:    // Force to use specific version
+src/providers/coinbase/coinbase.ts:97:    this.credentials.API_VERSION = '2017-10-31'; // TODO: there is a newest version: 2020-02-11
+src/providers/coinbase/coinbase.ts:99:    // Random string to protect against cross-site request forgery attacks
+src/providers/coinbase/coinbase.ts:103:      /*
+src/providers/coinbase/coinbase.ts:120:      // Set Authorize URL
+src/providers/coinbase/coinbase.ts:133:      /*
+src/providers/coinbase/coinbase.ts:151:      // Set Authorize URL
+src/providers/coinbase/coinbase.ts:168:    if (!this.coinbaseExchange.rates[currency]) return null; // Coin rate has been removed from Coinbase
+src/providers/coinbase/coinbase.ts:359:    // go to coinbase to update data
+src/providers/coinbase/coinbase.ts:610:          return resolve(data['data']); // return all data
+src/providers/coinbase/coinbase.ts:638:    tx['type'] = 'send'; // Required for sending TX
+src/providers/coinbase/coinbase.ts:648:    if (code) headers = headers.append('CB-2FA-TOKEN', code); // 2FA if required
+src/providers/coinbase/coinbase.ts:671:            return reject('2fa'); // return string to identify
+src/providers/coinbase/coinbase.ts:710:      this.homeIntegrationsProvider.updateLink('coinbase', access_token); // Name, Token
+src/providers/coinbase/coinbase.ts:727:    this.homeIntegrationsProvider.updateLink('coinbase', null); // Name, Token
+src/providers/coinbase/coinbase.ts:786:          oldLinked, // Register OLD existent users -> show a different banner
+src/providers/coinbase/coinbase.ts:805:        // check if it's crypto currency
+src/providers/coinbase/coinbase.ts:835:    // Check for user data (if it needs new token, update it)
+src/providers/coinbase/coinbase.ts:849:    const url = 'https://bitpay.com/oauth/coinbase/pay/' + invoiceId;
+src/providers/coinbase/coinbase.ts:872:            return reject('2fa'); // return string to identify
+src/providers/analytics/analytics.ts:36:            // Request permission
+src/providers/fee/fee.spec.ts:73:      // btc - livenet
+src/providers/fee/fee.spec.ts:95:      // btc - testnet
+src/providers/fee/fee.spec.ts:113:      // bch - livenet
+src/providers/fee/fee.ts:5:// providers
+src/providers/fee/fee.ts:165:    // Difference between low and normal fee levels is often mistakenly very wide
+src/providers/fee/fee.ts:176:    // Only for BTC
+src/providers/fee/fee.ts:178:      // 250 bytes approx. is the minimum size of a tx with 1 input and 1 output
+src/providers/invoice/invoice.ts:14:    BITPAY_API_URL: 'https://bitpay.com'
+src/providers/invoice/invoice.ts:30:        ? 'https://bitpay.com'
+src/providers/invoice/invoice.ts:31:        : 'https://test.bitpay.com';
+src/providers/wallet/wallet.ts:7:// Providers
+src/providers/wallet/wallet.ts:32:  retry?: boolean; // TODO: not used
+src/providers/wallet/wallet.ts:95:  // Ratio low amount warning (fee/amount) in incoming TX
+src/providers/wallet/wallet.ts:98:  // Ratio of "many utxos" warning in total balance (fee/amount)
+src/providers/wallet/wallet.ts:160:          // no future transactions...
+src/providers/wallet/wallet.ts:198:        // Address with Balance
+src/providers/wallet/wallet.ts:201:        // Total wallet balance is same regardless of 'spend unconfirmed funds' setting.
+src/providers/wallet/wallet.ts:204:        // Spend unconfirmed funds
+src/providers/wallet/wallet.ts:221:        // Selected unit
+src/providers/wallet/wallet.ts:227:        // STR
+src/providers/wallet/wallet.ts:329:        // Check address
+src/providers/wallet/wallet.ts:337:              // Force new address
+src/providers/wallet/wallet.ts:364:            // This will update exchange rates
+src/providers/wallet/wallet.ts:431:      /* ========== Start =========== */
+src/providers/wallet/wallet.ts:546:  // Check address
+src/providers/wallet/wallet.ts:598:            // prevent to show legacy address
+src/providers/wallet/wallet.ts:802:        return reject('HISTORY_IN_PROGRESS'); // no callback call yet.
+src/providers/wallet/wallet.ts:818:          // First update
+src/providers/wallet/wallet.ts:822:          // send update
+src/providers/wallet/wallet.ts:864:                  // TODO Dirty <HACK>
+src/providers/wallet/wallet.ts:865:                  // do not sync all history, just looking for a single TX.
+src/providers/wallet/wallet.ts:875:                  // </HACK>
+src/providers/wallet/wallet.ts:917:                  // this.logger.debug('Syncing notes from: ' + endingTs);
+src/providers/wallet/wallet.ts:928:                        // this.logger.debug('Note for ' + note.txid);
+src/providers/wallet/wallet.ts:931:                            // this.logger.debug(
+src/providers/wallet/wallet.ts:932:                            //  '...updating note for ' + note.txid
+src/providers/wallet/wallet.ts:933:                            // );
+src/providers/wallet/wallet.ts:961:                  // <HACK>
+src/providers/wallet/wallet.ts:968:                  // </HACK>
+src/providers/wallet/wallet.ts:974:                  // Final update
+src/providers/wallet/wallet.ts:1018:      // no future transactions...
+src/providers/wallet/wallet.ts:1063:  // Approx utxo amount, from which the uxto is economically redeemable
+src/providers/wallet/wallet.ts:1077:  // Approx utxo amount, from which the uxto is economically redeemable
+src/providers/wallet/wallet.ts:1098:  // These 2 functions were taken from
+src/providers/wallet/wallet.ts:1099:  // https://github.com/bitpay/bitcore-wallet-service/blob/master/lib/model/txproposal.js#L243
+src/providers/wallet/wallet.ts:1115:    // Note: found empirically based on all multisig P2SH inputs and within m & n allowed limits.
+src/providers/wallet/wallet.ts:1116:    nbOutputs = nbOutputs ? nbOutputs : 2; // Assume 2 outputs
+src/providers/wallet/wallet.ts:1121:    nbInputs = nbInputs ? nbInputs : 1; // Assume 1 input
+src/providers/wallet/wallet.ts:1324:          // Share logs
+src/providers/wallet/wallet.ts:1429:  // updates local and remote prefs for 1 wallet
+src/providers/wallet/wallet.ts:1461:    // Set current preferences
+src/providers/wallet/wallet.ts:1466:      unit: 'btc' // deprecated
+src/providers/wallet/wallet.ts:1566:              // for 2 outputs
+src/providers/wallet/wallet.ts:1728:    // Already published?
+src/providers/wallet/wallet.ts:1919:            // Ignore error is copayer already in wallet
+src/providers/wallet/mocks/wallet.mock.ts:323:      address: '1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69' // Use a valid address to get a resolved promise
+src/providers/wallet/mocks/pending-txp.mock.ts:142:    this.status = null; // values: pending, accepted
+src/providers/wallet/wallet.spec.ts:12:// Mocks
+src/providers/wallet/wallet.spec.ts:189:      // When copayerId == tx.wallet.copayerId
+src/providers/bwc-error/bwc-error.ts:105:          'Bitcore Wallet Service is under maintenance. Please check https://status.bitpay.com/.'
+src/providers/language/language.ts:77:      // Get from browser
+src/providers/logs/logs.ts:5:// native
+src/providers/logs/logs.ts:8:// providers
+src/providers/logs/logs.ts:32:    const weight = 4; // share complete logs
+src/providers/logs/logs.ts:66:      const attachment = (event as any).target.result; // <-- data url
+src/providers/logs/logs.ts:79:    // share via email with attachment is not working correctly in some android versions
+src/providers/logs/logs.ts:80:    // so instead of shareViaEmail() -> share()
+src/providers/logs/logs.ts:87:    // Check if sharing via email is supported
+src/providers/logs/logs.ts:96:            null, // TO: must be null or an array
+src/providers/logs/logs.ts:97:            null, // CC: must be null or an array
+src/providers/logs/logs.ts:98:            null, // BCC: must be null or an array
+src/providers/logs/logs.ts:99:            attachment // FILES: can be null, a string, or an array
+src/providers/logs/logs.ts:114:            attachment // FILES: can be null, a string, or an array
+src/providers/backup/backup.ts:4:// Providers
+src/providers/theme/theme.ts:5:// providers
+src/providers/theme/theme.ts:75:        // Auto-detect theme
+src/providers/theme/theme.ts:132:    // Force body background
+src/providers/theme/theme.ts:181:    // If no theme provided returns current theme info
+src/providers/bitpay-id/bitpay-id.ts:6:// providers
+src/providers/bitpay-id/bitpay-id.ts:44:        ? 'https://bitpay.com'
+src/providers/bitpay-id/bitpay-id.ts:45:        : 'https://test.bitpay.com';
+src/providers/bitpay-id/bitpay-id.ts:105:              // @ts-ignore
+src/providers/push-notifications/push-notifications.ts:9:// components
+src/providers/push-notifications/push-notifications.ts:12:// providers
+src/providers/push-notifications/push-notifications.ts:60:      // Keep in mind the function will return null if the token has not been established yet.
+src/providers/push-notifications/push-notifications.ts:72:        // enabling topics
+src/providers/push-notifications/push-notifications.ts:86:        }, 5 * 60 * 1000); // 5 min
+src/providers/push-notifications/push-notifications.ts:112:          // Notification was received on device tray and tapped by the user.
+src/providers/push-notifications/push-notifications.ts:187:    // disabling topics
+src/providers/push-notifications/push-notifications.ts:264:    this.openWalletId = wallet.credentials.walletId; // avoid opening the same wallet many times
+src/providers/push-notifications/push-notifications.ts:266:    await Observable.timer(1000).toPromise(); // wait for subscription to OpenWallet event
+src/providers/address-book/address-book.spec.ts:18:      const addr = 'mnH3XUZ8CmH8CMruEfCDXGc83XLSn8szbm'; // btc testnet
+src/providers/address-book/address-book.spec.ts:45:      const addr = '12o6WhDjZhxt2Nwvm98J6ojXxY1LmEqGbK'; // btc livenet
+src/providers/address-book/address-book.spec.ts:57:      const addr = '12o6WhDjZhxt2Nwvm98J6ojXxY1LmEqGbK'; // btc livenet
+src/providers/address-book/address-book.ts:131:      // Validate - redundant - new entry
+src/providers/address-book/address-book.ts:159:          if (_.isArray(ab)) ab = {}; // No array
+src/providers/tx-format/tx-format.ts:28:  // TODO: implement configService
+src/providers/tx-format/tx-format.ts:61:    // TODO : now only works for english, specify opts to change thousand separator and decimal separator
+src/providers/tx-format/tx-format.ts:66:    // TODO ???
+src/providers/tx-format/tx-format.ts:80:    return this.bwcProvider.getUtils().formatAmount(satoshis, coin, opts); // This util returns a string
+src/providers/tx-format/tx-format.ts:102:    // TODO not a promise
+src/providers/tx-format/tx-format.ts:113:    // TODO not a promise
+src/providers/tx-format/tx-format.ts:144:    // New transaction output format. Fill tx.amount and tx.toAmount for
+src/providers/tx-format/tx-format.ts:145:    // backward compatibility.
+src/providers/tx-format/tx-format.ts:166:      // toDo: translate all tx.outputs[x].toAddress ?
+src/providers/tx-format/tx-format.ts:172:    // Old tx format. Fill .output, for forward compatibility
+src/providers/tx-format/tx-format.ts:220:    // If fiat currency
+src/providers/tx-format/tx-format.ts:237:      // convert sat to Coin
+src/providers/tx-format/tx-format.ts:243:      // convert unit to Coin
+src/providers/tx-format/tx-format.spec.ts:3:// Providers
+src/providers/tx-format/tx-format.spec.ts:35:      let address = 'CcyUyVPZtNRQ5JxhjXLKQwWt1xKr8igncP'; // BCH livenet address
+src/providers/tx-format/tx-format.spec.ts:41:      let address = 'CcyUyVPZtNRQ5JxhjXLKQwWt1xKr8igncP'; // BCH livenet address
+src/providers/tx-format/tx-format.spec.ts:51:      // [coin, amount, fullPrecision, expectedResult]
+src/providers/paypro/paypro.spec.ts:13:    payProUrl: 'https://bitpay.com/i/5GREtmntcTvB9aejVDhVdm',
+src/providers/paypro/paypro.spec.ts:42:          paymentUrl: 'https://bitpay.com/i/5GREtmntcTvB9aejVDhVdm',
+src/providers/paypro/paypro.spec.ts:61:          paymentUrl: 'https://bitpay.com/i/5GREtmntcTvB9aejVDhVdm',
+src/providers/paypro/paypro.ts:4:// providers
+src/providers/home-integrations/home-integrations.ts:21:    // Check if already exists
+src/providers/directory/directory.ts:81:  return fetch(`https://bitpay.com/merchant-directory/integrations`)
+src/providers/directory/directory.ts:106:    `https://bitpay.com/merchant-directory/directory`
+src/providers/changelly/changelly.ts:6:// providers
+src/providers/changelly/changelly.ts:25:    this.uri = 'https://bws.bitpay.com/bws/api';
+src/providers/bitpay-account/bitpay-account.ts:5:// native
+src/providers/bitpay-account/bitpay-account.ts:8:// providers
+src/providers/bitpay-account/bitpay-account.ts:20:  /*
+src/providers/bitpay-account/bitpay-account.ts:175:    // Get basic account information
+src/providers/bitpay-account/bitpay-account.ts:190:  // Returns account objects as stored.
+src/providers/bitpay-account/bitpay-account.ts:202:  // Returns an array where each element represents an account including all information required for fetching data
+src/providers/bitpay-account/bitpay-account.ts:203:  // from the server for each account (apiContext).
+src/providers/derivation-path-helper/derivation-path-helper.spec.ts:10:  /* default paths */
+src/providers/derivation-path-helper/derivation-path-helper.spec.ts:24:  /* BIP44 */
+src/providers/derivation-path-helper/derivation-path-helper.spec.ts:39:  /* BIP45 */
+src/providers/derivation-path-helper/derivation-path-helper.spec.ts:47:  /* BIP48 */
+src/providers/derivation-path-helper/derivation-path-helper.spec.ts:62:  /* Unsupported paths */
+src/providers/derivation-path-helper/derivation-path-helper.spec.ts:77:  /*  isValidDerivationPathCoin */
+src/providers/derivation-path-helper/derivation-path-helper.ts:56:    // BIP45
+src/providers/derivation-path-helper/derivation-path-helper.ts:64:      case "0'": // for BTC
+src/providers/derivation-path-helper/derivation-path-helper.ts:67:      case "1'": // testnet for all coins
+src/providers/derivation-path-helper/derivation-path-helper.ts:70:      case "145'": // for BCH
+src/providers/derivation-path-helper/derivation-path-helper.ts:73:      case "60'": // for ETH
+src/providers/derivation-path-helper/derivation-path-helper.ts:76:      case "144'": // for XRP
+src/providers/derivation-path-helper/derivation-path-helper.ts:79:      case "3'": // for DOGE
+src/providers/derivation-path-helper/derivation-path-helper.ts:82:      case "2'": // for LTC
+src/providers/derivation-path-helper/derivation-path-helper.ts:90:    // BIP45
+src/providers/derivation-path-helper/derivation-path-helper.ts:104:    // BIP45
+src/providers/in-app-browser/card.ts:38:  `Hey, checkout BitPay's new card. You can convert crypto to dollars easily. Just get the app, set up a wallet, and order the card using my code ${code}. https://${
+src/providers/in-app-browser/card.ts:86:        ? 'https://bitpay.com'
+src/providers/in-app-browser/card.ts:87:        : 'https://test.bitpay.com';
+src/providers/in-app-browser/card.ts:120:        /*
+src/providers/in-app-browser/card.ts:130:        /*
+src/providers/in-app-browser/card.ts:140:        /*
+src/providers/in-app-browser/card.ts:149:        /*
+src/providers/in-app-browser/card.ts:159:        /*
+src/providers/in-app-browser/card.ts:169:        /*
+src/providers/in-app-browser/card.ts:179:        /*
+src/providers/in-app-browser/card.ts:193:        /*
+src/providers/in-app-browser/card.ts:214:        /*
+src/providers/in-app-browser/card.ts:224:        /*
+src/providers/in-app-browser/card.ts:234:        /*
+src/providers/in-app-browser/card.ts:414:        // appending the double /api/v2/graphql here is required as theres a quirk around using the api v2 middleware to reprocess graph requests
+src/providers/in-app-browser/card.ts:497:          // @ts-ignore
+src/providers/in-app-browser/card.ts:663:    // adding this for possible race conditions
+src/providers/in-app-browser/card.ts:694:    // safety for cardBalance
+src/providers/in-app-browser/card.ts:778:      let url = `https://bitpay.com/`;
+src/providers/in-app-browser/card.ts:906:    // set the overall app loading state
+src/providers/in-app-browser/card.ts:913:    // generates pairing token and also fetches user basic info and caches both
+src/providers/in-app-browser/card.ts:921:          // publish to correct window
+src/providers/in-app-browser/card.ts:924:          // if with notification -> connect your bitpay id in settings or pairing from personal dashboard
+src/providers/in-app-browser/card.ts:926:            // resets inappbrowser connect state
+src/providers/in-app-browser/card.ts:936:            // pairing notification
+src/providers/in-app-browser/card.ts:960:            // paymentUrl - so pass to unlock context
+src/providers/in-app-browser/card.ts:968:            // close in app browser
+src/providers/in-app-browser/card.ts:972:          // publish new user
+src/providers/in-app-browser/card.ts:976:            // fetch new cards
+src/providers/in-app-browser/card.ts:985:          // clear out loading state
+src/providers/in-app-browser/card.ts:994:        // clear out loading state
+src/providers/in-app-browser/card.ts:996:        // close in app browser
+src/providers/in-app-browser/card.ts:1062:    // wrapping in a setTimeout to smooth out initial iab animation
+src/providers/in-app-browser/card.ts:1157:      // check if current ios version supports apple wallet
+src/providers/in-app-browser/card.ts:1189:    /* FROM CARD IAB
+src/providers/in-app-browser/card.ts:1198:    // for testing purposes
+src/providers/in-app-browser/card.ts:1208:    // ios handler
+src/providers/in-app-browser/card.ts:1274:    /* FROM CARD IAB
+src/providers/in-app-browser/in-app-browser.ts:14:  // add new refs here
+src/providers/in-app-browser/in-app-browser.ts:57:          // script that executes inside of inappbrowser when loaded
+src/providers/in-app-browser/in-app-browser.ts:95:      // providing two ways to get ref - caching it here and also returning it
+src/providers/errors/errors.ts:3:// providers
+src/providers/color/color.ts:6:  // 3 digits
+src/providers/color/color.ts:12:    // 6 digits
+src/providers/color/color.ts:31:  // http://www.w3.org/TR/AERT#color-contrast
+src/providers/key/key.spec.ts:3:// Providers
+src/providers/key/key.spec.ts:560:        expect(err).toBeDefined(); // 'No password'
+src/providers/key/key.spec.ts:597:        expect(err).toBeDefined(); // 'No password'
+src/providers/key/key.spec.ts:614:        expect(err).toBeDefined(); // wrong password'
+src/providers/key/key.ts:5:// Providers
+src/providers/key/key.ts:81:      // only for encrypt/decrypt
+src/providers/key/key.ts:153:  // An alert dialog
+src/providers/key/key.ts:293:    // return this.Key.match(key1, key2); TODO needs to be fixed on bwc
+src/providers/bitpay-card/bitpay-card.ts:4:// providers
+src/providers/bitpay-card/bitpay-card.ts:208:        // code...
+src/providers/bitpay-card/bitpay-card.ts:219:    // Get Debit Cards
+src/providers/bitpay-card/bitpay-card.ts:269:    // Sets a currency symbol.
+src/providers/bitpay-card/bitpay-card.ts:270:    // Uses the currency code if no symbol is mapped (should never happen).
+src/providers/bitpay-card/bitpay-card.ts:271:    // Backwards compatibility for FirstView cards (all USD).
+src/providers/bitpay-card/bitpay-card.ts:272:    // This avoids users having to re-pair their account.
+src/providers/bitpay-card/bitpay-card.ts:279:  // opts: range
+src/providers/bitpay-card/bitpay-card.ts:303:          // Get invoices
+src/providers/bitpay-card/bitpay-card.ts:317:              // Get transactions History list
+src/providers/bitpay-card/bitpay-card.ts:422:  // get all cards, for all accounts.
+src/providers/bitpay-card/bitpay-card.ts:478:          this.homeIntegrationsProvider.updateLink('debitcard', null); // Name, linked
+src/providers/bitpay-card/bitpay-card.ts:481:        this.homeIntegrationsProvider.updateLink('debitcard', true); // Name, linked
+src/providers/bitpay-card/bitpay-card.ts:505:            // async refresh
+src/providers/bitpay-card/bitpay-card.ts:537:/*
+src/providers/currency/token.ts:8:export const TokensListAPIUrl = 'https://api.1inch.exchange/v3.0/1/tokens';
+src/providers/currency/coin.ts:4:  // Bitcore-node
+src/providers/currency/coin.ts:9:    // Config/Precision
+src/providers/currency/coin.ts:16:    // Properties
+src/providers/currency/coin.ts:28:    // Urls
+src/providers/currency/coin.ts:34:    // Fee Units
+src/providers/currency/coin.ts:69:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/btc',
+src/providers/currency/coin.ts:106:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/bch',
+src/providers/currency/coin.ts:143:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/eth',
+src/providers/currency/coin.ts:180:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/xrp',
+src/providers/currency/coin.ts:217:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/busd',
+src/providers/currency/coin.ts:254:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/pax',
+src/providers/currency/coin.ts:291:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/usdc',
+src/providers/currency/coin.ts:328:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/gusd',
+src/providers/currency/coin.ts:365:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/gusd',
+src/providers/currency/coin.ts:376:      coinColor: '#00ddfa', // TODO: change to proper color after beta
+src/providers/currency/coin.ts:377:      backgroundColor: '#00dcfa', // TODO: change to proper color after beta
+src/providers/currency/coin.ts:378:      gradientBackgroundColor: '#00dcfa' // TODO: change to proper color after beta
+src/providers/currency/coin.ts:402:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/btc',
+src/providers/currency/coin.ts:413:      coinColor: '#00ddfa', // TODO: change to proper color after beta
+src/providers/currency/coin.ts:414:      backgroundColor: '#00dcfa', // TODO: change to proper color after beta
+src/providers/currency/coin.ts:415:      gradientBackgroundColor: '#00dcfa' // TODO: change to proper color after beta
+src/providers/currency/coin.ts:439:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/doge',
+src/providers/currency/coin.ts:476:      ratesApi: 'https://bws.bitpay.com/bws/api/v3/fiatrates/ltc',
+src/providers/index.ts:1:// import { from } from 'rxjs/observable/from';
+src/providers/index.ts:3:/* Native modules */
+src/providers/index.ts:19:/* Providers */
+src/providers/gift-card/gift-card.ts:494:    // Continues normal flow (update card)
+src/providers/gift-card/gift-card.ts:503:    // Check if card status FAILURE for 24 hours
+src/providers/gift-card/gift-card.ts:510:    // Success: do not update
+src/providers/gift-card/gift-card.ts:907:  // For cards bought outside of the user's current IP catalog area before server-side
+src/providers/gift-card/gift-card.ts:908:  // catalog management was implemented and card images were stored locally.
+src/providers/gift-card/gift-card.ts:910:    const cardImagePath = `https://bitpay.com/gift-cards/assets/`;
+src/providers/gift-card/gift-card.ts:927:    !cardConfig.cardImage.includes('https://bitpay.com');
+src/providers/gift-card/gift-card.types.ts:74:  brand?: string; // deprecated
+src/providers/gift-card/gift-card.spec.ts:85:        cardImage: 'https://amazon-card-image',
+src/providers/gift-card/gift-card.spec.ts:90:        icon: 'https://amazon-icon',
+src/providers/gift-card/gift-card.spec.ts:91:        logo: 'https://amazon-logo',
+src/providers/gift-card/gift-card.spec.ts:93:        redeemUrl: 'https://amazon-redeem',
+src/providers/persistence/storage/local-storage.ts:23:      // TODO parse is not necessary
+src/providers/persistence/storage/file-storage.ts:38:  // See https://github.com/apache/cordova-plugin-file/#where-to-store-files
+src/providers/persistence/storage/file-storage.ts:59:      // TODO parse is not necessary
+src/providers/persistence/storage/file-storage.ts:120:              // Not found
+src/providers/persistence/storage/file-storage.ts:135:          // Create a FileWriter object for our FileEntry (log.txt).
+src/providers/persistence/persistence.ts:10:// TODO import { RamStorage } from './storage/ram-storage';
+src/providers/persistence/persistence.ts:31:  GIFT_CARD_USER_INFO: 'amazonUserInfo', // keeps legacy key for backwards compatibility
+src/providers/persistence/persistence.ts:282:    phoneCountryCode: string; // e.g. 1
+src/providers/persistence/persistence.ts:283:    countryIsoCode: string; // e.g. 'US'
+src/providers/persistence/persistence.ts:368:  // for compatibility
+src/providers/persistence/persistence.ts:480:    // 50MB
+src/providers/persistence/persistence.ts:620:      familyName?: string; // last name
+src/providers/persistence/persistence.ts:621:      givenName?: string; // firstName,
+src/providers/persistence/persistence.ts:667:  // cards: [
+src/providers/persistence/persistence.ts:668:  //   eid: card id
+src/providers/persistence/persistence.ts:669:  //   id: card id
+src/providers/persistence/persistence.ts:670:  //   lastFourDigits: card number
+src/providers/persistence/persistence.ts:671:  //   token: card token
+src/providers/persistence/persistence.ts:672:  //   email: account email
+src/providers/persistence/persistence.ts:673:  // ]
+src/providers/persistence/persistence.ts:679:          // Add account's email to each card
+src/providers/simplex/simplex.ts:6:// providers
+src/providers/simplex/simplex.ts:17:const PASSTHROUGH_URI_DEV = 'https://cmgustavo.github.io/website/simplex/';
+src/providers/simplex/simplex.ts:18:const PASSTHROUGH_URI_PROD = 'https://bws.bitpay.com/static/simplex/';
+src/providers/simplex/simplex.ts:129:      ? 'https://sandbox.test-simplexcc.com'
+src/providers/simplex/simplex.ts:130:      : 'https://checkout.simplexcc.com';
+src/providers/simplex/simplex.ts:234:          user_agent: userAgent, // Format: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0'
+src/providers/simplex/simplex.ts:254:          original_http_ref_url: 'https://' + this.passthrough_uri
+src/providers/download/download.ts:38:        // InvalidStateError (tested on FF13 WinXP)
+src/providers/download/download.ts:44:        // We're screwed, blob constructor unsupported entirely
+src/providers/email-notifications/email-notifications.ts:4:// providers
+src/providers/email-notifications/email-notifications.ts:27:      emailFor: null, // Backward compatibility
+src/providers/email-notifications/email-notifications.ts:55:    // Backward compatibility
+src/providers/email-notifications/email-notifications.ts:68:      // If email already set
+src/providers/release/release.ts:8:  private latestReleaseAPIUrl = 'https://bws.bitpay.com/bws/api/latest-version';
+src/providers/release/release.spec.ts:59:      'https://bws.bitpay.com/bws/api/latest-version'
+src/providers/bitpay/bitpay.ts:5:// providers
+src/providers/bitpay/bitpay.ts:26:        ? 'https://bitpay.com'
+src/providers/bitpay/bitpay.ts:27:        : 'https://test.bitpay.com';
+src/providers/rate/rate.ts:9:const EXPIRATION_TIME_MS = 5 * 60 * 1000; // 5min
+src/providers/rate/rate.ts:88:              // set alternative currency list
+src/providers/rate/rate.ts:260:      // This pulls ALL coins in one query
+src/providers/rate/rate.spec.ts:61:  // const daiResponse = [{ code: 'DAI', name: 'Dai Coin', rate: 9371.93 }];
+src/providers/rate/rate.spec.ts:62:  // const wbtcResponse = [
+src/providers/rate/rate.spec.ts:63:  //   { code: 'WBTC', name: 'WBTC', rate: 9371.93 } // TODO update tests after beta and market monintor implemented
+src/providers/rate/rate.spec.ts:70:  let btcUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/btc';
+src/providers/rate/rate.spec.ts:71:  let bchUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/bch';
+src/providers/rate/rate.spec.ts:72:  let ethUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/eth';
+src/providers/rate/rate.spec.ts:73:  let xrpUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/xrp';
+src/providers/rate/rate.spec.ts:74:  let paxUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/pax';
+src/providers/rate/rate.spec.ts:75:  let usdcUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/usdc';
+src/providers/rate/rate.spec.ts:76:  let gusdUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/gusd';
+src/providers/rate/rate.spec.ts:77:  let busdUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/busd';
+src/providers/rate/rate.spec.ts:78:  let dogeUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/doge';
+src/providers/rate/rate.spec.ts:79:  // let daiUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/dai';
+src/providers/rate/rate.spec.ts:80:  // let wbtcUrl: string = 'https://bws.bitpay.com/bws/api/v3/fiatrates/wbtc';
+src/providers/rate/rate.spec.ts:83:    'https://bws.bitpay.com/bws/api/v1/fiatrates/USD?coin=btc&ts=1559315523000';
+src/providers/rate/rate.spec.ts:105:      // httpMock.match(daiUrl)[0].flush(daiResponse);
+src/providers/rate/rate.spec.ts:106:      // httpMock.match(wbtcUrl)[0].flush(wbtcResponse);
+src/providers/rate/rate.spec.ts:132:      // httpMock.match(daiUrl)[0].flush(daiResponse);
+src/providers/rate/rate.spec.ts:133:      // httpMock.match(wbtcUrl)[0].flush(wbtcResponse);
+src/providers/rate/rate.spec.ts:159:      // httpMock.match(daiUrl)[0].flush(daiResponse);
+src/providers/rate/rate.spec.ts:160:      // httpMock.match(wbtcUrl)[0].flush(wbtcResponse);
+src/providers/rate/rate.spec.ts:186:      // httpMock.match(daiUrl)[0].flush(daiResponse);
+src/providers/rate/rate.spec.ts:187:      // httpMock.match(wbtcUrl)[0].flush(wbtcResponse);
+src/providers/rate/rate.spec.ts:210:      // httpMock.match(daiUrl)[0].flush(daiResponse);
+src/providers/rate/rate.spec.ts:211:      // httpMock.match(wbtcUrl)[0].flush(wbtcResponse);
+src/providers/rate/rate.spec.ts:269:    // before we have rates
+src/providers/rate/rate.spec.ts:272:    // after we have rates
+src/providers/rate/rate.spec.ts:290:      // httpMock.match(busdUrl)[0].flush(daiResponse);
+src/providers/rate/rate.spec.ts:291:      // httpMock.match(busdUrl)[0].flush(wbtcResponse);
+src/providers/rate/rate.spec.ts:297:    // before we have rates
+src/providers/rate/rate.spec.ts:301:      // after we have rates
+src/providers/rate/rate.spec.ts:323:    // before we have rates
+src/providers/rate/rate.spec.ts:326:      // after we have rates
+src/providers/rate/rate.spec.ts:348:    // before we have rates
+src/providers/rate/rate.spec.ts:351:      // after we have rates
+src/providers/rate/rate.spec.ts:373:    // before we have rates
+src/providers/rate/rate.spec.ts:376:      // after we have rates
+src/providers/rate/rate.spec.ts:398:    // before we have rates
+src/providers/rate/rate.spec.ts:401:      // after we have rates
+src/providers/rate/rate.spec.ts:423:    // before we have rates
+src/providers/rate/rate.spec.ts:426:      // after we have rates
+src/providers/rate/rate.spec.ts:448:    // before we have rates
+src/providers/rate/rate.spec.ts:451:      // after we have rates
+src/providers/rate/rate.spec.ts:473:    // before we have rates
+src/providers/rate/rate.spec.ts:477:      // after we have rates
+src/providers/rate/rate.spec.ts:518:    // before we have rates
+src/providers/rate/rate.spec.ts:522:        // after we have rates
+src/providers/rate/rate.spec.ts:525:        // hit the if in whenRatesAvailable
+src/providers/profile/profile.ts:7:// providers
+src/providers/profile/profile.ts:27:// models
+src/providers/profile/profile.ts:48:  public walletsGroups: WalletGroups = {}; // TODO walletGroups Class
+src/providers/profile/profile.ts:90:      // just put the Id is the prev fails
+src/providers/profile/profile.ts:120:    // this.config.whenAvailable( (config) => { TODO
+src/providers/profile/profile.ts:130:    // for token wallets
+src/providers/profile/profile.ts:168:      this.setOrderedWalletsByGroup(); // Update Ordered Wallet List
+src/providers/profile/profile.ts:175:    this.setOrderedWalletsByGroup(); // Update Ordered Wallet List
+src/providers/profile/profile.ts:327:    // Workaround to avoid wrong order relatad to async functions
+src/providers/profile/profile.ts:331:    // INIT WALLET VIEWMODEL
+src/providers/profile/profile.ts:356:    // INIT WALLET GROUP VIEWMODEL
+src/providers/profile/profile.ts:378:        // use wallets name for wallets group name at migration
+src/providers/profile/profile.ts:414:    // If this is a token wallet, no need to initialize the rest
+src/providers/profile/profile.ts:423:    // Desktop: only use this 'notification' event
+src/providers/profile/profile.ts:424:    // Mobile: use this event in case push notification is not enabled; otherwise use push notifications
+src/providers/profile/profile.ts:440:        // TODO many NewBlocks notifications...if many blocks
+src/providers/profile/profile.ts:491:    /* Allow account creation only for wallets:
+src/providers/profile/profile.ts:715:    // IOS devices are already checked
+src/providers/profile/profile.ts:774:    // if the key is already encrypted, keep it that way for new wallets
+src/providers/profile/profile.ts:777:    // do not request encryption if wallets were already created without it
+src/providers/profile/profile.ts:808:      // re-import attempt
+src/providers/profile/profile.ts:825:    // Encrypt wallet
+src/providers/profile/profile.ts:835:          // Skip if wallet multisig already exists with another key
+src/providers/profile/profile.ts:841:        this.setOrderedWalletsByGroup(); // Update Ordered Wallet List
+src/providers/profile/profile.ts:884:  // Adds and bind a new client to the profile
+src/providers/profile/profile.ts:913:        this.setOrderedWalletsByGroup(); // Update Ordered Wallet List
+src/providers/profile/profile.ts:926:    // Dont save the default
+src/providers/profile/profile.ts:939:    ); // disabled for now
+src/providers/profile/profile.ts:984:      // If the key already exists, bind the new wallets to it.
+src/providers/profile/profile.ts:986:      // skip if re-importing to clear encrypt
+src/providers/profile/profile.ts:1006:      // If the key already exists, bind the new wallets to it.
+src/providers/profile/profile.ts:1008:      // skip if re-importing to clear encrypt
+src/providers/profile/profile.ts:1082:        // re-import attempt
+src/providers/profile/profile.ts:1132:          // check if the key exists to just add the wallet
+src/providers/profile/profile.ts:1135:            // skip if re-importing to clear encrypt
+src/providers/profile/profile.ts:1155:        // old format ? root = credentials.
+src/providers/profile/profile.ts:1157:          // needs to migrate?
+src/providers/profile/profile.ts:1180:          'Backup format not recognized. If you are using a Copay Beta backup and version is older than 0.10, please see: https://github.com/bitpay/copay/issues/4730#issuecomment-244522614'
+src/providers/profile/profile.ts:1200:  // opts.words opts.xPrivKey
+src/providers/profile/profile.ts:1206:          baseUrl: opts.bwsurl // clientOpts
+src/providers/profile/profile.ts:1225:    // \u3000: A space of non-variable width: used in Chinese, Japanese, Korean
+src/providers/profile/profile.ts:1257:        this.setOrderedWalletsByGroup(); // Update Ordered Wallet List When App Start
+src/providers/profile/profile.ts:1288:        // Only RO wallets.
+src/providers/profile/profile.ts:1302:    // OLD flag
+src/providers/profile/profile.ts:1331:    // Create the client
+src/providers/profile/profile.ts:1369:      // Deprecated: storageService.tryToMigrate
+src/providers/profile/profile.ts:1381:          // Check if wallet exists
+src/providers/profile/profile.ts:1390:              // re-import attempt
+src/providers/profile/profile.ts:1444:      // Token wallet?
+src/providers/profile/profile.ts:1456:          // new BWC 8.23 api
+src/providers/profile/profile.ts:1558:  // Creates a wallet on BWC/BWS and store it
+src/providers/profile/profile.ts:1606:                  // try with account + 1
+src/providers/profile/profile.ts:1616:                  // Set default preferences.
+src/providers/profile/profile.ts:1622:                    unit: 'btc' // deprecated
+src/providers/profile/profile.ts:1641:  // joins and stores a wallet
+src/providers/profile/profile.ts:1650:        // check if exist
+src/providers/profile/profile.ts:1666:      /* TODO: opts.n is just used to determinate if the wallet is multisig (m/48'/xx) or single sig (m/44')
+src/providers/profile/profile.ts:1683:                  // try with account + 1
+src/providers/profile/profile.ts:1741:    this.setOrderedWalletsByGroup(); // Update Ordered Wallet List
+src/providers/profile/profile.ts:1751:    this.setOrderedWalletsByGroup(); // Update Ordered Wallet List
+src/providers/profile/profile.ts:1787:    // Add the token info to the ethWallet.
+src/providers/profile/profile.ts:1809:    // Add the token info to the ethWallet.
+src/providers/profile/profile.ts:1856:          newOpts['key'] = key; // Add Key
+src/providers/profile/profile.ts:1864:            // Handle tokens
+src/providers/profile/profile.ts:1904:        // Encrypt wallet
+src/providers/profile/profile.ts:1924:        // Encrypt wallet
+src/providers/profile/profile.ts:1946:    // Add cached balance async
+src/providers/profile/profile.ts:1949:        // this.logger.debug("Last known balance for ",x.id,datum);
+src/providers/profile/profile.ts:1962:    // workaround to get wallets and wallets groups in the correct order
+src/providers/profile/profile.ts:2051:        // IF no cached Status => return true!
+src/providers/profile/profile.ts:2060:        // IF no cached Status => return true!
+src/providers/profile/profile.ts:2068:      // remove hidden wallets
+src/providers/profile/profile.ts:2081:      // grab walletIds from current wallet for this token (if any)
+src/providers/profile/profile.ts:2144:    this.setOrderedWalletsByGroup(); // Update Ordered Wallet List
+src/providers/profile/profile.ts:2179:  // Checks to see if a wallet exists with minimim fiat amount's worth in it (to pay invoice, for example)
+src/providers/profile/profile.spec.ts:8:// Models
+src/providers/profile/profile.spec.ts:11:// Providers
+src/providers/profile/profile.spec.ts:53:        availableBalanceSat: 1000000000 // 10 BTC
+src/providers/profile/profile.spec.ts:89:        availableBalanceSat: 500000000 // 5 BCH
+src/providers/profile/profile.spec.ts:120:        availableBalanceSat: 150000000 // 1.50 BTC
+src/providers/profile/profile.spec.ts:213:          n = undefined; // undefined
+src/providers/profile/profile.spec.ts:259:    //    xPrivKey: 'xPrivKey',  // xxPrivKey is no longer available directly as for BWC 9.4
+src/providers/profile/profile.spec.ts:839:        bwsurl: 'https://bws.bitpay.com/bws/api',
+src/providers/profile/profile.spec.ts:863:        bwsurl: 'https://bws.bitpay.com/bws/api',
+src/providers/profile/profile.spec.ts:887:        bwsurl: 'https://bws.bitpay.com/bws/api',
+src/providers/profile/profile.spec.ts:911:        bwsurl: 'https://bws.bitpay.com/bws/api',
+src/providers/profile/profile.spec.ts:1257:      platformProvider.isElectron = true; // To specifies that is desktop
+src/providers/profile/profile.spec.ts:1265:        bwsurl: 'https://bws.bitpay.com/bws/api',
+src/providers/profile/profile.spec.ts:1283:      // Using createWallet just to test showDesktopNotifications private function
+src/providers/profile/profile.spec.ts:1302:      // Using createWallet just to test showDesktopNotifications private function
+src/providers/profile/profile.spec.ts:1317:      // Using createWallet just to test showDesktopNotifications private function
+src/providers/profile/profile.spec.ts:1341:      // Using createWallet just to test showDesktopNotifications private function
+src/providers/profile/profile.spec.ts:1358:      // Using createWallet just to test showDesktopNotifications private function
+src/providers/profile/profile.spec.ts:1373:      // Using createWallet just to test showDesktopNotifications private function
+src/providers/profile/profile.spec.ts:1388:      // Using createWallet just to test showDesktopNotifications private function
+src/providers/profile/profile.spec.ts:1410:        // The all wallets have more than 10 BOB worth of btc.
+src/providers/profile/profile.spec.ts:1418:        // The wallet w/ 10 btc should equate to 123 * 10 bob, which would result in this returning true
+src/providers/profile/profile.spec.ts:1426:        // The wallet w/ 10 btc is the biggest wallet. So no wallets are able to pay 1231 BOB.
+src/providers/buy-crypto/buy-crypto.ts:6:// providers
+src/providers/buy-crypto/buy-crypto.ts:19:  // private baseUrl: string = 'http://localhost:3232/bws/api'; // testing
+src/providers/buy-crypto/buy-crypto.ts:20:  private baseUrl: string = 'https://bws.bitpay.com/bws/api';
+src/providers/buy-crypto/buy-crypto.ts:54:          simplex: true, // EU Only
+src/providers/buy-crypto/buy-crypto.ts:160:        // return all supported coins
+src/providers/wallet-connect/wallet-connect.ts:121:      this.address = accounts[0]; // TODO handle multiple accounts
+src/providers/wallet-connect/wallet-connect.ts:221:      // Sample Request
+src/providers/wallet-connect/wallet-connect.ts:222:      // {
+src/providers/wallet-connect/wallet-connect.ts:223:      // id: 1601004477618457
+src/providers/wallet-connect/wallet-connect.ts:224:      // jsonrpc: "2.0"
+src/providers/wallet-connect/wallet-connect.ts:225:      // method: "eth_sendTransaction"
+src/providers/wallet-connect/wallet-connect.ts:226:      // params: Array(1)
+src/providers/wallet-connect/wallet-connect.ts:227:      // 0:
+src/providers/wallet-connect/wallet-connect.ts:228:      // data: "0x095ea7b30000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+src/providers/wallet-connect/wallet-connect.ts:229:      // from: "0xf4e3dfd2c9a951928f8fd53a782e364945047d11"
+src/providers/wallet-connect/wallet-connect.ts:230:      // gas: "0xd78d"
+src/providers/wallet-connect/wallet-connect.ts:231:      // to: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+src/providers/wallet-connect/wallet-connect.ts:232:      // }
+src/providers/wallet-connect/wallet-connect.ts:363:        // nothing
+src/providers/wallet-connect/wallet-connect.ts:366:        // nothing
+src/providers/wallet-connect/web3-providers/web3-providers.ts:35:    rpc_url: 'https://mainnet.infura.io/v3/%API_KEY%',
+src/providers/wallet-connect/web3-providers/web3-providers.ts:51:    rpc_url: 'https://kovan.infura.io/v3/%API_KEY%',
+src/providers/platform/platform.ts:33:    // Fixes IOS WebKit UA
+src/providers/location/location.ts:17:          .get('https://bitpay.com/wallet-card/location')
+src/providers/wyre/wyre.ts:6:// providers
+src/providers/wyre/wyre.ts:11:const URI_DEV = 'https://api.testwyre.com';
+src/providers/wyre/wyre.ts:12:const URI_PROD = 'https://api.sendwyre.com';
+src/providers/wyre/wyre.ts:59:    // as: DIVISOR, MULTIPLIER, or PRICED
+src/providers/replace-parameters/replace-parameters.ts:1:/*
+src/test.ts:1:// This file is required by karma.conf.js and loads recursively all the .spec and framework files
+src/test.ts:3:// tslint:disable:ordered-imports
+src/test.ts:10:// tslint:enable:ordered-imports
+src/test.ts:111:// First, initialize the Angular testing environment.
+src/test.ts:116:// Then we find all the tests.
+src/test.ts:118:// And load the modules.
+src/test.ts:312:  // http://stackoverflow.com/questions/2705583/how-to-simulate-a-click-with-javascript
+src/environments/desktop.ts:4:/**
+src/environments/desktop.ts:8:  // Start with production config,
+src/environments/desktop.ts:10:  // override for desktop:
+src/environments/dev.ts:4:/**
+src/environments/dev.ts:8:  // Start with production config,
+src/environments/dev.ts:10:  // override for development:
+src/environments/prod.ts:3:/**
+src/environments/schema.ts:1:/**
+src/pipes/keys.ts:1:/*
+src/pipes/order-by.ts:1:/*
+src/pipes/order-by.ts:23:      // Isn't a number so lowercase the string to properly compare
+src/pipes/order-by.ts:27:      // Parse strings as numbers to compare properly
+src/pipes/order-by.ts:32:    return 0; // equal each other
+src/pipes/order-by.ts:45:      // Basic array
+src/pipes/order-by.ts:78:      // Loop over property of the array in order and sort
+src/pipes/order-by.ts:104:          // Don't return 0 yet in case of needing to sort by next property
+src/pipes/order-by.ts:108:        return 0; // equal each other
+src/theme/icons.scss:22:  /* use !important to prevent issues with browser extensions that change fonts */
+src/theme/icons.scss:31:  /* Better Font Rendering =========== */
+src/theme/mixins.scss:13:    // This line prevents an ugly gap from appearing between the
+src/theme/mixins.scss:14:    // navbar and page content when the user overscrolls on iOS
+src/theme/dark.scss:1:/* Index
+src/theme/dark.scss:38:  // 1 - Definitions
+src/theme/dark.scss:39:  // 1.1 - Backgrounds
+src/theme/dark.scss:49:  // 1.2 - Text
+src/theme/dark.scss:54:  // 1.3 - Messages
+src/theme/dark.scss:57:  // 1.4 - Borders
+src/theme/dark.scss:61:  // 1.5 - Slides
+src/theme/dark.scss:65:  // 1.6 - Toggles
+src/theme/dark.scss:68:  // 1.7 - Overriding Ionic Variables
+src/theme/dark.scss:73:  // TODO: Remove text opacity from default styles
+src/theme/dark.scss:102:  // 3 - General
+src/theme/dark.scss:352:  // 3.1 Lists
+src/theme/dark.scss:421:  // 3.2 - Label tip
+src/theme/dark.scss:455:  // 3.3 - General cards
+src/theme/dark.scss:512:  // 3.4 - Expandable header
+src/theme/dark.scss:539:  // 3.5 - Toolbar
+src/theme/dark.scss:616:  // 4 - Components
+src/theme/dark.scss:898:  // 5 - Tabs
+src/theme/dark.scss:899:  // 5.1 Tab Home
+src/theme/dark.scss:918:  // 5.15 Price Page
+src/theme/dark.scss:933:  // 5.2 - Tab Wallets
+src/theme/dark.scss:1280:  // 5.3 - Tab Cards
+src/theme/dark.scss:1392:  // 5.4 - Tab Settings
+src/theme/dark.scss:1513:  // 6 - Other Pages
+src/theme/dark.scss:1811:  // 7 - Buy Crypto
+src/theme/dark.scss:1860:  // 8 - Exchange Crypto
+src/theme/dark.scss:1878:  // 9 - Onboarding
+src/theme/dark.scss:1950:  // 10 - New Features Slides
+src/theme/variables.scss:1:// Ionic Variables and Theming. For more info, please see:
+src/theme/variables.scss:2:// http://ionicframework.com/docs/theming/
+src/theme/variables.scss:3:// Font path is used to include ionicons,
+src/theme/variables.scss:4:// roboto, and noto sans fonts
+src/theme/variables.scss:7:// The app direction is used to include
+src/theme/variables.scss:8:// rtl styles in your app. For more info, please see:
+src/theme/variables.scss:9:// http://ionicframework.com/docs/theming/rtl-support/
+src/theme/variables.scss:12:// Shared Variables
+src/theme/variables.scss:13:// --------------------------------------------------
+src/theme/variables.scss:14:// To customize the look and feel of this app, you can override
+src/theme/variables.scss:15:// the Sass variables found in Ionic's source scss files.
+src/theme/variables.scss:16:// To view all the possible Ionic variables, see:
+src/theme/variables.scss:17:// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+src/theme/variables.scss:18:// Override - Homogenized ionic component styles
+src/theme/variables.scss:26:// Colors
+src/theme/variables.scss:51:// Wallet-details
+src/theme/variables.scss:58:// Refresh color
+src/theme/variables.scss:62:// Toolbar
+src/theme/variables.scss:64:// Main color
+src/theme/variables.scss:66:// Border light
+src/theme/variables.scss:68:// Toolbar
+src/theme/variables.scss:71:// Onboarding colors
+src/theme/variables.scss:78:// Removes green border below the input (Android)
+src/theme/variables.scss:84:// App iOS Variables
+src/theme/variables.scss:85:// --------------------------------------------------
+src/theme/variables.scss:86:// iOS only Sass variables can go here
+src/theme/variables.scss:111:// App Material Design Variables
+src/theme/variables.scss:112:// --------------------------------------------------
+src/theme/variables.scss:113:// Material Design only Sass variables can go here
+src/theme/variables.scss:143:// $range-ios-knob-box-shadow: 3% solid white;
+src/theme/variables.scss:144:// App Windows Variables
+src/theme/variables.scss:145:// --------------------------------------------------
+src/theme/variables.scss:146:// Windows only Sass variables can go here
+src/theme/variables.scss:147:// App Theme
+src/theme/variables.scss:148:// --------------------------------------------------
+src/theme/variables.scss:149:// Ionic apps can have different themes applied, which can
+src/theme/variables.scss:150:// then be future customized. This import comes last
+src/theme/variables.scss:151:// so that the above variables are used and Ionic's
+src/theme/variables.scss:152:// default are overridden.
+src/theme/variables.scss:157:// Ionicons
+src/theme/variables.scss:158:// --------------------------------------------------
+src/theme/variables.scss:159:// The premium icon font for Ionic. For more info, please see:
+src/theme/variables.scss:160:// http://ionicframework.com/docs/ionicons/
+src/theme/variables.scss:162:// Fonts
+src/theme/variables.scss:163:// --------------------------------------------------
+src/theme/variables.scss:184:/* Ionic Overrides and Workarounds */
+src/theme/variables.scss:186:// Please include a description of the problem solved by the workaround.
+src/theme/variables.scss:187:// Hide scrollbars on platforms which don't match iOS, Android, or Windows
+src/theme/variables.scss:188:// (So scroll bars are not visible in Chrome, NW.js, or Electron.)
+src/theme/variables.scss:197:// Removes border-bottom
+src/theme/variables.scss:210:/* Fix iPhone X screen */
+src/theme/variables.scss:233:/* Force safe-area for iPhone X with ion-footer */
+src/theme/variables.scss:241:  // Titles centered on all headers for material design
+src/theme/variables.scss:243:    //material design only
+src/theme/variables.scss:251:      //material design only
+src/theme/light.scss:2:  // Overriding Ionic Variable
+src/validators/address.ts:3:// Providers
+src/components/wallet-receive/wallet-receive.html:56:        <img *ngIf="wallet.coin && !currencyProvider.COIN[wallet.coin | uppercase]" src="https://tokens.1inch.exchange/{{currencyProvider.getTokenAddress(wallet.coin)}}.png" onerror="this.onerror=null;this.src='assets/img/icon-swap.svg'" slot="icon"/>
+src/components/wallet-receive/wallet-receive.ts:5:// Providers
+src/components/wallet-receive/wallet-receive.ts:126:          // Generate new address if the first one is invalid ( fix for concatenated addresses )
+src/components/wallet-receive/wallet-receive.ts:132:          this.setAddress(false); // failed to generate new address -> get last saved address
+src/components/wallet-receive/wallet-receive.ts:134:          this.setAddress(false); // failed to generate new address -> get last saved address
+src/components/info-sheet/info-sheet.html:389:        <a class="label-tip-link" (click)="openInBrowser('https://support.bitpay.com/hc/en-us/articles/360028824532-Why-can-t-I-pay-a-BitPay-invoice-using-RBF-')" translate>Read more</a>
+src/components/info-sheet/info-sheet.html:407:        <a class="label-tip-link" (click)="openInBrowser('https://support.bitpay.com/hc/en-us/articles/115002990803-What-is-the-Network-Cost-fee-on-BitPay-invoices-and-why-is-BitPay-charging-it')" translate>Read more</a>
+src/components/info-sheet/info-sheet.html:416:        <a class="label-tip-link" (click)="openInBrowser('https://support.bitpay.com/hc/en-us/articles/115003393863-What-are-bitcoin-miner-fees-')" translate>Read more</a>
+src/components/needs-backup/needs-backup.ts:5:// Providers
+src/components/expandable-header/expandable-header.ts:33:  /**
+src/components/expandable-header/expandable-header.ts:40:  /**
+src/components/expandable-header/expandable-header.ts:50:  /**
+src/components/wallet-item-content/wallet-item-content.ts:3:// providers
+src/components/wallet-item-content/wallet-item-content.ts:29:      // New created wallet does not have "lastkKnownBalance"
+src/components/email-component/email-component.ts:40:    let url = 'https://bitpay.com/about/privacy';
+src/components/label-tip/label-tip.scss:31:  // Remove arrowhead from label
+src/components/exchange-rates/exchange-rates.ts:71:    // TODO: Add a new endpoint in BWS that
+src/components/exchange-rates/exchange-rates.ts:72:    // provides JUST  the current prices and the delta.
+src/components/encrypt-password/encrypt-password.scss:6:      padding-top: 3rem; // Fix iOS 10.3
+src/components/encrypt-password/encrypt-password.scss:64:            padding-top: 3rem; // Fix iOS 10.3
+src/components/coin-icon/coin-icon.html:6:  <img src="https://tokens.1inch.exchange/{{currencyProvider.getTokenAddress(coin)}}.png" onerror="this.onerror=null;this.src='assets/img/icon-swap.svg'" />
+src/components/action-sheet/action-sheet.scss:59:    /* visible */
+src/components/action-sheet/action-sheet.scss:65:      /* completely offscreen */
+src/components/action-sheet/action-sheet.scss:71:      /* completely offscreen */
+src/components/miner-fee-warning/miner-fee-warning.ts:27:      'https://support.bitpay.com/hc/en-us/articles/115004439366-Why-is-my-recommended-bitcoin-miner-fee-so-high-';
+src/components/miner-fee-warning/miner-fee-warning.scss:6:      padding-top: 3rem; // Fix iOS 10.3
+src/pages/add-wallet/add-wallet.ts:5:// pages
+src/pages/add-wallet/add-wallet.ts:10:// providers
+src/pages/feedback/send-feedback/send-feedback.html:74:    <div *ngIf="score != 3" class="user-feedback-card" (click)="showInfoSheet('request-feature', 'https://bitpay.canny.io/feature-request')">
+src/pages/feedback/send-feedback/send-feedback.html:89:    <div *ngIf="score != 3" class="user-feedback-card" (click)="showInfoSheet('report-issue', 'https://bitpay.com/request-help/wizard?category=wallet')">
+src/pages/feedback/send-feedback/send-feedback.ts:8:// native
+src/pages/feedback/send-feedback/send-feedback.ts:12:// providers
+src/pages/feedback/send-feedback/send-feedback.ts:25:// pages
+src/pages/feedback/send-feedback/send-feedback.ts:155:        .match(/(Electron[\/]\d+(\.\d)*)/i)[0]; // getDeviceInfo example: 5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Copay/5.1.0 Chrome/66.0.3359.181 Electron/3.0.8 Safari/537.36
+src/pages/feedback/send-feedback/send-feedback.ts:211:        // Click on Get Help
+src/pages/feedback/send-feedback/send-feedback.ts:212:        this.openExternalLink('https://support.bitpay.com/hc/en-us');
+src/pages/feedback/send-feedback/send-feedback.spec.ts:39:        instance.openExternalLink('https://bitpay.canny.io');
+src/pages/feedback/send-feedback/send-feedback.spec.ts:40:        expect(openLink).toHaveBeenCalledWith('https://bitpay.canny.io');
+src/pages/slide-to-accept/slide-to-accept.ts:118:      // Adjust displacement to consider the delta value
+src/pages/slide-to-accept/slide-to-accept.ts:120:      // Use resource inexpensive translation to perform the sliding
+src/pages/slide-to-accept/slide-to-accept.ts:129:      // Move the element while the drag position is less than xMax
+src/pages/slide-to-accept/slide-to-accept.ts:130:      // -delta/2 is a necessary adjustment
+src/pages/slide-to-accept/slide-to-accept.ts:137:        // Set element styles
+src/pages/slide-to-accept/slide-to-accept.ts:152:      // If the max displacement position is reached
+src/pages/slide-to-accept/slide-to-accept.ts:159:    // Only reset if button sliding is not done yet
+src/pages/slide-to-accept/slide-to-accept.ts:162:      // Reset state variables
+src/pages/slide-to-accept/slide-to-accept.ts:163:      // Resets button position
+src/pages/slide-to-accept/slide-to-accept.scss:84:      // &:hover, &:active, &:focus {
+src/pages/slide-to-accept/slide-to-accept.scss:85:      //   .button-slider {
+src/pages/slide-to-accept/slide-to-accept.scss:86:      //     animation: bounce 1s;
+src/pages/slide-to-accept/slide-to-accept.scss:87:      //   }
+src/pages/slide-to-accept/slide-to-accept.scss:88:      // }
+src/pages/slide-to-accept/slide-to-accept.scss:90:      ///// Animation ///////
+src/pages/slide-to-accept/slide-to-accept.scss:99:      ///////////////////////
+src/pages/tx-details/tx-details.html:147:        <a class="positive" (click)="openExternalLink('https://support.bitpay.com/hc/en-us/articles/360025484512-Missing-transactions-Why-is-my-transaction-unconfirmed-')">
+src/pages/tx-details/tx-details.ts:12:// Providers
+src/pages/tx-details/tx-details.ts:121:      'https://support.bitpay.com/hc/en-us/articles/115004497783-What-does-the-BitPay-wallet-s-warning-amount-too-low-to-spend-mean-';
+src/pages/tx-details/tx-details.ts:310:            ? `https://${this.blockexplorerUrl}dogecoin/transaction/${btx.txid}`
+src/pages/tx-details/tx-details.ts:311:            : `https://${this.blockexplorerUrlTestnet}tx/DOGETEST/${btx.txid}`;
+src/pages/tx-details/tx-details.ts:316:            ? `https://${this.blockexplorerUrl}tx/${btx.txid}`
+src/pages/tx-details/tx-details.ts:317:            : `https://${this.blockexplorerUrlTestnet}tx/${btx.txid}`;
+src/pages/pin/pin-modal/pin-modal.ts:172:      // totalSecs should never be negative
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:7:// Pages
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:12:// Providers
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:174:                  // changellyFee and apiExtraFee (Bitpay fee) are in percents
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:199:                this.payinExtraId = data.result.payinExtraId; // (destinationTag) Used for coins like: XRP, XLM, EOS, IGNIS, BNB, XMR, ARDOR, DCT, XEM
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:216:                // To Sat
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:303:        this.rate = Number(data.result[0].result); // result == rate
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:333:        /* later */
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:369:        excludeUnconfirmedUtxos: true, // Do not use unconfirmed UTXOs
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:405:          txp.feeLevel = 'priority'; // Avoid expired order due to slow TX confirmation
+src/pages/exchange-crypto/exchange-crypto.ts:6:// Pages
+src/pages/exchange-crypto/exchange-crypto.ts:11:// Providers
+src/pages/exchange-crypto/exchange-crypto.ts:267:    this.toWalletSelected = null; // Clear variable to select wallet again
+src/pages/exchange-crypto/exchange-crypto.ts:268:    this.amountFrom = null; // Clear amount and rate to avoid mistakes
+src/pages/exchange-crypto/exchange-crypto.ts:307:            url = 'https://support.changelly.com/en/support/tickets/new';
+src/pages/exchange-crypto/exchange-crypto.ts:321:          const url = 'https://support.changelly.com/en/support/tickets/new';
+src/pages/exchange-crypto/exchange-crypto.ts:544:        this.rate = Number(data.result[0].result); // result == rate
+src/pages/exchange-crypto/exchange-crypto.ts:582:              excludeUnconfirmedUtxos: true, // Do not use unconfirmed UTXOs
+src/pages/exchange-crypto/exchange-crypto-settings/exchange-crypto-settings.ts:5:// Pages
+src/pages/exchange-crypto/exchange-crypto-settings/exchange-crypto-settings.ts:8:// Providers
+src/pages/exchange-crypto/exchange-crypto-settings/exchange-crypto-settings.ts:47:      // this.shpeshiftSwapTxs = res.shpeshiftSwapTxs;
+src/pages/wallets/wallets.spec.ts:34:        /* it('should subscribe to events', () => {
+src/pages/wallets/proposals-notifications/proposals-notifications.ts:13:// providers
+src/pages/wallets/proposals-notifications/proposals-notifications.ts:27:// pages
+src/pages/wallets/proposals-notifications/proposals-notifications.ts:97:    // Update Wallet on Focus
+src/pages/wallets/proposals-notifications/proposals-notifications.ts:161:          // Check if txp were checked before
+src/pages/wallets/proposals-notifications/proposals-notifications.ts:310:        // own TxActions  are not triggered?
+src/pages/wallets/wallets.ts:12:// Pages
+src/pages/wallets/wallets.ts:21:// Providers
+src/pages/wallets/wallets.ts:88:    // Get Coinbase Accounts and UserInfo
+src/pages/wallets/wallets.ts:184:      // BWS Events: Update Status per Wallet -> Update txps
+src/pages/wallets/wallets.ts:185:      // NewBlock, NewCopayer, NewAddress, NewTxProposal, TxProposalAcceptedBy, TxProposalRejectedBy, txProposalFinallyRejected,
+src/pages/wallets/wallets.ts:186:      // txProposalFinallyAccepted, TxProposalRemoved, NewIncomingTx, NewOutgoingTx
+src/pages/wallets/wallets.ts:189:      // Reject, Remove, OnlyPublish and SignAndBroadcast -> Update Status per Wallet -> Update txps
+src/pages/wallets/wallets.ts:192:      // Wallet is focused on some inner view, therefore, we refresh its status and txs
+src/pages/wallets/wallets.ts:220:  // BWS events can come many at time (publish,sign, broadcast...)
+src/pages/wallets/wallets.ts:222:    // NewBlock, NewCopayer, NewAddress, NewTxProposal, TxProposalAcceptedBy, TxProposalRejectedBy, txProposalFinallyRejected,
+src/pages/wallets/wallets.ts:223:    // txProposalFinallyAccepted, TxProposalRemoved, NewIncomingTx, NewOutgoingTx
+src/pages/wallets/wallets.ts:283:    // Fire a startup event, to allow UI to show the spinner
+src/pages/wallets/wallets.ts:309:  // Names:
+src/pages/wallets/wallets.ts:310:  // .fetch => from BWS
+src/pages/wallets/wallets.ts:311:  // .update => to UI
+src/pages/wallets/wallets.ts:312:  /* This is the only .getStatus call in Copay */
+src/pages/wallets/wallets.ts:345:        // Update txps
+src/pages/wallets/wallets.scss:65:  // Styles for integrations
+src/pages/scan/scan.ts:5:// providers
+src/pages/scan/scan.ts:127:    // try initializing and refreshing status any time the view is entered
+src/pages/scan/scan.ts:171:    // This event is only used within Cordova apps running on Android and
+src/pages/scan/scan.ts:172:    // Windows platforms. This event is not fired on iOS since iOS doesn't come with a hardware back button
+src/pages/scan/scan.ts:192:    // always update the view
+src/pages/scan/scan.ts:224:        // resume preview if paused
+src/pages/scan/scan.ts:265:      this.navCtrl.parent.select(1); // Workaround to avoid keep camera active
+src/pages/scan/scan.scss:82:    // view background is transparent to show video preview
+src/pages/scan/scan.scss:127:        // hover for desktop only
+src/pages/scan/scan.scss:128:        /*body:not(.platform-cordova) &:hover {
+src/pages/scan/scan.scss:159:        /* bring your own prefixes */
+src/pages/fingerprint/fingerprint.ts:4:// Providers
+src/pages/txp-details/txp-details.ts:11:// providers
+src/pages/txp-details/txp-details.ts:25:// pages
+src/pages/txp-details/txp-details.ts:95:    // To test multiple outputs...
+src/pages/txp-details/txp-details.ts:97:    // var txp = {
+src/pages/txp-details/txp-details.ts:98:    //   message: 'test multi-output',
+src/pages/txp-details/txp-details.ts:99:    //   fee: 1000,
+src/pages/txp-details/txp-details.ts:100:    //   createdOn: Math.floor(Date.now() / 1000),
+src/pages/txp-details/txp-details.ts:101:    //   outputs: [],
+src/pages/txp-details/txp-details.ts:102:    // };
+src/pages/txp-details/txp-details.ts:103:    // for (let i = 0; i < 15; i++) {
+src/pages/txp-details/txp-details.ts:105:    //   txp.outputs.push({
+src/pages/txp-details/txp-details.ts:106:    //     amountStr: "600 BTC",
+src/pages/txp-details/txp-details.ts:107:    //     toAddress: '2N8bhEwbKtMvR2jqMRcTCQqzHP6zXGToXcK',
+src/pages/txp-details/txp-details.ts:108:    //     message: 'output #' + (Number(i) + 1)
+src/pages/txp-details/txp-details.ts:109:    //   });
+src/pages/txp-details/txp-details.ts:110:    // };
+src/pages/txp-details/txp-details.ts:111:    // this.tx = _.merge(this.tx, txp);
+src/pages/txp-details/txp-details.ts:112:    // this.tx.hasMultiplesOutputs = true;
+src/pages/txp-details/txp-details.ts:467:        .multisigContractAddress, // address eth multisig contract
+src/pages/txp-details/txp-details.ts:469:        .multisigContractAddress, // address eth multisig contract
+src/pages/templates/wide-header-page/wide-header-page.scss:32:        padding-top: 3rem; // Fix iOS 10.3
+src/pages/templates/wide-header-page/wide-header-page.scss:36:          padding-top: 3rem; // Fix iOS 10.3
+src/pages/templates/wide-header-page/wide-header-page.scss:70:      padding-top: 3rem; // Fix iOS 10.3
+src/pages/templates/wide-header-page/wide-header-page.scss:74:        padding-top: 3rem; // Fix iOS 10.3
+src/pages/backup/backup-game/backup-game.ts:5:// pages
+src/pages/backup/backup-game/backup-game.ts:9:// providers
+src/pages/backup/backup-key/backup-key.ts:6:// pages
+src/pages/backup/backup-key/backup-key.ts:9:// providers
+src/pages/backup/backup-key/backup-key.ts:77:            // Share logs
+src/pages/finish/finish.ts:12:  public cssClass: string; // success, warning, danger, primary
+src/pages/choose-fee-level/choose-fee-level.ts:77:    // IF usingCustomFee
+src/pages/choose-fee-level/choose-fee-level.ts:144:    // Warnings
+src/pages/wallet-details/wallet-details.ts:17:// providers
+src/pages/wallet-details/wallet-details.ts:37:// pages
+src/pages/wallet-details/wallet-details.ts:144:    // Getting info from cache
+src/pages/wallet-details/wallet-details.ts:226:    // Fire a startup event, to allow UI to show the spinner
+src/pages/wallet-details/wallet-details.ts:295:      // For unsent transactions
+src/pages/wallet-details/wallet-details.ts:345:      this.showHistory(true); // loading in true
+src/pages/wallet-details/wallet-details.ts:359:        // this.logger.debug('Low UTXOs warning: ', this.lowUtxosWarning);
+src/pages/wallet-details/wallet-details.ts:366:  // no network //
+src/pages/wallet-details/wallet-details.ts:389:        // show what we have.
+src/pages/wallet-details/wallet-details.ts:396:        // show what we have
+src/pages/wallet-details/wallet-details.ts:399:        // Hide prev history if long downlad is happending...
+src/pages/wallet-details/wallet-details.ts:400:        //  if (opts.progress > 5) {
+src/pages/wallet-details/wallet-details.ts:401:        //  this.history = null;
+src/pages/wallet-details/wallet-details.ts:402:        //  }
+src/pages/wallet-details/wallet-details.ts:407:  // no network //
+src/pages/wallet-details/wallet-details.ts:428:      const minXrpBalance = 20000000; // 20 XRP * 1e6
+src/pages/wallet-details/wallet-details.ts:582:    // Can speed up the tx after 4 hours without confirming
+src/pages/wallet-details/wallet-details.ts:809:          ? `https://${this.blockexplorerUrl}account/${address}`
+src/pages/wallet-details/wallet-details.ts:810:          : `https://${this.blockexplorerUrlTestnet}account/${address}`;
+src/pages/wallet-details/wallet-details.ts:815:          ? `https://${this.blockexplorerUrl}address/${address}`
+src/pages/wallet-details/wallet-details.ts:816:          : `https://${this.blockexplorerUrlTestnet}address/${address}`;
+src/pages/wallet-details/wallet-details.ts:821:          ? `https://${this.blockexplorerUrl}address/${address}#tokentxns`
+src/pages/wallet-details/wallet-details.ts:822:          : `https://${this.blockexplorerUrlTestnet}address/${address}#tokentxns`;
+src/pages/wallet-details/wallet-details.html:28:          <a class="energized" (click)="openExternalLink('https://support.bitpay.com/hc/en-us/articles/360004102011-What-is-testnet-How-do-I-avoid-testnet-Bitcoin-scams-')">
+src/pages/wallet-details/wallet-details.html:256:                  <img-loader class="icon-services" *ngIf="tx.customData.service === 'amazon'" src="https://bitpay.com/gift-cards/assets/amazoncom/icon.svg" width="40" fallbackUrl="assets/img/gift-cards/gift-cards-icon.svg"></img-loader>
+src/pages/wallet-details/wallet-details.html:257:                  <img-loader class="icon-services" *ngIf="tx.customData.service === 'mercadolibre'" src="https://bitpay.com/gift-cards/assets/mercadolivre/icon.svg" width="40" fallbackUrl="assets/img/gift-cards/gift-cards-icon.svg"></img-loader>
+src/pages/wallet-details/search-tx-modal/search-tx-modal.ts:5:// Providers
+src/pages/wallet-details/search-tx-modal/search-tx-modal.html:29:                <img-loader class="icon-services" *ngIf="tx.customData.service === 'amazon'" src="https://bitpay.com/gift-cards/assets/amazoncom/icon.svg" width="40" fallbackUrl="assets/img/gift-cards/gift-cards-icon.svg"></img-loader>
+src/pages/wallet-details/search-tx-modal/search-tx-modal.html:30:                <img-loader class="icon-services" *ngIf="tx.customData.service === 'mercadolibre'" src="https://bitpay.com/gift-cards/assets/mercadolivre/icon.svg" width="40" fallbackUrl="assets/img/gift-cards/gift-cards-icon.svg"></img-loader>
+src/pages/send/select-inputs/select-inputs.ts:11:// Pages
+src/pages/send/select-inputs/select-inputs.ts:17:// Providers
+src/pages/send/select-inputs/select-inputs.ts:186:        // keep address in original format
+src/pages/send/select-inputs/select-inputs.ts:205:        // If pasted address isn't a valid uri
+src/pages/send/confirm/confirm.html:33:                <img src="https://tokens.1inch.exchange/{{currencyProvider.getTokenAddress(coin)}}.png" onerror="this.onerror=null;this.src='assets/img/icon-swap.svg'" />
+src/pages/send/confirm/confirm.html:390:            <a class="pointer" (click)="openExternalLink('https://support.bitpay.com/hc/en-us/articles/360039839312-What-are-XRP-Destination-Tags-')" translate>Learn more</a>
+src/pages/send/confirm/confirm.ts:12:// Pages
+src/pages/send/confirm/confirm.ts:19:// Providers
+src/pages/send/confirm/confirm.ts:90:  // Config Related values
+src/pages/send/confirm/confirm.ts:93:  // Platform info
+src/pages/send/confirm/confirm.ts:96:  // custom fee flag
+src/pages/send/confirm/confirm.ts:104:  // Coinbase
+src/pages/send/confirm/confirm.ts:123:  // // Card flags for zen desk chat support
+src/pages/send/confirm/confirm.ts:124:  // private isCardPurchase: boolean;
+src/pages/send/confirm/confirm.ts:125:  // private isHelpOpen: boolean = false;
+src/pages/send/confirm/confirm.ts:183:    // this.isCardPurchase =
+src/pages/send/confirm/confirm.ts:184:    //   this.navParams.data.payProUrl &&
+src/pages/send/confirm/confirm.ts:185:    //   this.navParams.data.payProUrl.includes('redir=wc');
+src/pages/send/confirm/confirm.ts:189:    // Overrides the ngOnInit logic of WalletTabsChild
+src/pages/send/confirm/confirm.ts:241:                'https://support.bitpay.com/hc/en-us/articles/115004671663';
+src/pages/send/confirm/confirm.ts:253:      destinationTag: this.navParams.data.destinationTag, // xrp
+src/pages/send/confirm/confirm.ts:255:      data: this.navParams.data.data, // eth
+src/pages/send/confirm/confirm.ts:256:      invoiceID: this.navParams.data.invoiceID, // xrp
+src/pages/send/confirm/confirm.ts:260:      // Vanity tx info (not in the real tx)
+src/pages/send/confirm/confirm.ts:450:  /* sets a wallet on the UI, creates a TXPs for that wallet */
+src/pages/send/confirm/confirm.ts:456:    // If select another wallet
+src/pages/send/confirm/confirm.ts:486:        // Update fees to most recent for eth ( in case required fee change ? )
+src/pages/send/confirm/confirm.ts:503:        ); // Workaround to avoid gas price supplied is lower than requested error
+src/pages/send/confirm/confirm.ts:533:        'https://bitpay.com/i/',
+src/pages/send/confirm/confirm.ts:617:        /* later */
+src/pages/send/confirm/confirm.ts:626:    // if (this.isCardPurchase && m < 11 && !this.isHelpOpen) {
+src/pages/send/confirm/confirm.ts:627:    //   this.isHelpOpen = true;
+src/pages/send/confirm/confirm.ts:628:    //   this.iabCardProvider.show();
+src/pages/send/confirm/confirm.ts:629:    //   this.iabCardProvider.sendMessage({ message: 'openZEChatStandalone' });
+src/pages/send/confirm/confirm.ts:630:    // }
+src/pages/send/confirm/confirm.ts:643:      // End of quick refresh, before wallet is selected.
+src/pages/send/confirm/confirm.ts:688:          // call getSendMaxInfo if was selected from amount view
+src/pages/send/confirm/confirm.ts:706:            // txp already generated for this wallet?
+src/pages/send/confirm/confirm.ts:750:          // txp already generated for this wallet?
+src/pages/send/confirm/confirm.ts:1035:      // ToDo: use a credential's (or fc's) function for this
+src/pages/send/confirm/confirm.ts:1051:      // set opts.coin to wallet.coin
+src/pages/send/confirm/confirm.ts:1099:              estimatedFee = 1e8; // 1 DOGE
+src/pages/send/confirm/confirm.ts:1116:            gasLimit: tx.gasLimit // wallet connect needs exact gasLimit value
+src/pages/send/confirm/confirm.ts:1344:          // store preferences for the paired eth wallet
+src/pages/send/confirm/confirm.ts:1422:          'https://support.bitpay.com/hc/en-us/articles/115003393863-What-are-bitcoin-miner-fees-'
+src/pages/send/confirm/confirm.ts:1456:    // Currently the paypro error is the following string: 500 - "{}"
+src/pages/send/confirm/confirm.ts:1776:        // Do not allow user to change or use max amount if previous view is not Amount
+src/pages/send/send.ts:8:// Providers
+src/pages/send/send.ts:23:// Pages
+src/pages/send/send.ts:214:      coin: this.navParams.data.coin // TODO ???? what is this for ?
+src/pages/send/send.ts:305:        // this.close();
+src/pages/send/amount/amount.spec.ts:8:  // TODO: Improve Amount page unit tests
+src/pages/send/amount/amount.ts:18:// Providers
+src/pages/send/amount/amount.ts:33:// Pages
+src/pages/send/amount/amount.ts:174:    // BitPay Card ID or Wallet ID or Coinbase Account ID
+src/pages/send/amount/amount.ts:177:    // Use only with Coinbase Withdraw
+src/pages/send/amount/amount.ts:279:    //  currency have preference
+src/pages/send/amount/amount.ts:296:      // TODO
+src/pages/send/amount/amount.ts:475:    // Check if the top up amount is at least 1 usd
+src/pages/send/amount/amount.ts:702:      // Always return to BTC... TODO?
+src/pages/send/transfer-to/transfer-to.ts:10:// Providers
+src/pages/send/transfer-to/transfer-to.ts:22:// Pages
+src/pages/send/transfer-to/transfer-to.ts:306:          // Error is already formated
+src/pages/send/transfer-to/transfer-to.spec.ts:4:// pages
+src/pages/send/send.spec.ts:10:// providers
+src/pages/send/send.spec.ts:14:// pages
+src/pages/send/send.spec.ts:130:          payProUrl: 'https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e',
+src/pages/send/send.spec.ts:152:          'bitcoin:?r=https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e';
+src/pages/send/send.spec.ts:157:          'https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e',
+src/pages/send/send.spec.ts:202:          payProUrl: 'https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ',
+src/pages/send/send.spec.ts:222:          'bitcoincash:?r=https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ';
+src/pages/send/send.spec.ts:242:          payProUrl: 'https://test.bitpay.com/i/JTfRobeRFmiCjBivDnzV1Q',
+src/pages/send/send.spec.ts:262:          'bitcoincash:?r=https://test.bitpay.com/i/JTfRobeRFmiCjBivDnzV1Q';
+src/pages/send/send.spec.ts:275:          payProUrl: 'https://test.bitpay.com/i/S5jbsUtrHVuvYQN6XHPuvJ',
+src/pages/send/send.spec.ts:295:          'bitcoin:?r=https://test.bitpay.com/i/S5jbsUtrHVuvYQN6XHPuvJ';
+src/pages/send/send.spec.ts:335:          payProUrl: 'https://test.bitpay.com/i/S5jbsUtrHVuvYQN6XHPuvJ',
+src/pages/send/send.spec.ts:357:          'bitcoin:?r=https://test.bitpay.com/i/S5jbsUtrHVuvYQN6XHPuvJ';
+src/pages/send/send.spec.ts:362:          'https://test.bitpay.com/i/S5jbsUtrHVuvYQN6XHPuvJ',
+src/pages/send/send.spec.ts:407:          payProUrl: 'https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ',
+src/pages/send/send.spec.ts:426:          'bitcoincash:?r=https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ';
+src/pages/send/send.spec.ts:446:          payProUrl: 'https://test.bitpay.com/i/JTfRobeRFmiCjBivDnzV1Q',
+src/pages/send/send.spec.ts:466:          'bitcoincash:?r=https://test.bitpay.com/i/JTfRobeRFmiCjBivDnzV1Q';
+src/pages/send/send.spec.ts:486:          payProUrl: 'https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e',
+src/pages/send/send.spec.ts:506:          'bitcoin:?r=https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e';
+src/pages/send/send.spec.ts:546:          payProUrl: 'https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ',
+src/pages/send/send.spec.ts:568:          'bitcoincash:?r=https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ';
+src/pages/send/send.spec.ts:573:          'https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ',
+src/pages/send/send.spec.ts:618:          payProUrl: 'https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e',
+src/pages/send/send.spec.ts:638:          'bitcoin:?r=https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e';
+src/pages/send/send.spec.ts:651:          payProUrl: 'https://test.bitpay.com/i/JTfRobeRFmiCjBivDnzV1Q',
+src/pages/send/send.spec.ts:671:          'bitcoincash:?r=https://test.bitpay.com/i/JTfRobeRFmiCjBivDnzV1Q';
+src/pages/send/send.spec.ts:691:          payProUrl: 'https://test.bitpay.com/i/S5jbsUtrHVuvYQN6XHPuvJ',
+src/pages/send/send.spec.ts:711:          'bitcoin:?r=https://test.bitpay.com/i/S5jbsUtrHVuvYQN6XHPuvJ';
+src/pages/send/send.spec.ts:751:          payProUrl: 'https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ',
+src/pages/send/send.spec.ts:773:          'bitcoincash:?r=https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ';
+src/pages/send/send.spec.ts:778:          'https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ',
+src/pages/send/send.spec.ts:827:          payProUrl: 'https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e',
+src/pages/send/send.spec.ts:847:          'bitcoin:?r=https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e';
+src/pages/send/send.spec.ts:867:          payProUrl: 'https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e',
+src/pages/send/send.spec.ts:887:          'bitcoin:?r=https://bitpay.com/i/MB6kXuVY9frBW1DyoZkE5e';
+src/pages/send/send.spec.ts:900:          payProUrl: 'https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ',
+src/pages/send/send.spec.ts:920:          'bitcoincash:?r=https://bitpay.com/i/3dZDvRXdxpkL4FoWtkB6ZZ';
+src/pages/send/send.spec.ts:938:    /*  it('should pass the pre-selected amount, coin, and sendMax values to the scanner', () => {
+src/pages/send/multi-send/multi-send.ts:11:// Providers
+src/pages/send/multi-send/multi-send.ts:23:// Pages
+src/pages/send/multi-send/multi-send.ts:204:        // keep address in original format
+src/pages/send/multi-send/multi-send.ts:224:        // If pasted address isn't a valid uri
+src/pages/includes/feedback-card/feedback-card.ts:6:// providers
+src/pages/includes/feedback-card/feedback-card.ts:13:// pages
+src/pages/includes/feedback-card/feedback-card.ts:79:    this.externalLinkProvider.open('https://payux.typeform.com/to/DWIC0Kky');
+src/pages/includes/feedback-card/feedback-card.ts:104:      const url = 'https://payux.typeform.com/to/qYXqqa5q';
+src/pages/includes/feedback-card/feedback-card.ts:110:      const url = 'https://payux.typeform.com/to/MF01BBKt';
+src/pages/includes/multiple-outputs/multiple-outputs.html:14:        <img class="coin-img" *ngIf="tx.hasMultiplesOutputs || (!tx.hasMultiplesOutputs && tx.customData?.service != 'debitcard') && !currencyProvider.COIN[tx.coin | uppercase]" src="https://tokens.1inch.exchange/{{currencyProvider.getTokenAddress(tx.coin)}}.png" onerror="this.onerror=null;this.src='assets/img/icon-swap.svg'" [ngClass]="{'testnet': tx.network === 'testnet'}" alt="Coin" />
+src/pages/includes/multiple-outputs/multiple-outputs.ts:4:// Providers
+src/pages/includes/create-new-wallet/create-new-wallet.ts:4:// Pages
+src/pages/includes/coin-selector/coin-selector.ts:4:// Providers
+src/pages/includes/txp/txp.ts:4:// Providers
+src/pages/includes/txp/txp.ts:9:// Pages
+src/pages/paper-wallet/paper-wallet.ts:6:// pages
+src/pages/paper-wallet/paper-wallet.ts:9:// providers
+src/pages/paper-wallet/paper-wallet.ts:38:  // All coins for which we have a usable wallet to sweep to
+src/pages/paper-wallet/paper-wallet.ts:49:  // Platform info
+src/pages/pages.ts:1:/* Pages */
+src/pages/pages.ts:41:// Integrations: Invoice
+src/pages/pages.ts:44:// Integrations: Changelly
+src/pages/pages.ts:49:// Integrations: Coinbase
+src/pages/pages.ts:56:// Integrations: Simplex
+src/pages/pages.ts:60:// Integrations: Wyre
+src/pages/pages.ts:64:// Integrations: Wallet Connect
+src/pages/pages.ts:68:// Integrations: BitPayCard
+src/pages/pages.ts:75:// Integrations: BitPayCard - Phases
+src/pages/pages.ts:77:// Phase 1
+src/pages/pages.ts:80:/*Includes */
+src/pages/pages.ts:89:/* Tabs */
+src/pages/pages.ts:97:/* Home */
+src/pages/pages.ts:101:/* Settings */
+src/pages/pages.ts:120:/* Wallet Group Settings */
+src/pages/pages.ts:129:/* Wallet Settings */
+src/pages/pages.ts:136:/* Wallet Advanced Settings */
+src/pages/pages.ts:145:/* Send */
+src/pages/pages.ts:154:/* Receive */
+src/pages/pages.ts:284:  // Phases: card pages
+src/pages/settings/share/share.ts:4:// native
+src/pages/settings/share/share.ts:7:// providers
+src/pages/settings/settings.ts:7:// providers
+src/pages/settings/settings.ts:8:// pages
+src/pages/settings/settings.ts:29:// pages
+src/pages/settings/settings.ts:133:      // check for user info
+src/pages/settings/settings.ts:199:    // Show integrations
+src/pages/settings/settings.ts:202:    // Get Theme
+src/pages/settings/settings.ts:206:    // Hide BitPay if linked
+src/pages/settings/settings.ts:233:    // Only BitPay Wallet
+src/pages/settings/settings.ts:279:    // adding this for testing purposes
+src/pages/settings/settings.ts:296:    // adding this for testing purposes
+src/pages/settings/settings.ts:427:        ? 'https://github.com/bitpay/copay/issues'
+src/pages/settings/settings.ts:428:        : 'https://help.bitpay.com/bitpay-app';
+src/pages/settings/settings.ts:466:      'https://support.bitpay.com/hc/en-us/articles/360000244506-What-Does-a-Spending-Password-Do-';
+src/pages/settings/settings.ts:524:    const url = 'https://bitpay.com/about/privacy';
+src/pages/settings/settings.ts:541:    const url = 'https://bitpay.com/legal/terms-of-use/#wallet-terms-of-use';
+src/pages/settings/lock/lock.ts:5:// pages
+src/pages/settings/lock/lock.ts:8:// providers
+src/pages/settings/language/language.ts:5:// providers
+src/pages/settings/language/language.ts:32:    let url = 'https://crowdin.com/project/copay';
+src/pages/settings/language/language.spec.ts:56:          'https://crowdin.com/project/copay',
+src/pages/settings/local-theme/local-theme.ts:3:// providers
+src/pages/settings/bitpay-id/bitpay-id.ts:3:// providers
+src/pages/settings/wallet-settings/wallet-delete/wallet-delete.ts:5:// providers
+src/pages/settings/wallet-settings/wallet-settings.ts:6:// providers
+src/pages/settings/wallet-settings/wallet-settings.ts:15:// pages
+src/pages/settings/wallet-settings/wallet-settings.ts:89:    // only available for OLD multisig wallets. or single sig
+src/pages/settings/wallet-settings/wallet-settings.ts:92:    // only first account
+src/pages/settings/wallet-settings/wallet-settings.ts:112:      'https://support.bitpay.com/hc/en-us/articles/360000244506-What-Does-a-Spending-Password-Do-';
+src/pages/settings/wallet-settings/wallet-name/wallet-name.ts:7:// providers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts:7:// native
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts:11:// providers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts:279:      // Check if sharing via email is supported
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts:288:              null, // TO: must be null or an array
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts:289:              null, // CC: must be null or an array
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts:290:              null, // BCC: must be null or an array
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts:291:              null // FILES: can be null, a string, or an array
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.ts:7:// Providers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.ts:55:    // Filter out already duplicated wallets
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.ts:141:            // Multisig wallets? add Copayers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.ts:199:      // first try to import
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.ts:216:      'https://support.bitpay.com/hc/en-us/articles/115005019583-How-Can-I-Recover-Bitcoin-Cash-BCH-from-My-Wallet-';
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.ts:7:// native
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.ts:10:// providers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.ts:64:        "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.ts:83:        bws = 'https://bws.bitpay.com/bws/api';
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.ts:87:        bws = 'https://bws-staging.b-pay.net/bws/api';
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.ts:91:        bws = 'http://localhost:3232/bws/api';
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-information/wallet-information.ts:5:// providers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/wallet-addresses.ts:6:// providers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/wallet-addresses.ts:13:// pages
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts:5:// native
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts:8:// providers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts:86:      // Check if sharing via email is supported
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts:95:              null, // TO: must be null or an array
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts:96:              null, // CC: must be null or an array
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts:97:              null, // BCC: must be null or an array
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts:98:              null // FILES: can be null, a string, or an array
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts:7:// Providers
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts:16:// Pages
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts:82:  // TODO : move this to walletService.
+src/pages/settings/alt-currency/alt-currency.ts:5:// native
+src/pages/settings/alt-currency/alt-currency.ts:8:// Providers
+src/pages/settings/alt-currency/alt-currency.ts:157:      // To stop showing currencies that are no longer supported
+src/pages/settings/key-settings/clear-encrypt-password/clear-encrypt-password.ts:4:// providers
+src/pages/settings/key-settings/clear-encrypt-password/clear-encrypt-password.ts:8:// pages
+src/pages/settings/key-settings/clear-encrypt-password/clear-encrypt-password.html:11:      <a (click)="openExternalLink('https://support.bitpay.com/hc/en-us/articles/115003004403-I-forgot-my-wallet-s-encrypted-password-What-can-I-do-')" translate>
+src/pages/settings/key-settings/key-qr-export/key-qr-export.ts:5:// providers
+src/pages/settings/key-settings/key-name/key-name.ts:7:// providers
+src/pages/settings/key-settings/extended-private-key/extended-private-key.ts:5:// providers
+src/pages/settings/key-settings/key-delete/key-delete.ts:5:// providers
+src/pages/settings/key-settings/key-onboarding/key-onboarding.ts:19:    // Disable first and last slides bounce
+src/pages/settings/key-settings/key-settings.ts:6:// providers
+src/pages/settings/key-settings/key-settings.ts:26:// pages
+src/pages/settings/key-settings/key-settings.ts:209:      'https://support.bitpay.com/hc/en-us/articles/360000244506-What-Does-a-Spending-Password-Do-';
+src/pages/settings/key-settings/key-settings.ts:281:            // Share logs
+src/pages/settings/fee-policy/fee-policy.ts:5:// Providers
+src/pages/settings/fee-policy/fee-policy.ts:71:      // The order of the array is necessary for the ion-range component
+src/pages/settings/addressbook/addressbook.ts:63:    // set val to the value of the searchbar
+src/pages/settings/addressbook/addressbook.ts:66:    // if the value is an empty string don't filter the items
+src/pages/settings/addressbook/addressbook.ts:74:      // Reset items back to all of the items
+src/pages/settings/addressbook/view/view.ts:5:// Pages
+src/pages/settings/addressbook/view/view.ts:8:// Providers
+src/pages/settings/addressbook/view/view.ts:43:      if (!this.navParams.data.contact.coin) this.coin = addrData.coin; // preserve coin
+src/pages/settings/addressbook/add/add.ts:11:// providers
+src/pages/settings/addressbook/add/add.ts:20:// validators
+src/pages/settings/navigation/navigation.ts:4:// providers
+src/pages/settings/notifications/notifications.spec.ts:52:          'https://bitpay.com/about/privacy',
+src/pages/settings/notifications/notifications.ts:7:// providers
+src/pages/settings/notifications/notifications.ts:16:// validators
+src/pages/settings/notifications/notifications.ts:174:    const url = 'https://bitpay.com/about/privacy';
+src/pages/settings/about/about.ts:5:// pages
+src/pages/settings/about/about.ts:9:// providers
+src/pages/settings/about/about.ts:57:      'https://github.com/bitpay/' +
+src/pages/settings/about/about.ts:102:  // adding this for testing purposes
+src/pages/settings/about/session-log/session-log.spec.ts:6:// Providers
+src/pages/settings/about/session-log/session-log.ts:5:// providers
+src/pages/settings/about/about.spec.ts:76:          'https://github.com/bitpay/testRepo/tree/testHash',
+src/pages/settings/advanced/advanced.ts:7:// providers
+src/pages/integrations/coinbase/coinbase-withdraw/coinbase-withdraw.ts:7:// providers
+src/pages/integrations/coinbase/coinbase-withdraw/coinbase-withdraw.ts:15:// pages
+src/pages/integrations/coinbase/coinbase-withdraw/coinbase-withdraw.ts:41:  // Platform info
+src/pages/integrations/coinbase/coinbase-account/coinbase-account.ts:8:// providers
+src/pages/integrations/coinbase/coinbase-account/coinbase-account.ts:17:// Page
+src/pages/integrations/coinbase/coinbase.ts:6:// Providers
+src/pages/integrations/coinbase/coinbase.ts:103:    // Security check
+src/pages/integrations/coinbase/coinbase-settings/coinbase-settings.ts:6:// Providers
+src/pages/integrations/coinbase/coinbase-tx-details/coinbase-tx-details.ts:32:    const url = `https://${blockexplorerUrl}${network}tx/${btx.network.hash}`;
+src/pages/integrations/invoice/select-invoice/select-invoice.ts:5:// Provider
+src/pages/integrations/changelly/changelly.html:49:      <a (click)="openExternalLink('https://support.changelly.com/en/support/home')" translate>
+src/pages/integrations/changelly/changelly-terms/changelly-terms.html:16:    <ion-item (click)="openExternalLink('https://changelly.com/privacy-policy')">
+src/pages/integrations/changelly/changelly-terms/changelly-terms.html:22:    <ion-item (click)="openExternalLink('https://changelly.com/terms-of-use')">
+src/pages/integrations/changelly/changelly-terms/changelly-terms.html:28:    <ion-item (click)="openExternalLink('https://changelly.com/aml-kyc')">
+src/pages/integrations/changelly/changelly-terms/changelly-terms.ts:4:// Proviers
+src/pages/integrations/changelly/changelly-details/changelly-details.ts:5:// Providers
+src/pages/integrations/changelly/changelly.ts:4:// Pages
+src/pages/integrations/changelly/changelly.ts:7:// Proviers
+src/pages/integrations/gift-cards/gift-card-settings/gift-card-settings.ts:71:    // Override extended behavior and don't remove page from history.
+src/pages/integrations/gift-cards/card-terms/card-terms.ts:36:  return `[${url}](https://${url})`;
+src/pages/integrations/gift-cards/home-gift-cards/home-gift-cards.ts:71:  public disableArchiveAnimation: boolean = true; // Removes flicker on iOS when returning to home tab
+src/pages/integrations/gift-cards/home-gift-cards/home-gift-cards.ts:121:      'https://bitpay.com/extension/?launchExtension=true'
+src/pages/integrations/gift-cards/phone/phone.ts:97:    let url = 'https://bitpay.com/about/privacy';
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:14:// Pages
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:20:// Provider
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:249:    this.showWallets(); // Show wallet selector
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:306:          'https://support.bitpay.com/hc/en-us/articles/115002990803-Why-Am-I-Being-Charged-an-Additional-Network-Cost-on-My-BitPay-Invoice-';
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:311:          'https://support.bitpay.com/hc/en-us/articles/115003393863-What-are-bitcoin-miner-fees-Why-are-miner-fees-so-high-';
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:500:        ? parseInt((details.requiredFeeRate * 1.1).toFixed(0), 10) // Workaround to avoid gas price supplied is lower than requested error
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:628:    // Sometimes API does not return this element;
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:647:    // Save in memory
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:669:    // Warn: fee too high
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:733:          'https://support.bitpay.com/hc/en-us/articles/115003393863-What-are-bitcoin-miner-fees-'
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:786:    // Sometimes API does not return this element;
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:797:    // Save in memory
+src/pages/integrations/gift-cards/purchased-cards/purchased-cards.spec.ts:40:        invoiceUrl: 'https://bitpay.com/i/iNvOiceId',
+src/pages/integrations/gift-cards/card-catalog/card-catalog.ts:209:      'https://bitpay.com/extension/?launchExtension=true'
+src/pages/integrations/gift-cards/card-details/printable-card/printable-card.ts:65:    // Amount
+src/pages/integrations/gift-cards/card-details/printable-card/printable-card.ts:77:    // Labels
+src/pages/integrations/gift-cards/card-details/printable-card/printable-card.ts:84:    // Card Number & Pin
+src/pages/integrations/gift-cards/card-details/printable-card/printable-card.ts:99:    // Terms
+src/pages/integrations/gift-cards/card-details/card-details.ts:242:    this.externalLinkProvider.open('https://bitpay.com/request-help/wizard');
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:7:// Pages
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:11:// Provider
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:74:  // Coinbase
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:216:        this.showWallets(); // Show wallet selector
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:440:                  ? parseInt((details.requiredFeeRate * 1.1).toFixed(0), 10) // Workaround to avoid gas price supplied is lower than requested error
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:547:      // Global variables defined beforeEnter
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:552:        // Workaround to get invoiceFeeSat and payProFeeSat to calculate newAmountSat for the invoice
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:553:        // getSendMaxInfo to get *maxAmountSat* and *maxAmountFeeSat*
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:554:        // Create 1usd invoice to get payProUrl and *invoiceFeeSat*
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:555:        // getPayProDetails to get requiredFeeRate and calculate *payProFeeSat*
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:556:        // Get *transactionFee* comparing *maxAmountFeeSat* and *payProFeeSat*
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:557:        // Calculate newAmountSat = maxAmountSat - invoiceFeeSat - transactionFee
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:578:                // Check if COIN is enabled in this account
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:636:                            ) // Workaround to avoid gas price supplied is lower than requested error
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:798:        // Check if BTC or BCH is enabled in this account
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:807:        // Sometimes API does not return this element;
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:816:        // Set expiration time for this invoice
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:824:            // Save TX in memory
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:833:              // Warn: fee too high
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:888:        // Check if BTC or BCH is enabled in this account
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:897:        // Sometimes API does not return this element;
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:901:        // Set expiration time for this invoice
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:907:        // Save TX in memory
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:1076:        // Update Rates
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:1090:        // Update Rates
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:1183:          'https://support.bitpay.com/hc/en-us/articles/115002990803-Why-Am-I-Being-Charged-an-Additional-Network-Cost-on-My-BitPay-Invoice-';
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:1188:          'https://support.bitpay.com/hc/en-us/articles/115003393863-What-are-bitcoin-miner-fees-Why-are-miner-fees-so-high-';
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:1268:          'https://support.bitpay.com/hc/en-us/articles/115003393863-What-are-bitcoin-miner-fees-'
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:1292:    // Currently the paypro error is the following string: 500 - "{}"
+src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-intro-page.ts:127:    let url = 'https://bitpay.com/visa/faq';
+src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-intro-page.ts:162:    let url = 'https://bitpay.com/about/privacy';
+src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-intro-page.ts:168:    let url = 'https://bitpay.com/visa/get-started';
+src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-intro-page.ts:182:    this.navCtrl.popToRoot({ animate: false }); // Back to Root
+src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-intro-page.ts:183:    let url = 'https://bitpay.com/visa/dashboard/add-to-bitpay-wallet-confirm';
+src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-intro-page.ts:203:    // Add account
+src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-intro-page.ts:211:    // Cancel
+src/pages/integrations/bitpay-card/bitpay-settings/bitpay-settings.ts:6:// Providers
+src/pages/integrations/bitpay-card/bitpay-settings/bitpay-settings.ts:135:    // Add account
+src/pages/integrations/bitpay-card/bitpay-settings/bitpay-settings.ts:143:    // Cancel
+src/pages/integrations/bitpay-card/bitpay-settings/bitpay-settings.ts:171:    this.navCtrl.popToRoot({ animate: false }); // Back to Root
+src/pages/integrations/bitpay-card/bitpay-settings/bitpay-settings.ts:172:    let url = 'https://bitpay.com/visa/dashboard/add-to-bitpay-wallet-confirm';
+src/pages/integrations/bitpay-card/bitpay-card.html:51:        <ion-icon item-end (click)="openExternalLink('https://support.bitpay.com/hc/en-us/articles/115003014526-Why-do-you-require-one-blockchain-confirmation-for-BitPay-Card-loads-')">
+src/pages/integrations/bitpay-card/bitpay-card.html:63:        <ion-icon item-end (click)="openExternalLink('https://support.bitpay.com/hc/en-us/articles/115003003563-Why-was-I-overcharged-on-my-BitPay-Card-account-Why-is-there-a-hold-on-my-account-')">
+src/pages/integrations/bitpay-card/bitpay-card-home/bitpay-card-home.ts:3:// Providers
+src/pages/integrations/bitpay-card/bitpay-card-home/bitpay-card-home.ts:12:// Pages
+src/pages/integrations/bitpay-card/bitpay-card.scss:38:    //background: $bitpay-card-primary-color;
+src/pages/integrations/bitpay-card/bitpay-card.ts:6:// Pages
+src/pages/integrations/bitpay-card/bitpay-card.ts:9:// providers
+src/pages/integrations/bitpay-card/bitpay-card.ts:148:    // Is the card new?
+src/pages/integrations/bitpay-card/bitpay-card.ts:200:            // TODO?
+src/pages/integrations/bitpay-card/bitpay-card.ts:201:            // $log.debug('BitPay Card: storing cache history');
+src/pages/integrations/bitpay-card/bitpay-card.ts:202:            // let cacheHistory = {
+src/pages/integrations/bitpay-card/bitpay-card.ts:203:            //   balance: history.currentCardBalance,
+src/pages/integrations/bitpay-card/bitpay-card.ts:204:            //   transactions: history.txs
+src/pages/integrations/bitpay-card/bitpay-card.ts:205:            // };
+src/pages/integrations/bitpay-card/bitpay-card.ts:206:            // this.bitPayCardProvider.setHistory($scope.cardId, cacheHistory, {}, (err) => {
+src/pages/integrations/bitpay-card/bitpay-card.ts:207:            //   if (err) $log.error(err);
+src/pages/integrations/bitpay-card/bitpay-card.ts:208:            //   $scope.historyCached = true;
+src/pages/integrations/bitpay-card/bitpay-card.ts:209:            // });
+src/pages/integrations/bitpay-card/bitpay-card.ts:238:      if (txDate == 'Invalid Date') return; // iOS
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:7:// providers
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:8:// pages
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:82:              // Fixes mobile navigation
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:133:      .initialize() // prompt for authorization by initializing scanner
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:134:      .then(() => this.scanProvider.pausePreview()) // release camera resources from scanner
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:135:      .then(() => this.updateCapabilities()); // update component state
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:139:    let url = 'https://bitpay.com/exchange-rates';
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:144:    let url = 'https://bitpay.com/visa/faq';
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:149:    let url = `https://bitpay.com/wallet-card?context=${path}`;
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:180:    this.navCtrl.popToRoot({ animate: false }); // Back to Root
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:181:    let url = 'https://bitpay.com/visa/dashboard/add-to-bitpay-wallet-confirm';
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:201:    // Add account
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:209:    // Cancel
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.scss:41:      /*  TODO  border-radius: 0 0 65% 25%;*/
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.scss:52:        /* TODO width: 232px; */
+src/pages/integrations/simplex/simplex.ts:5:// Pages
+src/pages/integrations/simplex/simplex.ts:8:// Proviers
+src/pages/integrations/simplex/simplex-details/simplex-details.html:77:        <a class="pointer" (click)="openExternalLink('https://payment-status.simplex.com/#/')" translate>What is the status of my payment?</a>
+src/pages/integrations/simplex/simplex-details/simplex-details.ts:5:// Providers
+src/pages/integrations/simplex/simplex.html:51:      <a (click)="openExternalLink('https://www.simplex.com/support/')" translate>
+src/pages/integrations/wallet-connect/wallet-connect-settings/wallet-connect-settings.ts:3:// Providers
+src/pages/integrations/wallet-connect/wallet-connect-settings/wallet-connect-settings.html:13:      <a class="pointer" (click)="openExternalLink('https://walletconnect.org/')" translate>Read more</a>
+src/pages/integrations/wallet-connect/wallet-connect.ts:5:// Pages
+src/pages/integrations/wallet-connect/wallet-connect.ts:9:// Providers
+src/pages/integrations/wallet-connect/wallet-connect.ts:202:            // redirect to confirm page with navParams
+src/pages/integrations/wyre/wyre.html:50:      <a (click)="openExternalLink('https://wyre-support.zendesk.com/hc/en-us/requests/new')" translate>
+src/pages/integrations/wyre/wyre.ts:5:// Pages
+src/pages/integrations/wyre/wyre.ts:8:// Proviers
+src/pages/integrations/wyre/wyre.ts:97:                    : ''; // Total fee (crypto fee + Wyre fee)
+src/pages/integrations/wyre/wyre-details/wyre-details.ts:6:// Providers
+src/pages/integrations/wyre/wyre-details/wyre-details.ts:78:                : null; // Total fee (crypto fee + Wyre fee)
+src/pages/cards/cards.ts:3:// Providers
+src/pages/cards/cards.ts:145:      // retrieve cards from storage
+src/pages/cards/cards.ts:152:      /*
+src/pages/cards/cards.ts:165:      // sort by provider
+src/pages/cards/cards.ts:174:      // if all cards are hidden
+src/pages/cards/cards.ts:176:        // if galileo not found then show order card else hide it
+src/pages/cards/cards.ts:187:      // if galileo then show disclaimer and remove add card ability
+src/pages/cards/cards.ts:189:        // only show cards that are active and if galileo only show virtual
+src/pages/cards/cards.ts:205:          // no MC so hide disclaimer
+src/pages/cards/cards.scss:103:  // Styles for gift cards and Bitpay cards
+src/pages/home/home.scss:109:    // padding-bottom: 0px;
+src/pages/home/price-page/price-page.ts:7:// Components
+src/pages/home/price-page/price-page.ts:11:// Pages
+src/pages/home/price-page/price-page.ts:14:// Providers
+src/pages/home/price-page/price-page.ts:58:    // Let the canvas settle
+src/pages/home/home.ts:9:// Providers
+src/pages/home/home.ts:40:// Pages
+src/pages/home/home.ts:180:      // first time using the App -> don't show
+src/pages/home/home.ts:215:      // check for user info
+src/pages/home/home.ts:258:    // Required delay to improve performance loading
+src/pages/home/home.ts:261:      this.checkAltCurrency(); // Check if the alternative currency setted is no longer supported
+src/pages/home/home.ts:347:    // link is of formate page:PAGE_TITLE or url e.g. https://google.com
+src/pages/home/home.ts:356:    } else if (link.startsWith('https://')) {
+src/pages/home/home.ts:376:        link: 'https://bitpay.com/directory/?hideGiftCards=true',
+src/pages/home/home.ts:489:    // Avoid heavy tasks that can slow down the unlocking experience
+src/pages/home/home.ts:496:    // Show integrations
+src/pages/home/home.ts:858:    if (typeof page === 'string' && page.indexOf('https://') === 0) {
+src/pages/home/home.ts:922:        // Check if current version is greater than saved version
+src/pages/home/home.ts:955:      "https://github.com/bitpay/copay/wiki/Why-can't-I-use-BitPay's-services-in-my-country%3F";
+src/pages/home/home.ts:1006:        const settingsTabIndex = this.navCtrl.parent._tabs.length - 1; // The index of SettingsPage tab depends on the platform and distribution
+src/pages/home/home.ts:1024:          // Accept new Privacy Notice
+src/pages/home/home.ts:1027:          // Disable email notifications
+src/pages/receive/custom-amount/custom-amount.ts:5:// Native
+src/pages/receive/custom-amount/custom-amount.ts:8:// providers
+src/pages/receive/custom-amount/custom-amount.ts:63:      // Amount in USD or BTC
+src/pages/receive/custom-amount/custom-amount.ts:69:        // Convert to BTC or BCH
+src/pages/receive/custom-amount/custom-amount.ts:83:        this.amountCoin = _amount; // BTC or BCH
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:6:// Providers
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:30:  fiatMoney?: string; // Rate without fees
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:34:  quoteData?: any; // Simplex
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:120:      ) && !this.navParams.data.isPromotionActiveForCountry; // TODO: We temporarily remove Wyre from European Union countries. When the Simplex promotion ends we have to remove this condition
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:125:  // GENERAL FUNCTIONS
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:232:  // SIMPLEX
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:414:  // WYRE
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:433:          '://wyre?walletId=' +
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:437:        const failureRedirectUrl = this.appProvider.info.name + '://wyreError';
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:447:          amountIncludeFees: true, // If amountIncludeFees is true, use sourceAmount instead of amount
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:521:            amountIncludeFees: true, // If amountIncludeFees is true, use sourceAmount instead of amount
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:536:              this.offers.wyre.amountCost = data.sourceAmount; // sourceAmount = Total amount (including fees)
+src/pages/buy-crypto/crypto-offers/crypto-offers.html:117:                    <a (click)="openExternalLink('https://support.simplex.com/hc/en-gb/articles/360014078420-What-fees-am-I-paying-')" translate>
+src/pages/buy-crypto/crypto-offers/crypto-offers.html:124:                  <a (click)="openExternalLink('https://www.simplex.com/terms-of-use/')" translate>
+src/pages/buy-crypto/crypto-offers/crypto-offers.html:137:                  <a (click)="openExternalLink('https://support.sendwyre.com/en/articles/3359160-wyre-card-processing-fees')" translate>
+src/pages/buy-crypto/crypto-offers/crypto-offers.html:143:                  <a (click)="openExternalLink('https://www.sendwyre.com/user-agreement/')" translate>
+src/pages/buy-crypto/country-selector/country-selector.ts:4:// Providers
+src/pages/buy-crypto/country-selector/country-selector.ts:55:      'AT', // Austria
+src/pages/buy-crypto/country-selector/country-selector.ts:56:      'BE', // Belgium
+src/pages/buy-crypto/country-selector/country-selector.ts:57:      'BG', // Bulgaria
+src/pages/buy-crypto/country-selector/country-selector.ts:58:      'HR', // Croatia
+src/pages/buy-crypto/country-selector/country-selector.ts:59:      'CY', // Cyprus
+src/pages/buy-crypto/country-selector/country-selector.ts:60:      'CZ', // Czech Republic
+src/pages/buy-crypto/country-selector/country-selector.ts:61:      'DK', // Denmark
+src/pages/buy-crypto/country-selector/country-selector.ts:62:      'EE', // Estonia
+src/pages/buy-crypto/country-selector/country-selector.ts:63:      'FI', // Finland
+src/pages/buy-crypto/country-selector/country-selector.ts:64:      'FR', // France
+src/pages/buy-crypto/country-selector/country-selector.ts:65:      'DE', // Germany
+src/pages/buy-crypto/country-selector/country-selector.ts:66:      'GR', // Greece
+src/pages/buy-crypto/country-selector/country-selector.ts:67:      'HU', // Hungary
+src/pages/buy-crypto/country-selector/country-selector.ts:68:      'IS', // Iceland
+src/pages/buy-crypto/country-selector/country-selector.ts:69:      'IE', // Ireland, Republic of (EIRE)
+src/pages/buy-crypto/country-selector/country-selector.ts:70:      'IT', // Italy
+src/pages/buy-crypto/country-selector/country-selector.ts:71:      'LV', // Latvia
+src/pages/buy-crypto/country-selector/country-selector.ts:72:      'LT', // Lithuania
+src/pages/buy-crypto/country-selector/country-selector.ts:73:      'LU', // Luxembourg
+src/pages/buy-crypto/country-selector/country-selector.ts:74:      'MT', // Malta
+src/pages/buy-crypto/country-selector/country-selector.ts:75:      'NL', // Netherlands
+src/pages/buy-crypto/country-selector/country-selector.ts:76:      'NO', // Norway
+src/pages/buy-crypto/country-selector/country-selector.ts:77:      'PL', // Poland
+src/pages/buy-crypto/country-selector/country-selector.ts:78:      'PT', // Portugal
+src/pages/buy-crypto/country-selector/country-selector.ts:79:      'RO', // Romania
+src/pages/buy-crypto/country-selector/country-selector.ts:80:      'SK', // Slovakia
+src/pages/buy-crypto/country-selector/country-selector.ts:81:      'SI', // Slovenia
+src/pages/buy-crypto/country-selector/country-selector.ts:82:      'ES', // Spain
+src/pages/buy-crypto/country-selector/country-selector.ts:83:      'SE', // Sweden
+src/pages/buy-crypto/country-selector/country-selector.ts:84:      'CH', // Switzerland
+src/pages/buy-crypto/country-selector/country-selector.ts:85:      'GB' // United Kingdom (Great Britain)
+src/pages/buy-crypto/crypto-coin-selector/crypto-coin-selector.ts:7:// Providers
+src/pages/buy-crypto/crypto-coin-selector/crypto-coin-selector.ts:18:// Pages
+src/pages/buy-crypto/crypto-coin-selector/crypto-coin-selector.ts:47:    // TODO: We temporarily remove Wyre from European Union countries. When the Simplex promotion ends we have to remove this condition
+src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.ts:7:// Providers
+src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.ts:20:// Pages
+src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.ts:146:    // Select first available wallet
+src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.ts:169:          // Single seed case:
+src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.ts:5:// Providers
+src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.ts:10:// Pages
+src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.ts:65:            !this.navParams.data.isPromotionActiveForCountry)) && // TODO: We temporarily remove Wyre from European Union countries. When the Simplex promotion ends we have to remove this condition
+src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.ts:80:      // TODO: We temporarily remove Wyre from European Union countries. When the Simplex promotion ends we have to remove this condition
+src/pages/buy-crypto/crypto-settings/crypto-settings.ts:5:// Pages
+src/pages/buy-crypto/crypto-settings/crypto-settings.ts:9:// Providers
+src/pages/onboarding/collect-email/collect-email.ts:6:// native
+src/pages/onboarding/collect-email/collect-email.ts:9:// providers
+src/pages/onboarding/collect-email/collect-email.ts:13:// pages
+src/pages/onboarding/collect-email/collect-email.ts:41:    // Get more info: https://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
+src/pages/onboarding/collect-email/collect-email.ts:63:    // Confirm for notifications
+src/pages/onboarding/collect-email/collect-email.ts:66:    // Confirm to get news and updates from BitPay
+src/pages/onboarding/collect-email/collect-email.ts:79:        .match(/(Electron[\/]\d+(\.\d)*)/i)[0]; // getDeviceInfo example: 5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Copay/5.1.0 Chrome/66.0.3359.181 Electron/3.0.8 Safari/537.36
+src/pages/onboarding/lock-method/lock-method.ts:4:// Providers
+src/pages/onboarding/lock-method/lock-method.ts:13:// Pages
+src/pages/onboarding/add-funds/add-funds.ts:4:// Providers
+src/pages/onboarding/add-funds/add-funds.ts:12:// Pages
+src/pages/onboarding/recovery-key/recovery-key.ts:4:// Providers
+src/pages/onboarding/recovery-key/recovery-key.ts:8:// Pages
+src/pages/onboarding/disclaimer/disclaimer.ts:5:// Providers
+src/pages/onboarding/disclaimer/disclaimer.ts:12:// Pages
+src/pages/onboarding/disclaimer/disclaimer.ts:60:    let url = 'https://bitpay.com/legal/terms-of-use/#wallet-terms-of-use';
+src/pages/onboarding/feature-education/feature-education.ts:4:// Providers
+src/pages/onboarding/feature-education/feature-education.ts:10:// Pages
+src/pages/onboarding/feature-education/feature-education.ts:52:    // Disable first bounce
+src/pages/tabs/tabs.ts:185:    // set banner advertisement in home.ts
+src/pages/add/custom-token/custom-token.ts:12:// Providers
+src/pages/add/custom-token/custom-token.ts:90:          // store preferences for the paired eth wallet
+src/pages/add/custom-token/custom-token.spec.ts:7:  /* let instance; */
+src/pages/add/custom-token/search-token-modal/search-token-modal.ts:5:// Providers
+src/pages/add/create-wallet/create-wallet.spec.ts:7:  /* let instance; */
+src/pages/add/create-wallet/create-wallet.spec.ts:13:        /* instance = testEnv.instance; */
+src/pages/add/create-wallet/create-wallet.spec.ts:22:  /* describe('setTotalCopayers function', () => {
+src/pages/add/create-wallet/create-wallet.spec.ts:33:  /*  describe('setOptsAndCreate function', () => {
+src/pages/add/create-wallet/create-wallet.spec.ts:42:         bwsurl: 'https://bws.bitpay.com/bws/api',
+src/pages/add/create-wallet/create-wallet.spec.ts:62:       instance.createForm.value.bwsURL = 'https://bws.bitpay.com/bws/api';
+src/pages/add/create-wallet/create-wallet.ts:12:// Providers
+src/pages/add/create-wallet/create-wallet.ts:31:// Pages
+src/pages/add/create-wallet/create-wallet.ts:41:  /* For compressed keys, m*73 + n*34 <= 496 */
+src/pages/add/create-wallet/create-wallet.ts:183:    this.createForm.controls['selectedSeed'].setValue(this.seedOptions[0].id); // new or set
+src/pages/add/create-wallet/create-wallet.ts:194:    this.createForm.controls['selectedSeed'].setValue(seed); // new or set
+src/pages/add/create-wallet/create-wallet.ts:257:      // set opts.useLegacyPurpose
+src/pages/add/create-wallet/create-wallet.ts:268:      // set opts.useLegacyCoinType
+src/pages/add/create-wallet/create-wallet.ts:391:      'https://support.bitpay.com/hc/en-us/articles/360015920572-Setting-up-the-Single-Address-Feature-for-your-BitPay-Wallet';
+src/pages/add/import-wallet/import-wallet.spec.ts:6:// providers
+src/pages/add/import-wallet/import-wallet.spec.ts:83:        bwsURL: 'https://bws.bitpay.com/bws/api',
+src/pages/add/import-wallet/import-wallet.spec.ts:101:        bwsURL: 'https://bws.bitpay.com/bws/api',
+src/pages/add/import-wallet/import-wallet.ts:11:// Pages
+src/pages/add/import-wallet/import-wallet.ts:16:// Providers
+src/pages/add/import-wallet/import-wallet.ts:95:    this.keyId = this.navParams.data.keyId; // re-import option
+src/pages/add/import-wallet/import-wallet.ts:189:      derivationPath: parsedCode[3], // deprecated
+src/pages/add/import-wallet/import-wallet.ts:191:      coin: parsedCode[5] // deprecated
+src/pages/add/import-wallet/import-wallet.ts:320:          // Go back
+src/pages/add/import-wallet/import-wallet.ts:323:          // Continue anyway
+src/pages/add/import-wallet/import-wallet.ts:405:    // set opts.useLegacyPurpose
+src/pages/add/import-wallet/import-wallet.ts:415:    // set opts.useLegacyCoinType
+src/pages/add/import-wallet/import-wallet.ts:542:      /* TODO: opts.n is just used to determinate if the wallet is multisig (m/48'/xx) or single sig (m/44') 
+src/pages/add/import-wallet/import-wallet.ts:554:      // set opts.useLegacyPurpose
+src/pages/add/import-wallet/import-wallet.ts:564:      // set opts.useLegacyCoinType
+src/pages/add/import-wallet/import-wallet.ts:644:    // Most browsers return `C:\fakepath\FILENAME`
+src/pages/add/import-wallet/import-wallet.ts:650:    // If we use onloadend, we need to check the readyState.
+src/pages/add/import-wallet/import-wallet.ts:653:        // DONE === 2
+src/pages/add/join-wallet/join-wallet.ts:12:// Pages
+src/pages/add/join-wallet/join-wallet.ts:17:// Providers
+src/pages/add/join-wallet/join-wallet.ts:83:    this.regex = /^[0-9A-HJ-NP-Za-km-z]{70,80}$/; // For invitationCode
+src/pages/add/join-wallet/join-wallet.ts:87:      invitationCode: [null], // invitationCode == secret
+src/pages/add/join-wallet/join-wallet.ts:234:        // store preferences for the paired eth wallet
+src/pages/add/join-wallet/join-wallet.ts:268:        // show error multisig contract not found
+src/pages/add/join-wallet/join-wallet.ts:275:        // show error multisig contract wrong owner
+src/pages/add/join-wallet/join-wallet.ts:326:      // set opts.useLegacyPurpose
+src/pages/add/join-wallet/join-wallet.ts:335:      // set opts.useLegacyCoinType
+src/pages/add/select-currency/select-currency.ts:11:// pages
+src/pages/add/select-currency/select-currency.ts:19:// providers
+src/pages/add/select-currency/select-currency.ts:208:        // store preferences for the paired eth wallet
+src/pages/add/select-currency/select-currency.html:22:            <img src="https://tokens.1inch.exchange/{{currencyProvider.getTokenAddress(token.symbol.toLowerCase())}}.png" onerror="this.onerror=null;this.src='assets/img/icon-swap.svg'"/>
+src/pages/add/add.ts:4:// pages
+src/pages/add/add.ts:9:// providers
+src/pages/add/copayers/copayers.ts:6:// Native
+src/pages/add/copayers/copayers.ts:9:// Providers
+src/pages/add/copayers/copayers.ts:115:        // TODO?
+src/pages/add/copayers/copayers.scss:42:  // Timeline styles
+src/pages/add/create-eth-multisig/create-eth-multisig.ts:6:// Providers
+src/pages/add/create-eth-multisig/create-eth-multisig.ts:15:// Pages
+src/pages/add/create-eth-multisig/create-eth-multisig.ts:27:  public m: number; // requiredConfirmations
+src/pages/add/create-eth-multisig/create-eth-multisig.ts:28:  public n: number; // totalCopayers
+src/pages/add/create-eth-multisig/create-eth-multisig.ts:157:        walletId: this.pairedWallet.credentials.walletId, // linked eth wallet
+src/pages/add/create-eth-multisig/create-eth-multisig.ts:166:        multisigContractAddress: GnosisFactories[network], // address gnosis multisig contract
+src/pages/add/create-eth-multisig/create-eth-multisig.ts:167:        toAddress: GnosisFactories[network] // address gnosis multisig contract
+src/polyfills.ts:1:/* tslint:disable */
+src/polyfills.ts:3:/**
+src/polyfills.ts:16: * Learn more in https://angular.io/docs/ts/latest/guide/browser-support.html
+src/polyfills.ts:19:/***************************************************************************************************
+src/polyfills.ts:23:/** IE9, IE10 and IE11 requires all of the following polyfills. **/
+src/polyfills.ts:24:// import 'core-js/es6/symbol';
+src/polyfills.ts:25:// import 'core-js/es6/object';
+src/polyfills.ts:26:// import 'core-js/es6/function';
+src/polyfills.ts:27:// import 'core-js/es6/parse-int';
+src/polyfills.ts:28:// import 'core-js/es6/parse-float';
+src/polyfills.ts:29:// import 'core-js/es6/number';
+src/polyfills.ts:30:// import 'core-js/es6/math';
+src/polyfills.ts:31:// import 'core-js/es6/string';
+src/polyfills.ts:32:// import 'core-js/es6/date';
+src/polyfills.ts:33:// import 'core-js/es6/array';
+src/polyfills.ts:34:// import 'core-js/es6/regexp';
+src/polyfills.ts:35:// import 'core-js/es6/map';
+src/polyfills.ts:36:// import 'core-js/es6/weak-map';
+src/polyfills.ts:37:// import 'core-js/es6/set';
+src/polyfills.ts:39:/** IE10 and IE11 requires the following for NgClass support on SVG elements */
+src/polyfills.ts:40:// import 'classlist.js';  // Run `npm install --save classlist.js`.
+src/polyfills.ts:42:/** IE10 and IE11 requires the following for the Reflect API. */
+src/polyfills.ts:43:// import 'core-js/es6/reflect';
+src/polyfills.ts:45:/** Evergreen browsers require these. **/
+src/polyfills.ts:46:// Used for reflect-metadata in JIT. If you use AOT (and only Angular decorators), you can remove.
+src/polyfills.ts:48:/**
+src/polyfills.ts:50: * Needed for: All but Chrome, Firefox and Opera. http://caniuse.com/#feat=web-animation
+src/polyfills.ts:52:// import 'web-animations-js';  // Run `npm install --save web-animations-js`.
+src/polyfills.ts:54:/***************************************************************************************************
+src/polyfills.ts:57:import 'zone.js/dist/zone'; // Included with Angular CLI.
+src/polyfills.ts:59:/***************************************************************************************************
+src/polyfills.ts:63:/**
+src/polyfills.ts:67:// import 'intl';  // Run `npm install --save intl`.
+src/polyfills.ts:68:/**
+src/polyfills.ts:71:// import 'intl/locale-data/jsonp/en';
+src/assets/fonts/roboto.scss:1:// Roboto Font
+src/assets/fonts/roboto.scss:2:// Google
+src/assets/fonts/roboto.scss:3:// Apache License, version 2.0
+src/assets/fonts/roboto.scss:4:// http://www.apache.org/licenses/LICENSE-2.0.html
+src/assets/fonts/ionicons.scss:1:// Ionicons Icon Font CSS
+src/assets/fonts/ionicons.scss:2:// --------------------------
+src/assets/fonts/ionicons.scss:3:// Ionicons CSS for Ionic's <ion-icon> element
+src/assets/fonts/ionicons.scss:4:// ionicons-icons.scss has the icons and their unicode characters
+src/assets/fonts/noto-sans.scss:1:// Noto Sans Font
+src/assets/fonts/noto-sans.scss:2:// Google
+src/assets/fonts/noto-sans.scss:3:// Apache License, version 2.0
+src/assets/fonts/noto-sans.scss:4:// http://www.apache.org/licenses/LICENSE-2.0.html

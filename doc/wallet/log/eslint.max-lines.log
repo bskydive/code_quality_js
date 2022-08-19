@@ -1,0 +1,344 @@
+/mnt/disk273/doc/coding/linters-article/src/app/app.component.spec.ts(19,22): error max-lines-per-function : Arrow function has too many lines (73). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/app/app.component.ts(227,3): error max-lines-per-function : Async method 'onAppLoad' has too many lines (200). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/app/app.component.ts(473,1): error max-lines : File has too many lines (800). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/app/app.component.ts(644,3): error max-lines-per-function : Method 'incomingDataRedirEvent' has too many lines (140). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/app/app.component.ts(647,7): error max-lines-per-function : Async arrow function has too many lines (135). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/components/chart-component/chart-component.ts(53,3): error max-lines-per-function : Method 'createElement' has too many lines (68). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/components/expandable-header/expandable-header.spec.ts(37,39): error max-lines-per-function : Arrow function has too many lines (83). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/components/footer-menu/footer-menu.ts(19,3): error max-lines-per-function : Constructor has too many lines (88). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/components/price-chart/price-chart.ts(15,3): error max-lines-per-function : Method 'initChartData' has too many lines (105). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/create-wallet/create-wallet.ts(80,3): error max-lines-per-function : Constructor has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/create-wallet/create-wallet.ts(212,3): error max-lines-per-function : Method 'setOptsAndCreate' has too many lines (98). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/create-wallet/create-wallet.ts(334,3): error max-lines-per-function : Method 'create' has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/create-wallet/create-wallet.ts(435,1): error max-lines : File has too many lines (458). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/custom-token/custom-token.ts(210,3): error max-lines-per-function : Method 'filter' has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/import-wallet/import-wallet.spec.ts(9,30): error max-lines-per-function : Arrow function has too many lines (148). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/import-wallet/import-wallet.ts(59,3): error max-lines-per-function : Constructor has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/import-wallet/import-wallet.ts(359,3): error max-lines-per-function : Method 'setOptsAndCreate' has too many lines (93). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/import-wallet/import-wallet.ts(444,1): error max-lines : File has too many lines (607). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/import-wallet/import-wallet.ts(517,3): error max-lines-per-function : Method 'importFromMnemonic' has too many lines (101). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/join-wallet/join-wallet.ts(56,3): error max-lines-per-function : Constructor has too many lines (65). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/join-wallet/join-wallet.ts(250,3): error max-lines-per-function : Async method 'setOptsAndJoin' has too many lines (133). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/join-wallet/join-wallet.ts(440,1): error max-lines : File has too many lines (404). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/backup/backup-key/backup-key.ts(54,3): error max-lines-per-function : Method 'ionViewDidEnter' has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/country-selector/country-selector.ts(26,3): error max-lines-per-function : Constructor has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.ts(241,3): error max-lines-per-function : Method 'continueToSimplex' has too many lines (77). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.ts(244,13): error max-lines-per-function : Arrow function has too many lines (70). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.ts(254,17): error max-lines-per-function : Arrow function has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.ts(323,3): error max-lines-per-function : Method 'getSimplexQuote' has too many lines (70). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.ts(420,3): error max-lines-per-function : Method 'goToWyreBuyPage' has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.ts(445,1): error max-lines : File has too many lines (541). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.ts(491,3): error max-lines-per-function : Method 'getWyreQuote' has too many lines (71). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.ts(432,1): error max-lines : File has too many lines (464). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/cards/cards.ts(139,3): error max-lines-per-function : Async method 'prepareDebitCards' has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/coin-and-wallet-selector/coin-and-wallet-selector.ts(61,3): error max-lines-per-function : Constructor has too many lines (91). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/coin-and-wallet-selector/coin-and-wallet-selector.ts(171,3): error max-lines-per-function : Method 'showWallets' has too many lines (57). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/coin-and-wallet-selector/coin-and-wallet-selector.ts(375,3): error max-lines-per-function : Method 'filter' has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/coin-and-wallet-selector/coin-and-wallet-selector.ts(447,1): error max-lines : File has too many lines (411). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts(119,3): error max-lines-per-function : Method 'createFixTransaction' has too many lines (151). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts(122,13): error max-lines-per-function : Arrow function has too many lines (137). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts(127,17): error max-lines-per-function : Arrow function has too many lines (122). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts(149,21): error max-lines-per-function : Arrow function has too many lines (88). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts(345,3): error max-lines-per-function : Method 'createTx' has too many lines (71). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts(351,24): error max-lines-per-function : Arrow function has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts(450,1): error max-lines : File has too many lines (529). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(104,3): error max-lines-per-function : Constructor has too many lines (71). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(210,3): error max-lines-per-function : Async method 'getExchangesCurrencies' has too many lines (243). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(277,32): error max-lines-per-function : Arrow function has too many lines (84). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(455,1): error max-lines : File has too many lines (1346). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(513,3): error max-lines-per-function : Method 'showToWallets' has too many lines (72). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(593,3): error max-lines-per-function : Method 'setExchangeToUse' has too many lines (69). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(730,3): error max-lines-per-function : Method 'changellyGetRates' has too many lines (147). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(746,13): error max-lines-per-function : Async arrow function has too many lines (123). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(886,3): error max-lines-per-function : Async method 'oneInchGetRates' has too many lines (90). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(1088,3): error max-lines-per-function : Method 'updateReceivingAmount' has too many lines (61). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(1367,3): error max-lines-per-function : Method 'verifyAllowances' has too many lines (121). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(1377,13): error max-lines-per-function : Async arrow function has too many lines (100). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(1403,17): error max-lines-per-function : Arrow function has too many lines (65). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/feedback/send-feedback/send-feedback.ts(146,3): error max-lines-per-function : Async method 'sendFeedback' has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/home/home.ts(129,3): error max-lines-per-function : Constructor has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/home/home.ts(289,3): error max-lines-per-function : Method 'loadAds' has too many lines (73). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/home/home.ts(294,7): error max-lines-per-function : Arrow function has too many lines (67). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/home/home.ts(431,1): error max-lines : File has too many lines (1224). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/home/home.ts(457,3): error max-lines-per-function : Method 'subscribeEvents' has too many lines (69). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts(52,3): error max-lines-per-function : Method 'ionViewWillEnter' has too many lines (60). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(132,3): error max-lines-per-function : Method 'ionViewWillEnter' has too many lines (79). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(149,13): error max-lines-per-function : Arrow function has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(360,3): error max-lines-per-function : Method 'createTx' has too many lines (115). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(362,24): error max-lines-per-function : Arrow function has too many lines (112). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(376,15): error max-lines-per-function : Arrow function has too many lines (96). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(386,19): error max-lines-per-function : Arrow function has too many lines (82). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(454,1): error max-lines : File has too many lines (1153). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(487,3): error max-lines-per-function : Method 'getSendMaxInfo' has too many lines (60). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(488,24): error max-lines-per-function : Arrow function has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(548,3): error max-lines-per-function : Method 'calculateAmount' has too many lines (125). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(550,24): error max-lines-per-function : Arrow function has too many lines (122). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(566,17): error max-lines-per-function : Arrow function has too many lines (106). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(581,21): error max-lines-per-function : Arrow function has too many lines (90). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(623,25): error max-lines-per-function : Arrow function has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(770,3): error max-lines-per-function : Method 'initializeTopUp' has too many lines (72). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/coinbase/coinbase-account/coinbase-account.ts(126,3): error max-lines-per-function : Method 'deposit' has too many lines (70). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts(108,3): error max-lines-per-function : Constructor has too many lines (84). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts(436,1): error max-lines : File has too many lines (970). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts(441,3): error max-lines-per-function : Async method 'createTx' has too many lines (112). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts(766,3): error max-lines-per-function : Async method 'initializeCoinbase' has too many lines (68). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wallet-connect/wallet-connect-request-details/wallet-connect-request-details.ts(76,3): error max-lines-per-function : Async method 'approveRequest' has too many lines (80). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wallet-connect/wallet-connect.ts(92,3): error max-lines-per-function : Constructor has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wallet-connect/wallet-connect.ts(437,1): error max-lines : File has too many lines (429). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre-details/wyre-details.ts(40,3): error max-lines-per-function : Method 'ionViewWillEnter' has too many lines (72). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre-details/wyre-details.ts(51,15): error max-lines-per-function : Arrow function has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.ts(43,3): error max-lines-per-function : Method 'init' has too many lines (124). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.ts(47,13): error max-lines-per-function : Arrow function has too many lines (115). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.ts(55,19): error max-lines-per-function : Arrow function has too many lines (96). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/paper-wallet/paper-wallet.ts(241,3): error max-lines-per-function : Method '_sweepWallet' has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/paper-wallet/paper-wallet.ts(242,24): error max-lines-per-function : Arrow function has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/receive/custom-amount/custom-amount.ts(32,3): error max-lines-per-function : Constructor has too many lines (71). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/receive/custom-amount/custom-amount.ts(50,61): error max-lines-per-function : Arrow function has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.spec.ts(7,24): error max-lines-per-function : Arrow function has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.ts(114,3): error max-lines-per-function : Constructor has too many lines (63). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.ts(239,3): error max-lines-per-function : Method 'setAvailableUnits' has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.ts(458,1): error max-lines : File has too many lines (698). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.ts(580,3): error max-lines-per-function : Method 'finish' has too many lines (82). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.spec.ts(7,25): error max-lines-per-function : Arrow function has too many lines (142). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.spec.ts(82,23): error max-lines-per-function : Arrow function has too many lines (68). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(147,3): error max-lines-per-function : Constructor has too many lines (68). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(241,3): error max-lines-per-function : Method 'ionViewDidLoad' has too many lines (129). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(461,1): error max-lines : File has too many lines (1994). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(532,3): error max-lines-per-function : Async method 'setWallet' has too many lines (65). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(645,3): error max-lines-per-function : Method 'setButtonText' has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(732,3): error max-lines-per-function : Method 'updateTx' has too many lines (87). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(733,24): error max-lines-per-function : Arrow function has too many lines (85). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(754,15): error max-lines-per-function : Arrow function has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(870,3): error max-lines-per-function : Method 'speedUpTx' has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(960,3): error max-lines-per-function : Method 'buildTxp' has too many lines (59). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(961,24): error max-lines-per-function : Arrow function has too many lines (57). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(963,15): error max-lines-per-function : Async arrow function has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(1128,3): error max-lines-per-function : Method 'getTxp' has too many lines (255). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(1129,24): error max-lines-per-function : Arrow function has too many lines (253). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(1403,3): error max-lines-per-function : Async method 'setEthAddressNonce' has too many lines (77). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(1490,46): error max-lines-per-function : Async method 'instantiateMultisigContract' has too many lines (61). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(1787,3): error max-lines-per-function : Method 'publishAndSign' has too many lines (61). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(2006,3): error max-lines-per-function : Method 'handleError' has too many lines (66). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/multi-send/multi-send.ts(182,3): error max-lines-per-function : Method 'newRecipient' has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/select-inputs/select-inputs.ts(164,3): error max-lines-per-function : Method 'newRecipient' has too many lines (55). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.spec.ts(17,22): error max-lines-per-function : Arrow function has too many lines (861). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.spec.ts(95,28): error max-lines-per-function : Arrow function has too many lines (786). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.spec.ts(96,41): error max-lines-per-function : Arrow function has too many lines (193). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.spec.ts(303,41): error max-lines-per-function : Arrow function has too many lines (198). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.spec.ts(435,1): error max-lines : File has too many lines (872). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.spec.ts(514,41): error max-lines-per-function : Arrow function has too many lines (191). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.spec.ts(719,41): error max-lines-per-function : Arrow function has too many lines (195). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.ts(253,3): error max-lines-per-function : Async method 'processInput' has too many lines (66). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/transfer-to/transfer-to.spec.ts(7,28): error max-lines-per-function : Arrow function has too many lines (161). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/transfer-to/transfer-to.spec.ts(31,29): error max-lines-per-function : Arrow function has too many lines (75). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/transfer-to/transfer-to.spec.ts(121,28): error max-lines-per-function : Arrow function has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/about/about.spec.ts(8,23): error max-lines-per-function : Arrow function has too many lines (78). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/about/session-log/session-log.spec.ts(10,28): error max-lines-per-function : Arrow function has too many lines (115). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/alt-currency/alt-currency.ts(33,3): error max-lines-per-function : Constructor has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/language/language.spec.ts(7,26): error max-lines-per-function : Arrow function has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/notifications/notifications.spec.ts(7,31): error max-lines-per-function : Arrow function has too many lines (180). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/notifications/notifications.spec.ts(34,23): error max-lines-per-function : Arrow function has too many lines (154). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/notifications/notifications.spec.ts(143,31): error max-lines-per-function : Arrow function has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/settings.ts(456,1): error max-lines : File has too many lines (497). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/share/share.ts(69,3): error max-lines-per-function : Method 'ionViewWillEnter' has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts(59,3): error max-lines-per-function : Method 'sendByEmail' has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/wallet-addresses.ts(61,3): error max-lines-per-function : Method 'ionViewWillEnter' has too many lines (86). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.ts(102,3): error max-lines-per-function : Method 'duplicate' has too many lines (70). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts(245,3): error max-lines-per-function : Method 'sendWalletBackup' has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts(83,3): error max-lines-per-function : Method 'csvHistory' has too many lines (89). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts(87,13): error max-lines-per-function : Arrow function has too many lines (73). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/tabs/tabs.ts(423,31): error max-lines-per-function : Method 'fetchWalletStatus' has too many lines (65). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/tabs/tabs.ts(424,24): error max-lines-per-function : Arrow function has too many lines (63). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/tabs/tabs.ts(452,1): error max-lines : File has too many lines (484). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-approve/token-swap-approve.ts(90,3): error max-lines-per-function : Method 'getApproveCalldata' has too many lines (104). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-approve/token-swap-approve.ts(93,13): error max-lines-per-function : Async arrow function has too many lines (91). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-approve/token-swap-approve.ts(122,17): error max-lines-per-function : Arrow function has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-approve/token-swap-approve.ts(254,3): error max-lines-per-function : Method 'createTx' has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-approve/token-swap-approve.ts(255,24): error max-lines-per-function : Arrow function has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-checkout/token-swap-checkout.ts(122,3): error max-lines-per-function : Method 'getSwap1inch' has too many lines (120). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-checkout/token-swap-checkout.ts(125,13): error max-lines-per-function : Arrow function has too many lines (106). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-checkout/token-swap-checkout.ts(129,17): error max-lines-per-function : Arrow function has too many lines (91). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-checkout/token-swap-checkout.ts(164,21): error max-lines-per-function : Arrow function has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-checkout/token-swap-checkout.ts(380,3): error max-lines-per-function : Method 'createTx' has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-checkout/token-swap-checkout.ts(381,24): error max-lines-per-function : Arrow function has too many lines (60). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/token-swap/token-swap-checkout/token-swap-checkout.ts(450,1): error max-lines : File has too many lines (471). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/tx-details/tx-details.ts(205,3): error max-lines-per-function : Method 'updateTx' has too many lines (74). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/tx-details/tx-details.ts(409,3): error max-lines-per-function : Async method 'goToConfirm' has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/tx-details/tx-details.ts(445,1): error max-lines : File has too many lines (424). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/txp-details/txp-details.ts(460,1): error max-lines : File has too many lines (427). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.spec.ts(9,31): error max-lines-per-function : Arrow function has too many lines (103). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.spec.ts(59,23): error max-lines-per-function : Arrow function has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.ts(95,3): error max-lines-per-function : Constructor has too many lines (119). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.ts(466,1): error max-lines : File has too many lines (921). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallets/proposals-notifications/proposals-notifications.ts(152,36): error max-lines-per-function : Method 'updatePendingProposals' has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/pipes/order-by.ts(35,3): error max-lines-per-function : Method 'transform' has too many lines (68). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address-book/address-book.spec.ts(5,33): error max-lines-per-function : Arrow function has too many lines (298). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address-book/address-book.spec.ts(108,28): error max-lines-per-function : Arrow function has too many lines (86). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address-book/address-book.spec.ts(200,31): error max-lines-per-function : Arrow function has too many lines (118). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address-book/address-book.ts(128,3): error max-lines-per-function : Method 'add' has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address-book/address-book.ts(129,24): error max-lines-per-function : Arrow function has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address/address.spec.ts(4,29): error max-lines-per-function : Arrow function has too many lines (242). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address/address.spec.ts(12,33): error max-lines-per-function : Arrow function has too many lines (78). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address/address.spec.ts(104,30): error max-lines-per-function : Arrow function has too many lines (59). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address/address.spec.ts(178,23): error max-lines-per-function : Arrow function has too many lines (98). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/address/address.ts(41,3): error max-lines-per-function : Method 'getCoinAndNetwork' has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/analytics/analytics.ts(23,3): error max-lines-per-function : Method 'setTrackingPermissions' has too many lines (55). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/analytics/analytics.ts(25,24): error max-lines-per-function : Arrow function has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/app-identity/app-identity.spec.ts(7,33): error max-lines-per-function : Arrow function has too many lines (66). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/app/app.spec.ts(27,25): error max-lines-per-function : Arrow function has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/backup/backup.spec.ts(11,28): error max-lines-per-function : Arrow function has too many lines (110). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/backup/backup.spec.ts(73,37): error max-lines-per-function : Arrow function has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-account/bitpay-account.ts(66,3): error max-lines-per-function : Method 'pair' has too many lines (86). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-account/bitpay-account.ts(71,29): error max-lines-per-function : Arrow function has too many lines (80). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-account/bitpay-account.ts(92,9): error max-lines-per-function : Arrow function has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-card/bitpay-card.ts(115,3): error max-lines-per-function : Method '_processTransactions' has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-card/bitpay-card.ts(280,3): error max-lines-per-function : Method 'updateHistory' has too many lines (77). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-card/bitpay-card.ts(293,7): error max-lines-per-function : Arrow function has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-card/bitpay-card.ts(296,23): error max-lines-per-function : Arrow function has too many lines (61). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-card/bitpay-card.ts(462,1): error max-lines : File has too many lines (1539). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-id/bitpay-id.ts(56,3): error max-lines-per-function : Method 'generatePairingToken' has too many lines (101). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-id/bitpay-id.ts(59,51): error max-lines-per-function : Arrow function has too many lines (98). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-id/bitpay-id.ts(90,9): error max-lines-per-function : Async arrow function has too many lines (69). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/buy-crypto/buy-crypto.ts(22,3): error max-lines-per-function : Constructor has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bwc-error/bwc-error.spec.ts(4,50): error max-lines-per-function : Arrow function has too many lines (198). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bwc-error/bwc-error.spec.ts(12,28): error max-lines-per-function : Arrow function has too many lines (191). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bwc-error/bwc-error.spec.ts(23,81): error max-lines-per-function : Arrow function has too many lines (181). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/bwc-error/bwc-error.ts(8,3): error max-lines-per-function : Method 'msg' has too many lines (233). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/changelly/changelly.ts(193,3): error max-lines-per-function : Method 'getStatusDetails' has too many lines (73). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/clipboard/clipboard.spec.ts(15,31): error max-lines-per-function : Arrow function has too many lines (265). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/clipboard/clipboard.spec.ts(41,24): error max-lines-per-function : Arrow function has too many lines (106). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/clipboard/clipboard.spec.ts(162,25): error max-lines-per-function : Arrow function has too many lines (96). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/coinbase/coinbase.ts(85,3): error max-lines-per-function : Method 'setCredentials' has too many lines (68). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/coinbase/coinbase.ts(473,1): error max-lines : File has too many lines (884). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/coinbase/coinbase.ts(680,3): error max-lines-per-function : Method '_sendTransaction' has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/config/config.spec.ts(5,39): error max-lines-per-function : Arrow function has too many lines (60). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/config/config.ts(152,3): error max-lines-per-function : Constructor has too many lines (121). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/config/config.ts(384,3): error max-lines-per-function : Method 'backwardCompatibility' has too many lines (70). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/currency/coin.ts(408,1): error max-lines : File has too many lines (524). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/currency/currency.ts(124,3): error max-lines-per-function : Async method 'addCustomToken' has too many lines (63). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/derivation-path-helper/derivation-path-helper.spec.ts(3,45): error max-lines-per-function : Arrow function has too many lines (84). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/download/download.spec.ts(6,30): error max-lines-per-function : Arrow function has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/email-notifications/email-notifications.spec.ts(8,52): error max-lines-per-function : Arrow function has too many lines (72). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/fee/fee.spec.ts(7,36): error max-lines-per-function : Arrow function has too many lines (168). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/fee/fee.spec.ts(71,26): error max-lines-per-function : Arrow function has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/fee/fee.spec.ts(134,28): error max-lines-per-function : Arrow function has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/fee/fee.ts(106,3): error max-lines-per-function : Method 'getFeeLevels' has too many lines (55). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/fee/fee.ts(107,24): error max-lines-per-function : Arrow function has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/feedback/feedback.spec.ts(10,30): error max-lines-per-function : Arrow function has too many lines (98). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/gift-card/gift-card.spec.ts(8,30): error max-lines-per-function : Arrow function has too many lines (68). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/gift-card/gift-card.ts(436,1): error max-lines : File has too many lines (869). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(103,3): error max-lines-per-function : Method 'init' has too many lines (172). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(107,40): error max-lines-per-function : Async arrow function has too many lines (167). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(445,3): error max-lines-per-function : Method 'getCards' has too many lines (102). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(446,24): error max-lines-per-function : Async arrow function has too many lines (100). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(537,1): error max-lines : File has too many lines (1107). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(565,3): error max-lines-per-function : Method 'getBalances' has too many lines (65). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(566,24): error max-lines-per-function : Async arrow function has too many lines (63). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(915,3): error max-lines-per-function : Async method 'pairing' has too many lines (101). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(930,7): error max-lines-per-function : Async arrow function has too many lines (66). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(1229,3): error max-lines-per-function : Async method 'startAddApplePaymentPass' has too many lines (67). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/in-app-browser.ts(42,3): error max-lines-per-function : Method 'createIABInstance' has too many lines (76). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/in-app-browser.ts(48,24): error max-lines-per-function : Arrow function has too many lines (69). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.spec.ts(13,46): error max-lines-per-function : Arrow function has too many lines (1126). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.spec.ts(80,39): error max-lines-per-function : Arrow function has too many lines (810). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.spec.ts(172,119): error max-lines-per-function : Arrow function has too many lines (126). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.spec.ts(305,92): error max-lines-per-function : Arrow function has too many lines (99). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.spec.ts(422,1): error max-lines : File has too many lines (1137). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.spec.ts(986,35): error max-lines-per-function : Arrow function has too many lines (203). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.spec.ts(991,64): error max-lines-per-function : Arrow function has too many lines (192). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(304,3): error max-lines-per-function : Async method 'handleBitPayInvoice' has too many lines (59). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(457,1): error max-lines : File has too many lines (1360). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(837,3): error max-lines-per-function : Method 'goToWyre' has too many lines (61). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(921,3): error max-lines-per-function : Method 'redir' has too many lines (175). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(1176,3): error max-lines-per-function : Method 'parseData' has too many lines (144). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(1490,3): error max-lines-per-function : Async method 'handlePayPro' has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(1558,3): error max-lines-per-function : Async method 'handleUnlock' has too many lines (57). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(6,25): error max-lines-per-function : Arrow function has too many lines (665). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(29,22): error max-lines-per-function : Arrow function has too many lines (119). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(156,23): error max-lines-per-function : Arrow function has too many lines (224). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(197,47): error max-lines-per-function : Async arrow function has too many lines (59). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(260,52): error max-lines-per-function : Async arrow function has too many lines (76). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(433,1): error max-lines : File has too many lines (667). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(433,25): error max-lines-per-function : Arrow function has too many lines (91). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(565,33): error max-lines-per-function : Arrow function has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/key/key.spec.ts(619,47): error max-lines-per-function : Arrow function has too many lines (90). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/language/language.spec.ts(8,30): error max-lines-per-function : Arrow function has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/logger/logger.spec.ts(4,28): error max-lines-per-function : Arrow function has too many lines (140). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/on-going-process/on-going-process.ts(23,3): error max-lines-per-function : Method 'getProcessNames' has too many lines (67). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/paypro/paypro.spec.ts(5,28): error max-lines-per-function : Arrow function has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/paypro/paypro.ts(50,3): error max-lines-per-function : Async method 'getPayProDetails' has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/persistence/persistence.spec.ts(8,34): error max-lines-per-function : Arrow function has too many lines (138). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/persistence/persistence.spec.ts(76,44): error max-lines-per-function : Arrow function has too many lines (78). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/persistence/persistence.ts(496,1): error max-lines : File has too many lines (917). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/platform/platform.spec.ts(4,30): error max-lines-per-function : Arrow function has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/popup/popup.spec.ts(6,27): error max-lines-per-function : Arrow function has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(20,30): error max-lines-per-function : Arrow function has too many lines (1269). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(421,1): error max-lines : File has too many lines (1282). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(556,43): error max-lines-per-function : Arrow function has too many lines (98). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(598,162): error max-lines-per-function : Arrow function has too many lines (61). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(682,34): error max-lines-per-function : Arrow function has too many lines (83). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(820,28): error max-lines-per-function : Arrow function has too many lines (103). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(931,26): error max-lines-per-function : Arrow function has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(1098,26): error max-lines-per-function : Arrow function has too many lines (65). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.spec.ts(1220,37): error max-lines-per-function : Arrow function has too many lines (139). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(312,3): error max-lines-per-function : Async method 'bindWalletClient' has too many lines (150). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(467,1): error max-lines : File has too many lines (1919). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(490,3): error max-lines-per-function : Method 'checkAccountCreation' has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(593,3): error max-lines-per-function : Method 'showDesktopNotifications' has too many lines (78). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1098,3): error max-lines-per-function : Method '_importFile' has too many lines (88). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1099,24): error max-lines-per-function : Async arrow function has too many lines (86). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1432,3): error max-lines-per-function : Method 'seedWallet' has too many lines (114). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1433,24): error max-lines-per-function : Arrow function has too many lines (112). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1553,3): error max-lines-per-function : Method '_createWallet' has too many lines (73). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1554,24): error max-lines-per-function : Arrow function has too many lines (71). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1567,18): error max-lines-per-function : Arrow function has too many lines (59). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1569,17): error max-lines-per-function : Arrow function has too many lines (53). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1636,3): error max-lines-per-function : Method '_joinWallet' has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1637,24): error max-lines-per-function : Arrow function has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1989,3): error max-lines-per-function : Method 'getWalletsFromGroup' has too many lines (110). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/push-notifications/push-notifications.ts(332,3): error max-lines-per-function : Method 'runNotificationsQueue' has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/push-notifications/push-notifications.ts(335,29): error max-lines-per-function : Arrow function has too many lines (61). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/rate/rate.spec.ts(5,26): error max-lines-per-function : Arrow function has too many lines (462). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/rate/rate.spec.ts(476,1): error max-lines : File has too many lines (465). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/release/release.spec.ts(10,30): error max-lines-per-function : Arrow function has too many lines (82). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/replace-parameters/replace-parameters.spec.ts(3,41): error max-lines-per-function : Arrow function has too many lines (66). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/scan/scan.spec.ts(10,26): error max-lines-per-function : Arrow function has too many lines (376). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/scan/scan.spec.ts(37,24): error max-lines-per-function : Arrow function has too many lines (329). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/scan/scan.spec.ts(66,34): error max-lines-per-function : Arrow function has too many lines (82). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/scan/scan.spec.ts(175,28): error max-lines-per-function : Arrow function has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/simplex/simplex.ts(30,3): error max-lines-per-function : Constructor has too many lines (84). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/simplex/simplex.ts(271,3): error max-lines-per-function : Method 'getPaymentUrl' has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/tx-confirm-notification/tx-confirm-notification.spec.ts(6,43): error max-lines-per-function : Arrow function has too many lines (83). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/tx-format/tx-format.spec.ts(10,30): error max-lines-per-function : Arrow function has too many lines (339). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/tx-format/tx-format.spec.ts(182,25): error max-lines-per-function : Arrow function has too many lines (79). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/tx-format/tx-format.spec.ts(270,27): error max-lines-per-function : Arrow function has too many lines (78). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/tx-format/tx-format.ts(148,3): error max-lines-per-function : Method 'processTx' has too many lines (58). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet-connect/wallet-connect.ts(238,3): error max-lines-per-function : Async method 'subscribeToEvents' has too many lines (70). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet-connect/wallet-connect.ts(469,1): error max-lines : File has too many lines (457). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/mocks/pending-txp.mock.ts(81,3): error max-lines-per-function : Constructor has too many lines (93). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.spec.ts(21,39): error max-lines-per-function : Arrow function has too many lines (1104). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.spec.ts(103,37): error max-lines-per-function : Arrow function has too many lines (187). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.spec.ts(252,81): error max-lines-per-function : Arrow function has too many lines (51). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.spec.ts(349,36): error max-lines-per-function : Arrow function has too many lines (66). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.spec.ts(442,1): error max-lines : File has too many lines (1121). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.spec.ts(520,31): error max-lines-per-function : Arrow function has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.spec.ts(979,40): error max-lines-per-function : Arrow function has too many lines (92). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(156,3): error max-lines-per-function : Method 'fetchStatus' has too many lines (263). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(157,24): error max-lines-per-function : Arrow function has too many lines (261). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(199,28): error max-lines-per-function : Arrow function has too many lines (106). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(262,17): error max-lines-per-function : Arrow function has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(367,29): error max-lines-per-function : Arrow function has too many lines (62). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(368,28): error max-lines-per-function : Arrow function has too many lines (60). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(466,1): error max-lines : File has too many lines (1783). Maximum allowed is 400.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(768,3): error max-lines-per-function : Method 'updateLocalTxHistory' has too many lines (219). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(773,24): error max-lines-per-function : Arrow function has too many lines (213). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(819,15): error max-lines-per-function : Arrow function has too many lines (170). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(841,29): error max-lines-per-function : Arrow function has too many lines (70). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(846,32): error max-lines-per-function : Arrow function has too many lines (64). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(920,19): error max-lines-per-function : Arrow function has too many lines (78). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(1324,3): error max-lines-per-function : Method 'signTx' has too many lines (52). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(1740,3): error max-lines-per-function : Method 'signAndBroadcast' has too many lines (57). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(1741,24): error max-lines-per-function : Arrow function has too many lines (55). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(1826,3): error max-lines-per-function : Method 'getEncodedWalletInfo' has too many lines (56). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(1827,24): error max-lines-per-function : Arrow function has too many lines (54). Maximum allowed is 50.
+/mnt/disk273/doc/coding/linters-article/src/test.ts(228,3): error max-lines-per-function : Static async method 'configurePageTestingModule' has too many lines (52). Maximum allowed is 50.

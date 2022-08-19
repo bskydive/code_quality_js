@@ -1,0 +1,3 @@
+src/providers/incoming-data/incoming-data.spec.ts:172:    xit('Should parse valid BitPay Invoice Url if selectedtransactionCurrency exists with different coins', fakeAsync(() => {
+src/providers/incoming-data/incoming-data.spec.ts:305:    xit('Should parse valid BitPay Invoice Url if !selectedtransactionCurrency', fakeAsync(() => {
+src/providers/incoming-data/incoming-data.spec.ts:896:    xit('Should handle BitPay Card URI', () => {

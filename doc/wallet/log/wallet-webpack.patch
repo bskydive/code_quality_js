@@ -1,0 +1,25 @@
+diff --git a/config/webpack.config.js b/config/webpack.config.js
+index 828ba5f3f..cb288ec1b 100644
+--- a/config/webpack.config.js
++++ b/config/webpack.config.js
+@@ -10,6 +10,8 @@
+ var path = require('path');
+ var webpack = require('webpack');
+ const JavaScriptObfuscator = require('webpack-obfuscator');
++const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
++
+ var ionicWebpackFactory = require(process.env.IONIC_WEBPACK_FACTORY);
+ const Dotenv = require('dotenv-webpack');
+ 
+@@ -92,6 +94,11 @@ var devConfig = {
+   },
+ 
+   plugins: [
++    new BundleAnalyzerPlugin({
++      analyzerMode: 'static',
++      openAnalyzer: false,
++      generateStatsFile: true
++    }),
+     new Dotenv({
+       path: '.env.dev', // load this now instead of the ones in '.env'
+       systemvars: true, // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.

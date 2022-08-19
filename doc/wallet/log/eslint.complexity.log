@@ -1,0 +1,68 @@
+/mnt/disk273/doc/coding/linters-article/src/app/app.component.ts(521,24): warning complexity : Method 'openLockModal' has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/app/app.component.ts(647,7): warning complexity : Async arrow function has a complexity of 35. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/components/chart-component/chart-component.ts(53,24): warning complexity : Method 'createElement' has a complexity of 22. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/components/wallet-item-content/wallet-item-content.ts(25,13): warning complexity : Method 'getBalance' has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/create-wallet/create-wallet.ts(212,26): warning complexity : Method 'setOptsAndCreate' has a complexity of 21. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/import-wallet/import-wallet.ts(359,26): warning complexity : Method 'setOptsAndCreate' has a complexity of 16. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/import-wallet/import-wallet.ts(517,28): warning complexity : Method 'importFromMnemonic' has a complexity of 22. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/add/join-wallet/join-wallet.ts(250,30): warning complexity : Async method 'setOptsAndJoin' has a complexity of 19. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/cards/cards.ts(141,24): warning complexity : Async arrow function has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/coin-and-wallet-selector/coin-and-wallet-selector.ts(61,14): warning complexity : Constructor has a complexity of 14. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(210,39): warning complexity : Async method 'getExchangesCurrencies' has a complexity of 16. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(277,32): warning complexity : Arrow function has a complexity of 13. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(593,27): warning complexity : Method 'setExchangeToUse' has a complexity of 15. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(746,13): warning complexity : Async arrow function has a complexity of 16. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(886,32): warning complexity : Async method 'oneInchGetRates' has a complexity of 15. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.ts(1202,21): warning complexity : Method 'canContinue' has a complexity of 13. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts(386,19): warning complexity : Arrow function has a complexity of 15. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts(441,25): warning complexity : Async method 'createTx' has a complexity of 20. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/purchased-cards/card-list-item/card-list-item.ts(121,17): warning complexity : Async method 'ngOnInit' has a complexity of 14. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wallet-connect/wallet-connect-request-details/wallet-connect-request-details.ts(76,30): warning complexity : Async method 'approveRequest' has a complexity of 14. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre-details/wyre-details.ts(51,15): warning complexity : Arrow function has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.ts(55,19): warning complexity : Arrow function has a complexity of 16. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/scan/scan.ts(254,31): warning complexity : Method 'handleSuccessfulScan' has a complexity of 14. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.ts(239,28): warning complexity : Method 'setAvailableUnits' has a complexity of 14. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.ts(453,24): warning complexity : Method 'processAmount' has a complexity of 12. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.ts(580,16): warning complexity : Method 'finish' has a complexity of 22. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(241,17): warning complexity : Method 'ionViewDidLoad' has a complexity of 24. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(532,26): warning complexity : Async method 'setWallet' has a complexity of 13. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(645,24): warning complexity : Method 'setButtonText' has a complexity of 18. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(754,15): warning complexity : Arrow function has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(1129,24): warning complexity : Arrow function has a complexity of 55. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(1794,13): warning complexity : Arrow function has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.ts(2006,22): warning complexity : Method 'handleError' has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/multi-send/multi-send.ts(182,22): warning complexity : Method 'newRecipient' has a complexity of 17. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/select-inputs/select-inputs.ts(164,22): warning complexity : Method 'newRecipient' has a complexity of 16. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/send/send.ts(253,28): warning complexity : Async method 'processInput' has a complexity of 17. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts(112,22): warning complexity : Arrow function has a complexity of 15. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/tabs/tabs.ts(255,34): warning complexity : Method 'bwsEventHandler' has a complexity of 14. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/tx-details/tx-details.ts(210,13): warning complexity : Arrow function has a complexity of 13. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.ts(95,14): warning complexity : Constructor has a complexity of 12. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.ts(477,20): warning complexity : Method 'itemTapped' has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.ts(613,22): warning complexity : Method 'canSpeedUpTx' has a complexity of 15. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pages/wallets/wallets.ts(96,37): warning complexity : Async method 'walletAudienceEvents' has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pipes/order-by.ts(35,12): warning complexity : Method 'transform' has a complexity of 12. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/pipes/order-by.ts(79,25): warning complexity : Arrow function has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/address/address.ts(95,17): warning complexity : Method 'isValid' has a complexity of 18. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/bitpay-card/bitpay-card.ts(115,30): warning complexity : Method '_processTransactions' has a complexity of 20. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/bwc-error/bwc-error.ts(8,13): warning complexity : Method 'msg' has a complexity of 64. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/changelly/changelly.ts(193,26): warning complexity : Method 'getStatusDetails' has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/coinbase/coinbase.ts(177,30): warning complexity : Method 'parseErrorsAsString' has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/config/config.ts(384,32): warning complexity : Method 'backwardCompatibility' has a complexity of 23. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/in-app-browser/card.ts(107,40): warning complexity : Async arrow function has a complexity of 33. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(921,15): warning complexity : Method 'redir' has a complexity of 53. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/incoming-data/incoming-data.ts(1176,19): warning complexity : Method 'parseData' has a complexity of 26. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/new-feature-data/new-feature-data.ts(62,43): warning complexity : Arrow function has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/popup/popup.ts(79,24): warning complexity : Arrow function has a complexity of 12. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(312,33): warning complexity : Async method 'bindWalletClient' has a complexity of 17. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(490,30): warning complexity : Method 'checkAccountCreation' has a complexity of 35. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(593,35): warning complexity : Method 'showDesktopNotifications' has a complexity of 19. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1099,24): warning complexity : Async arrow function has a complexity of 17. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1433,24): warning complexity : Arrow function has a complexity of 23. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/profile/profile.ts(1989,29): warning complexity : Method 'getWalletsFromGroup' has a complexity of 21. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/push-notifications/push-notifications.ts(106,49): warning complexity : Async arrow function has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/rate/rate.ts(125,17): warning complexity : Method 'getRate' has a complexity of 12. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/tx-format/tx-format.ts(148,19): warning complexity : Method 'processTx' has a complexity of 25. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet-connect/wallet-connect.ts(407,36): warning complexity : Async method 'refEthereumRequests' has a complexity of 16. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/wallet/wallet.ts(165,22): warning complexity : Arrow function has a complexity of 11. Maximum allowed is 10.
+/mnt/disk273/doc/coding/linters-article/src/providers/wyre/wyre.ts(204,55): warning complexity : Arrow function has a complexity of 11. Maximum allowed is 10.

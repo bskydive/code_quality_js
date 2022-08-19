@@ -1,0 +1,1 @@
+src/providers/incoming-data/incoming-data.spec.ts:896:    xit('Should handle BitPay Card URI', () => {

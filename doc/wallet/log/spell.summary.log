@@ -1,0 +1,363 @@
+  1/362 ./src/app/app.component.spec.ts 1172.06ms
+  2/362 ./src/app/app.component.ts 156.00ms X
+  3/362 ./src/app/app.module.ts 27.58ms
+  4/362 ./src/app/main.ts 20.90ms
+  5/362 ./src/components/action-card-v4/action-card-v4.ts 14.90ms
+  6/362 ./src/components/action-card/action-card.ts 11.07ms
+  7/362 ./src/components/action-sheet/action-sheet-parent.ts 7.83ms
+  8/362 ./src/components/action-sheet/action-sheet.ts 8.79ms
+  9/362 ./src/components/action-sheets.ts 9.58ms
+ 10/362 ./src/components/add-button/add-button.ts 7.52ms
+ 11/362 ./src/components/advertising/advertising.ts 7.89ms
+ 12/362 ./src/components/amount-picker/amount-picker.ts 7.99ms
+ 13/362 ./src/components/balance-to-show/balance-to-show.ts 11.83ms
+ 14/362 ./src/components/chart-component/chart-component.ts 15.04ms
+ 15/362 ./src/components/coin-icon/coin-icon.ts 9.05ms
+ 16/362 ./src/components/components.ts 10.71ms
+ 17/362 ./src/components/email-component/email-component.ts 21.75ms
+ 18/362 ./src/components/encrypt-password/encrypt-password.ts 28.26ms
+ 19/362 ./src/components/exchange-rates/exchange-rates.ts 19.16ms
+ 20/362 ./src/components/expandable-header/expandable-header.spec.ts 18.47ms
+ 21/362 ./src/components/expandable-header/expandable-header.ts 11.45ms
+ 22/362 ./src/components/footer-menu/footer-menu.ts 32.53ms X
+ 23/362 ./src/components/gift-card-discount-text/gift-card-discount-text.ts 10.80ms X
+ 24/362 ./src/components/incoming-data-menu/incoming-data-menu.ts 6.40ms
+ 25/362 ./src/components/info-sheet/info-sheet-template.ts 7.18ms
+ 26/362 ./src/components/info-sheet/info-sheet.ts 6.94ms
+ 27/362 ./src/components/label-tip/label-tip.ts 12.89ms
+ 28/362 ./src/components/memo-component/memo-component.ts 6.61ms
+ 29/362 ./src/components/miner-fee-warning/miner-fee-warning.ts 6.85ms
+ 30/362 ./src/components/needs-backup/needs-backup.ts 6.50ms
+ 31/362 ./src/components/notification-component/notification-component.ts 6.55ms
+ 32/362 ./src/components/notification-component/transitions/on-enter-translate.transition.ts 6.60ms
+ 33/362 ./src/components/notification-component/transitions/on-leave-translate.transition.ts 8.63ms
+ 34/362 ./src/components/options-sheet/options-sheet.ts 7.12ms
+ 35/362 ./src/components/phone-sheet/phone-sheet.ts 9.48ms
+ 36/362 ./src/components/price-chart/price-chart.ts 13.54ms
+ 37/362 ./src/components/search-bar/search-bar.ts 7.26ms
+ 38/362 ./src/components/wallet-item-content/wallet-item-content.ts 15.57ms
+ 39/362 ./src/components/wallet-receive/wallet-receive.ts 22.45ms
+ 40/362 ./src/components/wallet-selector/wallet-selector.ts 9.01ms
+ 41/362 ./src/components/wallet-tab-options/wallet-tab-options.ts 11.50ms
+ 42/362 ./src/constants.ts 4.67ms
+ 43/362 ./src/directives/animate/animate.ts 6.64ms
+ 44/362 ./src/directives/copy-to-clipboard/copy-to-clipboard.ts 10.32ms
+ 45/362 ./src/directives/externalize-links/externalize-links.ts 8.07ms
+ 46/362 ./src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts 8.39ms
+ 47/362 ./src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts 12.22ms
+ 48/362 ./src/directives/ion-content-background-color/ion-content-background-color.ts 6.53ms
+ 49/362 ./src/directives/ion-mask/ion-mask.ts 10.53ms
+ 50/362 ./src/directives/long-press/long-press.ts 5.80ms
+ 51/362 ./src/directives/navbar-bg/navbar-bg.spec.ts 9.93ms
+ 52/362 ./src/directives/navbar-bg/navbar-bg.ts 8.59ms
+ 53/362 ./src/directives/no-low-fee/no-low-fee.ts 8.48ms
+ 54/362 ./src/directives/reveal-at-scroll-pos/reveal-at-scroll-pos.ts 11.84ms
+ 55/362 ./src/directives/scrolled-into-view/scrolled-into-view.ts 6.27ms
+ 56/362 ./src/environments/desktop.ts 4.61ms
+ 57/362 ./src/environments/dev.ts 6.92ms
+ 58/362 ./src/environments/prod.ts 3.40ms
+ 59/362 ./src/environments/schema.ts 4.61ms
+ 60/362 ./src/models/in-app-browser/in-app-browser-ref.model.ts 5.43ms
+ 61/362 ./src/models/profile/profile.model.ts 7.47ms
+ 62/362 ./src/models/user/user.model.ts 4.40ms
+ 63/362 ./src/pages/add-wallet/add-wallet.ts 9.63ms
+ 64/362 ./src/pages/add/add.ts 10.17ms
+ 65/362 ./src/pages/add/copayers/copayers.ts 21.31ms X
+ 66/362 ./src/pages/add/create-eth-multisig/create-eth-multisig.ts 22.90ms X
+ 67/362 ./src/pages/add/create-wallet/create-wallet.spec.ts 13.08ms X
+ 68/362 ./src/pages/add/create-wallet/create-wallet.ts 43.91ms X
+ 69/362 ./src/pages/add/custom-token/add-custom-token-modal/add-custom-token-modal.ts 12.32ms
+ 70/362 ./src/pages/add/custom-token/confirm-add-token-modal/confirm-add-token-modal.ts 9.79ms
+ 71/362 ./src/pages/add/custom-token/custom-token.spec.ts 4.18ms
+ 72/362 ./src/pages/add/custom-token/custom-token.ts 19.84ms X
+ 73/362 ./src/pages/add/import-wallet/import-wallet.spec.ts 17.71ms
+ 74/362 ./src/pages/add/import-wallet/import-wallet.ts 38.31ms
+ 75/362 ./src/pages/add/join-wallet/join-wallet.ts 27.12ms X
+ 76/362 ./src/pages/add/select-currency/select-currency.ts 22.83ms X
+ 77/362 ./src/pages/backup/backup-game/backup-game.ts 20.94ms
+ 78/362 ./src/pages/backup/backup-key/backup-key.ts 14.49ms
+ 79/362 ./src/pages/buy-crypto/country-selector/country-selector.ts 16.46ms X
+ 80/362 ./src/pages/buy-crypto/crypto-offers/crypto-offers.ts 36.45ms
+ 81/362 ./src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.ts 29.03ms X
+ 82/362 ./src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.ts 14.47ms
+ 83/362 ./src/pages/buy-crypto/crypto-settings/crypto-settings.ts 8.20ms
+ 84/362 ./src/pages/cards/cards.ts 31.22ms X
+ 85/362 ./src/pages/choose-fee-level/choose-fee-level.ts 18.96ms X
+ 86/362 ./src/pages/coin-and-wallet-selector/coin-and-wallet-selector.ts 26.12ms
+ 87/362 ./src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts 40.29ms X
+ 88/362 ./src/pages/exchange-crypto/exchange-crypto-settings/exchange-crypto-settings.ts 9.75ms
+ 89/362 ./src/pages/exchange-crypto/exchange-crypto.ts 71.53ms X
+ 90/362 ./src/pages/feedback/send-feedback/send-feedback.spec.ts 8.29ms
+ 91/362 ./src/pages/feedback/send-feedback/send-feedback.ts 23.88ms
+ 92/362 ./src/pages/fingerprint/fingerprint.ts 5.83ms
+ 93/362 ./src/pages/finish/finish.ts 5.57ms
+ 94/362 ./src/pages/home/home.ts 83.63ms X
+ 95/362 ./src/pages/home/price-page/price-page.ts 20.70ms
+ 96/362 ./src/pages/includes/card-item/card-item.ts 7.30ms
+ 97/362 ./src/pages/includes/coin-selector/coin-selector.ts 5.68ms
+ 98/362 ./src/pages/includes/create-new-wallet/create-new-wallet.ts 4.75ms
+ 99/362 ./src/pages/includes/feedback-card/feedback-card.ts 13.06ms
+100/362 ./src/pages/includes/gravatar/gravatar.ts 5.01ms
+101/362 ./src/pages/includes/multiple-outputs/multiple-outputs.ts 8.58ms
+102/362 ./src/pages/includes/txp/txp.ts 8.37ms
+103/362 ./src/pages/integrations/bitpay-card/bitpay-card-home/bitpay-card-home.ts 23.86ms X
+104/362 ./src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts 33.06ms X
+105/362 ./src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-intro-page.ts 24.33ms X
+106/362 ./src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts 63.17ms X
+107/362 ./src/pages/integrations/bitpay-card/bitpay-card.ts 28.84ms X
+108/362 ./src/pages/integrations/bitpay-card/bitpay-settings/bitpay-settings.ts 20.79ms X
+109/362 ./src/pages/integrations/changelly/changelly-details/changelly-details.ts 10.19ms
+110/362 ./src/pages/integrations/changelly/changelly-terms/changelly-terms.ts 5.53ms
+111/362 ./src/pages/integrations/changelly/changelly.ts 7.44ms
+112/362 ./src/pages/integrations/coinbase/coinbase-account/coinbase-account.ts 20.70ms
+113/362 ./src/pages/integrations/coinbase/coinbase-settings/coinbase-settings.ts 9.11ms
+114/362 ./src/pages/integrations/coinbase/coinbase-tx-details/coinbase-tx-details.ts 9.76ms
+115/362 ./src/pages/integrations/coinbase/coinbase-withdraw/coinbase-withdraw.ts 18.06ms
+116/362 ./src/pages/integrations/coinbase/coinbase.ts 15.55ms
+117/362 ./src/pages/integrations/gift-cards/buy-card/buy-card.ts 11.24ms
+118/362 ./src/pages/integrations/gift-cards/buy-card/card-description/card-description.ts 13.79ms
+119/362 ./src/pages/integrations/gift-cards/card-catalog/card-catalog.ts 20.92ms X
+120/362 ./src/pages/integrations/gift-cards/card-details/card-details.ts 27.39ms X
+121/362 ./src/pages/integrations/gift-cards/card-details/printable-card/printable-card.ts 12.99ms X
+122/362 ./src/pages/integrations/gift-cards/card-details/redeem-instructions/redeem-instructions.ts 7.71ms
+123/362 ./src/pages/integrations/gift-cards/card-terms/card-terms.ts 8.21ms
+124/362 ./src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts 57.13ms X
+125/362 ./src/pages/integrations/gift-cards/gift-card-settings/gift-card-settings.ts 14.48ms
+126/362 ./src/pages/integrations/gift-cards/gift-cards-settings/gift-cards-settings.ts 7.70ms X
+127/362 ./src/pages/integrations/gift-cards/gift-cards.ts 5.64ms
+128/362 ./src/pages/integrations/gift-cards/home-gift-cards/gift-card-item/gift-card-item.ts 9.44ms
+129/362 ./src/pages/integrations/gift-cards/home-gift-cards/home-gift-cards.ts 20.90ms
+130/362 ./src/pages/integrations/gift-cards/phone/phone.ts 14.90ms
+131/362 ./src/pages/integrations/gift-cards/purchased-cards/card-list-item/card-list-item.ts 14.81ms
+132/362 ./src/pages/integrations/gift-cards/purchased-cards/purchased-cards.spec.ts 7.21ms
+133/362 ./src/pages/integrations/gift-cards/purchased-cards/purchased-cards.ts 9.04ms
+134/362 ./src/pages/integrations/invoice/select-invoice/select-invoice.ts 8.45ms
+135/362 ./src/pages/integrations/one-inch/one-inch-details/one-inch-details.ts 12.24ms
+136/362 ./src/pages/integrations/one-inch/one-inch.ts 8.25ms
+137/362 ./src/pages/integrations/simplex/simplex-details/simplex-details.ts 7.96ms
+138/362 ./src/pages/integrations/simplex/simplex.ts 8.33ms
+139/362 ./src/pages/integrations/wallet-connect/wallet-connect-request-details/wallet-connect-request-details.ts 20.00ms
+140/362 ./src/pages/integrations/wallet-connect/wallet-connect-settings/wallet-connect-settings.ts 8.53ms
+141/362 ./src/pages/integrations/wallet-connect/wallet-connect.ts 30.49ms
+142/362 ./src/pages/integrations/wyre/wyre-details/wyre-details.ts 12.92ms
+143/362 ./src/pages/integrations/wyre/wyre.ts 17.34ms
+144/362 ./src/pages/merchant/merchant.ts 6.18ms
+145/362 ./src/pages/new-feature/new-feature.ts 9.74ms
+146/362 ./src/pages/onboarding/add-funds/add-funds.ts 11.38ms
+147/362 ./src/pages/onboarding/collect-email/collect-email.ts 18.04ms
+148/362 ./src/pages/onboarding/disclaimer/disclaimer.ts 10.59ms
+149/362 ./src/pages/onboarding/feature-education/feature-education.ts 14.01ms
+150/362 ./src/pages/onboarding/lock-method/lock-method.ts 12.39ms
+151/362 ./src/pages/onboarding/recovery-key/recovery-key.ts 7.57ms
+152/362 ./src/pages/pages.ts 34.90ms X
+153/362 ./src/pages/paper-wallet/paper-wallet.ts 30.56ms X
+154/362 ./src/pages/pin/pin-dots/pin-dots.component.ts 6.92ms
+155/362 ./src/pages/pin/pin-modal/pin-modal.spec.ts 6.30ms
+156/362 ./src/pages/pin/pin-modal/pin-modal.ts 16.28ms
+157/362 ./src/pages/pin/pin-pad/pin-pad.component.ts 12.17ms
+158/362 ./src/pages/pin/pin.ts 3.42ms
+159/362 ./src/pages/receive/custom-amount/custom-amount.ts 10.57ms
+160/362 ./src/pages/scan/scan.ts 31.86ms
+161/362 ./src/pages/send/amount/amount.spec.ts 11.06ms
+162/362 ./src/pages/send/amount/amount.ts 42.06ms X
+163/362 ./src/pages/send/confirm/confirm.spec.ts 17.87ms
+164/362 ./src/pages/send/confirm/confirm.ts 97.81ms X
+165/362 ./src/pages/send/multi-send/multi-send.ts 23.49ms X
+166/362 ./src/pages/send/select-inputs/select-inputs.ts 30.71ms X
+167/362 ./src/pages/send/send.spec.ts 125.72ms X
+168/362 ./src/pages/send/send.ts 25.05ms X
+169/362 ./src/pages/send/transfer-to-modal/transfer-to-modal.ts 7.19ms
+170/362 ./src/pages/send/transfer-to/transfer-to.spec.ts 10.77ms
+171/362 ./src/pages/send/transfer-to/transfer-to.ts 17.70ms
+172/362 ./src/pages/settings/about/about.spec.ts 14.53ms
+173/362 ./src/pages/settings/about/about.ts 12.69ms X
+174/362 ./src/pages/settings/about/session-log/session-log.spec.ts 11.08ms
+175/362 ./src/pages/settings/about/session-log/session-log.ts 12.23ms
+176/362 ./src/pages/settings/addressbook/add/add.ts 14.53ms
+177/362 ./src/pages/settings/addressbook/addressbook.ts 8.67ms
+178/362 ./src/pages/settings/addressbook/view/view.ts 11.99ms
+179/362 ./src/pages/settings/advanced/advanced.ts 9.41ms
+180/362 ./src/pages/settings/advanced/wallet-recover-page/wallet-mnemonic-recover-page/wallet-mnemonic-recover-page.ts 9.31ms
+181/362 ./src/pages/settings/advanced/wallet-recover-page/wallet-recover-page.ts 9.38ms
+182/362 ./src/pages/settings/alt-currency/alt-currency.ts 17.00ms X
+183/362 ./src/pages/settings/bitpay-id/bitpay-id.ts 15.19ms X
+184/362 ./src/pages/settings/fee-policy/fee-policy.ts 11.86ms
+185/362 ./src/pages/settings/key-settings/clear-encrypt-password/clear-encrypt-password.ts 6.40ms
+186/362 ./src/pages/settings/key-settings/extended-private-key/extended-private-key.ts 7.84ms
+187/362 ./src/pages/settings/key-settings/key-delete/key-delete.ts 10.59ms
+188/362 ./src/pages/settings/key-settings/key-name/key-name.ts 11.19ms
+189/362 ./src/pages/settings/key-settings/key-onboarding/key-onboarding.ts 6.55ms
+190/362 ./src/pages/settings/key-settings/key-qr-export/key-qr-export.ts 10.17ms
+191/362 ./src/pages/settings/key-settings/key-settings.ts 25.06ms
+192/362 ./src/pages/settings/language/language.spec.ts 10.15ms
+193/362 ./src/pages/settings/language/language.ts 8.75ms
+194/362 ./src/pages/settings/local-theme/local-theme.ts 9.69ms
+195/362 ./src/pages/settings/lock/lock.ts 14.03ms
+196/362 ./src/pages/settings/navigation/navigation.ts 5.69ms
+197/362 ./src/pages/settings/notifications/notifications.spec.ts 13.28ms
+198/362 ./src/pages/settings/notifications/notifications.ts 16.33ms X
+199/362 ./src/pages/settings/settings.ts 38.76ms X
+200/362 ./src/pages/settings/share/share.ts 11.95ms X
+201/362 ./src/pages/settings/wallet-settings/wallet-delete/wallet-delete.ts 12.46ms
+202/362 ./src/pages/settings/wallet-settings/wallet-name/wallet-name.ts 8.16ms
+203/362 ./src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.ts 11.52ms
+204/362 ./src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/wallet-addresses.ts 12.49ms
+205/362 ./src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.ts 23.58ms X
+206/362 ./src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.ts 21.53ms
+207/362 ./src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-information/wallet-information.ts 9.32ms X
+208/362 ./src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.ts 13.76ms X
+209/362 ./src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts 24.61ms X
+210/362 ./src/pages/settings/wallet-settings/wallet-settings.ts 13.67ms
+211/362 ./src/pages/slide-to-accept/slide-to-accept.ts 19.26ms
+212/362 ./src/pages/tabs/tabs.ts 36.48ms X
+213/362 ./src/pages/templates/wide-header-page/wide-header-bar-button.ts 6.26ms
+214/362 ./src/pages/templates/wide-header-page/wide-header-page.ts 5.82ms
+215/362 ./src/pages/token-swap/token-swap-approve/token-swap-approve.ts 25.21ms
+216/362 ./src/pages/token-swap/token-swap-checkout/token-swap-checkout.ts 31.67ms X
+217/362 ./src/pages/tx-details/tx-details.spec.ts 9.36ms
+218/362 ./src/pages/tx-details/tx-details.ts 25.83ms X
+219/362 ./src/pages/txp-details/txp-details.ts 31.27ms X
+220/362 ./src/pages/wallet-details/search-tx-modal/search-tx-modal.ts 14.42ms
+221/362 ./src/pages/wallet-details/wallet-balance/wallet-balance.ts 6.42ms
+222/362 ./src/pages/wallet-details/wallet-details.spec.ts 10.17ms
+223/362 ./src/pages/wallet-details/wallet-details.ts 53.76ms X
+224/362 ./src/pages/wallets/proposals-notifications/proposals-notifications.ts 22.24ms X
+225/362 ./src/pages/wallets/wallets.spec.ts 10.09ms
+226/362 ./src/pages/wallets/wallets.ts 23.29ms X
+227/362 ./src/pipes/fiatToUnit.ts 8.08ms
+228/362 ./src/pipes/format-currency.ts 5.60ms
+229/362 ./src/pipes/keys.ts 4.24ms
+230/362 ./src/pipes/order-by.ts 9.28ms
+231/362 ./src/pipes/satToFiat.ts 5.29ms
+232/362 ./src/pipes/satToUnit.ts 6.87ms
+233/362 ./src/pipes/shortened-address.ts 4.33ms
+234/362 ./src/polyfills.ts 12.90ms
+235/362 ./src/providers/abi-decoder/abi-decoder.ts 5.30ms
+236/362 ./src/providers/abi-decoder/abi-erc20.ts 8.07ms
+237/362 ./src/providers/abi-decoder/abi-invoice.ts 11.37ms
+238/362 ./src/providers/action-sheet/action-sheet.ts 16.32ms
+239/362 ./src/providers/address-book/address-book.spec.ts 19.23ms
+240/362 ./src/providers/address-book/address-book.ts 14.87ms
+241/362 ./src/providers/address/address.spec.ts 28.87ms X
+242/362 ./src/providers/address/address.ts 13.30ms X
+243/362 ./src/providers/analytics/analytics.ts 10.11ms
+244/362 ./src/providers/app-identity/app-identity.spec.ts 9.24ms X
+245/362 ./src/providers/app-identity/app-identity.ts 5.92ms X
+246/362 ./src/providers/app/app.spec.ts 8.58ms X
+247/362 ./src/providers/app/app.ts 14.20ms
+248/362 ./src/providers/apple-wallet/apple-wallet.ts 5.51ms
+249/362 ./src/providers/backup/backup.spec.ts 10.44ms
+250/362 ./src/providers/backup/backup.ts 11.50ms
+251/362 ./src/providers/bitpay-account/bitpay-account.ts 22.33ms X
+252/362 ./src/providers/bitpay-card/bitpay-card.ts 68.84ms X
+253/362 ./src/providers/bitpay-id/bitpay-id.ts 24.23ms X
+254/362 ./src/providers/bitpay/bitpay.ts 9.25ms X
+255/362 ./src/providers/buy-crypto/buy-crypto.ts 17.48ms X
+256/362 ./src/providers/bwc-error/bwc-error.spec.ts 34.64ms X
+257/362 ./src/providers/bwc-error/bwc-error.ts 22.71ms X
+258/362 ./src/providers/bwc/bwc.ts 10.72ms X
+259/362 ./src/providers/card-phases/card-phases.ts 22.72ms
+260/362 ./src/providers/changelly/changelly.ts 21.50ms X
+261/362 ./src/providers/clipboard/clipboard.spec.ts 16.61ms
+262/362 ./src/providers/clipboard/clipboard.ts 9.96ms
+263/362 ./src/providers/coinbase/coinbase.ts 46.34ms
+264/362 ./src/providers/color/color.ts 5.82ms
+265/362 ./src/providers/confetti/confetti.ts 10.10ms
+266/362 ./src/providers/config/config.spec.ts 7.42ms
+267/362 ./src/providers/config/config.ts 24.29ms X
+268/362 ./src/providers/currency/coin.ts 31.50ms X
+269/362 ./src/providers/currency/currency.ts 26.88ms X
+270/362 ./src/providers/currency/gnosisFactories.ts 6.18ms
+271/362 ./src/providers/currency/token.ts 5.27ms X
+272/362 ./src/providers/derivation-path-helper/derivation-path-helper.spec.ts 8.14ms
+273/362 ./src/providers/derivation-path-helper/derivation-path-helper.ts 7.79ms
+274/362 ./src/providers/directory/directory.ts 8.50ms
+275/362 ./src/providers/dom/dom.ts 8.52ms
+276/362 ./src/providers/download/download.spec.ts 8.94ms
+277/362 ./src/providers/download/download.ts 7.41ms
+278/362 ./src/providers/dynamic-links/dynamic-links.ts 10.36ms
+279/362 ./src/providers/electron/electron.ts 7.55ms
+280/362 ./src/providers/email-notifications/email-notifications.spec.ts 7.43ms
+281/362 ./src/providers/email-notifications/email-notifications.ts 6.24ms
+282/362 ./src/providers/errors/errors.ts 7.45ms
+283/362 ./src/providers/exchange-crypto/exchange-crypto.ts 16.44ms
+284/362 ./src/providers/external-link/external-link.spec.ts 4.32ms
+285/362 ./src/providers/external-link/external-link.ts 7.80ms
+286/362 ./src/providers/fee/fee.spec.ts 13.47ms
+287/362 ./src/providers/fee/fee.ts 18.79ms
+288/362 ./src/providers/feedback/feedback.spec.ts 10.69ms
+289/362 ./src/providers/feedback/feedback.ts 7.78ms
+290/362 ./src/providers/filter/filter.spec.ts 6.33ms
+291/362 ./src/providers/filter/filter.ts 8.84ms
+292/362 ./src/providers/gift-card/gift-card.spec.ts 12.94ms X
+293/362 ./src/providers/gift-card/gift-card.ts 50.72ms X
+294/362 ./src/providers/gift-card/gift-card.types.ts 9.13ms X
+295/362 ./src/providers/home-integrations/home-integrations.ts 7.31ms
+296/362 ./src/providers/in-app-browser/card.ts 73.83ms X
+297/362 ./src/providers/in-app-browser/in-app-browser.ts 12.19ms X
+298/362 ./src/providers/incoming-data/incoming-data.spec.ts 66.74ms X
+299/362 ./src/providers/incoming-data/incoming-data.ts 72.32ms X
+300/362 ./src/providers/index.ts 19.03ms X
+301/362 ./src/providers/invoice/invoice.ts 11.26ms X
+302/362 ./src/providers/key/key.spec.ts 23.57ms
+303/362 ./src/providers/key/key.ts 20.37ms
+304/362 ./src/providers/language-loader/language-loader.ts 8.16ms
+305/362 ./src/providers/language/language.spec.ts 6.73ms
+306/362 ./src/providers/language/language.ts 15.23ms X
+307/362 ./src/providers/location/location.ts 7.86ms
+308/362 ./src/providers/logger/logger.spec.ts 17.28ms
+309/362 ./src/providers/logger/logger.ts 11.21ms
+310/362 ./src/providers/logs/logs.ts 14.70ms
+311/362 ./src/providers/merchant/merchant.ts 13.53ms
+312/362 ./src/providers/new-feature-data/new-feature-data.ts 9.87ms
+313/362 ./src/providers/on-going-process/on-going-process.spec.ts 9.79ms
+314/362 ./src/providers/on-going-process/on-going-process.ts 17.54ms
+315/362 ./src/providers/one-inch/one-inch.ts 19.88ms X
+316/362 ./src/providers/paypro/paypro.spec.ts 7.99ms
+317/362 ./src/providers/paypro/paypro.ts 8.82ms
+318/362 ./src/providers/persistence/persistence.spec.ts 10.47ms
+319/362 ./src/providers/persistence/persistence.ts 91.07ms X
+320/362 ./src/providers/persistence/storage/file-storage.ts 36.57ms
+321/362 ./src/providers/persistence/storage/istorage.ts 32.98ms
+322/362 ./src/providers/persistence/storage/local-storage.ts 6.09ms
+323/362 ./src/providers/persistence/storage/ram-storage.ts 3.70ms
+324/362 ./src/providers/phone/phone.ts 5.60ms
+325/362 ./src/providers/platform/platform.spec.ts 7.34ms
+326/362 ./src/providers/platform/platform.ts 10.32ms
+327/362 ./src/providers/popup/popup.spec.ts 8.70ms
+328/362 ./src/providers/popup/popup.ts 7.00ms
+329/362 ./src/providers/profile/profile.spec.ts 94.22ms X
+330/362 ./src/providers/profile/profile.ts 96.79ms X
+331/362 ./src/providers/providers.module.ts 10.16ms
+332/362 ./src/providers/push-notifications/push-notifications.ts 29.80ms X
+333/362 ./src/providers/rate/rate.spec.ts 30.73ms
+334/362 ./src/providers/rate/rate.ts 14.41ms X
+335/362 ./src/providers/release/release.spec.ts 9.06ms
+336/362 ./src/providers/release/release.ts 10.12ms
+337/362 ./src/providers/replace-parameters/replace-parameters.spec.ts 8.43ms
+338/362 ./src/providers/replace-parameters/replace-parameters.ts 5.25ms
+339/362 ./src/providers/scan/scan.spec.ts 21.99ms
+340/362 ./src/providers/scan/scan.ts 20.34ms
+341/362 ./src/providers/simplex/simplex.ts 28.12ms X
+342/362 ./src/providers/tab/tab.ts 4.15ms
+343/362 ./src/providers/theme/theme.ts 13.06ms
+344/362 ./src/providers/time/time.spec.ts 8.79ms
+345/362 ./src/providers/time/time.ts 4.11ms
+346/362 ./src/providers/touchid/touchid.spec.ts 5.15ms
+347/362 ./src/providers/touchid/touchid.ts 9.06ms
+348/362 ./src/providers/tx-confirm-notification/tx-confirm-notification.spec.ts 14.27ms
+349/362 ./src/providers/tx-confirm-notification/tx-confirm-notification.ts 9.21ms
+350/362 ./src/providers/tx-format/tx-format.spec.ts 53.94ms X
+351/362 ./src/providers/tx-format/tx-format.ts 20.81ms X
+352/362 ./src/providers/wallet-connect/wallet-connect.ts 33.45ms X
+353/362 ./src/providers/wallet-connect/web3-providers/web3-providers.ts 6.66ms
+354/362 ./src/providers/wallet/wallet.spec.ts 49.00ms X
+355/362 ./src/providers/wallet/wallet.ts 92.81ms X
+356/362 ./src/providers/wyre/wyre.ts 13.67ms
+357/362 ./src/providers/zce/zce.ts 22.64ms X
+358/362 ./src/test.ts 31.52ms X
+359/362 ./src/typings.d.ts 3.95ms
+360/362 ./src/utils.ts 3.64ms
+361/362 ./src/validators/address.ts 4.56ms
+362/362 ./src/validators/email.ts 4.67ms
+CSpell: Files checked: 362, Issues found: 651 in 95 files

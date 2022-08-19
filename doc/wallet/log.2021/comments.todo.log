@@ -1,0 +1,420 @@
+src/directives/ion-content-background-color/ion-content-background-color.ts:20:      'fixed-content'
+src/directives/navbar-bg/navbar-bg.spec.ts:2:import { async, ComponentFixture } from '@angular/core/testing';
+src/directives/navbar-bg/navbar-bg.spec.ts:6:let fixture: ComponentFixture<TestHostComponent>;
+src/directives/navbar-bg/navbar-bg.spec.ts:22:        fixture = compiled.fixture;
+src/directives/navbar-bg/navbar-bg.spec.ts:24:        fixture.detectChanges();
+src/directives/navbar-bg/navbar-bg.spec.ts:31:    fixture.destroy();
+src/directives/navbar-bg/navbar-bg.spec.ts:38:    fixture.detectChanges();
+src/directives/reveal-at-scroll-pos/reveal-at-scroll-pos.ts:52:      opacity.toFixed(3)
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:2:// import { async, ComponentFixture } from '@angular/core/testing';
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:4:// import { FixedScrollBgColor } from './fixed-scroll-bg-color';
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:6:// let fixture: ComponentFixture<TestHostComponent>;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:9:// let fixedContent;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:14://     <ion-content [fixed-scroll-bg-color]="color"></ion-content>
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:22:// describe('FixedScrollBgColor', () => {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:24://     TestUtils.beforeEachCompiler([TestHostComponent, FixedScrollBgColor]).then(
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:26://         fixture = compiled.fixture;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:28://         fixture.detectChanges();
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:32://         fixedContent = instance.element.nativeElement.getElementsByClassName(
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:33://           'fixed-content'
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:41://     fixture.destroy();
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:43://   it('should set fixed-content and scroll-content background-image to a linear gradient with specified color', () => {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:46://     expect(fixedContent.style.backgroundImage).toBe(backgroundImage);
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:52://     fixture.detectChanges();
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.spec.ts:53://     expect(fixedContent.style.backgroundImage).toBe('');
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:6:elements if colors are not properly set on the fixed and scroll containers to match the colors
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:7:of surrounding elements. This directive sets the proper bg-color on the fixed and scroll containers
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:12:  selector: '[fixed-scroll-bg-color]',
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:13:  host: { class: 'fixed-scroll-bg-color' }
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:15:export class FixedScrollBgColor {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:16:  @Input('fixed-scroll-bg-color')
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:25:    this.bottomColor = this.themeProvider.getThemeInfo().fixedScrollBgColor;
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:29:    this.setFixedAndScrollContentBgColor(this.color);
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:32:  setFixedAndScrollContentBgColor(color: string): void {
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:36:    const fixedContent = this.element.nativeElement.getElementsByClassName(
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:37:      'fixed-content'
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:47:      fixedContent.style.setProperty('background-image', linearGradient);
+src/directives/fixed-scroll-bg-color/fixed-scroll-bg-color.ts:54:      fixedContent.style.removeProperty('background-image');
+src/app/app.module.ts:48:import { FixedScrollBgColor } from '../directives/fixed-scroll-bg-color/fixed-scroll-bg-color';
+src/app/app.module.ts:92:    FixedScrollBgColor,
+src/app/app.scss:25:  .fixed-content,
+src/app/app.scss:36:  .fixed-content,
+src/app/app.scss:178:    .fixed-content,
+src/app/app.scss:186:    .fixed-content,
+src/app/app.scss:241:// Fixes IOS 10.3.1 icons
+src/app/app.component.spec.ts:20:  let fixture;
+src/app/app.component.spec.ts:41:    fixture = TestBed.createComponent(CopayApp);
+src/app/app.component.spec.ts:42:    component = fixture.componentInstance;
+src/app/app.component.spec.ts:43:    fixture.detectChanges();
+src/app/app.component.spec.ts:48:    fixture.destroy();
+src/providers/app/app.ts:17:/* TODO: implement interface properly
+src/providers/on-going-process/on-going-process.ts:19:    // TODO GET - CLEAR - CHECK DecimalPipe for FILTER WITH TRANSLATE
+src/providers/incoming-data/incoming-data.spec.ts:286:            (payProDetails.requiredFeeRate * 1.1).toFixed(0),
+src/providers/incoming-data/incoming-data.spec.ts:740:      // bch testnet legacy, prefixed address are handled as normal addresses
+src/providers/incoming-data/incoming-data.spec.ts:791:          (Number(params.get('amount')) * unitToSatoshi).toFixed(0),
+src/providers/incoming-data/incoming-data.ts:375:        (Number(amount) * unitToSatoshi).toFixed(0),
+src/providers/incoming-data/incoming-data.ts:1312:    // Fixes when a region uses comma to separate decimals
+src/providers/incoming-data/incoming-data.ts:1451:        ? parseInt((payProDetails.requiredFeeRate * 1.1).toFixed(0), 10) // Workaround to avoid gas price supplied is lower than requested error
+src/providers/filter/filter.ts:39:        floatValueString = floatValueNumber.toFixed(2);
+src/providers/filter/filter.ts:44:        value = parseFloat(value).toFixed(2).toString();
+src/providers/address/address.spec.ts:57:      // ['mg6PLV5yyUS6Gy55fJ7f994dQ7RpfJNYC9', 'bch', 'testnet'], // TODO: BCH Testnet Bitpay Style
+src/providers/address/address.spec.ts:110:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet with prefix
+src/providers/address/address.spec.ts:129:      address = 'BITCOINCASH:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH livenet with prefix
+src/providers/address/address.spec.ts:138:      address = 'BCHTEST:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH testnet with prefix
+src/providers/address/address.spec.ts:153:      address = 'ethereum:0x32ed5be73f5c395621287f5cbe1da96caf3c5dec'; // ETH livenet with prefix
+src/providers/address/address.spec.ts:168:      address = 'ripple:rEqj9WKSH7wEkPvWf6b4gCi26Y3F7HbKUF'; // XRP livenet with prefix
+src/providers/address/address.spec.ts:184:      address = 'bitcoin:bc1qua4502zjcsunhm4a25qfm9d30ml5k384vhy62r'; // BTC livenet with prefix
+src/providers/address/address.spec.ts:199:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet with prefix
+src/providers/address/address.spec.ts:213:      address = 'ethereum:0x32ed5be73f5c395621287f5cbe1da96caf3c5dec'; // ETH livenet with prefix
+src/providers/address/address.spec.ts:228:      address = 'ripple:rEqj9WKSH7wEkPvWf6b4gCi26Y3F7HbKUF'; // XRP livenet with prefix
+src/providers/address/address.spec.ts:242:      address = 'bitcoin:1CVuVALD6Zo7ms24n3iUXv162kvUzsHr69'; // BTC livenet with prefix
+src/providers/address/address.spec.ts:256:      address = 'BITCOINCASH:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH livenet with prefix
+src/providers/address/address.spec.ts:266:    // TODO: we have to update BWS with bitcore-lib-cash version 0.18.1 to get correct values for BCHTEST prefix
+src/providers/address/address.spec.ts:268:      address = 'BCHTEST:qz8ds306px5n65gffn8u69vvnksfw6huwyjczrvkh3'; // BCH testnet with prefix
+src/providers/coinbase/coinbase.ts:97:    this.credentials.API_VERSION = '2017-10-31'; // TODO: there is a newest version: 2020-02-11
+src/providers/coinbase/coinbase.ts:169:    return (amount / this.coinbaseExchange.rates[currency]).toFixed(2) || '0';
+src/providers/fee/fee.ts:95:                (feeLevelRate.feePerKb / 1000).toFixed() +
+src/providers/fee/fee.ts:182:        'Fee needed to speed up the tx: ' + Number(fee.toFixed())
+src/providers/fee/fee.ts:184:      return Number(fee.toFixed());
+src/providers/wallet/wallet.ts:32:  retry?: boolean; // TODO: not used
+src/providers/wallet/wallet.ts:467:    return balance ? balance.toFixed(2) : '0.00';
+src/providers/wallet/wallet.ts:479:    return balanceLastDay ? balanceLastDay.toFixed(2) : '0.00';
+src/providers/wallet/wallet.ts:527:    ).toFixed(2);
+src/providers/wallet/wallet.ts:531:    ).toFixed(2);
+src/providers/wallet/wallet.ts:638:          let prefix = this.translate.instant('Could not create address');
+src/providers/wallet/wallet.ts:644:            prefix = null;
+src/providers/wallet/wallet.ts:667:            const msg = this.bwcErrorProvider.msg(err, prefix);
+src/providers/wallet/wallet.ts:774:      const fixTxsUnit = (txs): void => {
+src/providers/wallet/wallet.ts:780:          this.logger.debug('Fixing Tx Cache Unit to: ' + wallet.coin);
+src/providers/wallet/wallet.ts:812:          fixTxsUnit(txsFromLocal);
+src/providers/wallet/wallet.ts:864:                  // TODO Dirty <HACK>
+src/providers/wallet/wallet.ts:1088:          ).toFixed(0);
+src/providers/wallet/wallet.ts:1124:    return parseInt((size * (1 + safetyMargin)).toFixed(0), 10);
+src/providers/wallet/wallet.ts:1896:    return this.currencyProvider.getProtocolPrefix(coin, network);
+src/providers/bwc-error/bwc-error.ts:8:  public msg(err, prefix?: string): string {
+src/providers/bwc-error/bwc-error.ts:18:    prefix = prefix || '';
+src/providers/bwc-error/bwc-error.ts:244:    var msg = prefix + (prefix ? ': ' : '') + body;
+src/providers/bwc-error/bwc-error.spec.ts:17:    it('should add prefix to the error', () => {
+src/providers/bwc-error/bwc-error.spec.ts:19:        bwcErrorProvider.msg('INSUFFICIENT_FUNDS', 'error prefix')
+src/providers/bwc-error/bwc-error.spec.ts:20:      ).toEqual('error prefix: Insufficient funds');
+src/providers/theme/theme.ts:35:        fixedScrollBgColor: '#f8f8f9',
+src/providers/theme/theme.ts:43:        fixedScrollBgColor: '#121212',
+src/providers/tx-format/tx-format.ts:28:  // TODO: implement configService
+src/providers/tx-format/tx-format.ts:43:  public toCashAddress(address: string, withPrefix?: boolean): string {
+src/providers/tx-format/tx-format.ts:44:    return this.bitcoreCash.Address(address).toString(!withPrefix);
+src/providers/tx-format/tx-format.ts:61:    // TODO : now only works for english, specify opts to change thousand separator and decimal separator
+src/providers/tx-format/tx-format.ts:66:    // TODO ???
+src/providers/tx-format/tx-format.ts:102:    // TODO not a promise
+src/providers/tx-format/tx-format.ts:108:      return resolve(v1.toFixed(2));
+src/providers/tx-format/tx-format.ts:113:    // TODO not a promise
+src/providers/tx-format/tx-format.ts:119:      return resolve(v1.toFixed(2));
+src/providers/tx-format/tx-format.ts:129:        this.rate.toFiat(satoshis, settings.alternativeIsoCode, coin).toFixed(2)
+src/providers/tx-format/tx-format.ts:166:      // toDo: translate all tx.outputs[x].toAddress ?
+src/providers/tx-format/tx-format.ts:197:      tx.feeRate = `${((tx.fee || tx.fees) / tx.size).toFixed(0)} sat/byte`;
+src/providers/tx-format/tx-format.ts:228:          ? this.filter.formatFiatAmount(amount.toFixed(0))
+src/providers/tx-format/tx-format.ts:232:        this.rate.fromFiat(amount, currency, coin, opts).toFixed(0)
+src/providers/tx-format/tx-format.ts:238:      amount = (amountSat * satToUnit).toFixed(unitDecimals);
+src/providers/tx-format/tx-format.ts:241:      amountSat = parseInt((amount * unitToSatoshi).toFixed(0), 10);
+src/providers/tx-format/tx-format.ts:244:      amount = (amountSat * satToUnit).toFixed(unitDecimals);
+src/providers/tx-format/tx-format.ts:262:    return parseFloat((amount * satToUnit).toFixed(unitDecimals));
+src/providers/tx-format/tx-format.spec.ts:40:    it('should get the address in Cash Address format, with prefix', () => {
+src/providers/changelly/changelly.ts:103:  public getFixRateForAmount(wallet, data): Promise<any> {
+src/providers/changelly/changelly.ts:113:        .changellyGetFixRateForAmount(messageData)
+src/providers/changelly/changelly.ts:127:  public createFixTransaction(wallet, data): Promise<any> {
+src/providers/changelly/changelly.ts:135:        fixedRateId: data.fixedRateId,
+src/providers/changelly/changelly.ts:140:        .changellyCreateFixTransaction(messageData)
+src/providers/in-app-browser/card.ts:123:         *  TODO pass the user back to the the IAB when purchase is completed
+src/providers/in-app-browser/card.ts:368:          } = await this.appleWalletProvider.checkPairedDevicesBySuffix(
+src/providers/in-app-browser/card.ts:1190:     * data - cardholderName, primaryAccountSuffix
+src/providers/in-app-browser/card.ts:1200:      const result = await this.appleWalletProvider.checkPairedDevicesBySuffix(
+src/providers/in-app-browser/card.ts:1201:        data.cardSuffix
+src/providers/key/key.ts:293:    // return this.Key.match(key1, key2); TODO needs to be fixed on bwc
+src/providers/apple-wallet/apple-wallet.ts:24:  checkPairedDevicesBySuffix(cardSuffix: string): Promise<any> {
+src/providers/apple-wallet/apple-wallet.ts:25:    return this.appleWallet.checkPairedDevicesBySuffix(cardSuffix);
+src/providers/currency/coin.ts:27:    protocolPrefix: { livenet: string; testnet: string };
+src/providers/currency/coin.ts:68:      protocolPrefix: { livenet: 'bitcoin', testnet: 'bitcoin' },
+src/providers/currency/coin.ts:105:      protocolPrefix: { livenet: 'bitcoincash', testnet: 'bchtest' },
+src/providers/currency/coin.ts:142:      protocolPrefix: { livenet: 'ethereum', testnet: 'ethereum' },
+src/providers/currency/coin.ts:179:      protocolPrefix: { livenet: 'ripple', testnet: 'ripple' },
+src/providers/currency/coin.ts:216:      protocolPrefix: { livenet: 'ethereum', testnet: 'ethereum' },
+src/providers/currency/coin.ts:253:      protocolPrefix: { livenet: 'ethereum', testnet: 'ethereum' },
+src/providers/currency/coin.ts:290:      protocolPrefix: { livenet: 'ethereum', testnet: 'ethereum' },
+src/providers/currency/coin.ts:327:      protocolPrefix: { livenet: 'ethereum', testnet: 'ethereum' },
+src/providers/currency/coin.ts:364:      protocolPrefix: { livenet: 'ethereum', testnet: 'ethereum' },
+src/providers/currency/coin.ts:376:      coinColor: '#00ddfa', // TODO: change to proper color after beta
+src/providers/currency/coin.ts:377:      backgroundColor: '#00dcfa', // TODO: change to proper color after beta
+src/providers/currency/coin.ts:378:      gradientBackgroundColor: '#00dcfa' // TODO: change to proper color after beta
+src/providers/currency/coin.ts:401:      protocolPrefix: { livenet: 'ethereum', testnet: 'ethereum' },
+src/providers/currency/coin.ts:413:      coinColor: '#00ddfa', // TODO: change to proper color after beta
+src/providers/currency/coin.ts:414:      backgroundColor: '#00dcfa', // TODO: change to proper color after beta
+src/providers/currency/coin.ts:415:      gradientBackgroundColor: '#00dcfa' // TODO: change to proper color after beta
+src/providers/currency/coin.ts:438:      protocolPrefix: { livenet: 'dogecoin', testnet: 'dogecoin' },
+src/providers/currency/coin.ts:475:      protocolPrefix: { livenet: 'litecoin', testnet: 'litecoin' },
+src/providers/currency/currency.ts:103:        protocolPrefix: { livenet: 'ethereum', testnet: 'ethereum' },
+src/providers/currency/currency.ts:234:  getProtocolPrefix(coin: string, network: string) {
+src/providers/currency/currency.ts:235:    return this.coinOpts[coin].paymentInfo.protocolPrefix[network];
+src/providers/gift-card/gift-card.ts:787:  const fixed = cards.filter(c => c.amount && c.currency);
+src/providers/gift-card/gift-card.ts:788:  const supportedAmounts = fixed
+src/providers/gift-card/gift-card.ts:821:  const fixedFee = activationFees.find(
+src/providers/gift-card/gift-card.ts:823:      fee.type === 'fixed' &&
+src/providers/gift-card/gift-card.ts:827:  return (fixedFee && fixedFee.fee) || 0;
+src/providers/gift-card/gift-card.types.ts:24:  type: 'fixed' | 'percentage';
+src/providers/gift-card/gift-card.types.ts:108:  type: 'fixed' | 'range';
+src/providers/persistence/storage/local-storage.ts:23:      // TODO parse is not necessary
+src/providers/persistence/storage/file-storage.ts:59:      // TODO parse is not necessary
+src/providers/persistence/persistence.ts:10:// TODO import { RamStorage } from './storage/ram-storage';
+src/providers/persistence/persistence.ts:48:    const suffix = network === Network.livenet ? '' : `-${network}`;
+src/providers/persistence/persistence.ts:49:    return `giftCardConfigCache${suffix}`;
+src/providers/simplex/simplex.ts:211:      .toFixed(2);
+src/providers/dom/dom.ts:26:    this.appendToDom(domElem);
+src/providers/dom/dom.ts:30:  protected appendToDom(domElem: HTMLElement) {
+src/providers/dom/dom.mock.ts:18:  appendToDom() {}
+src/providers/language-loader/language-loader.ts:15:  private _prefix: string = 'assets/i18n/';
+src/providers/language-loader/language-loader.ts:16:  private _suffix: string = '.po';
+src/providers/language-loader/language-loader.ts:30:            `${this._prefix}/${lang}${this._suffix}`
+src/providers/language-loader/language-loader.ts:38:        .get(`${this._prefix}/${lang}${this._suffix}`, { responseType: 'text' })
+src/providers/rate/rate.ts:137:      ).toFixed(2);
+src/providers/rate/rate.spec.ts:63:  //   { code: 'WBTC', name: 'WBTC', rate: 9371.93 } // TODO update tests after beta and market monintor implemented
+src/providers/profile/profile.ts:48:  public walletsGroups: WalletGroups = {}; // TODO walletGroups Class
+src/providers/profile/profile.ts:120:    // this.config.whenAvailable( (config) => { TODO
+src/providers/profile/profile.ts:440:        // TODO many NewBlocks notifications...if many blocks
+src/providers/profile/profile.ts:1666:      /* TODO: opts.n is just used to determinate if the wallet is multisig (m/48'/xx) or single sig (m/44')
+src/providers/wallet-connect/wallet-connect.ts:121:      this.address = accounts[0]; // TODO handle multiple accounts
+src/providers/platform/platform.ts:29:      this.logger.info('Could not determine navigator. Using fixed string');
+src/providers/platform/platform.ts:33:    // Fixes IOS WebKit UA
+src/providers/wyre/wyre.ts:126:      .toFixed(2);
+src/test.ts:203:  public static beforeEachCompiler(components): Promise<{ fixture; instance }> {
+src/test.ts:207:        const fixture = TestBed.createComponent(components[0]);
+src/test.ts:209:          fixture,
+src/test.ts:210:          instance: fixture.debugElement.componentInstance
+src/test.ts:231:  ): Promise<{ fixture; instance; testBed: typeof TestBed }> {
+src/test.ts:273:    const fixture = TestBed.createComponent(components[0]);
+src/test.ts:275:      fixture,
+src/test.ts:276:      instance: fixture.debugElement.componentInstance,
+src/pipes/order-by.ts:3: *		Basic Array of single type: *ngFor="#todo of todoService.todos | orderBy : '-'"
+src/pipes/order-by.ts:4: *		Multidimensional Array Sort on single column: *ngFor="#todo of todoService.todos | orderBy : ['-status']"
+src/pipes/order-by.ts:5: *		Multidimensional Array Sort on multiple columns: *ngFor="#todo of todoService.todos | orderBy : ['status', '-title']"
+src/theme/icons.scss:6:  src: url(../assets/fonts/icomoon/icomoon.eot?742bhq#iefix)
+src/theme/mixins.scss:7:@mixin fix-ios-bg-scroll(
+src/theme/mixins.scss:12:  .fixed-content {
+src/theme/dark.scss:73:  // TODO: Remove text opacity from default styles
+src/theme/dark.scss:515:    .fixed-content,
+src/theme/variables.scss:210:/* Fix iPhone X screen */
+src/components/wallet-receive/wallet-receive.ts:126:          // Generate new address if the first one is invalid ( fix for concatenated addresses )
+src/components/expandable-header/expandable-header.spec.ts:2:import { async, ComponentFixture } from '@angular/core/testing';
+src/components/expandable-header/expandable-header.spec.ts:13:let fixture: ComponentFixture<TestHostComponent>;
+src/components/expandable-header/expandable-header.spec.ts:45:      fixture = compiled.fixture;
+src/components/expandable-header/expandable-header.spec.ts:59:    fixture.destroy();
+src/components/expandable-header/expandable-header.spec.ts:64:      fixture.detectChanges();
+src/components/expandable-header/expandable-header.spec.ts:69:      fixture.detectChanges();
+src/components/expandable-header/expandable-header.spec.ts:73:      fixture.detectChanges();
+src/components/price-chart/price-chart.scss:7:      position: fixed;
+src/components/exchange-rates/exchange-rates.ts:71:    // TODO: Add a new endpoint in BWS that
+src/components/encrypt-password/encrypt-password.scss:6:      padding-top: 3rem; // Fix iOS 10.3
+src/components/encrypt-password/encrypt-password.scss:64:            padding-top: 3rem; // Fix iOS 10.3
+src/components/miner-fee-warning/miner-fee-warning.scss:6:      padding-top: 3rem; // Fix iOS 10.3
+src/pages/feedback/send-feedback/send-feedback.html:23:      TODO: reactivate feedback / create server to receive feedback
+src/pages/feedback/send-feedback/send-feedback.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/feedback/send-feedback/send-feedback.spec.ts:7:  let fixture: ComponentFixture<SendFeedbackPage>;
+src/pages/feedback/send-feedback/send-feedback.spec.ts:12:      fixture = testEnv.fixture;
+src/pages/feedback/send-feedback/send-feedback.spec.ts:14:      fixture.detectChanges();
+src/pages/feedback/send-feedback/send-feedback.spec.ts:17:    fixture.destroy();
+src/pages/slide-to-accept/slide-to-accept.ts:128:      ).toFixed(2);
+src/pages/slide-to-accept/slide-to-accept.scss:17:  position: fixed;
+src/pages/tx-details/tx-details.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/tx-details/tx-details.spec.ts:8:  let fixture: ComponentFixture<TxDetailsModal>;
+src/pages/tx-details/tx-details.spec.ts:13:      fixture = testEnv.fixture;
+src/pages/tx-details/tx-details.spec.ts:15:      fixture.detectChanges();
+src/pages/tx-details/tx-details.spec.ts:18:    fixture.destroy();
+src/pages/tx-details/tx-details.ts:225:            ((this.btx.fees / (this.btx.amount + this.btx.fees)) * 100).toFixed(
+src/pages/tx-details/tx-details.ts:375:              parseFloat((fiat.rate * this.btx.amountValueStr).toFixed(2))
+src/pages/pin/pin-modal/pin-modal.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/pin/pin-modal/pin-modal.spec.ts:9:  let fixture: ComponentFixture<PinModalPage>;
+src/pages/pin/pin-modal/pin-modal.spec.ts:14:      fixture = testEnv.fixture;
+src/pages/pin/pin-modal/pin-modal.spec.ts:16:      fixture.detectChanges();
+src/pages/pin/pin-modal/pin-modal.spec.ts:19:    fixture.destroy();
+src/pages/pin/pin-modal/pin-modal.scss:59:    position: fixed;
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:46:  public fixedRateId: string;
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:101:    this.fixedRateId = this.navParams.data.fixedRateId;
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:107:    this.createFixTransaction();
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:119:  private createFixTransaction() {
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:144:              fixedRateId: this.fixedRateId
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:148:              .createFixTransaction(this.fromWalletSelected, data)
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:152:                    'Changelly createFixTransaction Error: ' +
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:223:                  ).toFixed(0)
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:249:                  'Changelly createFixTransaction Error: ',
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:293:      .getFixRateForAmount(this.fromWalletSelected, data)
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:297:            'Changelly getFixRateForAmount Error: ' + data.error.message;
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:301:        this.fixedRateId = data.result[0].id;
+src/pages/exchange-crypto/exchange-checkout/exchange-checkout.ts:305:        this.createFixTransaction();
+src/pages/exchange-crypto/exchange-crypto.ts:48:  public fixedRateId: string;
+src/pages/exchange-crypto/exchange-crypto.ts:270:    this.fixedRateId = null;
+src/pages/exchange-crypto/exchange-crypto.ts:317:          Number(data.result[0].maxAmountFixed) <= 0
+src/pages/exchange-crypto/exchange-crypto.ts:326:        this.minAmount = Number(data.result[0].minAmountFixed);
+src/pages/exchange-crypto/exchange-crypto.ts:327:        this.maxAmount = Number(data.result[0].maxAmountFixed);
+src/pages/exchange-crypto/exchange-crypto.ts:395:              this.fixedRateId = null;
+src/pages/exchange-crypto/exchange-crypto.ts:467:        fixedUnit: false,
+src/pages/exchange-crypto/exchange-crypto.ts:533:      .getFixRateForAmount(this.fromWalletSelected, data)
+src/pages/exchange-crypto/exchange-crypto.ts:537:            'Changelly getFixRateForAmount Error: ' + data.error.message;
+src/pages/exchange-crypto/exchange-crypto.ts:542:        this.fixedRateId = data.result[0].id;
+src/pages/exchange-crypto/exchange-crypto.ts:548:        this.logger.error('Changelly getFixRateForAmount Error: ', err);
+src/pages/exchange-crypto/exchange-crypto.ts:613:      fixedRateId: this.fixedRateId,
+src/pages/wallets/wallets.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/wallets/wallets.spec.ts:10:  let fixture: ComponentFixture<WalletsPage>;
+src/pages/wallets/wallets.spec.ts:15:      fixture = testEnv.fixture;
+src/pages/wallets/wallets.spec.ts:20:      fixture.detectChanges();
+src/pages/wallets/wallets.spec.ts:24:    fixture.destroy();
+src/pages/wallets/wallets.spec.ts:59:        }); TODO */
+src/pages/scan/scan.scss:156:        position: fixed !important;
+src/pages/scan/scan.scss:159:        /* bring your own prefixes */
+src/pages/txp-details/txp-details.ts:163:        ((this.tx.fee / (this.tx.amount + this.tx.fee)) * 100).toFixed(2) + '%';
+src/pages/templates/wide-header-page/wide-header-page.scss:32:        padding-top: 3rem; // Fix iOS 10.3
+src/pages/templates/wide-header-page/wide-header-page.scss:36:          padding-top: 3rem; // Fix iOS 10.3
+src/pages/templates/wide-header-page/wide-header-page.scss:70:      padding-top: 3rem; // Fix iOS 10.3
+src/pages/templates/wide-header-page/wide-header-page.scss:74:        padding-top: 3rem; // Fix iOS 10.3
+src/pages/choose-fee-level/choose-fee-level.ts:130:      ).toFixed();
+src/pages/choose-fee-level/choose-fee-level.ts:141:        ).toFixed();
+src/pages/choose-fee-level/choose-fee-level.ts:186:    return parseInt((minValue / this.feeUnitAmount).toFixed(), 10);
+src/pages/choose-fee-level/choose-fee-level.ts:194:    return parseInt((maxValue / this.feeUnitAmount).toFixed(), 10);
+src/pages/choose-fee-level/choose-fee-level.ts:210:      ? (this.customSatPerByte * this.feeUnitAmount).toFixed()
+src/pages/wallet-details/wallet-details.html:19:<ion-content no-bounce #scrollArea [fixed-scroll-bg-color]="backgroundColor">
+src/pages/wallet-details/wallet-details.html:188:    <div class="prompt-user activity-fix white-card" *ngIf="shouldShowZeroState()">
+src/pages/wallet-details/wallet-details.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/wallet-details/wallet-details.spec.ts:9:  let fixture: ComponentFixture<WalletDetailsPage>;
+src/pages/wallet-details/wallet-details.spec.ts:26:        fixture = testEnv.fixture;
+src/pages/wallet-details/wallet-details.spec.ts:28:        fixture.detectChanges();
+src/pages/wallet-details/wallet-details.spec.ts:33:    fixture.destroy();
+src/pages/send/select-inputs/select-inputs.ts:393:      _.sumBy(this.selectedInputs, 'amount').toFixed(8)
+src/pages/send/select-inputs/select-inputs.ts:423:          _.sumBy(this.selectedInputs, 'amount').toFixed(8)
+src/pages/send/confirm/confirm.ts:501:          (this.tx.paypro.requiredFeeRate * 1.1).toFixed(0),
+src/pages/send/confirm/confirm.ts:868:            txp.feeRatePerStr = per.toFixed(2) + '%';
+src/pages/send/confirm/confirm.ts:874:              (fiatOfAmount + fiatOfFee).toFixed(2) +
+src/pages/send/confirm/confirm.ts:879:            txp.feeRatePerStr = per.toFixed(2) + '%';
+src/pages/send/confirm/confirm.ts:888:              (this.tx.txp[wallet.id].gasPrice * 1e-9).toFixed(2)
+src/pages/send/confirm/confirm.ts:1035:      // ToDo: use a credential's (or fc's) function for this
+src/pages/send/confirm/confirm.ts:1103:                size * parseInt((tx.feeRate / 1000).toFixed(0), 10);
+src/pages/send/confirm/confirm.ts:1537:        ).toFixed(8);
+src/pages/send/confirm/confirm.spec.ts:1:import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+src/pages/send/confirm/confirm.spec.ts:8:  let fixture: ComponentFixture<ConfirmPage>;
+src/pages/send/confirm/confirm.spec.ts:15:      fixture = testEnv.fixture;
+src/pages/send/confirm/confirm.spec.ts:30:      fixture.detectChanges();
+src/pages/send/confirm/confirm.spec.ts:33:    fixture.destroy();
+src/pages/send/send.ts:214:      coin: this.navParams.data.coin // TODO ???? what is this for ?
+src/pages/send/amount/amount.html:18:    <div class="amount-content" [ngClass]="{'amount-content-fixed': fromBuyCrypto}">
+src/pages/send/amount/amount.html:39:    <div class="amount-switcher-margin" [ngClass]="{'fix-modal-switcher': useAsModal}" *ngIf="!fromBuyCrypto && !isCardTopUp && wallet && wallet.coin && !currencyProvider.isCustomERCToken(wallet.coin)">
+src/pages/send/amount/amount.html:41:        <div class="switcher" (click)="changeUnit()" [hidden]="fixedUnit" tappable>
+src/pages/send/amount/amount.html:48:    <form class="amount-switcher-margin" [ngClass]="{'fix-modal-switcher': useAsModal}" [formGroup]="quoteForm" *ngIf="this.quoteForm && fromBuyCrypto">
+src/pages/send/amount/amount.spec.ts:1:import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+src/pages/send/amount/amount.spec.ts:8:  // TODO: Improve Amount page unit tests
+src/pages/send/amount/amount.spec.ts:9:  let fixture: ComponentFixture<AmountPage>;
+src/pages/send/amount/amount.spec.ts:28:      fixture = testEnv.fixture;
+src/pages/send/amount/amount.spec.ts:31:      fixture.detectChanges();
+src/pages/send/amount/amount.spec.ts:38:    fixture.destroy();
+src/pages/send/amount/amount.ts:54:  private fixedUnit: boolean;
+src/pages/send/amount/amount.ts:144:    this.fixedUnit = this.navParams.data.fixedUnit;
+src/pages/send/amount/amount.ts:296:      // TODO
+src/pages/send/amount/amount.ts:302:    if (this.navParams.data.fixedUnit) {
+src/pages/send/amount/amount.ts:303:      this.fixedUnit = true;
+src/pages/send/amount/amount.ts:362:        ? this.toFiat(maxAmount, this.wallet.coin).toFixed(2)
+src/pages/send/amount/amount.ts:489:        val.toFixed(this.unitDecimals) * this.unitToSatoshi,
+src/pages/send/amount/amount.ts:499:      ).toFixed(this.unitDecimals)
+src/pages/send/amount/amount.ts:519:        .toFixed(2)
+src/pages/send/amount/amount.ts:592:        ? (this.fromFiat(amount) * this.unitToSatoshi).toFixed(0)
+src/pages/send/amount/amount.ts:593:        : (amount * this.unitToSatoshi).toFixed(0);
+src/pages/send/amount/amount.ts:696:    if (this.fixedUnit) return;
+src/pages/send/amount/amount.ts:702:      // Always return to BTC... TODO?
+src/pages/send/amount/amount.scss:28:    &.fix-modal-switcher {
+src/pages/send/amount/amount.scss:171:    &.amount-content-fixed {
+src/pages/send/transfer-to/transfer-to.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/send/transfer-to/transfer-to.spec.ts:8:  let fixture: ComponentFixture<TransferToPage>;
+src/pages/send/transfer-to/transfer-to.spec.ts:21:      fixture = testEnv.fixture;
+src/pages/send/transfer-to/transfer-to.spec.ts:24:      fixture.detectChanges();
+src/pages/send/transfer-to/transfer-to.spec.ts:28:    fixture.destroy();
+src/pages/send/send.spec.ts:3:  ComponentFixture,
+src/pages/send/send.spec.ts:18:  let fixture: ComponentFixture<SendPage>;
+src/pages/send/send.spec.ts:45:      fixture = testEnv.fixture;
+src/pages/send/send.spec.ts:51:      fixture.detectChanges();
+src/pages/send/send.spec.ts:55:    fixture.destroy();
+src/pages/send/send.spec.ts:959:     }); TODO*/
+src/pages/settings/language/language.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/settings/language/language.spec.ts:8:  let fixture: ComponentFixture<LanguagePage>;
+src/pages/settings/language/language.spec.ts:13:      fixture = testEnv.fixture;
+src/pages/settings/language/language.spec.ts:15:      fixture.detectChanges();
+src/pages/settings/language/language.spec.ts:18:    fixture.destroy();
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-information/wallet-information.html:88:          {{(a.amount / unitToSatoshi).toFixed(8)}} {{coin}}
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/wallet-addresses.ts:146:          this.minFeePer = per.toFixed(2) + '%';
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts:82:  // TODO : move this to walletService.
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts:132:            (amount * this.satToUnit).toFixed(8);
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts:137:            _note += ' Sent to self:' + (it.amount * this.satToUnit).toFixed(8);
+src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.ts:152:            const _fee = (it.fees * this.satToUnit).toFixed(8);
+src/pages/settings/fee-policy/fee-policy.ts:101:    ).toFixed();
+src/pages/settings/notifications/notifications.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/settings/notifications/notifications.spec.ts:8:  let fixture: ComponentFixture<NotificationsPage>;
+src/pages/settings/notifications/notifications.spec.ts:13:      fixture = testEnv.fixture;
+src/pages/settings/notifications/notifications.spec.ts:15:      fixture.detectChanges();
+src/pages/settings/notifications/notifications.spec.ts:18:    fixture.destroy();
+src/pages/settings/about/session-log/session-log.spec.ts:1:import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+src/pages/settings/about/session-log/session-log.spec.ts:11:  let fixture: ComponentFixture<SessionLogPage>;
+src/pages/settings/about/session-log/session-log.spec.ts:18:      fixture = testEnv.fixture;
+src/pages/settings/about/session-log/session-log.spec.ts:21:      fixture.detectChanges();
+src/pages/settings/about/session-log/session-log.spec.ts:28:    fixture.destroy();
+src/pages/settings/about/about.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/settings/about/about.spec.ts:9:  let fixture: ComponentFixture<AboutPage>;
+src/pages/settings/about/about.spec.ts:14:      fixture = testEnv.fixture;
+src/pages/settings/about/about.spec.ts:16:      fixture.detectChanges();
+src/pages/settings/about/about.spec.ts:19:    fixture.destroy();
+src/pages/integrations/coinbase/coinbase-account/coinbase-account.html:11:<ion-content #scrollArea [fixed-scroll-bg-color]="backgroundColor">
+src/pages/integrations/coinbase/coinbase-account/coinbase-account.html:61:      <div class="prompt-user activity-fix white-card" *ngIf="data && data.txs && data.txs.length == 0">
+src/pages/integrations/gift-cards/buy-card/buy-card.ts:59:      fixedUnit: true,
+src/pages/integrations/gift-cards/phone/phone.scss:11:  .fixed-content,
+src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.ts:500:        ? parseInt((details.requiredFeeRate * 1.1).toFixed(0), 10) // Workaround to avoid gas price supplied is lower than requested error
+src/pages/integrations/gift-cards/purchased-cards/purchased-cards.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/integrations/gift-cards/purchased-cards/purchased-cards.spec.ts:9:  let fixture: ComponentFixture<PurchasedCardsPage>;
+src/pages/integrations/gift-cards/purchased-cards/purchased-cards.spec.ts:17:      fixture = testEnv.fixture;
+src/pages/integrations/gift-cards/purchased-cards/purchased-cards.spec.ts:22:      fixture.detectChanges();
+src/pages/integrations/gift-cards/purchased-cards/purchased-cards.spec.ts:26:    fixture.destroy();
+src/pages/integrations/gift-cards/card-catalog/card-catalog.scss:135:    &-prefix {
+src/pages/integrations/gift-cards/card-catalog/card-catalog.scss:143:    &-suffix {
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:440:                  ? parseInt((details.requiredFeeRate * 1.1).toFixed(0), 10) // Workaround to avoid gas price supplied is lower than requested error
+src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.ts:634:                              (details.requiredFeeRate * 1.1).toFixed(0),
+src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-into-page.scss:72:      position: fixed;
+src/pages/integrations/bitpay-card/bitpay-card.html:11:<ion-content #scrollArea [fixed-scroll-bg-color]="'backgroundColor'">
+src/pages/integrations/bitpay-card/bitpay-card.ts:200:            // TODO?
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.ts:82:              // Fixes mobile navigation
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.scss:41:      /*  TODO  border-radius: 0 0 65% 25%;*/
+src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.scss:52:        /* TODO width: 232px; */
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:120:      ) && !this.navParams.data.isPromotionActiveForCountry; // TODO: We temporarily remove Wyre from European Union countries. When the Simplex promotion ends we have to remove this condition
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:147:  private setPrefix(address: string, coin: string, network: string): string {
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:148:    const prefix: string = this.currencyProvider.getProtocolPrefix(
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:152:    const addr = `${prefix}:${address}`;
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:366:            ).toFixed(
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:438:        const dest = this.setPrefix(address, this.coin, this.wallet.network);
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:505:          const dest = this.setPrefix(address, this.coin, this.wallet.network);
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:549:              ).toFixed(8);
+src/pages/buy-crypto/crypto-offers/crypto-offers.ts:551:              this.offers.wyre.amountReceiving = data.destAmount.toFixed(8);
+src/pages/buy-crypto/country-selector/country-selector.ts:38:        phonePrefix: '+1',
+src/pages/buy-crypto/crypto-coin-selector/crypto-coin-selector.ts:47:    // TODO: We temporarily remove Wyre from European Union countries. When the Simplex promotion ends we have to remove this condition
+src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.ts:83:            phonePrefix: '+1',
+src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.ts:65:            !this.navParams.data.isPromotionActiveForCountry)) && // TODO: We temporarily remove Wyre from European Union countries. When the Simplex promotion ends we have to remove this condition
+src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.ts:80:      // TODO: We temporarily remove Wyre from European Union countries. When the Simplex promotion ends we have to remove this condition
+src/pages/onboarding/collect-email/collect-email.scss:42:  .fixed {
+src/pages/onboarding/collect-email/collect-email.html:7:  <div class="fixed">
+src/pages/add/custom-token/custom-token.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/add/custom-token/custom-token.spec.ts:6:  let fixture: ComponentFixture<CustomTokenPage>;
+src/pages/add/custom-token/custom-token.spec.ts:12:        fixture = testEnv.fixture;
+src/pages/add/custom-token/custom-token.spec.ts:13:        fixture.detectChanges();
+src/pages/add/custom-token/custom-token.spec.ts:18:    fixture.destroy();
+src/pages/add/create-wallet/create-wallet.spec.ts:1:import { async, ComponentFixture } from '@angular/core/testing';
+src/pages/add/create-wallet/create-wallet.spec.ts:6:  let fixture: ComponentFixture<CreateWalletPage>;
+src/pages/add/create-wallet/create-wallet.spec.ts:12:        fixture = testEnv.fixture;
+src/pages/add/create-wallet/create-wallet.spec.ts:14:        fixture.detectChanges();
+src/pages/add/create-wallet/create-wallet.spec.ts:19:    fixture.destroy();
+src/pages/add/create-wallet/create-wallet.spec.ts:31:  }); TODO */
+src/pages/add/create-wallet/create-wallet.spec.ts:72:   }); TODO */
+src/pages/add/import-wallet/import-wallet.spec.ts:1:import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+src/pages/add/import-wallet/import-wallet.spec.ts:10:  let fixture: ComponentFixture<ImportWalletPage>;
+src/pages/add/import-wallet/import-wallet.spec.ts:17:        fixture = testEnv.fixture;
+src/pages/add/import-wallet/import-wallet.spec.ts:20:        fixture.detectChanges();
+src/pages/add/import-wallet/import-wallet.spec.ts:25:    fixture.destroy();
+src/pages/add/import-wallet/import-wallet.ts:542:      /* TODO: opts.n is just used to determinate if the wallet is multisig (m/48'/xx) or single sig (m/44') 
+src/pages/add/copayers/copayers.ts:115:        // TODO?
