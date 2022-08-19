@@ -6,9 +6,9 @@
 1. Project health check report 
 	* [report template RUS](doc/report_template.rus.md)
 	* example 1 ENG
-		* [disclaimer](doc/disclaimer.md)
-		* [summary](doc/summary.md)
-		* [details](doc/details.md)
+		* [disclaimer](doc/example_report/disclaimer.md)
+		* [summary](doc/example_report/summary.md)
+		* [details](doc/example_report/details.md)
 	* [example 2 RUS](doc/wallet/readme.wallet.md)
 1. [Live](https://stackblitz.com/edit/code_quality_js?file=README.md) linting playground(TODO)
 	* [eslint](https://eslint.org/) - js/ts linter with plugins: typescript, angular, promise, react
