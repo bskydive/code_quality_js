@@ -3,11 +3,14 @@
 ## What is it?
 
 1. The handy tool set to begin code conventions automation
-1. Project health check report templates
-	* [disclaimer](doc/disclaimer.md)
-	* [summary](doc/summary.md)
-	* [details](doc/details.md)
-1. [Live](https://stackblitz.com/edit/typescript-tspqwe-linters?file=README.md) linting playground(TODO)
+1. Project health check report 
+	* [report template RUS](doc/report_template.rus.md)
+	* example 1 ENG
+		* [disclaimer](doc/disclaimer.md)
+		* [summary](doc/summary.md)
+		* [details](doc/details.md)
+	* [example 2 RUS](doc/wallet/readme.wallet.md)
+1. [Live](https://stackblitz.com/edit/code_quality_js?file=README.md) linting playground(TODO)
 	* [eslint](https://eslint.org/) - js/ts linter with plugins: typescript, angular, promise, react
 	* [tslint](https://github.com/palantir/tslint) - still useful(finnish notation)
 	* [stylelint](https://stylelint.io/) - css
@@ -45,7 +48,7 @@
 	* `stylelint --config ${LINTER_PATH}/.stylelintrc.json --syntax css-in-js ./**/*.tsx | grep ' ⚠ ' | colrm 1 10 | tr -s ' ' | sort | uniq | less`
 	* `cspell -uc ${LINTER_PATH}/.cspell.json ./*.* | awk -F 'Unknown word ' '{print $2}' | tr -d '()' > .cspell-dict-exclude.txt`
 1. If CLI runs from linters folder
-	* `cd typescript-tspqwe-linters`
+	* `cd code_quality_js`
 	* `cp your_project_path/src ./src`
 	* `cp your_project_path/angular.json ./angular.json`
 	* `cp your_project_path/angular.json ./tsconfig.json`
@@ -106,6 +109,6 @@
 
  * sonarlint docker
  * Angular code examples
- * Find how make live cloud playground useful https://stackblitz.com/edit/typescript-tspqwe-linters
+ * Find how make live cloud playground useful https://stackblitz.com/edit/code_quality_js
  * badges
  * jest --coverage

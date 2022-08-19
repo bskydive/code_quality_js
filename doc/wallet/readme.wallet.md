@@ -27,7 +27,7 @@
  * 11769 строк в 167 html файлах, прирост +12,74%/1330 строк
  * 14241 строк в 178 scss файлах, прирост +7,44%/987 строк
  * 75504 строк в 366 ts файлах, прирост +8,43%/5875 строк
- * [size.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/size.sh)
+ * [size.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/size.sh)
  * ```bash
 	grep --include=\*\.{less,scss,css,ts,html} -R '' src/ | wc -l
 	grep --include=\*\.{less,scss,css,ts,html} -Rl '' src/ | wc -l
@@ -167,7 +167,7 @@
 ### уязвимости пакетов
 
  * 280 уязвимостей, прирост +00%
- * [npm.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/project_folder/npm.sh)
+ * [npm.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/project_folder/npm.sh)
  * ```bash
 	grep -iE 'Path|Low|Moderate|High|Critical' log/audit.log | less
 	grep -iE 'Path|Low|Moderate|High|Critical' log/audit.log > log/audit.parsed.log
@@ -274,7 +274,7 @@
 	* plugin:promise/recommended
 	* [plugin:prettier/recommended](https://www.npmjs.com/package/eslint-plugin-prettier)
 	* plugin:functional/recommended
- * [eslint.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/eslint.sh)
+ * [eslint.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/eslint.sh)
  * Все типы ошибок
 	* 100% файлов - 27302 ошибок(82 типа) в 366 из 366 `*.ts` файлов, прирост +7.8%/2127 ошибок
 	* [all issues](./log/eslint.log)
@@ -328,7 +328,7 @@
  * [files](log/eslint.important.files.log)
  * [issues](log/eslint.important.issues.log)
  * [rules](log/eslint.important.rules.log)
- * [eslint.important.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/eslint.important.sh)
+ * [eslint.important.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/eslint.important.sh)
  * ```bash
 	tail -n1 log/eslint.important.log
 	grep -ef log/eslint.rules.important.log log/eslint.log | wc -l
@@ -343,7 +343,7 @@
  * [css.rules.uniq](log/css.rules.uniq.log)
  * [css.short.uniq](log/css.short.uniq.log)
  * [css.files](log/css.files.log)
- * [styles.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/styles.sh)
+ * [styles.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/styles.sh)
  * ```bash
 	cat log/css.log | grep '(' | awk -F'(' '{print $2}' |grep -E ')$'|tr -d ')'|sort|uniq | wc -l
 	cat log/css.log | awk -F' - ' '{print $2}' | sort | uniq | wc -l
@@ -356,7 +356,7 @@
  * [styles.important.log](log/styles.important.log)
  * [styles.important.short.log](log/styles.important.short.log)
  * [styles.important.files.log](log/styles.important.files.log)
- * [styles.important.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/styles.important.sh)
+ * [styles.important.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/styles.important.sh)
  * ```bash
 	grep -f log/styles.rules.important.log log/styles.log | sort | uniq
 	cat log/styles.important.log | awk -F' - ' '{print $2}' | sort | uniq
@@ -372,7 +372,7 @@
  * [test.disabled.log](log/test.disabled.log)
  * [test.group.disabled.log](log/test.group.disabled.log)
  * [test.assert.disabled.log](log/test.assert.disabled.log)
- * [tests.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/tests.sh)
+ * [tests.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/tests.sh)
  * ```bash
 	grep --include=\*spec.ts -R '' src/ | wc -l
 	grep --include=\*spec.ts -Rl '' src/ | wc -l
@@ -391,7 +391,7 @@
  * [angular.components.duplicated.files.log](log/angular.components.duplicated.files.log)
  * [angular.components.onpush.files.log](log/angular.components.onpush.files.log)
  * [angular.named.files.log](log/angular.named.files.log)
- * [angular.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/angular.sh)
+ * [angular.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/angular.sh)
  * ```bash
 	grep --include=\*.ts -RiE '@component\(' src/ | wc -l
 	grep --include=\*.ts -RiE '@component\(' src/ | sort | uniq -d | wc -l
@@ -406,7 +406,7 @@
   	* [report](log/jscpd-css/jscpd-report.md)
  * 6,34% строк TS: 200 клонов, 3277 одинаковых строк в 332 файлах, прирост +10,86%/356 строк
   	* [report](log/jscpd-ts/jscpd-report.md)
- * [duplicates.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/duplicates.sh)
+ * [duplicates.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/duplicates.sh)
 
 ## Правописание
 
@@ -424,7 +424,7 @@
 ### TODO Важные ошибки правописания
 
  * необходимо отредактировать `log/spell.words.important.log`
- * [spell.important.sh](https://github.com/bskydive/typescript-tspqwe-linters/blob/master/scripts/linter_folder/spell.important.sh)
+ * [spell.important.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/linter_folder/spell.important.sh)
  * ```bash
 	cat log/spell.words.important.log
 	wc -l log/spell.words.important.log
