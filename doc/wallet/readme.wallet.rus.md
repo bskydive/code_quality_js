@@ -42,7 +42,7 @@
 ## Зависимости
 
  * размер библиотек
-	* Чтобы запустить webpack-bundle-analyzer пришлось поправить конфиг `config/webpack.config.js` и выполнить:
+	* Чтобы запустить webpack-bundle-analyzer пришлось [поправить](doc/wallet/log/wallet-webpack.patch) конфиг `config/webpack.config.js` и выполнить:
 		```bash
 			npm run apply:bitpay
 			npm run build:desktop

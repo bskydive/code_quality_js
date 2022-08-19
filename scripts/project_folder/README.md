@@ -14,6 +14,19 @@ Before run
 		cd "absolute_path_to_project"
 		npm i # if needed
 		npm i webpack-bundle-analyzer # if needed
+
 		./scripts/project_folder/run.sh
 	```
+ * if you can't run `npm run build:analyze:view`: add this lines to the webpack.conf.js dev/prod section and build project 
+	```js
+		const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
+		plugins: [
+		new BundleAnalyzerPlugin({
+			analyzerMode: 'static',
+			openAnalyzer: false,
+			generateStatsFile: true
+		}),
+	```
+ * make the screenshots of `dist/report.html` and paste it into log folder
  * manually refine and move libs from log/npm.dependencies.log to report/README.md
