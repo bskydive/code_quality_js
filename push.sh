@@ -1,6 +1,7 @@
 #!/bin/bash
-git add -A ./
-git commit -am 'content'
-git push origin master
 
-
+git add -A ./*
+git commit -am "${1} add files"
+git push gl develop
+git push gh develop
+git push bb develop
