@@ -2799,7 +2799,7 @@
  ["minerFees"] is better written in dot notation.
  Missing return type on function.
  Missing trailing comma.
- '/mnt/disk273/doc/coding/linters-article/src/providers/wallet-connect/web3-providers/web3-providers.ts' imported multiple times.
+ 'src/providers/wallet-connect/web3-providers/web3-providers.ts' imported multiple times.
  'multisigContract' is already declared in the upper scope on line 1311 column 15.
  ["name"] is better written in dot notation.
  ["native_currency"] is better written in dot notation.

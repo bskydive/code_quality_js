@@ -4,7 +4,7 @@
     "formats": {
       "scss": {
         "sources": {
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.scss": {
+          "src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/all-addresses/all-addresses.scss": {
             "lines": 11,
             "tokens": 60,
             "sources": 1,
@@ -16,7 +16,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-into-page.scss": {
+          "src/pages/integrations/bitpay-card/bitpay-card-phases/phase-one/phase-one-intro-page/phase-one-into-page.scss": {
             "lines": 153,
             "tokens": 828,
             "sources": 1,
@@ -28,7 +28,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.scss": {
+          "src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-transaction-history/wallet-transaction-history.scss": {
             "lines": 4,
             "tokens": 17,
             "sources": 1,
@@ -40,7 +40,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.scss": {
+          "src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-service-url/wallet-service-url.scss": {
             "lines": 4,
             "tokens": 17,
             "sources": 1,
@@ -52,7 +52,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-information/wallet-information.scss": {
+          "src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-information/wallet-information.scss": {
             "lines": 4,
             "tokens": 17,
             "sources": 1,
@@ -64,7 +64,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.scss": {
+          "src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-export/wallet-export.scss": {
             "lines": 4,
             "tokens": 17,
             "sources": 1,
@@ -76,7 +76,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.scss": {
+          "src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-duplicate/wallet-duplicate.scss": {
             "lines": 4,
             "tokens": 17,
             "sources": 1,
@@ -88,7 +88,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/wallet-addresses.scss": {
+          "src/pages/settings/wallet-settings/wallet-settings-advanced/wallet-addresses/wallet-addresses.scss": {
             "lines": 28,
             "tokens": 165,
             "sources": 1,
@@ -100,7 +100,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/advanced/wallet-recover-page/wallet-mnemonic-recover-page/wallet-mnemonic-recover.scss": {
+          "src/pages/settings/advanced/wallet-recover-page/wallet-mnemonic-recover-page/wallet-mnemonic-recover.scss": {
             "lines": 34,
             "tokens": 175,
             "sources": 1,
@@ -112,7 +112,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/purchased-cards/card-list-item/card-list-item.scss": {
+          "src/pages/integrations/gift-cards/purchased-cards/card-list-item/card-list-item.scss": {
             "lines": 53,
             "tokens": 249,
             "sources": 1,
@@ -124,7 +124,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/home-gift-cards/gift-card-item/gift-card-item.scss": {
+          "src/pages/integrations/gift-cards/home-gift-cards/gift-card-item/gift-card-item.scss": {
             "lines": 24,
             "tokens": 92,
             "sources": 1,
@@ -136,7 +136,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/card-details/redeem-instructions/redeem-instructions.scss": {
+          "src/pages/integrations/gift-cards/card-details/redeem-instructions/redeem-instructions.scss": {
             "lines": 14,
             "tokens": 56,
             "sources": 1,
@@ -148,7 +148,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/card-details/printable-card/printable-card.scss": {
+          "src/pages/integrations/gift-cards/card-details/printable-card/printable-card.scss": {
             "lines": 8,
             "tokens": 45,
             "sources": 1,
@@ -160,7 +160,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/buy-card/card-description/card-description.scss": {
+          "src/pages/integrations/gift-cards/buy-card/card-description/card-description.scss": {
             "lines": 16,
             "tokens": 75,
             "sources": 1,
@@ -172,7 +172,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-name/wallet-name.scss": {
+          "src/pages/settings/wallet-settings/wallet-name/wallet-name.scss": {
             "lines": 11,
             "tokens": 54,
             "sources": 1,
@@ -184,7 +184,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/key-settings/key-qr-export/key-qr-export.scss": {
+          "src/pages/settings/key-settings/key-qr-export/key-qr-export.scss": {
             "lines": 11,
             "tokens": 60,
             "sources": 1,
@@ -196,7 +196,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/key-settings/key-onboarding/key-onboarding.scss": {
+          "src/pages/settings/key-settings/key-onboarding/key-onboarding.scss": {
             "lines": 45,
             "tokens": 283,
             "sources": 1,
@@ -208,7 +208,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/key-settings/key-name/key-name.scss": {
+          "src/pages/settings/key-settings/key-name/key-name.scss": {
             "lines": 11,
             "tokens": 54,
             "sources": 1,
@@ -220,7 +220,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/key-settings/key-delete/key-delete.scss": {
+          "src/pages/settings/key-settings/key-delete/key-delete.scss": {
             "lines": 4,
             "tokens": 17,
             "sources": 1,
@@ -232,7 +232,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/key-settings/extended-private-key/extended-private-key.scss": {
+          "src/pages/settings/key-settings/extended-private-key/extended-private-key.scss": {
             "lines": 11,
             "tokens": 60,
             "sources": 1,
@@ -244,7 +244,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/advanced/wallet-recover-page/wallet-recover-page.scss": {
+          "src/pages/settings/advanced/wallet-recover-page/wallet-recover-page.scss": {
             "lines": 9,
             "tokens": 45,
             "sources": 1,
@@ -256,7 +256,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/addressbook/view/view.scss": {
+          "src/pages/settings/addressbook/view/view.scss": {
             "lines": 16,
             "tokens": 100,
             "sources": 1,
@@ -268,7 +268,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/addressbook/add/add.scss": {
+          "src/pages/settings/addressbook/add/add.scss": {
             "lines": 19,
             "tokens": 114,
             "sources": 1,
@@ -280,7 +280,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/about/session-log/session-log.scss": {
+          "src/pages/settings/about/session-log/session-log.scss": {
             "lines": 34,
             "tokens": 186,
             "sources": 1,
@@ -292,7 +292,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre-details/wyre-details.scss": {
+          "src/pages/integrations/wyre/wyre-details/wyre-details.scss": {
             "lines": 27,
             "tokens": 150,
             "sources": 1,
@@ -304,7 +304,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/simplex/simplex-details/simplex-details.scss": {
+          "src/pages/integrations/simplex/simplex-details/simplex-details.scss": {
             "lines": 27,
             "tokens": 150,
             "sources": 1,
@@ -316,7 +316,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/invoice/select-invoice/select-invoice.scss": {
+          "src/pages/integrations/invoice/select-invoice/select-invoice.scss": {
             "lines": 24,
             "tokens": 105,
             "sources": 1,
@@ -328,7 +328,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/phone/phone.scss": {
+          "src/pages/integrations/gift-cards/phone/phone.scss": {
             "lines": 97,
             "tokens": 479,
             "sources": 1,
@@ -340,7 +340,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/home-gift-cards/home-gift-cards.scss": {
+          "src/pages/integrations/gift-cards/home-gift-cards/home-gift-cards.scss": {
             "lines": 61,
             "tokens": 308,
             "sources": 1,
@@ -352,7 +352,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/gift-cards-settings/gift-cards-settings.scss": {
+          "src/pages/integrations/gift-cards/gift-cards-settings/gift-cards-settings.scss": {
             "lines": 6,
             "tokens": 24,
             "sources": 1,
@@ -364,7 +364,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/gift-card-settings/gift-card-settings.scss": {
+          "src/pages/integrations/gift-cards/gift-card-settings/gift-card-settings.scss": {
             "lines": 5,
             "tokens": 24,
             "sources": 1,
@@ -376,7 +376,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.scss": {
+          "src/pages/integrations/gift-cards/confirm-card-purchase/confirm-card-purchase.scss": {
             "lines": 97,
             "tokens": 455,
             "sources": 1,
@@ -388,7 +388,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/card-terms/card-terms.scss": {
+          "src/pages/integrations/gift-cards/card-terms/card-terms.scss": {
             "lines": 30,
             "tokens": 135,
             "sources": 1,
@@ -400,7 +400,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/card-details/card-details.scss": {
+          "src/pages/integrations/gift-cards/card-details/card-details.scss": {
             "lines": 152,
             "tokens": 777,
             "sources": 1,
@@ -412,7 +412,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/card-catalog/card-catalog.scss": {
+          "src/pages/integrations/gift-cards/card-catalog/card-catalog.scss": {
             "lines": 161,
             "tokens": 844,
             "sources": 1,
@@ -424,7 +424,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/buy-card/buy-card.scss": {
+          "src/pages/integrations/gift-cards/buy-card/buy-card.scss": {
             "lines": 73,
             "tokens": 428,
             "sources": 1,
@@ -436,7 +436,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/coinbase/coinbase-tx-details/coinbase-tx-details.scss": {
+          "src/pages/integrations/coinbase/coinbase-tx-details/coinbase-tx-details.scss": {
             "lines": 17,
             "tokens": 87,
             "sources": 1,
@@ -448,7 +448,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/coinbase/coinbase-settings/coinbase-settings.scss": {
+          "src/pages/integrations/coinbase/coinbase-settings/coinbase-settings.scss": {
             "lines": 11,
             "tokens": 52,
             "sources": 1,
@@ -460,7 +460,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/coinbase/coinbase-account/coinbase-account.scss": {
+          "src/pages/integrations/coinbase/coinbase-account/coinbase-account.scss": {
             "lines": 72,
             "tokens": 357,
             "sources": 1,
@@ -472,7 +472,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/changelly/changelly-terms/changelly-terms.scss": {
+          "src/pages/integrations/changelly/changelly-terms/changelly-terms.scss": {
             "lines": 14,
             "tokens": 66,
             "sources": 1,
@@ -484,7 +484,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/changelly/changelly-details/changelly-details.scss": {
+          "src/pages/integrations/changelly/changelly-details/changelly-details.scss": {
             "lines": 28,
             "tokens": 161,
             "sources": 1,
@@ -496,7 +496,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-settings/bitpay-settings.scss": {
+          "src/pages/integrations/bitpay-card/bitpay-settings/bitpay-settings.scss": {
             "lines": 9,
             "tokens": 37,
             "sources": 1,
@@ -508,7 +508,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.scss": {
+          "src/pages/integrations/bitpay-card/bitpay-card-topup/bitpay-card-topup.scss": {
             "lines": 82,
             "tokens": 424,
             "sources": 1,
@@ -520,7 +520,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.scss": {
+          "src/pages/integrations/bitpay-card/bitpay-card-intro/bitpay-card-intro.scss": {
             "lines": 111,
             "tokens": 621,
             "sources": 1,
@@ -532,7 +532,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card-home/bitpay-card-home.scss": {
+          "src/pages/integrations/bitpay-card/bitpay-card-home/bitpay-card-home.scss": {
             "lines": 84,
             "tokens": 503,
             "sources": 1,
@@ -544,7 +544,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/custom-token/search-token-modal/search-token-modal.scss": {
+          "src/pages/add/custom-token/search-token-modal/search-token-modal.scss": {
             "lines": 20,
             "tokens": 135,
             "sources": 1,
@@ -556,7 +556,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/wallets/proposals-notifications/proposals-notifications.scss": {
+          "src/pages/wallets/proposals-notifications/proposals-notifications.scss": {
             "lines": 53,
             "tokens": 288,
             "sources": 1,
@@ -568,7 +568,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-balance/wallet-balance.scss": {
+          "src/pages/wallet-details/wallet-balance/wallet-balance.scss": {
             "lines": 33,
             "tokens": 177,
             "sources": 1,
@@ -580,7 +580,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/search-tx-modal/search-tx-modal.scss": {
+          "src/pages/wallet-details/search-tx-modal/search-tx-modal.scss": {
             "lines": 88,
             "tokens": 419,
             "sources": 1,
@@ -592,7 +592,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/templates/wide-header-page/wide-header-page.scss": {
+          "src/pages/templates/wide-header-page/wide-header-page.scss": {
             "lines": 92,
             "tokens": 389,
             "sources": 1,
@@ -604,7 +604,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/wallet-settings/wallet-settings.scss": {
+          "src/pages/settings/wallet-settings/wallet-settings.scss": {
             "lines": 31,
             "tokens": 151,
             "sources": 1,
@@ -616,7 +616,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/share/share.scss": {
+          "src/pages/settings/share/share.scss": {
             "lines": 44,
             "tokens": 251,
             "sources": 1,
@@ -628,7 +628,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/lock/lock.scss": {
+          "src/pages/settings/lock/lock.scss": {
             "lines": 5,
             "tokens": 24,
             "sources": 1,
@@ -640,7 +640,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/language/language.scss": {
+          "src/pages/settings/language/language.scss": {
             "lines": 4,
             "tokens": 17,
             "sources": 1,
@@ -652,7 +652,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/key-settings/key-settings.scss": {
+          "src/pages/settings/key-settings/key-settings.scss": {
             "lines": 75,
             "tokens": 398,
             "sources": 1,
@@ -664,7 +664,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/fee-policy/fee-policy.scss": {
+          "src/pages/settings/fee-policy/fee-policy.scss": {
             "lines": 83,
             "tokens": 480,
             "sources": 1,
@@ -676,7 +676,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/bitpay-id/bitpay-id.scss": {
+          "src/pages/settings/bitpay-id/bitpay-id.scss": {
             "lines": 72,
             "tokens": 405,
             "sources": 1,
@@ -688,7 +688,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/alt-currency/alt-currency.scss": {
+          "src/pages/settings/alt-currency/alt-currency.scss": {
             "lines": 7,
             "tokens": 31,
             "sources": 1,
@@ -700,7 +700,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/addressbook/addressbook.scss": {
+          "src/pages/settings/addressbook/addressbook.scss": {
             "lines": 36,
             "tokens": 217,
             "sources": 1,
@@ -712,7 +712,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/about/about.scss": {
+          "src/pages/settings/about/about.scss": {
             "lines": 24,
             "tokens": 122,
             "sources": 1,
@@ -724,7 +724,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/send/transfer-to/transfer-to.scss": {
+          "src/pages/send/transfer-to/transfer-to.scss": {
             "lines": 22,
             "tokens": 138,
             "sources": 1,
@@ -736,7 +736,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/send/select-inputs/select-inputs.scss": {
+          "src/pages/send/select-inputs/select-inputs.scss": {
             "lines": 192,
             "tokens": 1097,
             "sources": 1,
@@ -748,7 +748,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/send/confirm/confirm.scss": {
+          "src/pages/send/confirm/confirm.scss": {
             "lines": 210,
             "tokens": 1091,
             "sources": 1,
@@ -760,7 +760,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/send/amount/amount.scss": {
+          "src/pages/send/amount/amount.scss": {
             "lines": 186,
             "tokens": 1025,
             "sources": 1,
@@ -772,7 +772,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/receive/custom-amount/custom-amount.scss": {
+          "src/pages/receive/custom-amount/custom-amount.scss": {
             "lines": 57,
             "tokens": 338,
             "sources": 1,
@@ -784,7 +784,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/pin/pin-pad/pin-pad.scss": {
+          "src/pages/pin/pin-pad/pin-pad.scss": {
             "lines": 49,
             "tokens": 264,
             "sources": 1,
@@ -796,7 +796,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/pin/pin-modal/pin-modal.scss": {
+          "src/pages/pin/pin-modal/pin-modal.scss": {
             "lines": 73,
             "tokens": 452,
             "sources": 1,
@@ -808,7 +808,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/pin/pin-dots/pin-dots.scss": {
+          "src/pages/pin/pin-dots/pin-dots.scss": {
             "lines": 20,
             "tokens": 132,
             "sources": 1,
@@ -820,7 +820,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/recovery-key/recovery-key.scss": {
+          "src/pages/onboarding/recovery-key/recovery-key.scss": {
             "lines": 62,
             "tokens": 393,
             "sources": 1,
@@ -832,7 +832,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/lock-method/lock-method.scss": {
+          "src/pages/onboarding/lock-method/lock-method.scss": {
             "lines": 51,
             "tokens": 316,
             "sources": 1,
@@ -844,7 +844,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/feature-education/feature-education.scss": {
+          "src/pages/onboarding/feature-education/feature-education.scss": {
             "lines": 103,
             "tokens": 630,
             "sources": 1,
@@ -856,7 +856,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/disclaimer/disclaimer.scss": {
+          "src/pages/onboarding/disclaimer/disclaimer.scss": {
             "lines": 95,
             "tokens": 615,
             "sources": 1,
@@ -868,7 +868,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/collect-email/collect-email.scss": {
+          "src/pages/onboarding/collect-email/collect-email.scss": {
             "lines": 49,
             "tokens": 244,
             "sources": 1,
@@ -880,7 +880,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/add-funds/add-funds.scss": {
+          "src/pages/onboarding/add-funds/add-funds.scss": {
             "lines": 65,
             "tokens": 430,
             "sources": 1,
@@ -892,7 +892,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.scss": {
+          "src/pages/integrations/wyre/wyre.scss": {
             "lines": 44,
             "tokens": 230,
             "sources": 1,
@@ -904,7 +904,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wallet-connect/wallet-connect.scss": {
+          "src/pages/integrations/wallet-connect/wallet-connect.scss": {
             "lines": 56,
             "tokens": 339,
             "sources": 1,
@@ -916,7 +916,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/simplex/simplex.scss": {
+          "src/pages/integrations/simplex/simplex.scss": {
             "lines": 44,
             "tokens": 230,
             "sources": 1,
@@ -928,7 +928,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/gift-cards.scss": {
+          "src/pages/integrations/gift-cards/gift-cards.scss": {
             "lines": 41,
             "tokens": 216,
             "sources": 1,
@@ -940,7 +940,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/changelly/changelly.scss": {
+          "src/pages/integrations/changelly/changelly.scss": {
             "lines": 49,
             "tokens": 259,
             "sources": 1,
@@ -952,7 +952,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/bitpay-card/bitpay-card.scss": {
+          "src/pages/integrations/bitpay-card/bitpay-card.scss": {
             "lines": 84,
             "tokens": 418,
             "sources": 1,
@@ -964,7 +964,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/includes/txp/txp.scss": {
+          "src/pages/includes/txp/txp.scss": {
             "lines": 33,
             "tokens": 183,
             "sources": 1,
@@ -976,7 +976,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/includes/multiple-outputs/multiple-outputs.scss": {
+          "src/pages/includes/multiple-outputs/multiple-outputs.scss": {
             "lines": 9,
             "tokens": 51,
             "sources": 1,
@@ -988,7 +988,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/includes/gravatar/gravatar.scss": {
+          "src/pages/includes/gravatar/gravatar.scss": {
             "lines": 25,
             "tokens": 153,
             "sources": 1,
@@ -1000,7 +1000,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/includes/feedback-card/feedback-card.scss": {
+          "src/pages/includes/feedback-card/feedback-card.scss": {
             "lines": 39,
             "tokens": 188,
             "sources": 1,
@@ -1012,7 +1012,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/includes/create-new-wallet/create-new-wallet.scss": {
+          "src/pages/includes/create-new-wallet/create-new-wallet.scss": {
             "lines": 15,
             "tokens": 74,
             "sources": 1,
@@ -1024,7 +1024,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/includes/coin-selector/coin-selector.scss": {
+          "src/pages/includes/coin-selector/coin-selector.scss": {
             "lines": 24,
             "tokens": 117,
             "sources": 1,
@@ -1036,7 +1036,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/includes/card-item/card-item.scss": {
+          "src/pages/includes/card-item/card-item.scss": {
             "lines": 52,
             "tokens": 273,
             "sources": 1,
@@ -1048,7 +1048,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/home/price-page/price-page.scss": {
+          "src/pages/home/price-page/price-page.scss": {
             "lines": 60,
             "tokens": 383,
             "sources": 1,
@@ -1060,7 +1060,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/feedback/send-feedback/send-feedback.scss": {
+          "src/pages/feedback/send-feedback/send-feedback.scss": {
             "lines": 112,
             "tokens": 712,
             "sources": 1,
@@ -1072,7 +1072,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto-settings/exchange-crypto-settings.scss": {
+          "src/pages/exchange-crypto/exchange-crypto-settings/exchange-crypto-settings.scss": {
             "lines": 13,
             "tokens": 48,
             "sources": 1,
@@ -1084,7 +1084,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-checkout/exchange-checkout.scss": {
+          "src/pages/exchange-crypto/exchange-checkout/exchange-checkout.scss": {
             "lines": 61,
             "tokens": 339,
             "sources": 1,
@@ -1096,7 +1096,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-settings/crypto-settings.scss": {
+          "src/pages/buy-crypto/crypto-settings/crypto-settings.scss": {
             "lines": 13,
             "tokens": 48,
             "sources": 1,
@@ -1108,7 +1108,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.scss": {
+          "src/pages/buy-crypto/crypto-payment-method/crypto-payment-method.scss": {
             "lines": 25,
             "tokens": 111,
             "sources": 1,
@@ -1120,7 +1120,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.scss": {
+          "src/pages/buy-crypto/crypto-order-summary/crypto-order-summary.scss": {
             "lines": 46,
             "tokens": 216,
             "sources": 1,
@@ -1132,7 +1132,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.scss": {
+          "src/pages/buy-crypto/crypto-offers/crypto-offers.scss": {
             "lines": 195,
             "tokens": 1122,
             "sources": 1,
@@ -1144,7 +1144,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-coin-selector/crypto-coin-selector.scss": {
+          "src/pages/buy-crypto/crypto-coin-selector/crypto-coin-selector.scss": {
             "lines": 20,
             "tokens": 112,
             "sources": 1,
@@ -1156,7 +1156,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/country-selector/country-selector.scss": {
+          "src/pages/buy-crypto/country-selector/country-selector.scss": {
             "lines": 11,
             "tokens": 54,
             "sources": 1,
@@ -1168,7 +1168,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/backup/backup-key/backup-key.scss": {
+          "src/pages/backup/backup-key/backup-key.scss": {
             "lines": 72,
             "tokens": 438,
             "sources": 1,
@@ -1180,7 +1180,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/backup/backup-game/backup-game.scss": {
+          "src/pages/backup/backup-game/backup-game.scss": {
             "lines": 98,
             "tokens": 586,
             "sources": 1,
@@ -1192,7 +1192,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/select-currency/select-currency.scss": {
+          "src/pages/add/select-currency/select-currency.scss": {
             "lines": 33,
             "tokens": 172,
             "sources": 1,
@@ -1204,7 +1204,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/join-wallet/join-wallet.scss": {
+          "src/pages/add/join-wallet/join-wallet.scss": {
             "lines": 24,
             "tokens": 139,
             "sources": 1,
@@ -1216,7 +1216,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/import-wallet/import-wallet.scss": {
+          "src/pages/add/import-wallet/import-wallet.scss": {
             "lines": 61,
             "tokens": 403,
             "sources": 1,
@@ -1228,7 +1228,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/custom-token/custom-token.scss": {
+          "src/pages/add/custom-token/custom-token.scss": {
             "lines": 50,
             "tokens": 306,
             "sources": 1,
@@ -1240,7 +1240,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/create-wallet/create-wallet.scss": {
+          "src/pages/add/create-wallet/create-wallet.scss": {
             "lines": 37,
             "tokens": 229,
             "sources": 1,
@@ -1252,7 +1252,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/create-eth-multisig/create-eth-multisig.scss": {
+          "src/pages/add/create-eth-multisig/create-eth-multisig.scss": {
             "lines": 59,
             "tokens": 398,
             "sources": 1,
@@ -1264,7 +1264,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/copayers/copayers.scss": {
+          "src/pages/add/copayers/copayers.scss": {
             "lines": 128,
             "tokens": 715,
             "sources": 1,
@@ -1276,7 +1276,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/wallets/wallets.scss": {
+          "src/pages/wallets/wallets.scss": {
             "lines": 378,
             "tokens": 1828,
             "sources": 1,
@@ -1288,7 +1288,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.scss": {
+          "src/pages/wallet-details/wallet-details.scss": {
             "lines": 382,
             "tokens": 1982,
             "sources": 1,
@@ -1300,7 +1300,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/txp-details/txp-details.scss": {
+          "src/pages/txp-details/txp-details.scss": {
             "lines": 128,
             "tokens": 720,
             "sources": 1,
@@ -1312,7 +1312,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/tx-details/tx-details.scss": {
+          "src/pages/tx-details/tx-details.scss": {
             "lines": 116,
             "tokens": 687,
             "sources": 1,
@@ -1324,7 +1324,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/slide-to-accept/slide-to-accept.scss": {
+          "src/pages/slide-to-accept/slide-to-accept.scss": {
             "lines": 230,
             "tokens": 1468,
             "sources": 1,
@@ -1336,7 +1336,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/settings/settings.scss": {
+          "src/pages/settings/settings.scss": {
             "lines": 108,
             "tokens": 557,
             "sources": 1,
@@ -1348,7 +1348,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/send/send.scss": {
+          "src/pages/send/send.scss": {
             "lines": 50,
             "tokens": 325,
             "sources": 1,
@@ -1360,7 +1360,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/scan/scan.scss": {
+          "src/pages/scan/scan.scss": {
             "lines": 171,
             "tokens": 885,
             "sources": 1,
@@ -1372,7 +1372,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/paper-wallet/paper-wallet.scss": {
+          "src/pages/paper-wallet/paper-wallet.scss": {
             "lines": 9,
             "tokens": 51,
             "sources": 1,
@@ -1384,7 +1384,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/new-feature/new-feature.scss": {
+          "src/pages/new-feature/new-feature.scss": {
             "lines": 139,
             "tokens": 923,
             "sources": 1,
@@ -1396,7 +1396,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/merchant/merchant.scss": {
+          "src/pages/merchant/merchant.scss": {
             "lines": 79,
             "tokens": 371,
             "sources": 1,
@@ -1408,7 +1408,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/home/home.scss": {
+          "src/pages/home/home.scss": {
             "lines": 199,
             "tokens": 1157,
             "sources": 1,
@@ -1420,7 +1420,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/finish/finish.scss": {
+          "src/pages/finish/finish.scss": {
             "lines": 84,
             "tokens": 559,
             "sources": 1,
@@ -1432,7 +1432,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/fingerprint/fingerprint.scss": {
+          "src/pages/fingerprint/fingerprint.scss": {
             "lines": 56,
             "tokens": 344,
             "sources": 1,
@@ -1444,7 +1444,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/exchange-crypto/exchange-crypto.scss": {
+          "src/pages/exchange-crypto/exchange-crypto.scss": {
             "lines": 104,
             "tokens": 603,
             "sources": 1,
@@ -1456,7 +1456,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/choose-fee-level/choose-fee-level.scss": {
+          "src/pages/choose-fee-level/choose-fee-level.scss": {
             "lines": 63,
             "tokens": 366,
             "sources": 1,
@@ -1468,7 +1468,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/cards/cards.scss": {
+          "src/pages/cards/cards.scss": {
             "lines": 186,
             "tokens": 958,
             "sources": 1,
@@ -1480,7 +1480,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add-wallet/add-wallet.scss": {
+          "src/pages/add-wallet/add-wallet.scss": {
             "lines": 36,
             "tokens": 196,
             "sources": 1,
@@ -1492,7 +1492,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/pages/add/add.scss": {
+          "src/pages/add/add.scss": {
             "lines": 27,
             "tokens": 126,
             "sources": 1,
@@ -1504,7 +1504,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/directives/animate/animate.scss": {
+          "src/directives/animate/animate.scss": {
             "lines": 56,
             "tokens": 261,
             "sources": 1,
@@ -1516,7 +1516,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/wallet-tab-options/wallet-tab-options.scss": {
+          "src/components/wallet-tab-options/wallet-tab-options.scss": {
             "lines": 30,
             "tokens": 161,
             "sources": 1,
@@ -1528,7 +1528,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/wallet-selector/wallet-selector.scss": {
+          "src/components/wallet-selector/wallet-selector.scss": {
             "lines": 31,
             "tokens": 211,
             "sources": 1,
@@ -1540,7 +1540,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/wallet-receive/wallet-receive.scss": {
+          "src/components/wallet-receive/wallet-receive.scss": {
             "lines": 135,
             "tokens": 816,
             "sources": 1,
@@ -1552,7 +1552,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/wallet-item-content/wallet-item-content.scss": {
+          "src/components/wallet-item-content/wallet-item-content.scss": {
             "lines": 12,
             "tokens": 60,
             "sources": 1,
@@ -1564,7 +1564,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/search-bar/search-bar.scss": {
+          "src/components/search-bar/search-bar.scss": {
             "lines": 32,
             "tokens": 189,
             "sources": 1,
@@ -1576,7 +1576,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/price-chart/price-chart.scss": {
+          "src/components/price-chart/price-chart.scss": {
             "lines": 22,
             "tokens": 101,
             "sources": 1,
@@ -1588,7 +1588,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/phone-sheet/phone-sheet.scss": {
+          "src/components/phone-sheet/phone-sheet.scss": {
             "lines": 82,
             "tokens": 438,
             "sources": 1,
@@ -1600,7 +1600,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/options-sheet/options-sheet.scss": {
+          "src/components/options-sheet/options-sheet.scss": {
             "lines": 23,
             "tokens": 111,
             "sources": 1,
@@ -1612,7 +1612,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/notification-component/notification-component.scss": {
+          "src/components/notification-component/notification-component.scss": {
             "lines": 53,
             "tokens": 364,
             "sources": 1,
@@ -1624,7 +1624,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/miner-fee-warning/miner-fee-warning.scss": {
+          "src/components/miner-fee-warning/miner-fee-warning.scss": {
             "lines": 65,
             "tokens": 406,
             "sources": 1,
@@ -1636,7 +1636,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/memo-component/memo-component.scss": {
+          "src/components/memo-component/memo-component.scss": {
             "lines": 19,
             "tokens": 132,
             "sources": 1,
@@ -1648,7 +1648,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/label-tip/label-tip.scss": {
+          "src/components/label-tip/label-tip.scss": {
             "lines": 97,
             "tokens": 523,
             "sources": 1,
@@ -1660,7 +1660,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/info-sheet/info-sheet.scss": {
+          "src/components/info-sheet/info-sheet.scss": {
             "lines": 97,
             "tokens": 492,
             "sources": 1,
@@ -1672,7 +1672,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/footer-menu/footer-menu.scss": {
+          "src/components/footer-menu/footer-menu.scss": {
             "lines": 75,
             "tokens": 454,
             "sources": 1,
@@ -1684,7 +1684,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/expandable-header/expandable-header.scss": {
+          "src/components/expandable-header/expandable-header.scss": {
             "lines": 3,
             "tokens": 17,
             "sources": 1,
@@ -1696,7 +1696,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/exchange-rates/exchange-rates.scss": {
+          "src/components/exchange-rates/exchange-rates.scss": {
             "lines": 26,
             "tokens": 170,
             "sources": 1,
@@ -1708,7 +1708,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/encrypt-password/encrypt-password.scss": {
+          "src/components/encrypt-password/encrypt-password.scss": {
             "lines": 132,
             "tokens": 778,
             "sources": 1,
@@ -1720,7 +1720,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/email-component/email-component.scss": {
+          "src/components/email-component/email-component.scss": {
             "lines": 61,
             "tokens": 280,
             "sources": 1,
@@ -1732,7 +1732,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/coin-icon/coin-icon.scss": {
+          "src/components/coin-icon/coin-icon.scss": {
             "lines": 60,
             "tokens": 312,
             "sources": 1,
@@ -1744,7 +1744,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/balance-to-show/balance-to-show.scss": {
+          "src/components/balance-to-show/balance-to-show.scss": {
             "lines": 22,
             "tokens": 115,
             "sources": 1,
@@ -1756,7 +1756,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/amount-picker/amount-picker.scss": {
+          "src/components/amount-picker/amount-picker.scss": {
             "lines": 51,
             "tokens": 284,
             "sources": 1,
@@ -1768,7 +1768,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/add-button/add-button.scss": {
+          "src/components/add-button/add-button.scss": {
             "lines": 31,
             "tokens": 172,
             "sources": 1,
@@ -1780,7 +1780,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/action-sheet/action-sheet.scss": {
+          "src/components/action-sheet/action-sheet.scss": {
             "lines": 75,
             "tokens": 545,
             "sources": 1,
@@ -1792,7 +1792,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/action-card-v4/action-card-v4.scss": {
+          "src/components/action-card-v4/action-card-v4.scss": {
             "lines": 69,
             "tokens": 406,
             "sources": 1,
@@ -1804,7 +1804,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/components/action-card/action-card.scss": {
+          "src/components/action-card/action-card.scss": {
             "lines": 50,
             "tokens": 282,
             "sources": 1,
@@ -1816,7 +1816,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/assets/fonts/roboto.scss": {
+          "src/assets/fonts/roboto.scss": {
             "lines": 45,
             "tokens": 335,
             "sources": 1,
@@ -1828,7 +1828,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/assets/fonts/noto-sans.scss": {
+          "src/assets/fonts/noto-sans.scss": {
             "lines": 41,
             "tokens": 287,
             "sources": 1,
@@ -1840,7 +1840,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/assets/fonts/ionicons.scss": {
+          "src/assets/fonts/ionicons.scss": {
             "lines": 50,
             "tokens": 248,
             "sources": 1,
@@ -1852,7 +1852,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/theme/zero-state.scss": {
+          "src/theme/zero-state.scss": {
             "lines": 61,
             "tokens": 317,
             "sources": 1,
@@ -1864,7 +1864,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/theme/variables.scss": {
+          "src/theme/variables.scss": {
             "lines": 264,
             "tokens": 1309,
             "sources": 1,
@@ -1876,7 +1876,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/theme/modals.scss": {
+          "src/theme/modals.scss": {
             "lines": 54,
             "tokens": 231,
             "sources": 1,
@@ -1888,7 +1888,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/theme/mixins.scss": {
+          "src/theme/mixins.scss": {
             "lines": 43,
             "tokens": 169,
             "sources": 1,
@@ -1900,7 +1900,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/theme/lists.scss": {
+          "src/theme/lists.scss": {
             "lines": 263,
             "tokens": 1319,
             "sources": 1,
@@ -1912,7 +1912,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/theme/light.scss": {
+          "src/theme/light.scss": {
             "lines": 3,
             "tokens": 13,
             "sources": 1,
@@ -1924,7 +1924,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/theme/icons.scss": {
+          "src/theme/icons.scss": {
             "lines": 86,
             "tokens": 414,
             "sources": 1,
@@ -1936,7 +1936,7 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          "/mnt/disk273/doc/coding/linters-article/src/app/app.scss": {
+          "src/app/app.scss": {
             "lines": 985,
             "tokens": 4690,
             "sources": 1,
@@ -1983,7 +1983,7 @@
       "fragment": "{\n  .header-modal {\n    padding: 40px 16px 0px 16px;\n    .title-modal {\n      color: color($colors, light-grey);\n    }\n    .subtitle-modal {\n      font-size: 3.5rem;\n      .amount-unit {\n        font-size: 1.5rem;\n        vertical-align: text-top;\n      }\n      .icon-service {\n        border-radius: 50%;\n        padding: 1px;\n        width: 40px;\n        height: 40px;\n        box-shadow: none;\n      }\n      img {\n        float: right;\n      }\n    }\n  }\n  .no-border .item-inner {\n    border-bottom: none !important;\n  }\n}",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/simplex/simplex-details/simplex-details.scss",
+        "name": "src/pages/integrations/simplex/simplex-details/simplex-details.scss",
         "start": 1,
         "end": 28,
         "startLoc": {
@@ -1998,7 +1998,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre-details/wyre-details.scss",
+        "name": "src/pages/integrations/wyre/wyre-details/wyre-details.scss",
         "start": 1,
         "end": 28,
         "startLoc": {
@@ -2019,7 +2019,7 @@
       "fragment": ";\n  }\n\n  ion-navbar {\n    .ios & {\n      padding-top: 3rem; // Fix iOS 10.3\n      padding-top: calc(4px + env(safe-area-inset-top));\n\n      ion-title {\n        padding-top: 3rem; // Fix iOS 10.3\n        padding-top: env(safe-area-inset-top);\n      }\n    }\n  }\n\n  &.cordova {\n    ion-navbar {\n      .ios & {\n        padding-bottom: 7px;\n      }\n    }\n  }\n}\n\n@include",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/templates/wide-header-page/wide-header-page.scss",
+        "name": "src/pages/templates/wide-header-page/wide-header-page.scss",
         "start": 65,
         "end": 89,
         "startLoc": {
@@ -2034,7 +2034,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/templates/wide-header-page/wide-header-page.scss",
+        "name": "src/pages/templates/wide-header-page/wide-header-page.scss",
         "start": 27,
         "end": 50,
         "startLoc": {
@@ -2055,7 +2055,7 @@
       "fragment": "@media (max-width: 350px) {\n            max-height: 10rem;\n          }\n        }\n      }\n      .info {\n        align-self: start;\n        display: grid;\n        grid-template-rows: max-content max-content;\n        height: 100%;\n        padding: 4rem;\n        .title {\n          color: #060606;\n          font-weight: 600;\n          align-items: center;\n          text-align: center;\n          line-height: 34px;\n          @media (max-width: 350px",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/lock-method/lock-method.scss",
+        "name": "src/pages/onboarding/lock-method/lock-method.scss",
         "start": 15,
         "end": 32,
         "startLoc": {
@@ -2070,7 +2070,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/recovery-key/recovery-key.scss",
+        "name": "src/pages/onboarding/recovery-key/recovery-key.scss",
         "start": 18,
         "end": 35,
         "startLoc": {
@@ -2091,7 +2091,7 @@
       "fragment": "@media (max-width: 350px) {\n            font-size: 17px;\n            line-height: 20px;\n          }\n        }\n        .text {\n          font-size: 16px;\n          text-align: center;\n          color: rgb(46, 46, 46);\n          font-weight: 300;\n          padding-top: 15px;\n          line-height: 25px;\n          @media (max-width: 350px",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/lock-method/lock-method.scss",
+        "name": "src/pages/onboarding/lock-method/lock-method.scss",
         "start": 32,
         "end": 44,
         "startLoc": {
@@ -2106,7 +2106,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/recovery-key/recovery-key.scss",
+        "name": "src/pages/onboarding/recovery-key/recovery-key.scss",
         "start": 39,
         "end": 51,
         "startLoc": {
@@ -2127,7 +2127,7 @@
       "fragment": ";\n              }\n            }\n          }\n          .info {\n            align-self: start;\n            display: grid;\n            grid-template-rows: max-content max-content;\n            height: 100%;\n            padding: 4rem;\n            .title {\n              color: #060606;\n              font-weight: 600;\n              align-items: center;\n              text-align: center;\n              line-height: 34px;\n              @media (max-width: 768px) {\n                font-size: 20px;\n                line-height: 20px;\n              }\n              @media (max-width: 350px) {\n                font-size: 17px;\n                line-height: 20px;\n              }\n            }\n            .text {\n              font-size: 16px;\n              text-align: center;\n              color: rgb(46, 46, 46);\n              font-weight: 300;\n              padding-top: 15px;\n              line-height: 25px;\n              @media (max-width: 768px) {\n                font-size: 14px;\n                line-height: 20px;\n              }\n              @media (max-width: 350px) {\n                font-size: 12px;\n                line-height: 15px;\n              }\n              .note ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/feature-education/feature-education.scss",
+        "name": "src/pages/onboarding/feature-education/feature-education.scss",
         "start": 35,
         "end": 75,
         "startLoc": {
@@ -2142,7 +2142,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/recovery-key/recovery-key.scss",
+        "name": "src/pages/onboarding/recovery-key/recovery-key.scss",
         "start": 19,
         "end": 59,
         "startLoc": {
@@ -2163,7 +2163,7 @@
       "fragment": ".item-inner {\n      align-items: center;\n      margin-left: 0rem !important;\n      border-bottom: 0px !important;\n      box-shadow: none !important;\n    }\n    .scan-icon {\n      margin: 0;\n      border-left: 1px solid rgba(151, 151, 151, 0.2);\n      padding: 0rem 1rem 0.8rem 1.4rem;\n      z-index: 999;\n    }\n    .backspace-icon {\n      z-index: 999;\n    }\n  }\n  .peer-meta-name ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wallet-connect/wallet-connect.scss",
+        "name": "src/pages/integrations/wallet-connect/wallet-connect.scss",
         "start": 10,
         "end": 26,
         "startLoc": {
@@ -2178,7 +2178,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/send/select-inputs/select-inputs.scss",
+        "name": "src/pages/send/select-inputs/select-inputs.scss",
         "start": 17,
         "end": 33,
         "startLoc": {
@@ -2199,7 +2199,7 @@
       "fragment": "{\n  ion-title .toolbar-title {\n    color: white;\n  }\n  .wide-header__title.toolbar {\n    padding-bottom: 10px;\n    padding-top: 30px;\n  }\n  .wide-header__title {\n    color: white;\n    padding-left: 0;\n  }\n  .buy-crypto-button {\n    font-size: 16px;\n    background: none;\n    ion-icon {\n      vertical-align: text-bottom;\n      margin-left: 3px;\n    }\n  }\n  .simplex-problems ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/simplex/simplex.scss",
+        "name": "src/pages/integrations/simplex/simplex.scss",
         "start": 1,
         "end": 21,
         "startLoc": {
@@ -2214,7 +2214,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.scss",
+        "name": "src/pages/integrations/wyre/wyre.scss",
         "start": 1,
         "end": 21,
         "startLoc": {
@@ -2235,7 +2235,7 @@
       "fragment": "{\n    padding: 20px;\n    text-align: center;\n    white-space: normal;\n    font-size: 12.5px;\n    color: color($colors, grey);\n  }\n  .status,\n  .date {\n    font-size: 12.5px;\n  }\n  .form-container {\n    text-align: left;\n    width: 100%;\n  }\n  ion-spinner {\n    * {\n      stroke: #0d172c !important;\n    }\n  }\n  .simplex-logo ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/simplex/simplex.scss",
+        "name": "src/pages/integrations/simplex/simplex.scss",
         "start": 21,
         "end": 41,
         "startLoc": {
@@ -2250,7 +2250,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.scss",
+        "name": "src/pages/integrations/wyre/wyre.scss",
         "start": 21,
         "end": 41,
         "startLoc": {
@@ -2271,7 +2271,7 @@
       "fragment": "ion-title .toolbar-title {\n    color: white;\n  }\n  .wide-header__title.toolbar {\n    padding-bottom: 10px;\n    padding-top: 30px;\n  }\n  .wide-header__title {\n    color: white;\n    padding-left: 0;\n  }\n  .buy-crypto-button {\n    font-size: 16px;\n    background: none;\n    ion-icon {\n      vertical-align: text-bottom;\n      margin-left: 3px;\n    }\n  }\n  .changelly-problems ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/changelly/changelly.scss",
+        "name": "src/pages/integrations/changelly/changelly.scss",
         "start": 7,
         "end": 26,
         "startLoc": {
@@ -2286,7 +2286,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.scss",
+        "name": "src/pages/integrations/wyre/wyre.scss",
         "start": 2,
         "end": 21,
         "startLoc": {
@@ -2307,7 +2307,7 @@
       "fragment": "{\n    padding: 20px;\n    text-align: center;\n    white-space: normal;\n    font-size: 12.5px;\n    color: color($colors, grey);\n  }\n  .status,\n  .date {\n    font-size: 12.5px;\n  }\n  .form-container {\n    text-align: left;\n    width: 100%;\n  }\n  ion-spinner {\n    * {\n      stroke: #0d172c !important;\n    }\n  }\n  .changelly-logo ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/changelly/changelly.scss",
+        "name": "src/pages/integrations/changelly/changelly.scss",
         "start": 26,
         "end": 46,
         "startLoc": {
@@ -2322,7 +2322,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wyre/wyre.scss",
+        "name": "src/pages/integrations/wyre/wyre.scss",
         "start": 21,
         "end": 41,
         "startLoc": {
@@ -2343,7 +2343,7 @@
       "fragment": "{\n  .scanner-icon {\n    z-index: 99;\n    font-size: 28px;\n    color: color($colors, primary);\n  }\n  .check {\n    font-size: 22px;\n    padding-top: 3px;\n    &.success {\n      color: color($colors, success);\n    }\n    &.fail {\n      color: color($colors, danger);\n    }\n  }\n  .linked-wallet ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/add/join-wallet/join-wallet.scss",
+        "name": "src/pages/add/join-wallet/join-wallet.scss",
         "start": 1,
         "end": 17,
         "startLoc": {
@@ -2358,7 +2358,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/settings/addressbook/add/add.scss",
+        "name": "src/pages/settings/addressbook/add/add.scss",
         "start": 1,
         "end": 17,
         "startLoc": {
@@ -2379,7 +2379,7 @@
       "fragment": ".custom-item {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 18px;\n    .buttons-container {\n      .add-button {\n        height: 48px;\n        width: 48px;\n        font-size: 20px;\n        border-radius: 50%;\n        border: 1px solid color($colors, primary);\n        box-shadow: none;\n      }\n      .remove-button {\n        opacity: 50%;\n        height: 33px;\n        width: 33px;\n        border-radius: 50%;\n        font-size: 14px;\n        border: 1px solid color($colors, grey);\n        box-shadow: none;\n        ion-icon {\n          color: color($colors, grey);\n        }\n      }\n    }\n  }\n  .linked-wallet {\n    .item-inner {\n      border-bottom: 0px !important;\n    }\n  }\n  .last-item {\n    margin-left: auto !important;\n  }\n}",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/add/create-wallet/create-wallet.scss",
+        "name": "src/pages/add/create-wallet/create-wallet.scss",
         "start": 2,
         "end": 38,
         "startLoc": {
@@ -2394,7 +2394,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/add/custom-token/custom-token.scss",
+        "name": "src/pages/add/custom-token/custom-token.scss",
         "start": 15,
         "end": 51,
         "startLoc": {
@@ -2415,7 +2415,7 @@
       "fragment": ".search-wrapper {\n      background-color: #f8f8f8;\n      display: flex;\n      align-items: baseline;\n      border-radius: 8px;\n      .item-inner {\n        align-items: center;\n        margin-left: 0rem !important;\n        border-bottom: 0px !important;\n        box-shadow: none !important;\n      }\n      .scan-icon {\n        margin: 0;\n        border-left: 1px solid rgba(151, 151, 151, 0.2);\n        padding: 0rem 1rem 0.8rem 1.4rem;\n        z-index: 999;\n      }\n      .backspace-icon {\n        z-index: 999;\n      }\n    }\n  }",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/add/create-eth-multisig/create-eth-multisig.scss",
+        "name": "src/pages/add/create-eth-multisig/create-eth-multisig.scss",
         "start": 10,
         "end": 31,
         "startLoc": {
@@ -2430,7 +2430,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/send/select-inputs/select-inputs.scss",
+        "name": "src/pages/send/select-inputs/select-inputs.scss",
         "start": 12,
         "end": 33,
         "startLoc": {
@@ -2451,7 +2451,7 @@
       "fragment": "}\n\n      &.item {\n        min-height: 26px;\n        background: $feather-dark;\n\n        ion-label {\n          margin: 0;\n          font-size: 14px;\n        }\n\n        .item-inner {\n          padding: 0 !important;\n          border: none;\n        }\n      }\n\n      ion-label {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n      }\n\n      .txps-badge ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.scss",
+        "name": "src/pages/wallet-details/wallet-details.scss",
         "start": 143,
         "end": 166,
         "startLoc": {
@@ -2466,7 +2466,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/send/select-inputs/select-inputs.scss",
+        "name": "src/pages/send/select-inputs/select-inputs.scss",
         "start": 65,
         "end": 89,
         "startLoc": {
@@ -2487,7 +2487,7 @@
       "fragment": "}\n    }\n\n    .item-wrapper {\n      &:last-child {\n        .item-inner {\n          border-bottom: 0;\n        }\n      }\n    }\n\n    .item {\n      font-size: 16px;\n      padding-left: 19px;\n\n      .item-icon {\n        margin-right: 15px;\n      }\n\n      .item-inner {\n        background-image: none;\n        padding: 11px 10px 11px 0;\n        margin-left: 3px;\n        border-bottom: 1px solid color($colors, light);\n      }\n    }\n\n    img ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/wallet-details.scss",
+        "name": "src/pages/wallet-details/wallet-details.scss",
         "start": 168,
         "end": 195,
         "startLoc": {
@@ -2502,7 +2502,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/wallet-details/search-tx-modal/search-tx-modal.scss",
+        "name": "src/pages/wallet-details/search-tx-modal/search-tx-modal.scss",
         "start": 25,
         "end": 52,
         "startLoc": {
@@ -2523,7 +2523,7 @@
       "fragment": ";\n        align-items: center;\n        justify-content: center;\n        font-weight: 600;\n        vertical-align: middle;\n        color: color($colors, primary);\n        z-index: 10;\n        &.rejected {\n          background: #e15061;\n          border-color: #e15061;\n          color: #ffffff;\n          font-family: 'Roboto-Bold';\n          font-size: 19px;\n        }\n      }\n    }\n    &-label {\n      flex-grow: 1;\n      > .action {\n        font-size: 16px;\n        @media (max-width: 330px) {\n          font-size: 14px;\n        }\n      }\n      > .name {\n        color: #aaa;\n        font-size: 14px;\n      }\n    }\n  }\n}",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/tx-details/tx-details.scss",
+        "name": "src/pages/tx-details/tx-details.scss",
         "start": 87,
         "end": 117,
         "startLoc": {
@@ -2538,7 +2538,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/txp-details/txp-details.scss",
+        "name": "src/pages/txp-details/txp-details.scss",
         "start": 95,
         "end": 128,
         "startLoc": {
@@ -2559,7 +2559,7 @@
       "fragment": ".bp-list {\n    .main-label {\n      font-weight: 400;\n      .bitpay-name {\n        font-weight: bold;\n      }\n      .bitpay-email {\n        font-weight: 200;\n      }\n    }\n    ion-item-divider {\n      margin-top: 0px;\n      padding: 12.5px 0px 12.5px 20px;\n      background: #f8f8f9;\n    }\n    ion-icon.item-img.icon {\n      &.icon-md.item-icon,\n      &.icon-ios.item-icon {\n        padding: 14.5px;\n        font-size: 20px;\n        &.icon-settings {\n          opacity: 0.5;\n        }\n        &.icon-login {\n          font-size: 60px;\n          padding-left: 15px;\n          img {\n            width: 60px;\n            height: 60px;\n          }\n        }\n        &.ionic-icon {\n          font-size: 25px;\n          color: #cdd1d7;\n          opacity: 1;\n        }\n        img {\n          width: 20px;\n          height: 20px;\n        }\n      }\n    }\n    ion-note.note {\n      background: #f4f5fb;\n      color: #565d6d;\n      font-weight: 300;\n      padding: 6px 10px;\n      border-radius: 4px;\n      font-size: 14px;\n    }\n  }\n\n  .count-note ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/settings/settings.scss",
+        "name": "src/pages/settings/settings.scss",
         "start": 39,
         "end": 91,
         "startLoc": {
@@ -2574,7 +2574,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/settings/bitpay-id/bitpay-id.scss",
+        "name": "src/pages/settings/bitpay-id/bitpay-id.scss",
         "start": 2,
         "end": 53,
         "startLoc": {
@@ -2595,7 +2595,7 @@
       "fragment": ";\n    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);\n  }\n  .search-wrapper {\n    .item-inner {\n      align-items: center;\n      margin-left: 0rem !important;\n      border-bottom: 0px !important;\n      box-shadow: none !important;\n    }\n    .scan-icon {\n      margin: 0;\n      border-left: 1px solid rgba(151, 151, 151, 0.2);\n      padding: 0rem 1rem 0.8rem 1.4rem;\n      z-index: 999;\n    }\n    .backspace-icon {\n      z-index: 999;\n    }\n  }\n  .invalid {\n    border: 1px solid color($colors, error);\n    color: color($colors, error);\n    background-color: #fff6f7;\n  }\n  .section-header ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/send/send.scss",
+        "name": "src/pages/send/send.scss",
         "start": 23,
         "end": 48,
         "startLoc": {
@@ -2610,7 +2610,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/wallet-connect/wallet-connect.scss",
+        "name": "src/pages/integrations/wallet-connect/wallet-connect.scss",
         "start": 6,
         "end": 38,
         "startLoc": {
@@ -2631,7 +2631,7 @@
       "fragment": "}\n    .icon-container {\n      $app-icon-radius: 42;\n      position: absolute;\n      text-align: center;\n      width: 100%;\n      border-radius: 50%;\n      line-height: 0;\n      bottom: $app-icon-radius * -1px;\n      .app-icon {\n        width: $app-icon-radius * 2px;\n        height: $app-icon-radius * 2px;\n      }\n    }\n  }\n  .fingerprint-bottom ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/fingerprint/fingerprint.scss",
+        "name": "src/pages/fingerprint/fingerprint.scss",
         "start": 28,
         "end": 43,
         "startLoc": {
@@ -2646,7 +2646,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/pin/pin-modal/pin-modal.scss",
+        "name": "src/pages/pin/pin-modal/pin-modal.scss",
         "start": 42,
         "end": 57,
         "startLoc": {
@@ -2667,7 +2667,7 @@
       "fragment": "}\n  }\n\n  ion-item-sliding.item-wrapper {\n    $gift-card-item-side-padding: 4%;\n    $gift-card-item-height: 59px;\n\n    background: none;\n    padding-left: $gift-card-item-side-padding;\n    padding-right: $gift-card-item-side-padding;\n\n    ion-item-options {\n      border-bottom: 0;\n      margin-top: 1px;\n      height: $gift-card-item-height + 16px;\n\n      &[side*='right'] {\n        padding-right: $gift-card-item-side-padding;\n      }\n\n      &[side*='left'] {\n        padding-left: $gift-card-item-side-padding;\n      }\n\n      button.button {\n        border-radius: 5px;\n        font-weight: 400;\n        min-width: 73px;\n        padding: 15px;\n\n        .archive {\n          &__icon {\n            font-size: 20px;\n            margin-top: -1px;\n          }\n\n          &__text {\n            font-size: 13px;\n          }\n        }\n      }\n    }\n\n    button.item.item-block {\n      font-size: 16px;\n      box-shadow: 0 5px 18px 0 rgba(0, 0, 0, 0.03);\n\n      .item-inner {\n        height: $gift-card-item-height + 16px;\n\n        ion-label {\n          &.label-ios,\n          &.label-md {\n            display: flex;\n            height: $gift-card-item-height;\n            align-items: center;\n            margin: 0;\n          }\n        }\n      }\n    }\n  }\n\n  // Styles for gift cards and Bitpay cards",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/cards/cards.scss",
+        "name": "src/pages/cards/cards.scss",
         "start": 40,
         "end": 103,
         "startLoc": {
@@ -2682,7 +2682,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/wallets/wallets.scss",
+        "name": "src/pages/wallets/wallets.scss",
         "start": 83,
         "end": 146,
         "startLoc": {
@@ -2703,7 +2703,7 @@
       "fragment": "color: color($colors, light-grey);\n        padding: 1.3rem 1rem;\n        border-radius: 6px;\n        position: relative;\n        .address-text {\n          width: 100%;\n          vertical-align: middle;\n          display: inline-block;\n          opacity: 1;\n          transition: opacity 500ms ease;\n          padding-left: 30px;\n          .address-placeholder {\n            font-size: 14px;\n            @media (max-height: 530px) {\n              font-size: 11.5px;\n            }\n          }\n        }\n        .copy-to-clip {\n          position: absolute;\n          left: 10px;\n          margin-top: 2px;\n        }\n      }\n    }\n  }",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/wallet-receive/wallet-receive.scss",
+        "name": "src/components/wallet-receive/wallet-receive.scss",
         "start": 100,
         "end": 125,
         "startLoc": {
@@ -2718,7 +2718,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/receive/custom-amount/custom-amount.scss",
+        "name": "src/pages/receive/custom-amount/custom-amount.scss",
         "start": 33,
         "end": 58,
         "startLoc": {
@@ -2739,7 +2739,7 @@
       "fragment": ";\n    display: flex;\n    align-items: center;\n    padding-top: 4px;\n    padding-bottom: 7px;\n    margin-top: 3px;\n\n    img {\n      height: 7px;\n      width: 11px;\n      margin-left: 8px;\n      transform: translateY(1px);\n    }\n  }\n\n  input {\n    margin-top: 7px;\n    margin-bottom: 7px;\n    margin-left: 14px;\n  }",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/phone-sheet/phone-sheet.scss",
+        "name": "src/components/phone-sheet/phone-sheet.scss",
         "start": 63,
         "end": 82,
         "startLoc": {
@@ -2754,7 +2754,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/integrations/gift-cards/phone/phone.scss",
+        "name": "src/pages/integrations/gift-cards/phone/phone.scss",
         "start": 59,
         "end": 78,
         "startLoc": {
@@ -2775,7 +2775,7 @@
       "fragment": ": center;\n          .img-container {\n            align-self: end;\n            justify-self: center;\n            img {\n              margin: auto;\n              max-height: 23rem;\n              @media (max-width: 350px) {\n                max-height: 10rem;\n              }\n            }\n          }\n          .info {\n            align-self: start;\n            display: grid;\n            grid-template-rows: max-content max-content;\n            height: 100%;\n            padding: 4rem;\n            .title {\n              color: #060606;\n              font-weight: 600;\n              align-items: center;\n              text-align: center;\n              line-height: 34px;\n              @media (max-width: 350px) {\n                font-size: 17px;\n                line-height: 20px;\n              }\n            }\n            .text {\n              font-size: 16px;\n              text-align: center;\n              color: rgb(46, 46, 46);\n              font-weight: 300;\n              padding-top: 15px;\n              line-height: 25px;\n              @media (max-width: 350px) {\n                font-size: 12px;\n                line-height: 15px;\n              }\n            }\n          }\n        }\n      }\n      .footer ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/miner-fee-warning/miner-fee-warning.scss",
+        "name": "src/components/miner-fee-warning/miner-fee-warning.scss",
         "start": 17,
         "end": 61,
         "startLoc": {
@@ -2790,7 +2790,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/onboarding/lock-method/lock-method.scss",
+        "name": "src/pages/onboarding/lock-method/lock-method.scss",
         "start": 8,
         "end": 52,
         "startLoc": {
@@ -2811,7 +2811,7 @@
       "fragment": "{\n          height: max-content;\n          display: grid;\n          grid-template-rows: 50% 50%;\n          justify-content: center;\n          align-self: center;\n          .img-container {\n            align-self: end;\n            justify-self: center;\n            img {\n              margin: auto;\n              max-height: 23rem;\n              @media (max-width: 350px) {\n                max-height: 10rem;\n              }\n            }\n          }\n          .info {\n            align-self: start;\n            display: grid;\n            grid-template-rows: max-content max-content;\n            height: 100%;\n            padding: 4rem;\n            .title {\n              color: #060606;\n              font-weight: 600;\n              align-items: center;\n              text-align: center;\n              line-height: 34px;\n              @media (max-width: 350px) {\n                font-size: 17px;\n                line-height: 20px;\n              }\n            }\n            .text {\n              font-size: 16px;\n              text-align: center;\n              color: rgb(46, 46, 46);\n              font-weight: 300;\n              padding-top: 15px;\n              line-height: 25px;\n              @media (max-width: 350px) {\n                font-size: 12px;\n                line-height: 15px;\n              }\n            }\n          }\n        }\n        .encrypt-password-form ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/encrypt-password/encrypt-password.scss",
+        "name": "src/components/encrypt-password/encrypt-password.scss",
         "start": 12,
         "end": 60,
         "startLoc": {
@@ -2826,7 +2826,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/miner-fee-warning/miner-fee-warning.scss",
+        "name": "src/components/miner-fee-warning/miner-fee-warning.scss",
         "start": 12,
         "end": 51,
         "startLoc": {
@@ -2847,7 +2847,7 @@
       "fragment": "color: map-get($colors, primary);\n        background-color: rgba(79, 110, 247, 0.15);\n        cursor: pointer;\n        font-size: 16px;\n        font-weight: 500;\n        line-height: 19px;\n        height: 36px;\n        white-space: nowrap;\n        border-radius: 18px;\n        display: flex;\n        align-items: center;\n\n        [action-card-button] ",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/action-card-v4/action-card-v4.scss",
+        "name": "src/components/action-card-v4/action-card-v4.scss",
         "start": 33,
         "end": 45,
         "startLoc": {
@@ -2862,7 +2862,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/pages/buy-crypto/crypto-offers/crypto-offers.scss",
+        "name": "src/pages/buy-crypto/crypto-offers/crypto-offers.scss",
         "start": 47,
         "end": 58,
         "startLoc": {
@@ -2883,7 +2883,7 @@
       "fragment": "margin: 30px -20px 0;\n      position: relative;\n\n      &:before {\n        background: rgba(136, 154, 196, 0.1);\n        content: '';\n        display: block;\n        height: 1px;\n        transform: translateX(18px);\n        top: -20px;\n        width: calc(100% - 36px);\n      }\n\n      > div {\n        padding: 16px;\n      }\n    }\n  }\n}",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/action-card/action-card.scss",
+        "name": "src/components/action-card/action-card.scss",
         "start": 33,
         "end": 51,
         "startLoc": {
@@ -2898,7 +2898,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/action-card-v4/action-card-v4.scss",
+        "name": "src/components/action-card-v4/action-card-v4.scss",
         "start": 52,
         "end": 70,
         "startLoc": {
@@ -2919,7 +2919,7 @@
       "fragment": ";\n      }\n      &.rectangle {\n        border-radius: 12px;\n        justify-content: center;\n      }\n      &.background {\n        &_btc {\n          background-color: #f7931a;\n        }\n        &_bch {\n          background-color: #2fcf6e;\n        }\n        &_eth {\n          background-color: #6b71d6;\n        }\n        &_xrp {\n          background-color: #000000;\n        }\n        &_usdc {\n          background-color: #a9caeb",
       "tokens": 0,
       "firstFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/theme/lists.scss",
+        "name": "src/theme/lists.scss",
         "start": 60,
         "end": 80,
         "startLoc": {
@@ -2934,7 +2934,7 @@
         }
       },
       "secondFile": {
-        "name": "/mnt/disk273/doc/coding/linters-article/src/components/coin-icon/coin-icon.scss",
+        "name": "src/components/coin-icon/coin-icon.scss",
         "start": 10,
         "end": 30,
         "startLoc": {
