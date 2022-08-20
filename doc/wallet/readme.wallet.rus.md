@@ -166,7 +166,7 @@
 
 ### уязвимости пакетов
 
- * 280 уязвимостей, прирост +00%
+ * 280 уязвимостей, прирост -4.29%/12
  * [npm.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/project_folder/npm.sh)
  * ```bash
 	grep -iE 'Path|Low|Moderate|High|Critical' log/audit.log | less
