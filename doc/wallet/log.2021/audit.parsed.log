@@ -1,0 +1,614 @@
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @biesbjerg/ngx-translate-extract > mkdirp > minimist         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Denial of Service in mem                                     [90m│[39m
+[90m│[39m Path          [90m│[39m @biesbjerg/ngx-translate-extract > yargs > os-locale > mem   [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in y18n                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @biesbjerg/ngx-translate-extract > yargs > y18n              [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @biesbjerg/ngx-translate-extract > mkdirp > minimist         [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in nth-check       [90m│[39m
+[90m│[39m Path          [90m│[39m @biesbjerg/ngx-translate-extract > cheerio > css-select >    [90m│[39m
+[90m│[39m Moderate      [90m│[39m yargs-parser Vulnerable to Prototype Pollution               [90m│[39m
+[90m│[39m Path          [90m│[39m @biesbjerg/ngx-translate-extract > yargs > yargs-parser      [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m karma > optimist > minimist                                  [90m│[39m
+[90m│[39m Moderate      [90m│[39m Open redirect in karma                                       [90m│[39m
+[90m│[39m Path          [90m│[39m karma                                                        [90m│[39m
+[90m│[39m Moderate      [90m│[39m Cross-site Scripting in karma                                [90m│[39m
+[90m│[39m Path          [90m│[39m karma                                                        [90m│[39m
+[90m│[39m Low           [90m│[39m Regular Expression Denial of Service in braces               [90m│[39m
+[90m│[39m Path          [90m│[39m karma > expand-braces > braces                               [90m│[39m
+[90m│[39m Moderate      [90m│[39m Incorrect Default Permissions in log4js                      [90m│[39m
+[90m│[39m Path          [90m│[39m karma > log4js                                               [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m karma > optimist > minimist                                  [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m karma > chokidar > glob-parent                               [90m│[39m
+[90m│[39m High          [90m│[39m Resource exhaustion in engine.io                             [90m│[39m
+[90m│[39m Path          [90m│[39m karma > socket.io > engine.io                                [90m│[39m
+[90m│[39m High          [90m│[39m Resource exhaustion in socket.io-parser                      [90m│[39m
+[90m│[39m Path          [90m│[39m karma > socket.io > socket.io-parser                         [90m│[39m
+[90m│[39m High          [90m│[39m Resource exhaustion in socket.io-parser                      [90m│[39m
+[90m│[39m Path          [90m│[39m karma > socket.io > socket.io-client > socket.io-parser      [90m│[39m
+[90m│[39m Critical      [90m│[39m Improper Certificate Validation in xmlhttprequest-ssl        [90m│[39m
+[90m│[39m Path          [90m│[39m karma > socket.io > socket.io-client > engine.io-client >    [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Injection                                     [90m│[39m
+[90m│[39m Path          [90m│[39m karma > socket.io > socket.io-client > engine.io-client >    [90m│[39m
+[90m│[39m Low           [90m│[39m Regular Expression Denial of Service (ReDoS) in braces       [90m│[39m
+[90m│[39m Path          [90m│[39m karma > expand-braces > braces                               [90m│[39m
+[90m│[39m Moderate      [90m│[39m Insecure defaults due to CORS misconfiguration in socket.io  [90m│[39m
+[90m│[39m Path          [90m│[39m karma > socket.io                                            [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m webpack-obfuscator > javascript-obfuscator > mkdirp >        [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m webpack-obfuscator > javascript-obfuscator > opencollective  [90m│[39m
+[90m│[39m Moderate      [90m│[39m Inefficient Regular Expression Complexity in validator.js    [90m│[39m
+[90m│[39m Path          [90m│[39m webpack-obfuscator > javascript-obfuscator > class-validator [90m│[39m
+[90m│[39m High          [90m│[39m node-fetch is vulnerable to Exposure of Sensitive            [90m│[39m
+[90m│[39m Path          [90m│[39m webpack-obfuscator > javascript-obfuscator > opencollective  [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m webpack-obfuscator > javascript-obfuscator > opencollective  [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m webpack-obfuscator > javascript-obfuscator > mkdirp >        [90m│[39m
+[90m│[39m Low           [90m│[39m The `size` option isn't honored after following a redirect   [90m│[39m
+[90m│[39m Path          [90m│[39m webpack-obfuscator > javascript-obfuscator > opencollective  [90m│[39m
+[90m│[39m High          [90m│[39m Improper Privilege Management in shelljs                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-ios > shelljs                                        [90m│[39m
+[90m│[39m Moderate      [90m│[39m Improper Privilege Management in shelljs                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-ios > shelljs                                        [90m│[39m
+[90m│[39m High          [90m│[39m Improper Privilege Management in shelljs                     [90m│[39m
+[90m│[39m Path          [90m│[39m shelljs                                                      [90m│[39m
+[90m│[39m Moderate      [90m│[39m Improper Privilege Management in shelljs                     [90m│[39m
+[90m│[39m Path          [90m│[39m shelljs                                                      [90m│[39m
+[90m│[39m Moderate      [90m│[39m Open Redirect in node-forge                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Low           [90m│[39m Prototype Pollution in node-forge debug API.                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Low           [90m│[39m Prototype Pollution in node-forge util.setPath API           [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in handlebars                            [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > istanbul > handlebars        [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS)                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > copy-webpack-plugin >        [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in node-forge                            [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m High          [90m│[39m Command Injection in tree-kill                               [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > tree-kill                    [90m│[39m
+[90m│[39m High          [90m│[39m Command Injection in tree-kill                               [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > @ngtools/webpack > tree-kill [90m│[39m
+[90m│[39m Moderate      [90m│[39m Denial of Service in node-sass                               [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass                    [90m│[39m
+[90m│[39m High          [90m│[39m Insecure serialization leading to RCE in                     [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > copy-webpack-plugin >        [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in postcss              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > postcss                      [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in y18n                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > sass-graph >     [90m│[39m
+[90m│[39m Moderate      [90m│[39m Improper Verification of Cryptographic Signature in          [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m High          [90m│[39m Improper Verification of Cryptographic Signature in          [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m High          [90m│[39m Improper Verification of Cryptographic Signature in          [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite on Windows via             [90m│[39m
+[90m│[39m               [90m│[39m insufficient relative path sanitization                      [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > node-gyp > tar   [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > node-gyp > tar   [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > node-gyp > tar   [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite due to insufficient        [90m│[39m
+[90m│[39m               [90m│[39m absolute path sanitization                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > node-gyp > tar   [90m│[39m
+[90m│[39m High          [90m│[39m Uncontrolled Resource Consumption in trim-newlines           [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > meow >           [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > node-gyp > tar   [90m│[39m
+[90m│[39m High          [90m│[39m Terser insecure use of regular expressions before v4.8.1 and [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > terser-webpack-plugin >      [90m│[39m
+[90m│[39m Low           [90m│[39m URL parsing in node-forge could lead to undesired behavior.  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > @angular-devkit/core >       [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > @angular-devkit/architect >  [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular >                              [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack > watchpack >        [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m yargs-parser Vulnerable to Prototype Pollution               [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server > yargs > [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server > yargs > [90m│[39m
+[90m│[39m High          [90m│[39m Uncontrolled Resource Consumption in ansi-html               [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Improper Certificate Validation in node-sass                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass                    [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in postcss              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > postcss                      [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > @angular-devkit/core > ajv   [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > @angular-devkit/architect >  [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular >                              [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > ajv                          [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > istanbul-instrumenter-loader [90m│[39m
+[90m│[39m Moderate      [90m│[39m Improper Input Validation in SocksJS-Node                    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server > sockjs  [90m│[39m
+[90m│[39m Critical      [90m│[39m Remote code execution in handlebars when compiling templates [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > istanbul > handlebars        [90m│[39m
+[90m│[39m Moderate      [90m│[39m Cross-Site Scripting in serialize-javascript                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > copy-webpack-plugin >        [90m│[39m
+[90m│[39m High          [90m│[39m Regular expression denial of service in scss-tokenizer       [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > sass-graph >     [90m│[39m
+[90m│[39m Moderate      [90m│[39m Sensitive information exposure through logs in               [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote >                 [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @angular-devkit/core > chokidar > glob-parent [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @angular-devkit/architect >                   [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @angular-devkit/schematics >                  [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/angular >                         [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/angular > @angular-devkit/core >  [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > @angular-devkit/core >   [90m│[39m
+[90m│[39m High          [90m│[39m ini before 1.3.6 vulnerable to Prototype Pollution via       [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > ini                      [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > inquirer > strip-ansi > ansi-regex            [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > inquirer > string-width > strip-ansi >        [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @angular-devkit/core > ajv                    [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @angular-devkit/architect >                   [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @angular-devkit/schematics >                  [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/angular >                         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/angular > @angular-devkit/core >  [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > @angular-devkit/core >   [90m│[39m
+[90m│[39m Moderate      [90m│[39m Denial of Service in mem                                     [90m│[39m
+[90m│[39m Path          [90m│[39m webpack > yargs > os-locale > mem                            [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in y18n                                  [90m│[39m
+[90m│[39m Path          [90m│[39m webpack > yargs > y18n                                       [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m webpack > watchpack > watchpack-chokidar2 > chokidar >       [90m│[39m
+[90m│[39m Moderate      [90m│[39m yargs-parser Vulnerable to Prototype Pollution               [90m│[39m
+[90m│[39m Path          [90m│[39m webpack > yargs > yargs-parser                               [90m│[39m
+[90m│[39m Low           [90m│[39m Regular Expression Denial of Service in braces               [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/compiler-cli > chokidar > anymatch > micromatch >   [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/compiler-cli > chokidar > glob-parent               [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/compiler-cli > chokidar > anymatch > micromatch >   [90m│[39m
+[90m│[39m Low           [90m│[39m Regular Expression Denial of Service (ReDoS) in braces       [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/compiler-cli > chokidar > anymatch > micromatch >   [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in marked          [90m│[39m
+[90m│[39m Path          [90m│[39m ngx-markdown > marked                                        [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in marked          [90m│[39m
+[90m│[39m Path          [90m│[39m ngx-markdown > marked                                        [90m│[39m
+[90m│[39m Moderate      [90m│[39m Marked ReDoS due to email addresses being evaluated in       [90m│[39m
+[90m│[39m Path          [90m│[39m ngx-markdown > marked                                        [90m│[39m
+[90m│[39m Low           [90m│[39m Renderers can obtain access to random bluetooth device       [90m│[39m
+[90m│[39m Path          [90m│[39m electron                                                     [90m│[39m
+[90m│[39m Low           [90m│[39m Compromised child renderer processes could obtain IPC access [90m│[39m
+[90m│[39m Path          [90m│[39m electron                                                     [90m│[39m
+[90m│[39m Moderate      [90m│[39m AutoUpdater module fails to validate certain nested          [90m│[39m
+[90m│[39m Path          [90m│[39m electron                                                     [90m│[39m
+[90m│[39m Moderate      [90m│[39m Electron's sandboxed renderers can obtain thumbnails of      [90m│[39m
+[90m│[39m Path          [90m│[39m electron                                                     [90m│[39m
+[90m│[39m Moderate      [90m│[39m ReDoS in Sec-Websocket-Protocol header                       [90m│[39m
+[90m│[39m Path          [90m│[39m @walletconnect/client > @walletconnect/core >                [90m│[39m
+[90m│[39m Moderate      [90m│[39m Cross site scripting in Angular                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/core                                                [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in moment          [90m│[39m
+[90m│[39m Path          [90m│[39m angular2-moment > moment                                     [90m│[39m
+[90m│[39m High          [90m│[39m Path Traversal: 'dir/../../filename' in moment.locale        [90m│[39m
+[90m│[39m Path          [90m│[39m angular2-moment > moment                                     [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > globby > fast-glob > glob-parent     [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > update-notifier > boxen > ansi-align >             [90m│[39m
+[90m│[39m Moderate      [90m│[39m Incorrect hostname / protocol due to unstripped leading      [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Incorrect hostname / protocol due to unstripped leading      [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Critical      [90m│[39m Authorization Bypass Through User-Controlled Key in          [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Critical      [90m│[39m Authorization Bypass Through User-Controlled Key in          [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Authorization bypass in url-parse                            [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Authorization bypass in url-parse                            [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Open redirect in url-parse                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Open redirect in url-parse                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Incorrect returned href via an '@' sign but no user info and [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Incorrect returned href via an '@' sign but no user info and [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Path traversal in url-parse                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Path traversal in url-parse                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/compiler-cli > minimist                             [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/compiler-cli > tsickle > minimist                   [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/compiler-cli > tsickle > mkdirp > minimist          [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > copy-webpack-plugin >        [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote > tar > mkdirp >  [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > copy-webpack-plugin >        [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote >                 [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in minimist                              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote >                 [90m│[39m
+[90m│[39m High          [90m│[39m Cross-site Scripting in Prism                                [90m│[39m
+[90m│[39m Path          [90m│[39m ngx-markdown > prismjs                                       [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS) in Prism        [90m│[39m
+[90m│[39m Path          [90m│[39m ngx-markdown > prismjs                                       [90m│[39m
+[90m│[39m Moderate      [90m│[39m prismjs Regular Expression Denial of Service vulnerability   [90m│[39m
+[90m│[39m Path          [90m│[39m ngx-markdown > prismjs                                       [90m│[39m
+[90m│[39m High          [90m│[39m Denial of service in prismjs                                 [90m│[39m
+[90m│[39m Path          [90m│[39m ngx-markdown > prismjs                                       [90m│[39m
+# Run  npm update follow-redirects --depth 5  to resolve 4 vulnerabilities
+[90m│[39m Moderate      [90m│[39m Exposure of Sensitive Information to an Unauthorized Actor   [90m│[39m
+[90m│[39m               [90m│[39m in follow-redirects                                          [90m│[39m
+[90m│[39m Package       [90m│[39m follow-redirects                                             [90m│[39m
+[90m│[39m Path          [90m│[39m karma > http-proxy > follow-redirects                        [90m│[39m
+[90m│[39m Moderate      [90m│[39m Exposure of Sensitive Information to an Unauthorized Actor   [90m│[39m
+[90m│[39m               [90m│[39m in follow-redirects                                          [90m│[39m
+[90m│[39m Package       [90m│[39m follow-redirects                                             [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m               [90m│[39m http-proxy-middleware > http-proxy > follow-redirects        [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of sensitive information in follow-redirects        [90m│[39m
+[90m│[39m Package       [90m│[39m follow-redirects                                             [90m│[39m
+[90m│[39m Path          [90m│[39m karma > http-proxy > follow-redirects                        [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of sensitive information in follow-redirects        [90m│[39m
+[90m│[39m Package       [90m│[39m follow-redirects                                             [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m               [90m│[39m http-proxy-middleware > http-proxy > follow-redirects        [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 >          [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 >          [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Exposure of Sensitive Information in simple-get              [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Improper Privilege Management in shelljs                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-ios > ios-sim > simctl > shelljs                     [90m│[39m
+[90m│[39m Moderate      [90m│[39m Improper Privilege Management in shelljs                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-ios > ios-sim > simctl > shelljs                     [90m│[39m
+# Run  npm update path-parse --depth 9  to resolve 7 vulnerabilities
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in path-parse           [90m│[39m
+[90m│[39m Package       [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Path          [90m│[39m tslint > resolve > path-parse                                [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in path-parse           [90m│[39m
+[90m│[39m Package       [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Path          [90m│[39m shelljs > rechoir > resolve > path-parse                     [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in path-parse           [90m│[39m
+[90m│[39m Package       [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-fetch > resolve > path-parse [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in path-parse           [90m│[39m
+[90m│[39m Package       [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-create > cordova-fetch >     [90m│[39m
+[90m│[39m               [90m│[39m resolve > path-parse                                         [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in path-parse           [90m│[39m
+[90m│[39m Package       [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > init-package-json >                  [90m│[39m
+[90m│[39m               [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in path-parse           [90m│[39m
+[90m│[39m Package       [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > meow >           [90m│[39m
+[90m│[39m               [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in path-parse           [90m│[39m
+[90m│[39m Package       [90m│[39m path-parse                                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > sass-graph >     [90m│[39m
+[90m│[39m               [90m│[39m resolve > path-parse                                         [90m│[39m
+[90m│[39m High          [90m│[39m ReDoS in normalize-url                                       [90m│[39m
+[90m│[39m Path          [90m│[39m electron > @electron/get > got > cacheable-request >         [90m│[39m
+[90m│[39m High          [90m│[39m ReDoS in normalize-url                                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in handlebars                            [90m│[39m
+[90m│[39m Path          [90m│[39m karma-coverage-istanbul-reporter > istanbul-api >            [90m│[39m
+[90m│[39m Critical      [90m│[39m Remote code execution in handlebars when compiling templates [90m│[39m
+[90m│[39m Path          [90m│[39m karma-coverage-istanbul-reporter > istanbul-api >            [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in hosted-git-info      [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-fetch > npm-package-arg >    [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in hosted-git-info      [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-create > cordova-fetch >     [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in hosted-git-info      [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > meow >           [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in hosted-git-info      [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > sass-graph >     [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS)                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > terser-webpack-plugin >      [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS)                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack >                    [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS)                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote > ssri            [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS)                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote > cacache > ssri  [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS)                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote >                 [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS)                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote >                 [90m│[39m
+[90m│[39m High          [90m│[39m Regular Expression Denial of Service (ReDoS)                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote >                 [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-common > underscore                        [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-common > underscore          [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-android > cordova-common > underscore                [90m│[39m
+[90m│[39m High          [90m│[39m Insecure serialization leading to RCE in                     [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack >                    [90m│[39m
+[90m│[39m High          [90m│[39m Terser insecure use of regular expressions before v4.8.1 and [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack >                    [90m│[39m
+[90m│[39m Moderate      [90m│[39m Cross-Site Scripting in serialize-javascript                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack >                    [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in postcss              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > autoprefixer > postcss       [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in postcss              [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > autoprefixer > postcss       [90m│[39m
+[90m│[39m High          [90m│[39m node-fetch is vulnerable to Exposure of Sensitive            [90m│[39m
+[90m│[39m Path          [90m│[39m codecov > teeny-request > node-fetch                         [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in y18n                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > copy-webpack-plugin >        [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in y18n                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack >                    [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in y18n                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote >                 [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in y18n                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote >                 [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite on Windows via             [90m│[39m
+[90m│[39m               [90m│[39m insufficient relative path sanitization                      [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote > tar             [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite on Windows via             [90m│[39m
+[90m│[39m               [90m│[39m insufficient relative path sanitization                      [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote > tar             [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote > tar             [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite due to insufficient        [90m│[39m
+[90m│[39m               [90m│[39m absolute path sanitization                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote > tar             [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite due to insufficient        [90m│[39m
+[90m│[39m               [90m│[39m absolute path sanitization                                   [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular/cli > @schematics/update > pacote > tar             [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m Critical      [90m│[39m Exposure of Sensitive Information in eventsource             [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack-dev-server >         [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in simple-plist                          [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-ios > xcode > simple-plist                           [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in simple-plist                          [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-plugin-add-swift-support > xcode > simple-plist      [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in simple-plist                          [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-plugin-fingerprint-aio >                             [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in async                                 [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > source-map-loader > async            [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in async                                 [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > insight > async                                    [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in async                                 [90m│[39m
+[90m│[39m Path          [90m│[39m webpack > async                                              [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in async                                 [90m│[39m
+[90m│[39m Path          [90m│[39m @ionic/app-scripts > webpack > async                         [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in async                                 [90m│[39m
+[90m│[39m Path          [90m│[39m karma-coverage-istanbul-reporter > istanbul-api > async      [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype pollution in Plist before 3.0.5 can cause denial   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-custom-config > plist                                [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype pollution in Plist before 3.0.5 can cause denial   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-common > plist                             [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype pollution in Plist before 3.0.5 can cause denial   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-common > plist               [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype pollution in Plist before 3.0.5 can cause denial   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-create > cordova-common >    [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype pollution in Plist before 3.0.5 can cause denial   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-create > cordova-fetch >     [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-android > cordova-common > fast-glob > glob-parent   [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m webpack > watchpack > chokidar > glob-parent                 [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack > watchpack >        [90m│[39m
+[90m│[39m High          [90m│[39m ini before 1.3.6 vulnerable to Prototype Pollution via       [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > update-notifier > is-installed-globally >          [90m│[39m
+[90m│[39m High          [90m│[39m ini before 1.3.6 vulnerable to Prototype Pollution via       [90m│[39m
+[90m│[39m Path          [90m│[39m electron > @electron/get > global-tunnel-ng > npm-conf >     [90m│[39m
+[90m│[39m High          [90m│[39m ini before 1.3.6 vulnerable to Prototype Pollution via       [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > update-notifier > latest-version > package-json >  [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > npmlog > gauge > [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > node-gyp >       [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > @ionic/cli-framework > strip-ansi > ansi-regex       [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > insight > inquirer > strip-ansi > ansi-regex       [90m│[39m
+[90m│[39m Critical      [90m│[39m json-schema is vulnerable to Prototype Pollution             [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > insight > request > http-signature > jsprim >      [90m│[39m
+[90m│[39m Critical      [90m│[39m json-schema is vulnerable to Prototype Pollution             [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > node-sass > node-gyp >       [90m│[39m
+[90m│[39m Critical      [90m│[39m json-schema is vulnerable to Prototype Pollution             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in browserslist         [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > autoprefixer > browserslist  [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack > ajv                [90m│[39m
+[90m│[39m Moderate      [90m│[39m Prototype Pollution in Ajv                                   [90m│[39m
+[90m│[39m Path          [90m│[39m @angular-devkit/build-angular > webpack > schema-utils > ajv [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m eth-sig-util > ethereumjs-util > elliptic                    [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > bitcore-mnemonic > bitcore-lib >     [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m @walletconnect/client > @walletconnect/iso-crypto >          [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 >          [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 >          [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m Moderate      [90m│[39m Use of a Broken or Risky Cryptographic Algorithm             [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Improper Privilege Management in shelljs                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-custom-config > shelljs                              [90m│[39m
+[90m│[39m Moderate      [90m│[39m Improper Privilege Management in shelljs                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-custom-config > shelljs                              [90m│[39m
+[90m│[39m Moderate      [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m jasmine-reporters > xmldom                                   [90m│[39m
+[90m│[39m Moderate      [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-custom-config > plist > xmldom                       [90m│[39m
+[90m│[39m Moderate      [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-common > plist > xmldom                    [90m│[39m
+[90m│[39m Moderate      [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-common > plist > xmldom      [90m│[39m
+[90m│[39m Moderate      [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-create > cordova-common >    [90m│[39m
+[90m│[39m Moderate      [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-create > cordova-fetch >     [90m│[39m
+[90m│[39m Low           [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m jasmine-reporters > xmldom                                   [90m│[39m
+[90m│[39m Low           [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-custom-config > plist > xmldom                       [90m│[39m
+[90m│[39m Low           [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-common > plist > xmldom                    [90m│[39m
+[90m│[39m Low           [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-common > plist > xmldom      [90m│[39m
+[90m│[39m Low           [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-create > cordova-common >    [90m│[39m
+[90m│[39m Low           [90m│[39m Misinterpretation of malicious XML input                     [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > cordova-lib > cordova-create > cordova-fetch >     [90m│[39m
+[90m│[39m Moderate      [90m│[39m SQL Injection and Cross-site Scripting in class-validator    [90m│[39m
+[90m│[39m Path          [90m│[39m webpack-obfuscator > javascript-obfuscator > class-validator [90m│[39m
+[90m│[39m Low           [90m│[39m Insecure Credential Storage in web3                          [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3            [90m│[39m
+[90m│[39m High          [90m│[39m Code Injection in pac-resolver                               [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > superagent-proxy > proxy-agent > pac-proxy-agent >   [90m│[39m
+[90m│[39m Critical      [90m│[39m Improper parsing of octal bytes in netmask                   [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > @ionic/discover > netmask                            [90m│[39m
+[90m│[39m Critical      [90m│[39m Improper parsing of octal bytes in netmask                   [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > superagent-proxy > proxy-agent > pac-proxy-agent >   [90m│[39m
+[90m│[39m Moderate      [90m│[39m netmask npm package vulnerable to octal input data           [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > @ionic/discover > netmask                            [90m│[39m
+[90m│[39m Moderate      [90m│[39m netmask npm package vulnerable to octal input data           [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > superagent-proxy > proxy-agent > pac-proxy-agent >   [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 >          [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary Code Execution in underscore                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-eth [90m│[39m
+[90m│[39m High          [90m│[39m Command Injection in tree-kill                               [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > @ionic/utils-process > tree-kill                     [90m│[39m
+[90m│[39m High          [90m│[39m Command Injection in tree-kill                               [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > @ionic/cli-framework > @ionic/utils-process >        [90m│[39m
+[90m│[39m High          [90m│[39m Command Injection in tree-kill                               [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > @ionic/cli-framework > @ionic/utils-subprocess >     [90m│[39m
+[90m│[39m Moderate      [90m│[39m Denial of Service in mem                                     [90m│[39m
+[90m│[39m Path          [90m│[39m @ionic/app-scripts > webpack > yargs > os-locale > mem       [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in postcss              [90m│[39m
+[90m│[39m Path          [90m│[39m @ionic/app-scripts > postcss                                 [90m│[39m
+[90m│[39m Moderate      [90m│[39m Regular Expression Denial of Service in postcss              [90m│[39m
+[90m│[39m Path          [90m│[39m @ionic/app-scripts > autoprefixer > postcss                  [90m│[39m
+[90m│[39m High          [90m│[39m Prototype Pollution in y18n                                  [90m│[39m
+[90m│[39m Path          [90m│[39m @ionic/app-scripts > webpack > yargs > y18n                  [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite on Windows via             [90m│[39m
+[90m│[39m               [90m│[39m insufficient relative path sanitization                      [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > tar                                                  [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > tar                                                  [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > tar                                                  [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite due to insufficient        [90m│[39m
+[90m│[39m               [90m│[39m absolute path sanitization                                   [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > tar                                                  [90m│[39m
+[90m│[39m High          [90m│[39m Arbitrary File Creation/Overwrite via insufficient symlink   [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > tar                                                  [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype Pollution in simple-plist                          [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-custom-config > xcode > simple-plist                 [90m│[39m
+[90m│[39m Moderate      [90m│[39m ReDoS in Sec-Websocket-Protocol header                       [90m│[39m
+[90m│[39m Path          [90m│[39m ionic > @ionic/discover > ws                                 [90m│[39m
+[90m│[39m Moderate      [90m│[39m Cross site scripting in Angular                              [90m│[39m
+[90m│[39m Path          [90m│[39m apple-wallet-ng > @angular/core                              [90m│[39m
+[90m│[39m Moderate      [90m│[39m Cross site scripting in Angular                              [90m│[39m
+[90m│[39m Path          [90m│[39m fcm-ng > @angular/core                                       [90m│[39m
+[90m│[39m Moderate      [90m│[39m Got allows a redirect to a UNIX socket                       [90m│[39m
+[90m│[39m Path          [90m│[39m electron > @electron/get > got                               [90m│[39m
+[90m│[39m Moderate      [90m│[39m Got allows a redirect to a UNIX socket                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m Moderate      [90m│[39m Got allows a redirect to a UNIX socket                       [90m│[39m
+[90m│[39m Path          [90m│[39m bitcore-wallet-client > crypto-wallet-core > web3 > web3-bzz [90m│[39m
+[90m│[39m Moderate      [90m│[39m Got allows a redirect to a UNIX socket                       [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > update-notifier > latest-version > package-json >  [90m│[39m
+[90m│[39m Critical      [90m│[39m Prototype pollution in Plist before 3.0.5 can cause denial   [90m│[39m
+[90m│[39m Path          [90m│[39m cordova-custom-config > xcode > simple-plist > plist         [90m│[39m
+[90m│[39m High          [90m│[39m glob-parent before 5.1.2 vulnerable to Regular Expression    [90m│[39m
+[90m│[39m Path          [90m│[39m @ionic/app-scripts > chokidar > glob-parent                  [90m│[39m
+[90m│[39m Moderate      [90m│[39m yargs-parser Vulnerable to Prototype Pollution               [90m│[39m
+[90m│[39m Path          [90m│[39m @ionic/app-scripts > webpack > yargs > yargs-parser          [90m│[39m
+[90m│[39m High          [90m│[39m Inefficient Regular Expression Complexity in                 [90m│[39m
+[90m│[39m Path          [90m│[39m cordova > insight > inquirer > string-width > strip-ansi >   [90m│[39m
+found 292 vulnerabilities (17 low, 105 moderate, 134 high, 36 critical) in 2650 scanned packages
