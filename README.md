@@ -9,8 +9,9 @@
 		* [disclaimer](doc/example_report/disclaimer.md)
 		* [summary](doc/example_report/summary.md)
 		* [details](doc/example_report/details.md)
-	* [example 2 RUS](doc/wallet/readme.wallet.md)
-1. [Live](https://stackblitz.com/edit/code_quality_js?file=README.md) linting playground(TODO)
+	* [example 2 RUS](doc/wallet/readme.wallet.rus.md)
+	* [article RUS](https://gitlab.com/stepanovv/kbo/-/blob/master/public/articles/public/%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BA%D0%BE%D0%B4%D0%B0/%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE_%D0%BA%D0%BE%D0%B4%D0%B0.md)
+1. Tools
 	* [eslint](https://eslint.org/) - js/ts linter with plugins: typescript, angular, promise, react
 	* [tslint](https://github.com/palantir/tslint) - still useful(finnish notation)
 	* [stylelint](https://stylelint.io/) - css
@@ -18,6 +19,7 @@
 	* [prettier](https://prettier.io/) - formatter
 	* [sonar](https://www.sonarqube.org/) - code quality(TODO)
 	* [jscpd](https://www.npmjs.com/package/jscpd) - copy paste
+	* TODO [Live](https://stackblitz.com/edit/code_quality_js?file=README.md) linting playground
 
 ## What is it for?
 
