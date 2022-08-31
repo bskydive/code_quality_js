@@ -1,3 +1,4 @@
+#!/bin/bash
 # usage
 # ./scripts/project_folder/run.sh
 

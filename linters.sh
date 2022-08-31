@@ -1,3 +1,4 @@
+#!/bin/bash
 ############################################## CLI UTILS
 # utils to collect linter logs and dedupe for rules analysis
 # see ./scripts/*.sh

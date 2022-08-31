@@ -51,8 +51,9 @@
 	* ![](log/webpack-stats.jpg)
 	* [stats.json](log/stats.json)
 	* [report.html](log/report.html)
- * TODO Граф зависимостей
 	* ![](log/dependencies-graph.jpg)
+ * Граф зависимостей
+	* ![](./wallet/log/deps_circle.png)
 	* Циклические зависимости
 		* 16,6% файлов - 61 из 366 `*.ts` файлов, прирост +1.6%/1 файл
 		* [eslint.cycle](log/eslint.cycle.log)

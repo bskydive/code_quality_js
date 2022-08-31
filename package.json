@@ -38,7 +38,8 @@
 		"@angular/core": "^13.3.8",
 		"angular-eslint": "^0.0.1-alpha.0",
 		"npm-check": "^5.9.2",
-		"rxjs": "^7.5.5"
+		"rxjs": "^7.5.5",
+		"webpack-dependency-tree": "^0.0.2"
 	},
 	"devDependencies": {
 		"@angular-builders/custom-webpack": "^13.1.0",

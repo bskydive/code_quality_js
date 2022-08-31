@@ -104,8 +104,9 @@
 	* ![](log/webpack-stats.jpg)
 	* [stats.json](log/stats.json)
 	* [report.html](log/report.html)
- * Граф зависимостей
 	* ![](log/dependencies-graph.jpg)
+ * Граф зависимостей
+	* ![](./wallet/log/deps_circle.png)
 	* Циклические зависимости
 		* 00% файлов - 00 ошибок в 00 из 00 `*.ts` файлов, прирост +00%/00 файлов
 		* [eslint.cycle](./log/eslint.cycle.log)
