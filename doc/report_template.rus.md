@@ -134,7 +134,7 @@
 ### Разные
 ### уязвимости пакетов
 
- * 00 уязвимостей, прирост +00%
+ * 00 уязвимостей, прирост +00%/00
  * [audit.parsed.log](log/audit.parsed.log)
  * [npm.dependencies.log](log/npm.dependencies.log)
  * [npm.sh](https://github.com/bskydive/code_quality_js/blob/master/scripts/project_folder/npm.sh)
