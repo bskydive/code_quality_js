@@ -63,8 +63,8 @@
 		* ```bash
 			cat log/eslint.log | grep -iE 'import/no-cycle'  | wc -l
 			cat log/eslint.cycle.log | awk -F'(' '{print $1}' | sort | uniq | wc -l
-		```
- * Самые старые библиотеки
+			```
+  * Самые старые библиотеки
 	* 2017 - angular 5
 		* https://github.com/angular/angular/blob/c0194e0115e723cf418f9cf8635790c621c47b31/CHANGELOG.md#500-pentagonal-donut-2017-11-01
 		* https://github.com/angular/angular/tree/5225fdbc0ef3df4cc5434cab0c82f20c8c92b14f
@@ -181,7 +181,7 @@
  * 446 `TODO|FIXME` в 120 html|css|ts файлах, прирост +00%/26 комментариев
 	* ```bash
 		grep --include=\*.{less,scss,css,ts,html} -RiEl 'TODO|FIX' src/ | wc -l
-	```
+		```
  * 1930 `comment|JSDOC` в 296 html|css|ts файлах, прирост +00%/102 комментариев
 	* [comments](log/comments.log)
 	* ```bash
@@ -189,7 +189,7 @@
 		grep --include=\*.{less,scss,css,ts,html} -RilE '/\*|//' src/ | wc -l
 		grep --include=\*.{less,scss,css,ts,html} -RiE '/\**' src/ | wc -l
 		grep --include=\*.{less,scss,css,ts,html} -RilE '/\**' src/ | wc -l
-	```
+		```
 
 ## Эксперты
 
@@ -248,14 +248,14 @@
 			19  Darren Nelsen <darren@bitpay.com>
 			16  Rich Morgan <ionux@users.noreply.github.com>
 			15  Gordon Hall <gordon@bitpay.com>
-	```
+		```
 
 ## Возраст проекта
 
  * первые коммиты
 	* ```bash
 		git log --reverse --pretty=oneline --format='DEV: %cd #%h %s' --date=format:'%c' | head -10
-	```
+		```
  * 20,078 коммитов всего, прирост +00%/00 коммитов
 
 ## TODO Ошибки компиляции
@@ -300,7 +300,7 @@
 			wc -l log/eslint.max-lines.log
 			cat log/eslint.max-lines.log | awk -F'(' '{print $1}' | sort | uniq > log/eslint.max-lines.files.log
 			wc -l log/eslint.max-lines.files.log
-		```
+			```
 	* высокая сложность функций:
 		* 12,02% файлов - 68 ошибок в 44 из 366 `*.ts` файлов, прирост +20,6%/14 ошибок
 		* [complexity](log/eslint.complexity.log)
