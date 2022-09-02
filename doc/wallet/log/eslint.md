@@ -25,5 +25,5 @@
 323 log/eslint.type-sig.files.log
 
 ## cycle dependencies
-77 log/eslint.cycle.log
-61 log/eslint.cycle.files.log
+18 log/eslint.cycle.log
+14 log/eslint.cycle.files.log

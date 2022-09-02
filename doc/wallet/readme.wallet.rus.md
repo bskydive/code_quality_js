@@ -55,12 +55,12 @@
  * Граф зависимостей
 	* ![](./wallet/log/deps_circle.png)
 	* Циклические зависимости
-		* 16,6% файлов - 61 из 366 `*.ts` файлов, прирост +1.6%/1 файл
+		* 3,83% файлов - 14 из 366 `*.ts` файлов, прирост +0%/0 файлов
 		* [eslint.cycle](log/eslint.cycle.log)
 		* [eslint.cycle.files](log/eslint.cycle.files.log)
 		* ```bash
-			grep -ef log/eslint.rules.important.log | wc -l
-			cat log/eslint.important.log | awk -F'(' '{print $1}' | sort | uniq | wc -l
+			cat log/eslint.log | grep -iE 'import/no-cycle'  | wc -l
+			cat log/eslint.cycle.log | awk -F'(' '{print $1}' | sort | uniq | wc -l
 		```
  * Самые старые библиотеки
 	* 2017 - angular 5

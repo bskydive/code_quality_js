@@ -59,8 +59,8 @@
 312 log/eslint.type-sig.files.log
 
 ## cycle dependencies
-75 log/eslint.cycle.log
-60 log/eslint.cycle.files.log
+18 log/eslint.cycle.log
+14 log/eslint.cycle.files.log
 
 # CSS
 5586 log/styles.log
