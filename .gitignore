@@ -2,10 +2,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/angular
 
 # compiled output
-dist/
-tmp/
-log*/
-src*/
+./dist/
+./tmp/
+./log*/
+./src*/
 .angular/
 
 # dependencies
@@ -20,7 +20,6 @@ bower_components/
 .sass-cache/
 *.lock
 coverage/
-*.log
 
 # e2e
 

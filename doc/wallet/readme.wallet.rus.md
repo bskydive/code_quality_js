@@ -53,7 +53,9 @@
 	* [report.html](log/report.html)
 	* ![](log/dependencies-graph.jpg)
  * Граф зависимостей
-	* ![](./wallet/log/deps_circle.png)
+	* ![](./log/graphml_png.jpg)
+	* [нотация graphml](./log/deps_circular.graphml)
+	* [нотация dot](./log/graph_simplified.dot)
 	* Циклические зависимости
 		* 3,83% файлов - 14 из 366 `*.ts` файлов, прирост +0%/0 файлов
 		* [eslint.cycle](log/eslint.cycle.log)
