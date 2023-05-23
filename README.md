@@ -18,6 +18,7 @@
 	* [cspell](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - spelling
 	* [prettier](https://prettier.io/) - formatter
 	* [jscpd](https://www.npmjs.com/package/jscpd) - copy paste
+	* [webpack dependency graph](https://github.com/bskydive/webpack-dep-graph)
 	* TODO [sonar](https://www.sonarqube.org/) - code quality
 	* TODO [Live](https://stackblitz.com/edit/code_quality_js?file=README.md) linting playground
 

@@ -49,7 +49,7 @@ cat log/eslint.type-sig.log | awk -F'(' '{print $1}' | sort | uniq > log/eslint.
 wc -l log/eslint.type-sig.files.log >> log/eslint.md
 
 echo -e "\n## cycle dependencies" >> log/eslint.md
-cat log/eslint.log | grep -iE 'cycle' > log/eslint.cycle.log
+cat log/eslint.log | grep -iE 'import/no-cycle' > log/eslint.cycle.log
 wc -l log/eslint.cycle.log >> log/eslint.md
 
 cat log/eslint.cycle.log | awk -F'(' '{print $1}' | sort | uniq > log/eslint.cycle.files.log

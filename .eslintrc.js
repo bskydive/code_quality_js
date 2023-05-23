@@ -200,6 +200,23 @@ module.exports = {
 				'@typescript-eslint/no-extra-semi': 'off', // dedupe
 			},
 		},
+		{
+			// ====================================================== TESTS ===============================================================
+			files: ['*.spec.ts'],
+			rules: {
+				"no-restricted-globals": [
+					"error",
+					{
+						"name": "fit",
+						"message": "Do not commit fit. Use it."
+					},
+					{
+						"name": "fdescribe",
+						"message": "Do not commit fdescribe. Use describe."
+					}
+				],
+			}
+		}
 	],
 	rules: {
 		// ========================================================== COMMON ==========================================================

@@ -106,7 +106,9 @@
 	* [report.html](log/report.html)
 	* ![](log/dependencies-graph.jpg)
  * Граф зависимостей
-	* ![](./wallet/log/deps_circle.png)
+	* ![](./log/graphml_png.jpg)
+	* [нотация graphml](./log/deps_circular.graphml)
+	* [нотация dot](./log/graph_simplified.dot)
 	* Циклические зависимости
 		* 00% файлов - 00 ошибок в 00 из 00 `*.ts` файлов, прирост +00%/00 файлов
 		* [eslint.cycle](./log/eslint.cycle.log)
