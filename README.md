@@ -17,8 +17,8 @@
 	* [stylelint](https://stylelint.io/) - css
 	* [cspell](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - spelling
 	* [prettier](https://prettier.io/) - formatter
-	* [sonar](https://www.sonarqube.org/) - code quality(TODO)
 	* [jscpd](https://www.npmjs.com/package/jscpd) - copy paste
+	* TODO [sonar](https://www.sonarqube.org/) - code quality
 	* TODO [Live](https://stackblitz.com/edit/code_quality_js?file=README.md) linting playground
 
 ## What is it for?
