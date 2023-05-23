@@ -26,4 +26,5 @@ coverage/
 # System Files
 .DS_Store/
 
+src*
 
