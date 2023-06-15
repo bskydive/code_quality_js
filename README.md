@@ -110,6 +110,14 @@
 
 ## TODO
 
+ * add [coupling/cohesion graph](https://github.com/heypoom/webpack-dep-graph) to help in folder structure refactoring
+ 	* shared files with large import count
+	* impact, scope of refactoring
+	* complexity visualization
+ * add [processes analysis](https://github.com/bskydive/process_modeling)
+	* files with high "bus factor"
+	* people burnout risk
+	* team velocity
  * sonarlint docker
  * Angular code examples
  * Find how make live cloud playground useful https://stackblitz.com/edit/code_quality_js
