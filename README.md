@@ -41,16 +41,18 @@
  * `$command > $file` - clear file and add text from the command output
  * `$command >> $file` - add text to the file from command output
 
-## How to use with existed eslint in project
+## How to use
 
-1. If CLI runs from your project folder
+1. Run scripts from the project folder
+	* check the [README](./scripts/project_folder/README.md)
 	* `cd your_project_path`
-	* workaround to fix duplicate linter versions and condigs: `rm -rf node_modules`
+	* workaround to fix duplicate linter versions and configs: `rm -rf node_modules`
 	* `export LINTER_PATH="coding/lint"`
 	* `eslint -c ${LINTER_PATH}/.eslintrc.js --resolve-plugins-relative-to ${LINTER_PATH}/ .`
 	* `stylelint --config ${LINTER_PATH}/.stylelintrc.json --syntax css-in-js ./**/*.tsx | grep ' ⚠ ' | colrm 1 10 | tr -s ' ' | sort | uniq | less`
 	* `cspell -uc ${LINTER_PATH}/.cspell.json ./*.* | awk -F 'Unknown word ' '{print $2}' | tr -d '()' > .cspell-dict-exclude.txt`
-1. If CLI runs from linters folder
+1. Run scripts from the linters folder
+	* check the [README](./scripts/linters_folder/README.md)
 	* `cd code_quality_js`
 	* `cp your_project_path/src ./src`
 	* `cp your_project_path/angular.json ./angular.json`
@@ -60,6 +62,9 @@
 		* for ng v9: `npm i -D @angular-eslint/builder@1 @angular-eslint/eslint-plugin@1 @angular-eslint/eslint-plugin-template@1 @angular-eslint/schematics@1 @angular-eslint/template-parser@1`
 	* add and commit files to git
 	* Run commands from the `linters.sh` one by one
+
+## Using with existed eslint in project
+
 3. Disabling linter rules in IDE and CLI:
  	* `// prettier-ignore` before line/class/method
 	* eslint
@@ -101,6 +106,7 @@
 		# to add functional plugin
 		npm i eslint@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest tsutils eslint-plugin-functional
 	```
+
 ## Issues
 
  * jscpd hangs
@@ -110,7 +116,7 @@
 
 ## TODO
 
- * add [coupling/cohesion graph](https://github.com/heypoom/webpack-dep-graph) to help in folder structure refactoring
+ * add [coupling/cohesion graph](https://github.com/bskydive/webpack-dep-graph) to help in folder structure refactoring
  	* shared files with large import count
 	* impact, scope of refactoring
 	* complexity visualization
@@ -118,8 +124,8 @@
 	* files with high "bus factor"
 	* people burnout risk
 	* team velocity
- * sonarlint docker
+ * add sonarlint docker
  * Angular code examples
- * Find how make live cloud playground useful https://stackblitz.com/edit/code_quality_js
+ * Find how to use the live cloud playground https://stackblitz.com/edit/code_quality_js
  * badges
  * jest --coverage
