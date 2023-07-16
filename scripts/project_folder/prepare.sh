@@ -22,7 +22,7 @@ cd ${project_folder}
 
 npm pkg set scripts."webpack:analyze:view=webpack-bundle-analyzer dist/stats.json" 
 # npm pkg set scripts."build" "ng build  --aot --prod",
-npm pkg set scripts.ng-safe="node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng",
+npm pkg set scripts.ng-safe="node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng"
 npm pkg set scripts.build:analyze="npm run ng-safe build --stats-json"
 npm pkg set scripts.webpack:build="webpack --profile --json > dist/stats.json"
 npm pkg set scripts.webpack:analyze:view="webpack-bundle-analyzer dist/stats.json"
