@@ -6,5 +6,5 @@
 1828 log/comments.all.log
 288 log/comments.all.files.log
 
-10535 log/commants.jsdoc.log
-534 log/commants.jsdoc.files.log
+10535 log/comments.jsdoc.log
+534 log/comments.jsdoc.files.log

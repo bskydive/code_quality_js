@@ -30,8 +30,8 @@
 1930 log/comments.all.log
 296 log/comments.all.files.log
 
-11487 log/commants.jsdoc.log
-549 log/commants.jsdoc.files.log
+11487 log/comments.jsdoc.log
+549 log/comments.jsdoc.files.log
 
 # eslint
 
