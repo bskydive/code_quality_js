@@ -233,7 +233,7 @@ module.exports = {
 		yoda: 'warn', // if ("red" === color)  https://eslint.org/docs/rules/yoda
 		'new-parens': 'warn', // require parentheses when invoking a constructor with no arguments 
 		"no-restricted-imports": ["warn", { "paths": ["untilDestroyed", "lodash", "jquery", "uirouter"] }],
-		'import/no-cycle': [1, { maxDepth: 1 }], // https://github.com/import-js/eslint-plugin-import/blob/HEAD/docs/rules/no-cycle.md#importno-cycle
+		'import/no-cycle': [1, { maxDepth: 50 }], // https://github.com/import-js/eslint-plugin-import/blob/HEAD/docs/rules/no-cycle.md#importno-cycle # severity: 0 = off, 1 = warn, 2 = error
 
 		// ========================================================== STYLE ===========================================================
 

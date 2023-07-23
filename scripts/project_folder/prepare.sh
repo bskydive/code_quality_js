@@ -1,6 +1,6 @@
 # prepare project for linting
 # usage
-# cd typescript-tspqwe-linter
+# cd code_quality_js-folder
 # ./scripts/project_folder/prepare.sh "path_to_project"
 log_file="./log/log.project.md"
 project_folder=$1
