@@ -110,7 +110,17 @@
 
 ## TODO
 
- * add [coupling/cohesion graph](https://github.com/heypoom/webpack-dep-graph) to help in folder structure refactoring
+ * add more analyze results from [rwa](https://github.com/gothinkster/realworld)
+ * add code frequency 
+ 	* `git log '--since=1 year ago' --name-only --pretty='format:' | sed '/^\s*$/'d | sort | uniq -c | sort -rn | less`
+	* `git rev-list`
+ * add design system metrics like 
+ 	* projectwallface
+	* chroma
+	* figma color distance and hardcoded colors
+ * add ripgrep cli
+ * add `grep eslint-disable | sort | uniq -c | sort -rn | less`
+ * add [coupling/cohesion graph](https://gitlab.com/stepanovv/webpack-dep-graph/-/tree/master) to help in folder structure refactoring
  	* shared files with large import count
 	* impact, scope of refactoring
 	* complexity visualization
