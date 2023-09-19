@@ -41,66 +41,39 @@
  * `$command > $file` - clear file and add text from the command output
  * `$command >> $file` - add text to the file from command output
 
-## How to use with existed eslint in project
+## How to use
 
-1. If CLI runs from your project folder
-	* `cd your_project_path`
-	* workaround to fix duplicate linter versions and condigs: `rm -rf node_modules`
-	* `export LINTER_PATH="coding/lint"`
-	* `eslint -c ${LINTER_PATH}/.eslintrc.js --resolve-plugins-relative-to ${LINTER_PATH}/ .`
-	* `stylelint --config ${LINTER_PATH}/.stylelintrc.json --syntax css-in-js ./**/*.tsx | grep ' ⚠ ' | colrm 1 10 | tr -s ' ' | sort | uniq | less`
-	* `cspell -uc ${LINTER_PATH}/.cspell.json ./*.* | awk -F 'Unknown word ' '{print $2}' | tr -d '()' > .cspell-dict-exclude.txt`
-1. If CLI runs from linters folder
-	* `cd code_quality_js`
-	* `cp your_project_path/src ./src`
-	* `cp your_project_path/angular.json ./angular.json`
-	* `cp your_project_path/angular.json ./tsconfig.json`
-	* add dependencies in package.json
-	* install/update and make all dependencies suitable to your framework version 
-		* for ng v9: `npm i -D @angular-eslint/builder@1 @angular-eslint/eslint-plugin@1 @angular-eslint/eslint-plugin-template@1 @angular-eslint/schematics@1 @angular-eslint/template-parser@1`
-	* add and commit files to git
-	* Run commands from the `linters.sh` one by one
-3. Disabling linter rules in IDE and CLI:
- 	* `// prettier-ignore` before line/class/method
-	* eslint
-	```ts
-	/* eslint-disable */
-
-	/* eslint-enable */
-	```
-	* `tslint`
-	```ts
-	/* tslint:disable */
-	```
-4. Enable external linters in IDE:
-	* remove local eslint
-
+1. Run scripts from the project folder to avoid npm dependencies installation in linter folder
+	* enable fullTemplateTypeCheck or strictTemplates in tsconfig.json
+	* uncomment the NX section in scripts if you use it
+	* run
 		```bash
-			rm .eslintrc.js
-			npm rm eslint @angular-eslint/builder @angular-eslint/eslint-plugin @angular-eslint/eslint-plugin-template @angular-eslint/schematics @angular-eslint/template-parser @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-compat
+			cd code_quality_js-folder
+			./scripts/project_folder/prepare.sh "absolute_path_to_project"
+			cd "absolute_path_to_project"
+			npm i
+			./scripts/project_folder/run.sh
 		```
-	* revert `package*.json` changes
-	* Don't forgot to repair local `.eslintrc` before commit!
-	* instal  linters globally
-	```bash
-		npm i -g \
-		typescript \
-		tslint \
-		eslint \
-		stylelint \
-		npm-run-all \
-		cspell
-	```
-	* use project related IDE config `./.vscode/*`
-	* enable using global eslint in IDE
-5. Install eslint in your project
+	* make the screenshots of `dist/report.html` and paste it into `log` folder
+	* manually refine and move libs from log/npm.dependencies.log to report/README.md
+	* check the [README](./scripts/project_folder/README.md) for harder cases
+1. Run scripts from the linters folder to avoid eslint configuration and dependency hell resolution in project folder
+	* run
+		```bash
+			# install libs
+			cd code_quality_js-folder
+			npm i
+			# copy project `src` folder to the linter `src` folder.
+			cp your_project_path/src ./src
+			# run scripts
+			./scripts/linter_folder/run.sh
+			# manually edit the eslint.rules.important.log
+			./scripts/linter_folder/eslint.important.sh
+			# remove mistakes from log/spell.words.important.log
+			./scripts/linter_folder/spell.important.sh
+		```
+	* check the [README](./scripts/linters_folder/README.md) for harder cases
 
-	```bash
-		npm i webpack eslint @angular-eslint/builder @angular-eslint/eslint-plugin @angular-eslint/eslint-plugin-template @angular-eslint/schematics @angular-eslint/template-parser eslint-config-prettier eslint-config-standard eslint-import-resolver-typescript eslint-plugin-compat eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-rxjs @typescript-eslint/eslint-plugin @typescript-eslint/parser 
-		
-		# to add functional plugin
-		npm i eslint@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest tsutils eslint-plugin-functional
-	```
 ## Issues
 
  * jscpd hangs
@@ -128,8 +101,8 @@
 	* files with high "bus factor"
 	* people burnout risk
 	* team velocity
- * sonarlint docker
+ * add sonarlint docker
  * Angular code examples
- * Find how make live cloud playground useful https://stackblitz.com/edit/code_quality_js
+ * Find how to use the live cloud playground https://stackblitz.com/edit/code_quality_js
  * badges
  * jest --coverage

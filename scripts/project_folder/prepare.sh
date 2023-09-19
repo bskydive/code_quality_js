@@ -1,13 +1,15 @@
 # prepare project for linting
 # usage
-# cd typescript-tspqwe-linter
+# cd code_quality_js-folder
 # ./scripts/project_folder/prepare.sh "path_to_project"
-
+log_file="./log/log.project.md"
 project_folder=$1
 mkdir -p log
-[[ -z $1 ]] && `echo "invalid path to project in cli parameters" | tee -a log/log.project.md && exit`
+[[ -z ${project_folder} ]] && `echo "invalid path to project in cli parameters" | tee -a ${log_file} && exit`
+touch ${log_file}
 
-cp -r ./scripts ${project_folder} || `echo "run script from the code_quality_js folder" | tee -a log/log.project.md && exit`
+mkdir ${project_folder}/scripts
+cp -r ./scripts/project_folder ${project_folder}/scripts/ || (echo \"run script from the code_quality_js root folder\" | tee -a ${log_file} && exit)
 
 cd ${project_folder}
 # npm i
@@ -15,16 +17,17 @@ cd ${project_folder}
 # check npm version and add scripts to package.json
 # npm v7+ required to add scripts via cli
 
-[[ `npm -v | awk -F'.' '{print $1}'` -lt 7 ]] && echo "npm version `npm -v` less than 7, add scripts manually or switch to node v15+" | tee -a log/log.project.md
+[[ `npm -v | awk -F'.' '{print $1}'` -lt 7 ]] && echo "npm version `npm -v` less than 7, add scripts manually or switch to node v15+" | tee -a ${log_file}
 [[ `npm -v | awk -F'.' '{print $1}'` -lt 7 ]] && exit
 
-npm set-script "webpack:analyze:view" "webpack-bundle-analyzer dist/stats.json" 
-# npm set-script "build" "ng build  --aot --prod",
-npm set-script "build:analyze" "ng build --stats-json"
-npm set-script "webpack:build" "webpack --profile --json > dist/stats.json"
-npm set-script "webpack:analyze:view" "webpack-bundle-analyzer dist/stats.json"
-npm set-script "lint:ng" "ng lint"
+npm pkg set scripts."webpack:analyze:view=webpack-bundle-analyzer dist/stats.json" 
+# npm pkg set scripts."build" "ng build  --aot --prod",
+npm pkg set scripts.ng-safe="node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng"
+npm pkg set scripts.build:analyze="npm run ng-safe build --stats-json"
+npm pkg set scripts.webpack:build="webpack --profile --json > dist/stats.json"
+npm pkg set scripts.webpack:analyze:view="webpack-bundle-analyzer dist/stats.json"
+npm pkg set scripts.lint:ng="ng lint"
 
 # NX
-npm set-script "build-stats" "nx build name --configuration production --stats-json"
+npm pkg set scripts.build-stats="nx build name --configuration production --stats-json"
 

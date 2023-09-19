@@ -19,11 +19,11 @@ wc -l log/comments.all.files.log >> log/comments.md
 echo >> log/comments.md
 
 #find src/ -type f \( -name '*.less' -o -name '*.scss' -o -name '*.css' -o -name '*.ts' -o -name '*.html' \) -exec grep -iE '/\**' {} \; | wc -l >> log/comments.jsdoc.md
-grep --include=\*.{less,scss,css,ts,html} -RiE '/\**' src/ > log/commants.jsdoc.log
-wc -l log/commants.jsdoc.log >> log/comments.md
+grep --include=\*.{less,scss,css,ts,html} -RiE '/\**' src/ > log/comments.jsdoc.log
+wc -l log/comments.jsdoc.log >> log/comments.md
 
-grep --include=\*.{less,scss,css,ts,html} -RilE '/\**' src/ > log/commants.jsdoc.files.log
-wc -l log/commants.jsdoc.files.log >> log/comments.md
+grep --include=\*.{less,scss,css,ts,html} -RilE '/\**' src/ > log/comments.jsdoc.files.log
+wc -l log/comments.jsdoc.files.log >> log/comments.md
 
 cat log/comments.md >> log/log.md
 
