@@ -83,6 +83,9 @@
 
 ## TODO
 
+ * add scripts/docs about eslint performance optimization:
+	* `TIMING=1; npm run lint:es`
+	* `eslint --print-config >> eslintrc-expanded.json`
  * add more analyze results from [rwa](https://github.com/gothinkster/realworld)
  * add code frequency 
  	* `git log '--since=1 year ago' --name-only --pretty='format:' | sed '/^\s*$/'d | sort | uniq -c | sort -rn | less`
