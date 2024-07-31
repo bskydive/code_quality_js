@@ -38,6 +38,7 @@ git commit -am ${message}
 
 push "gl" || exit ${errcode}
 push "gh"
+push "bb"
 # push "local"
 # push "usb"
 

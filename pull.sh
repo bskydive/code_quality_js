@@ -36,7 +36,7 @@ pull() {
 # делаем хотя бы один pull
 pull "gl" || exit ${errcode}
 pull "gh"
-#pull "bb"
+pull "bb"
 # pull "usb"
 # pull "local"
 
